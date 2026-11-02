@@ -22,8 +22,8 @@ from drive_push import DOCS_API, MONTHS, TLS, docs_batch, req, u16  # noqa: E402
 
 BRAND = {"blue": "#1295d8", "navy": "#005581", "dark": "#002033", "wash": "#bde3f6", "off": "#f4f7fb",
          "gold": "#ffb511", "warm": "#dbd5cd", "gray": "#4c4c4c"}  # CaliforniaCompute.org site/src/styles/tokens.css
-LOGO = "https://californiacompute.org/images/brand/calcompute-wordmark-blue.png"
-MARK = "CalCompute Research Library"  # the header when the wordmark image is not on the website yet
+LOGO = "https://research.californiacompute.org/images/brand/calcompute-wordmark-sticker.png"  # white on blue, as the website header
+MARK = "CalCompute Research Library"  # the header when the wordmark image cannot be fetched
 TABLE_MARK = "⁣T%d⁣"  # an invisible marker paragraph where a table goes
 
 
@@ -138,7 +138,7 @@ def logo_ok():
     global _logo
     if _logo is None:
         try:
-            r = urllib.request.Request(LOGO, method="HEAD")
+            r = urllib.request.Request(LOGO, method="HEAD", headers={"User-Agent": "Mozilla/5.0"})  # Cloudflare refuses Python's default agent
             with urllib.request.urlopen(r, context=TLS, timeout=20) as resp:
                 _logo = resp.status == 200 and resp.headers.get("Content-Type", "").startswith("image/png")
         except Exception:
@@ -377,7 +377,7 @@ def brand(tok, fid, tab):
         reqs.append({"deleteContentRange": {"range": dict(seg, startIndex=start, endIndex=end - 1)}})
     if logo_ok():
         reqs.append({"insertInlineImage": {"uri": LOGO, "location": dict(seg, index=start),
-                                           "objectSize": {"height": pt(24), "width": pt(104)}}})
+                                           "objectSize": {"height": pt(24), "width": pt(107)}}})
         n = 1
     else:
         reqs.append({"insertText": {"location": dict(seg, index=start), "text": MARK}})
