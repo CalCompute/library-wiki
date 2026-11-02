@@ -1,0 +1,6468 @@
+{
+ "date": "2026-11-02",
+ "stats": [
+  [
+   36,
+   "contributors"
+  ],
+  [
+   205,
+   "emails"
+  ],
+  [
+   91,
+   "messages"
+  ],
+  [
+   239,
+   "sources"
+  ],
+  [
+   64,
+   "person-hours on calls"
+  ]
+ ],
+ "nodes": [
+  {
+   "id": "email-1",
+   "type": "email",
+   "system": "mail",
+   "size": 13344,
+   "ring": 4,
+   "date": "2026-03-27",
+   "elements": []
+  },
+  {
+   "id": "email-2",
+   "type": "email",
+   "system": "mail",
+   "size": 4675,
+   "ring": 3,
+   "date": "2026-03-27",
+   "elements": [
+    "C"
+   ]
+  },
+  {
+   "id": "email-3",
+   "type": "email",
+   "system": "mail",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-04-09",
+   "elements": []
+  },
+  {
+   "id": "email-4",
+   "type": "email",
+   "system": "mail",
+   "size": 7150,
+   "ring": 3,
+   "date": "2026-04-09",
+   "elements": [
+    "C",
+    "F"
+   ]
+  },
+  {
+   "id": "email-5",
+   "type": "email",
+   "system": "mail",
+   "size": 4514,
+   "ring": 4,
+   "date": "2026-04-28",
+   "elements": []
+  },
+  {
+   "id": "email-6",
+   "type": "email",
+   "system": "mail",
+   "size": 4386,
+   "ring": 3,
+   "date": "2026-04-28",
+   "elements": [
+    "B",
+    "C"
+   ]
+  },
+  {
+   "id": "email-7",
+   "type": "email",
+   "system": "mail",
+   "size": 8491,
+   "ring": 4,
+   "date": "2026-05-21",
+   "elements": []
+  },
+  {
+   "id": "email-8",
+   "type": "email",
+   "system": "mail",
+   "size": 2949,
+   "ring": 3,
+   "date": "2026-05-21",
+   "elements": [
+    "E"
+   ]
+  },
+  {
+   "id": "email-9",
+   "type": "email",
+   "system": "mail",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-06-18",
+   "elements": []
+  },
+  {
+   "id": "email-10",
+   "type": "email",
+   "system": "mail",
+   "size": 9070,
+   "ring": 3,
+   "date": "2026-06-18",
+   "elements": [
+    "C",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "email-11",
+   "type": "email",
+   "system": "mail",
+   "size": 13900,
+   "ring": 4,
+   "date": "2026-07-16",
+   "elements": []
+  },
+  {
+   "id": "email-12",
+   "type": "email",
+   "system": "mail",
+   "size": 5958,
+   "ring": 3,
+   "date": "2026-07-16",
+   "elements": [
+    "C",
+    "F"
+   ]
+  },
+  {
+   "id": "email-13",
+   "type": "email",
+   "system": "mail",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-08-02",
+   "elements": []
+  },
+  {
+   "id": "email-14",
+   "type": "email",
+   "system": "mail",
+   "size": 6402,
+   "ring": 3,
+   "date": "2026-08-02",
+   "elements": [
+    "A",
+    "E"
+   ]
+  },
+  {
+   "id": "email-15",
+   "type": "email",
+   "system": "mail",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-08-10",
+   "elements": []
+  },
+  {
+   "id": "email-16",
+   "type": "email",
+   "system": "mail",
+   "size": 11672,
+   "ring": 3,
+   "date": "2026-08-10",
+   "elements": [
+    "C",
+    "D",
+    "F",
+    "G"
+   ]
+  },
+  {
+   "id": "email-17",
+   "type": "email",
+   "system": "mail",
+   "size": 12644,
+   "ring": 4,
+   "date": "2026-08-15",
+   "elements": []
+  },
+  {
+   "id": "email-18",
+   "type": "email",
+   "system": "mail",
+   "size": 7304,
+   "ring": 3,
+   "date": "2026-08-15",
+   "elements": [
+    "A",
+    "C"
+   ]
+  },
+  {
+   "id": "email-19",
+   "type": "email",
+   "system": "mail",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-08-17",
+   "elements": []
+  },
+  {
+   "id": "email-20",
+   "type": "email",
+   "system": "mail",
+   "size": 7872,
+   "ring": 4,
+   "date": "2026-08-17",
+   "elements": []
+  },
+  {
+   "id": "email-21",
+   "type": "email",
+   "system": "mail",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-08-17",
+   "elements": []
+  },
+  {
+   "id": "email-22",
+   "type": "email",
+   "system": "mail",
+   "size": 12025,
+   "ring": 3,
+   "date": "2026-08-17",
+   "elements": [
+    "A",
+    "C",
+    "D",
+    "E"
+   ]
+  },
+  {
+   "id": "email-23",
+   "type": "email",
+   "system": "mail",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-08-18",
+   "elements": []
+  },
+  {
+   "id": "email-24",
+   "type": "email",
+   "system": "mail",
+   "size": 10990,
+   "ring": 3,
+   "date": "2026-08-18",
+   "elements": [
+    "C",
+    "D",
+    "F",
+    "G"
+   ]
+  },
+  {
+   "id": "email-25",
+   "type": "email",
+   "system": "mail",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-08-31",
+   "elements": []
+  },
+  {
+   "id": "email-26",
+   "type": "email",
+   "system": "mail",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-08-31",
+   "elements": []
+  },
+  {
+   "id": "email-27",
+   "type": "email",
+   "system": "mail",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-08-31",
+   "elements": []
+  },
+  {
+   "id": "email-28",
+   "type": "email",
+   "system": "mail",
+   "size": 8145,
+   "ring": 3,
+   "date": "2026-08-31",
+   "elements": [
+    "C",
+    "D"
+   ]
+  },
+  {
+   "id": "email-29",
+   "type": "email",
+   "system": "mail",
+   "size": 11502,
+   "ring": 3,
+   "date": "2026-08-31",
+   "elements": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ]
+  },
+  {
+   "id": "email-30",
+   "type": "email",
+   "system": "mail",
+   "size": 6382,
+   "ring": 3,
+   "date": "2026-08-31",
+   "elements": [
+    "A",
+    "B"
+   ]
+  },
+  {
+   "id": "email-31",
+   "type": "email",
+   "system": "mail",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-09-02",
+   "elements": []
+  },
+  {
+   "id": "email-32",
+   "type": "email",
+   "system": "mail",
+   "size": 8563,
+   "ring": 3,
+   "date": "2026-09-02",
+   "elements": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ]
+  },
+  {
+   "id": "email-33",
+   "type": "email",
+   "system": "mail",
+   "size": 12603,
+   "ring": 4,
+   "date": "2026-09-08",
+   "elements": []
+  },
+  {
+   "id": "email-34",
+   "type": "email",
+   "system": "mail",
+   "size": 4944,
+   "ring": 3,
+   "date": "2026-09-08",
+   "elements": [
+    "C",
+    "D"
+   ]
+  },
+  {
+   "id": "email-35",
+   "type": "email",
+   "system": "mail",
+   "size": 3171,
+   "ring": 4,
+   "date": "2026-09-14",
+   "elements": []
+  },
+  {
+   "id": "zulip-1",
+   "type": "zulip",
+   "system": "zulip",
+   "size": 10203,
+   "ring": 4,
+   "date": "2026-09-14",
+   "elements": [
+    "A"
+   ]
+  },
+  {
+   "id": "email-36",
+   "type": "email",
+   "system": "mail",
+   "size": 3013,
+   "ring": 3,
+   "date": "2026-09-14",
+   "elements": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ]
+  },
+  {
+   "id": "zulip-2",
+   "type": "zulip",
+   "system": "zulip",
+   "size": 20000,
+   "ring": 3,
+   "date": "2026-09-14",
+   "elements": [
+    "A"
+   ]
+  },
+  {
+   "id": "email-37",
+   "type": "email",
+   "system": "mail",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-09-15",
+   "elements": []
+  },
+  {
+   "id": "email-38",
+   "type": "email",
+   "system": "mail",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-09-15",
+   "elements": []
+  },
+  {
+   "id": "email-39",
+   "type": "email",
+   "system": "mail",
+   "size": 5224,
+   "ring": 4,
+   "date": "2026-09-15",
+   "elements": []
+  },
+  {
+   "id": "email-40",
+   "type": "email",
+   "system": "mail",
+   "size": 18277,
+   "ring": 4,
+   "date": "2026-09-15",
+   "elements": []
+  },
+  {
+   "id": "email-41",
+   "type": "email",
+   "system": "mail",
+   "size": 4139,
+   "ring": 4,
+   "date": "2026-09-15",
+   "elements": []
+  },
+  {
+   "id": "email-42",
+   "type": "email",
+   "system": "mail",
+   "size": 15638,
+   "ring": 4,
+   "date": "2026-09-15",
+   "elements": []
+  },
+  {
+   "id": "email-43",
+   "type": "email",
+   "system": "mail",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-09-15",
+   "elements": []
+  },
+  {
+   "id": "email-44",
+   "type": "email",
+   "system": "mail",
+   "size": 6818,
+   "ring": 4,
+   "date": "2026-09-15",
+   "elements": []
+  },
+  {
+   "id": "email-45",
+   "type": "email",
+   "system": "mail",
+   "size": 9599,
+   "ring": 4,
+   "date": "2026-09-15",
+   "elements": []
+  },
+  {
+   "id": "email-46",
+   "type": "email",
+   "system": "mail",
+   "size": 9724,
+   "ring": 3,
+   "date": "2026-09-15",
+   "elements": [
+    "A"
+   ]
+  },
+  {
+   "id": "email-47",
+   "type": "email",
+   "system": "mail",
+   "size": 3514,
+   "ring": 3,
+   "date": "2026-09-15",
+   "elements": [
+    "B"
+   ]
+  },
+  {
+   "id": "email-48",
+   "type": "email",
+   "system": "mail",
+   "size": 3610,
+   "ring": 3,
+   "date": "2026-09-15",
+   "elements": [
+    "C"
+   ]
+  },
+  {
+   "id": "email-49",
+   "type": "email",
+   "system": "mail",
+   "size": 3628,
+   "ring": 3,
+   "date": "2026-09-15",
+   "elements": [
+    "D"
+   ]
+  },
+  {
+   "id": "email-50",
+   "type": "email",
+   "system": "mail",
+   "size": 6029,
+   "ring": 3,
+   "date": "2026-09-15",
+   "elements": [
+    "E",
+    "G"
+   ]
+  },
+  {
+   "id": "email-51",
+   "type": "email",
+   "system": "mail",
+   "size": 8169,
+   "ring": 3,
+   "date": "2026-09-15",
+   "elements": [
+    "F"
+   ]
+  },
+  {
+   "id": "email-52",
+   "type": "email",
+   "system": "mail",
+   "size": 3238,
+   "ring": 3,
+   "date": "2026-09-15",
+   "elements": [
+    "G"
+   ]
+  },
+  {
+   "id": "email-53",
+   "type": "email",
+   "system": "mail",
+   "size": 4692,
+   "ring": 3,
+   "date": "2026-09-15",
+   "elements": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ]
+  },
+  {
+   "id": "email-54",
+   "type": "email",
+   "system": "mail",
+   "size": 3929,
+   "ring": 4,
+   "date": "2026-09-16",
+   "elements": []
+  },
+  {
+   "id": "email-55",
+   "type": "email",
+   "system": "mail",
+   "size": 3868,
+   "ring": 3,
+   "date": "2026-09-16",
+   "elements": [
+    "A",
+    "F"
+   ]
+  },
+  {
+   "id": "email-56",
+   "type": "email",
+   "system": "mail",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-09-21",
+   "elements": []
+  },
+  {
+   "id": "email-57",
+   "type": "email",
+   "system": "mail",
+   "size": 1029,
+   "ring": 4,
+   "date": "2026-09-21",
+   "elements": []
+  },
+  {
+   "id": "email-58",
+   "type": "email",
+   "system": "mail",
+   "size": 4115,
+   "ring": 3,
+   "date": "2026-09-21",
+   "elements": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ]
+  },
+  {
+   "id": "email-59",
+   "type": "email",
+   "system": "mail",
+   "size": 2527,
+   "ring": 3,
+   "date": "2026-09-21",
+   "elements": [
+    "D"
+   ]
+  },
+  {
+   "id": "email-60",
+   "type": "email",
+   "system": "mail",
+   "size": 16081,
+   "ring": 4,
+   "date": "2026-09-22",
+   "elements": []
+  },
+  {
+   "id": "email-61",
+   "type": "email",
+   "system": "mail",
+   "size": 5722,
+   "ring": 3,
+   "date": "2026-09-22",
+   "elements": [
+    "B"
+   ]
+  },
+  {
+   "id": "zulip-3",
+   "type": "zulip",
+   "system": "zulip",
+   "size": 1379,
+   "ring": 4,
+   "date": "2026-09-24",
+   "elements": [
+    "B"
+   ]
+  },
+  {
+   "id": "calls-1",
+   "type": "calls",
+   "system": "repo",
+   "size": 6802,
+   "ring": 3,
+   "date": "2026-09-24",
+   "elements": [
+    "A",
+    "B",
+    "D",
+    "F"
+   ]
+  },
+  {
+   "id": "zulip-4",
+   "type": "zulip",
+   "system": "zulip",
+   "size": 5093,
+   "ring": 3,
+   "date": "2026-09-24",
+   "elements": [
+    "B"
+   ]
+  },
+  {
+   "id": "calls-2",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-09-25",
+   "elements": [
+    "A"
+   ]
+  },
+  {
+   "id": "calls-3",
+   "type": "calls",
+   "system": "repo",
+   "size": 15828,
+   "ring": 3,
+   "date": "2026-09-25",
+   "elements": [
+    "A"
+   ]
+  },
+  {
+   "id": "email-62",
+   "type": "email",
+   "system": "mail",
+   "size": 9199,
+   "ring": 4,
+   "date": "2026-09-28",
+   "elements": []
+  },
+  {
+   "id": "email-63",
+   "type": "email",
+   "system": "mail",
+   "size": 1485,
+   "ring": 4,
+   "date": "2026-09-28",
+   "elements": []
+  },
+  {
+   "id": "email-64",
+   "type": "email",
+   "system": "mail",
+   "size": 1149,
+   "ring": 4,
+   "date": "2026-09-28",
+   "elements": []
+  },
+  {
+   "id": "email-65",
+   "type": "email",
+   "system": "mail",
+   "size": 5129,
+   "ring": 3,
+   "date": "2026-09-28",
+   "elements": [
+    "C"
+   ]
+  },
+  {
+   "id": "email-66",
+   "type": "email",
+   "system": "mail",
+   "size": 3118,
+   "ring": 3,
+   "date": "2026-09-28",
+   "elements": [
+    "C"
+   ]
+  },
+  {
+   "id": "email-67",
+   "type": "email",
+   "system": "mail",
+   "size": 3272,
+   "ring": 3,
+   "date": "2026-09-28",
+   "elements": [
+    "A"
+   ]
+  },
+  {
+   "id": "calls-4",
+   "type": "calls",
+   "system": "repo",
+   "size": 14620,
+   "ring": 4,
+   "date": "2026-09-29",
+   "elements": [
+    "A"
+   ]
+  },
+  {
+   "id": "calls-5",
+   "type": "calls",
+   "system": "repo",
+   "size": 10429,
+   "ring": 3,
+   "date": "2026-09-29",
+   "elements": [
+    "A"
+   ]
+  },
+  {
+   "id": "calls-6",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-09-30",
+   "elements": [
+    "E"
+   ]
+  },
+  {
+   "id": "zulip-5",
+   "type": "zulip",
+   "system": "zulip",
+   "size": 3171,
+   "ring": 4,
+   "date": "2026-09-30",
+   "elements": [
+    "E"
+   ]
+  },
+  {
+   "id": "calls-7",
+   "type": "calls",
+   "system": "repo",
+   "size": 15041,
+   "ring": 3,
+   "date": "2026-09-30",
+   "elements": [
+    "E"
+   ]
+  },
+  {
+   "id": "zulip-6",
+   "type": "zulip",
+   "system": "zulip",
+   "size": 7574,
+   "ring": 3,
+   "date": "2026-09-30",
+   "elements": [
+    "E"
+   ]
+  },
+  {
+   "id": "email-68",
+   "type": "email",
+   "system": "mail",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-10-01",
+   "elements": []
+  },
+  {
+   "id": "email-69",
+   "type": "email",
+   "system": "mail",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-10-01",
+   "elements": []
+  },
+  {
+   "id": "email-70",
+   "type": "email",
+   "system": "mail",
+   "size": 7096,
+   "ring": 3,
+   "date": "2026-10-01",
+   "elements": [
+    "D",
+    "F"
+   ]
+  },
+  {
+   "id": "email-71",
+   "type": "email",
+   "system": "mail",
+   "size": 4909,
+   "ring": 3,
+   "date": "2026-10-01",
+   "elements": [
+    "A",
+    "D",
+    "E"
+   ]
+  },
+  {
+   "id": "calls-8",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-10-02",
+   "elements": [
+    "A",
+    "B"
+   ]
+  },
+  {
+   "id": "calls-9",
+   "type": "calls",
+   "system": "repo",
+   "size": 17453,
+   "ring": 3,
+   "date": "2026-10-02",
+   "elements": [
+    "A",
+    "B"
+   ]
+  },
+  {
+   "id": "email-72",
+   "type": "email",
+   "system": "mail",
+   "size": 3894,
+   "ring": 4,
+   "date": "2026-10-04",
+   "elements": []
+  },
+  {
+   "id": "email-73",
+   "type": "email",
+   "system": "mail",
+   "size": 3018,
+   "ring": 3,
+   "date": "2026-10-04",
+   "elements": [
+    "F"
+   ]
+  },
+  {
+   "id": "calls-10",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-10-05",
+   "elements": [
+    "C"
+   ]
+  },
+  {
+   "id": "email-74",
+   "type": "email",
+   "system": "mail",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-10-05",
+   "elements": []
+  },
+  {
+   "id": "calls-11",
+   "type": "calls",
+   "system": "repo",
+   "size": 15526,
+   "ring": 3,
+   "date": "2026-10-05",
+   "elements": [
+    "C"
+   ]
+  },
+  {
+   "id": "email-75",
+   "type": "email",
+   "system": "mail",
+   "size": 6181,
+   "ring": 3,
+   "date": "2026-10-05",
+   "elements": [
+    "D",
+    "F"
+   ]
+  },
+  {
+   "id": "email-76",
+   "type": "email",
+   "system": "mail",
+   "size": 625,
+   "ring": 4,
+   "date": "2026-10-06",
+   "elements": []
+  },
+  {
+   "id": "email-77",
+   "type": "email",
+   "system": "mail",
+   "size": 2299,
+   "ring": 4,
+   "date": "2026-10-06",
+   "elements": []
+  },
+  {
+   "id": "email-78",
+   "type": "email",
+   "system": "mail",
+   "size": 3761,
+   "ring": 4,
+   "date": "2026-10-06",
+   "elements": []
+  },
+  {
+   "id": "email-79",
+   "type": "email",
+   "system": "mail",
+   "size": 2380,
+   "ring": 3,
+   "date": "2026-10-06",
+   "elements": [
+    "F"
+   ]
+  },
+  {
+   "id": "email-80",
+   "type": "email",
+   "system": "mail",
+   "size": 4761,
+   "ring": 3,
+   "date": "2026-10-06",
+   "elements": [
+    "C",
+    "F"
+   ]
+  },
+  {
+   "id": "email-81",
+   "type": "email",
+   "system": "mail",
+   "size": 10215,
+   "ring": 3,
+   "date": "2026-10-06",
+   "elements": [
+    "B",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "calls-12",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-10-07",
+   "elements": [
+    "E",
+    "G"
+   ]
+  },
+  {
+   "id": "calls-13",
+   "type": "calls",
+   "system": "repo",
+   "size": 18132,
+   "ring": 3,
+   "date": "2026-10-07",
+   "elements": [
+    "E",
+    "G"
+   ]
+  },
+  {
+   "id": "calls-14",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-10-08",
+   "elements": [
+    "D"
+   ]
+  },
+  {
+   "id": "calls-15",
+   "type": "calls",
+   "system": "repo",
+   "size": 12017,
+   "ring": 3,
+   "date": "2026-10-08",
+   "elements": [
+    "D"
+   ]
+  },
+  {
+   "id": "calls-16",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-10-14",
+   "elements": [
+    "C"
+   ]
+  },
+  {
+   "id": "calls-17",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-10-14",
+   "elements": [
+    "E",
+    "G"
+   ]
+  },
+  {
+   "id": "meet-1",
+   "type": "meet",
+   "system": "repo",
+   "size": 832,
+   "ring": 4,
+   "date": "2026-10-14",
+   "elements": [
+    "E",
+    "G"
+   ]
+  },
+  {
+   "id": "calls-18",
+   "type": "calls",
+   "system": "repo",
+   "size": 13724,
+   "ring": 3,
+   "date": "2026-10-14",
+   "elements": [
+    "C"
+   ]
+  },
+  {
+   "id": "calls-19",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 3,
+   "date": "2026-10-14",
+   "elements": [
+    "E",
+    "G"
+   ]
+  },
+  {
+   "id": "calls-20",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-10-15",
+   "elements": [
+    "D"
+   ]
+  },
+  {
+   "id": "meet-2",
+   "type": "meet",
+   "system": "repo",
+   "size": 1414,
+   "ring": 4,
+   "date": "2026-10-15",
+   "elements": [
+    "D"
+   ]
+  },
+  {
+   "id": "calls-21",
+   "type": "calls",
+   "system": "repo",
+   "size": 13282,
+   "ring": 3,
+   "date": "2026-10-15",
+   "elements": [
+    "D"
+   ]
+  },
+  {
+   "id": "calls-22",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-10-16",
+   "elements": [
+    "A",
+    "B"
+   ]
+  },
+  {
+   "id": "meet-3",
+   "type": "meet",
+   "system": "repo",
+   "size": 2140,
+   "ring": 4,
+   "date": "2026-10-16",
+   "elements": [
+    "A",
+    "B"
+   ]
+  },
+  {
+   "id": "zulip-7",
+   "type": "zulip",
+   "system": "zulip",
+   "size": 2006,
+   "ring": 4,
+   "date": "2026-10-16",
+   "elements": [
+    "F"
+   ]
+  },
+  {
+   "id": "calls-23",
+   "type": "calls",
+   "system": "repo",
+   "size": 17759,
+   "ring": 3,
+   "date": "2026-10-16",
+   "elements": [
+    "A",
+    "B"
+   ]
+  },
+  {
+   "id": "zulip-8",
+   "type": "zulip",
+   "system": "zulip",
+   "size": 9084,
+   "ring": 3,
+   "date": "2026-10-16",
+   "elements": [
+    "F"
+   ]
+  },
+  {
+   "id": "email-82",
+   "type": "email",
+   "system": "mail",
+   "size": 1605,
+   "ring": 4,
+   "date": "2026-10-19",
+   "elements": []
+  },
+  {
+   "id": "email-83",
+   "type": "email",
+   "system": "mail",
+   "size": 4371,
+   "ring": 3,
+   "date": "2026-10-19",
+   "elements": [
+    "C"
+   ]
+  },
+  {
+   "id": "calls-24",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-10-21",
+   "elements": [
+    "C"
+   ]
+  },
+  {
+   "id": "calls-25",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-10-21",
+   "elements": [
+    "E",
+    "G"
+   ]
+  },
+  {
+   "id": "meet-4",
+   "type": "meet",
+   "system": "repo",
+   "size": 1856,
+   "ring": 4,
+   "date": "2026-10-21",
+   "elements": [
+    "E",
+    "G"
+   ]
+  },
+  {
+   "id": "calls-26",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 3,
+   "date": "2026-10-21",
+   "elements": [
+    "C"
+   ]
+  },
+  {
+   "id": "calls-27",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 3,
+   "date": "2026-10-21",
+   "elements": [
+    "E",
+    "G"
+   ]
+  },
+  {
+   "id": "calls-28",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-10-22",
+   "elements": [
+    "D"
+   ]
+  },
+  {
+   "id": "meet-5",
+   "type": "meet",
+   "system": "repo",
+   "size": 325,
+   "ring": 4,
+   "date": "2026-10-22",
+   "elements": [
+    "D"
+   ]
+  },
+  {
+   "id": "calls-29",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 3,
+   "date": "2026-10-22",
+   "elements": [
+    "D"
+   ]
+  },
+  {
+   "id": "calls-30",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-10-23",
+   "elements": [
+    "A",
+    "B"
+   ]
+  },
+  {
+   "id": "meet-6",
+   "type": "meet",
+   "system": "repo",
+   "size": 1137,
+   "ring": 4,
+   "date": "2026-10-23",
+   "elements": [
+    "A",
+    "B"
+   ]
+  },
+  {
+   "id": "calls-31",
+   "type": "calls",
+   "system": "repo",
+   "size": 19675,
+   "ring": 3,
+   "date": "2026-10-23",
+   "elements": [
+    "A",
+    "B"
+   ]
+  },
+  {
+   "id": "email-84",
+   "type": "email",
+   "system": "mail",
+   "size": 246,
+   "ring": 4,
+   "date": "2026-10-26",
+   "elements": []
+  },
+  {
+   "id": "calls-32",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-10-27",
+   "elements": [
+    "F"
+   ]
+  },
+  {
+   "id": "calls-33",
+   "type": "calls",
+   "system": "repo",
+   "size": 17036,
+   "ring": 3,
+   "date": "2026-10-27",
+   "elements": [
+    "F"
+   ]
+  },
+  {
+   "id": "calls-34",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-10-28",
+   "elements": [
+    "C"
+   ]
+  },
+  {
+   "id": "calls-35",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 4,
+   "date": "2026-10-28",
+   "elements": [
+    "E",
+    "G"
+   ]
+  },
+  {
+   "id": "meet-7",
+   "type": "meet",
+   "system": "repo",
+   "size": 3568,
+   "ring": 4,
+   "date": "2026-10-28",
+   "elements": [
+    "C"
+   ]
+  },
+  {
+   "id": "meet-8",
+   "type": "meet",
+   "system": "repo",
+   "size": 2512,
+   "ring": 4,
+   "date": "2026-10-28",
+   "elements": [
+    "E",
+    "G"
+   ]
+  },
+  {
+   "id": "calls-36",
+   "type": "calls",
+   "system": "repo",
+   "size": 20000,
+   "ring": 3,
+   "date": "2026-10-28",
+   "elements": [
+    "C"
+   ]
+  },
+  {
+   "id": "calls-37",
+   "type": "calls",
+   "system": "repo",
+   "size": 17857,
+   "ring": 3,
+   "date": "2026-10-28",
+   "elements": [
+    "E",
+    "G"
+   ]
+  },
+  {
+   "id": "email-85",
+   "type": "email",
+   "system": "mail",
+   "size": 1189,
+   "ring": 4,
+   "date": "2026-10-29",
+   "elements": []
+  },
+  {
+   "id": "email-86",
+   "type": "email",
+   "system": "mail",
+   "size": 4329,
+   "ring": 3,
+   "date": "2026-10-29",
+   "elements": [
+    "A",
+    "B",
+    "C",
+    "F",
+    "G"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "a": "t:CalCompute as coordinator vs operator",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:CalCompute as coordinator vs operator",
+   "b": "calls-18"
+  },
+  {
+   "a": "t:CalCompute as coordinator vs operator",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:CalCompute as coordinator vs operator",
+   "b": "calls-21"
+  },
+  {
+   "a": "t:CalCompute as coordinator vs operator",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:CalCompute as coordinator vs operator",
+   "b": "email-22"
+  },
+  {
+   "a": "t:CalCompute as coordinator vs operator",
+   "b": "email-55"
+  },
+  {
+   "a": "t:CalCompute as coordinator vs operator",
+   "b": "email-71"
+  },
+  {
+   "a": "t:CalCompute as coordinator vs operator",
+   "b": "email-53"
+  },
+  {
+   "a": "t:Overview",
+   "b": "email-16"
+  },
+  {
+   "a": "t:Overview",
+   "b": "email-18"
+  },
+  {
+   "a": "t:Overview",
+   "b": "email-29"
+  },
+  {
+   "a": "t:Overview",
+   "b": "email-28"
+  },
+  {
+   "a": "t:Overview",
+   "b": "email-12"
+  },
+  {
+   "a": "t:Overview",
+   "b": "email-10"
+  },
+  {
+   "a": "t:Overview",
+   "b": "email-53"
+  },
+  {
+   "a": "t:Overview",
+   "b": "email-14"
+  },
+  {
+   "a": "t:Overview",
+   "b": "email-6"
+  },
+  {
+   "a": "t:Overview",
+   "b": "email-22"
+  },
+  {
+   "a": "t:Overview",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Overview",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:Overview",
+   "b": "email-73"
+  },
+  {
+   "a": "t:Overview",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:Overview",
+   "b": "email-71"
+  },
+  {
+   "a": "t:Overview",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:Overview",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:Overview",
+   "b": "calls-18"
+  },
+  {
+   "a": "t:Overview",
+   "b": "calls-21"
+  },
+  {
+   "a": "t:Overview",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:Overview",
+   "b": "calls-31"
+  },
+  {
+   "a": "t:Overview",
+   "b": "calls-36"
+  },
+  {
+   "a": "t:Fully owned and hosted platform",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Fully owned and hosted platform",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:Fully owned and hosted platform",
+   "b": "calls-18"
+  },
+  {
+   "a": "t:Fully owned and hosted platform",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:Fully owned and hosted platform",
+   "b": "email-22"
+  },
+  {
+   "a": "t:Fully owned and hosted platform",
+   "b": "email-46"
+  },
+  {
+   "a": "t:Fully owned and hosted platform",
+   "b": "calls-5"
+  },
+  {
+   "a": "t:NAIRR and the National Research Platform",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:NAIRR and the National Research Platform",
+   "b": "email-55"
+  },
+  {
+   "a": "t:NAIRR and the National Research Platform",
+   "b": "email-30"
+  },
+  {
+   "a": "t:NAIRR and the National Research Platform",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:Funding models",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Funding models",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:Funding models",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:Funding models",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:Funding models",
+   "b": "calls-18"
+  },
+  {
+   "a": "t:Funding models",
+   "b": "email-16"
+  },
+  {
+   "a": "t:Funding models",
+   "b": "email-29"
+  },
+  {
+   "a": "t:Funding models",
+   "b": "email-81"
+  },
+  {
+   "a": "t:Funding models",
+   "b": "email-46"
+  },
+  {
+   "a": "t:Funding models",
+   "b": "email-22"
+  },
+  {
+   "a": "t:Funding models",
+   "b": "calls-1"
+  },
+  {
+   "a": "t:Funding models",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:D - Research from the Oct. 8 call",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:Hybrid compute and open-weight models",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:Hybrid compute and open-weight models",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:State AI compute clusters and the Empire AI model",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:State AI compute clusters and the Empire AI model",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:State AI compute clusters and the Empire AI model",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:State AI compute clusters and the Empire AI model",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:State AI compute clusters and the Empire AI model",
+   "b": "email-46"
+  },
+  {
+   "a": "t:State AI compute clusters and the Empire AI model",
+   "b": "email-81"
+  },
+  {
+   "a": "t:Who can use CalCompute",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Who can use CalCompute",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:Who can use CalCompute",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:Who can use CalCompute",
+   "b": "calls-18"
+  },
+  {
+   "a": "t:Who can use CalCompute",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:Who can use CalCompute",
+   "b": "email-22"
+  },
+  {
+   "a": "t:Who can use CalCompute",
+   "b": "email-28"
+  },
+  {
+   "a": "t:Who can use CalCompute",
+   "b": "email-70"
+  },
+  {
+   "a": "t:Who can use CalCompute",
+   "b": "email-71"
+  },
+  {
+   "a": "t:Who can use CalCompute",
+   "b": "calls-1"
+  },
+  {
+   "a": "t:Who can use CalCompute",
+   "b": "email-83"
+  },
+  {
+   "a": "t:Who can use CalCompute",
+   "b": "calls-21"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "calls-31"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "calls-23"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "email-46"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "calls-1"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "email-14"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "email-67"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "calls-5"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "email-30"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "email-55"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "calls-18"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "email-22"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "email-71"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "email-70"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "calls-21"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "zulip-6"
+  },
+  {
+   "a": "t:A - Landscape Analysis",
+   "b": "email-61"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-48"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-66"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-65"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "calls-26"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "calls-36"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "calls-18"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-6"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-12"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-10"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-16"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-53"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-14"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-81"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-80"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-22"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-18"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-28"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-32"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-58"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-34"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-83"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-30"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "zulip-6"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-24"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "calls-37"
+  },
+  {
+   "a": "t:C - Governance",
+   "b": "email-86"
+  },
+  {
+   "a": "t:UC placement",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:UC placement",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:UC placement",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:UC placement",
+   "b": "email-81"
+  },
+  {
+   "a": "t:UC placement",
+   "b": "email-18"
+  },
+  {
+   "a": "t:UC placement",
+   "b": "email-46"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "calls-23"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "calls-31"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "email-61"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "calls-1"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "zulip-4"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "email-12"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "calls-5"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "email-46"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "email-75"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "email-16"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "email-29"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "email-18"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "email-53"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "email-81"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "calls-18"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "calls-21"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "email-22"
+  },
+  {
+   "a": "t:B - Cost & Funding",
+   "b": "zulip-6"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "calls-27"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "email-50"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "email-22"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "calls-37"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "zulip-6"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "email-10"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "email-46"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "email-14"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "email-29"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "email-32"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "email-71"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "email-70"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "email-51"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "email-81"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:E - Workforce",
+   "b": "calls-36"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "calls-21"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "calls-29"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "email-49"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "email-59"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "email-32"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "email-70"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "email-71"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "calls-5"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "calls-18"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "email-24"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "email-28"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "calls-1"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "email-75"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "email-83"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "email-34"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "email-48"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "zulip-6"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "zulip-8"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "email-29"
+  },
+  {
+   "a": "t:D - Use Parameters",
+   "b": "email-16"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "calls-33"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "email-51"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "calls-36"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "calls-5"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "calls-18"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "calls-21"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "zulip-8"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "email-32"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "email-81"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "email-10"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "email-16"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "email-18"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "email-28"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "email-12"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "email-70"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "email-75"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "email-24"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "email-55"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "email-14"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "email-46"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "calls-1"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "email-30"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "calls-23"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "calls-37"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "zulip-6"
+  },
+  {
+   "a": "t:F - Partnerships",
+   "b": "email-29"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "calls-27"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "email-52"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "email-16"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "email-29"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "calls-37"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "calls-36"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "email-86"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "calls-18"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "email-18"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "email-24"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "email-28"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "email-32"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "email-50"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "email-14"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "email-46"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "email-10"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "zulip-6"
+  },
+  {
+   "a": "t:G - Public Sector Workforce",
+   "b": "email-81"
+  },
+  {
+   "a": "t:ACCESS",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:Anthony Suen",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:Anthony Suen",
+   "b": "email-22"
+  },
+  {
+   "a": "t:Anthony Suen",
+   "b": "email-30"
+  },
+  {
+   "a": "t:Anthony Suen",
+   "b": "email-28"
+  },
+  {
+   "a": "t:Anthony Suen",
+   "b": "calls-37"
+  },
+  {
+   "a": "t:Anthony Suen",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:Anthony Suen",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:Anthony Suen",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:Anthony Suen",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:Anthony Suen",
+   "b": "calls-21"
+  },
+  {
+   "a": "t:Anthony Suen",
+   "b": "email-10"
+  },
+  {
+   "a": "t:Anthony Suen",
+   "b": "email-55"
+  },
+  {
+   "a": "t:Anthony Suen",
+   "b": "email-32"
+  },
+  {
+   "a": "t:Anthony Suen",
+   "b": "email-50"
+  },
+  {
+   "a": "t:Anthony Suen",
+   "b": "email-51"
+  },
+  {
+   "a": "t:Anthony Suen",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Anthony Suen",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:Statutory requirements",
+   "b": "email-51"
+  },
+  {
+   "a": "t:Statutory requirements",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Statutory requirements",
+   "b": "calls-18"
+  },
+  {
+   "a": "t:Statutory requirements",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:Statutory requirements",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:Statutory requirements",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:Statutory requirements",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:Statutory requirements",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:Statutory requirements",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:Statutory requirements",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:Statutory requirements",
+   "b": "email-70"
+  },
+  {
+   "a": "t:Statutory requirements",
+   "b": "email-28"
+  },
+  {
+   "a": "t:Anthropic",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:Anthropic",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:Ariya Mohanty",
+   "b": "calls-23"
+  },
+  {
+   "a": "t:CENIC",
+   "b": "calls-5"
+  },
+  {
+   "a": "t:CENIC",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:CENIC",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:CENIC",
+   "b": "calls-18"
+  },
+  {
+   "a": "t:Cal-ICOR",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:Cal-ICOR",
+   "b": "email-22"
+  },
+  {
+   "a": "t:Cal-ICOR",
+   "b": "email-55"
+  },
+  {
+   "a": "t:Cal-ICOR",
+   "b": "zulip-6"
+  },
+  {
+   "a": "t:California Department of Technology",
+   "b": "calls-36"
+  },
+  {
+   "a": "t:California Department of Technology",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:California Department of Technology",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:California Department of Technology",
+   "b": "email-16"
+  },
+  {
+   "a": "t:California Department of Technology",
+   "b": "email-18"
+  },
+  {
+   "a": "t:California Department of Technology",
+   "b": "email-28"
+  },
+  {
+   "a": "t:California Department of Technology",
+   "b": "email-81"
+  },
+  {
+   "a": "t:California Department of Technology",
+   "b": "calls-1"
+  },
+  {
+   "a": "t:California Department of Technology",
+   "b": "email-6"
+  },
+  {
+   "a": "t:California Department of Technology",
+   "b": "email-12"
+  },
+  {
+   "a": "t:California Department of Technology",
+   "b": "zulip-8"
+  },
+  {
+   "a": "t:California Department of Technology",
+   "b": "email-4"
+  },
+  {
+   "a": "t:California Department of Technology",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:California Governor's Office of Emergency Services",
+   "b": "zulip-8"
+  },
+  {
+   "a": "t:California Governor's Office of Emergency Services",
+   "b": "email-10"
+  },
+  {
+   "a": "t:California Governor's Office of Emergency Services",
+   "b": "email-16"
+  },
+  {
+   "a": "t:California Governor's Office of Emergency Services",
+   "b": "email-18"
+  },
+  {
+   "a": "t:California Governor's Office of Emergency Services",
+   "b": "email-29"
+  },
+  {
+   "a": "t:California Governor's Office of Emergency Services",
+   "b": "email-28"
+  },
+  {
+   "a": "t:California Governor's Office of Emergency Services",
+   "b": "email-81"
+  },
+  {
+   "a": "t:California Governor's Office of Emergency Services",
+   "b": "calls-36"
+  },
+  {
+   "a": "t:California State Library",
+   "b": "zulip-8"
+  },
+  {
+   "a": "t:California State Library",
+   "b": "calls-21"
+  },
+  {
+   "a": "t:Carnegie Mellon public interest technology lab",
+   "b": "calls-23"
+  },
+  {
+   "a": "t:Carnegie Mellon public interest technology lab",
+   "b": "email-46"
+  },
+  {
+   "a": "t:Deeksha Vaidyanathan",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Deeksha Vaidyanathan",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:Deeksha Vaidyanathan",
+   "b": "calls-18"
+  },
+  {
+   "a": "t:Deeksha Vaidyanathan",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:Deeksha Vaidyanathan",
+   "b": "email-8"
+  },
+  {
+   "a": "t:Deeksha Vaidyanathan",
+   "b": "email-2"
+  },
+  {
+   "a": "t:Deeksha Vaidyanathan",
+   "b": "email-12"
+  },
+  {
+   "a": "t:Deeksha Vaidyanathan",
+   "b": "email-32"
+  },
+  {
+   "a": "t:Deeksha Vaidyanathan",
+   "b": "email-51"
+  },
+  {
+   "a": "t:Deeksha Vaidyanathan",
+   "b": "email-70"
+  },
+  {
+   "a": "t:Citrus (as recorded)",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:Citrus (as recorded)",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:Citrus (as recorded)",
+   "b": "email-75"
+  },
+  {
+   "a": "t:Citrus (as recorded)",
+   "b": "email-80"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "calls-18"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "email-14"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "email-55"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "email-10"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "email-29"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "email-32"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "email-34"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "email-81"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "email-70"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "email-71"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "email-75"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "calls-5"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:Daniel Romo",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:Empire AI",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Empire AI",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:Empire AI",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:Empire AI",
+   "b": "calls-23"
+  },
+  {
+   "a": "t:Empire AI",
+   "b": "email-81"
+  },
+  {
+   "a": "t:Empire AI",
+   "b": "email-46"
+  },
+  {
+   "a": "t:Empire AI",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:Elena Cryst",
+   "b": "calls-5"
+  },
+  {
+   "a": "t:Elena Cryst",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:Elena Cryst",
+   "b": "email-22"
+  },
+  {
+   "a": "t:Elena Cryst",
+   "b": "email-24"
+  },
+  {
+   "a": "t:Elena Cryst",
+   "b": "email-29"
+  },
+  {
+   "a": "t:Elena Cryst",
+   "b": "email-46"
+  },
+  {
+   "a": "t:Elena Cryst",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:Economic Security Project",
+   "b": "email-4"
+  },
+  {
+   "a": "t:Economic Security Project",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Economic Security Project",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:Economic Security Project",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:Economic Security Project",
+   "b": "email-6"
+  },
+  {
+   "a": "t:Economic Security Project",
+   "b": "email-16"
+  },
+  {
+   "a": "t:Economic Security Project",
+   "b": "email-22"
+  },
+  {
+   "a": "t:Economic Security Project",
+   "b": "email-24"
+  },
+  {
+   "a": "t:Economic Security Project",
+   "b": "email-29"
+  },
+  {
+   "a": "t:Economic Security Project",
+   "b": "email-18"
+  },
+  {
+   "a": "t:Economic Security Project",
+   "b": "email-12"
+  },
+  {
+   "a": "t:Economic Security Project",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:Frank Würthwein",
+   "b": "email-24"
+  },
+  {
+   "a": "t:Frank Würthwein",
+   "b": "calls-5"
+  },
+  {
+   "a": "t:Frank Würthwein",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:Frank Würthwein",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:Frank Würthwein",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:Frank Würthwein",
+   "b": "email-22"
+  },
+  {
+   "a": "t:Frank Würthwein",
+   "b": "email-29"
+  },
+  {
+   "a": "t:Frank Würthwein",
+   "b": "email-46"
+  },
+  {
+   "a": "t:Frank Würthwein",
+   "b": "email-51"
+  },
+  {
+   "a": "t:Frank Würthwein",
+   "b": "email-61"
+  },
+  {
+   "a": "t:Frank Würthwein",
+   "b": "email-81"
+  },
+  {
+   "a": "t:Frank Würthwein",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Frank Würthwein",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:Frank Würthwein",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:GO-Biz",
+   "b": "email-81"
+  },
+  {
+   "a": "t:GO-Biz",
+   "b": "calls-36"
+  },
+  {
+   "a": "t:GO-Biz",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:GO-Biz",
+   "b": "zulip-8"
+  },
+  {
+   "a": "t:Government Operations Agency",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:Government Operations Agency",
+   "b": "email-6"
+  },
+  {
+   "a": "t:Government Operations Agency",
+   "b": "email-12"
+  },
+  {
+   "a": "t:Government Operations Agency",
+   "b": "email-16"
+  },
+  {
+   "a": "t:Government Operations Agency",
+   "b": "email-18"
+  },
+  {
+   "a": "t:Government Operations Agency",
+   "b": "email-28"
+  },
+  {
+   "a": "t:Government Operations Agency",
+   "b": "email-81"
+  },
+  {
+   "a": "t:Government Operations Agency",
+   "b": "calls-36"
+  },
+  {
+   "a": "t:Government Operations Agency",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:Jim Temple",
+   "b": "email-14"
+  },
+  {
+   "a": "t:Jim Temple",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Jim Temple",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:Kevin Michael Esterling",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Kevin Michael Esterling",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:Kevin Michael Esterling",
+   "b": "email-18"
+  },
+  {
+   "a": "t:Kevin Michael Esterling",
+   "b": "email-32"
+  },
+  {
+   "a": "t:Kevin Michael Esterling",
+   "b": "email-48"
+  },
+  {
+   "a": "t:Kevin Michael Esterling",
+   "b": "email-66"
+  },
+  {
+   "a": "t:Kevin Michael Esterling",
+   "b": "email-65"
+  },
+  {
+   "a": "t:Kevin Michael Esterling",
+   "b": "calls-18"
+  },
+  {
+   "a": "t:Kim Hazelwood",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Kim Hazelwood",
+   "b": "zulip-4"
+  },
+  {
+   "a": "t:Kim Hazelwood",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:Kim Hazelwood",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:Kim Hazelwood",
+   "b": "calls-23"
+  },
+  {
+   "a": "t:Kim Hazelwood",
+   "b": "email-22"
+  },
+  {
+   "a": "t:Kim Hazelwood",
+   "b": "email-29"
+  },
+  {
+   "a": "t:Kim Hazelwood",
+   "b": "email-32"
+  },
+  {
+   "a": "t:Kim Hazelwood",
+   "b": "email-61"
+  },
+  {
+   "a": "t:Kim Hazelwood",
+   "b": "email-65"
+  },
+  {
+   "a": "t:Kim Hazelwood",
+   "b": "email-81"
+  },
+  {
+   "a": "t:Kim Hazelwood",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:Labor and Workforce Development Agency",
+   "b": "zulip-8"
+  },
+  {
+   "a": "t:Lili Gangas",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Lili Gangas",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:Lili Gangas",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:Lili Gangas",
+   "b": "email-22"
+  },
+  {
+   "a": "t:Lili Gangas",
+   "b": "email-29"
+  },
+  {
+   "a": "t:Lili Gangas",
+   "b": "email-81"
+  },
+  {
+   "a": "t:Lili Gangas",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:Lili Gangas",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:Lili Gangas",
+   "b": "zulip-6"
+  },
+  {
+   "a": "t:Leilani H. Gilpin",
+   "b": "zulip-6"
+  },
+  {
+   "a": "t:Leilani H. Gilpin",
+   "b": "email-32"
+  },
+  {
+   "a": "t:Leilani H. Gilpin",
+   "b": "email-36"
+  },
+  {
+   "a": "t:Leilani H. Gilpin",
+   "b": "email-49"
+  },
+  {
+   "a": "t:Leilani H. Gilpin",
+   "b": "email-59"
+  },
+  {
+   "a": "t:Leilani H. Gilpin",
+   "b": "email-48"
+  },
+  {
+   "a": "t:Lawrence Wagner",
+   "b": "calls-37"
+  },
+  {
+   "a": "t:Lawrence Wagner",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:Lawrence Wagner",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:Lawrence Wagner",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:Lawrence Wagner",
+   "b": "email-32"
+  },
+  {
+   "a": "t:Lawrence Wagner",
+   "b": "email-52"
+  },
+  {
+   "a": "t:Lawrence Wagner",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Lawrence Wagner",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:NAIRR",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:NAIRR",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:NVIDIA",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:NVIDIA",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:National Science Foundation",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:National Science Foundation",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:National Science Foundation",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:National Science Foundation",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:Nelson",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:Nelson",
+   "b": "zulip-6"
+  },
+  {
+   "a": "t:Nelson",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:Nelson",
+   "b": "zulip-8"
+  },
+  {
+   "a": "t:Nelson",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:Nelson",
+   "b": "email-32"
+  },
+  {
+   "a": "t:Nelson",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Nelson",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:Omar Aslai",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:Omar Aslai",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Omar Aslai",
+   "b": "calls-5"
+  },
+  {
+   "a": "t:Omar Aslai",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:Omar Aslai",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:Omar Aslai",
+   "b": "calls-23"
+  },
+  {
+   "a": "t:Omar Aslai",
+   "b": "email-46"
+  },
+  {
+   "a": "t:Omar Aslai",
+   "b": "calls-1"
+  },
+  {
+   "a": "t:Omar Aslai",
+   "b": "email-70"
+  },
+  {
+   "a": "t:Omar Aslai",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:Omar Aslai",
+   "b": "zulip-6"
+  },
+  {
+   "a": "t:Office of the Governor",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:Office of the Governor",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Office of the Governor",
+   "b": "email-16"
+  },
+  {
+   "a": "t:Office of the Governor",
+   "b": "email-18"
+  },
+  {
+   "a": "t:Office of the Governor",
+   "b": "email-81"
+  },
+  {
+   "a": "t:Office of the Governor",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:Ruby Guillen",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:Ruby Guillen",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:Ruby Guillen",
+   "b": "calls-18"
+  },
+  {
+   "a": "t:Ruby Guillen",
+   "b": "calls-21"
+  },
+  {
+   "a": "t:Ruby Guillen",
+   "b": "email-22"
+  },
+  {
+   "a": "t:Ruby Guillen",
+   "b": "email-32"
+  },
+  {
+   "a": "t:Ruby Guillen",
+   "b": "email-65"
+  },
+  {
+   "a": "t:Ruby Guillen",
+   "b": "email-12"
+  },
+  {
+   "a": "t:Ruby Guillen",
+   "b": "email-81"
+  },
+  {
+   "a": "t:Ruby Guillen",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:San Diego Supercomputer Center",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:San Diego Supercomputer Center",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:San Diego Supercomputer Center",
+   "b": "email-55"
+  },
+  {
+   "a": "t:San Diego Supercomputer Center",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:San Diego Supercomputer Center",
+   "b": "calls-5"
+  },
+  {
+   "a": "t:San Diego Supercomputer Center",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:Sarvani Chadalapaka",
+   "b": "calls-5"
+  },
+  {
+   "a": "t:Sarvani Chadalapaka",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:Sarvani Chadalapaka",
+   "b": "email-22"
+  },
+  {
+   "a": "t:Sarvani Chadalapaka",
+   "b": "email-29"
+  },
+  {
+   "a": "t:Sarvani Chadalapaka",
+   "b": "email-32"
+  },
+  {
+   "a": "t:Sarvani Chadalapaka",
+   "b": "email-46"
+  },
+  {
+   "a": "t:Sarvani Chadalapaka",
+   "b": "email-36"
+  },
+  {
+   "a": "t:Sarvani Chadalapaka",
+   "b": "email-47"
+  },
+  {
+   "a": "t:Sarvani Chadalapaka",
+   "b": "email-61"
+  },
+  {
+   "a": "t:Sarvani Chadalapaka",
+   "b": "email-81"
+  },
+  {
+   "a": "t:Sarvani Chadalapaka",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Sarvani Chadalapaka",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:Sarvani Chadalapaka",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:Sarvani Chadalapaka",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:Secure AI Project",
+   "b": "email-12"
+  },
+  {
+   "a": "t:Stanford HAI",
+   "b": "email-22"
+  },
+  {
+   "a": "t:Stanford HAI",
+   "b": "email-46"
+  },
+  {
+   "a": "t:Stanford HAI",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:Stanford HAI",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:Stanford University",
+   "b": "calls-5"
+  },
+  {
+   "a": "t:Stanford University",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:Stanford University",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:Stanford University",
+   "b": "email-29"
+  },
+  {
+   "a": "t:Stanford University",
+   "b": "email-22"
+  },
+  {
+   "a": "t:Stanford University",
+   "b": "calls-1"
+  },
+  {
+   "a": "t:Stanford University",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Stephanie Lieggi",
+   "b": "email-24"
+  },
+  {
+   "a": "t:Stephanie Lieggi",
+   "b": "calls-36"
+  },
+  {
+   "a": "t:Stephanie Lieggi",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:Stephanie Lieggi",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:Stephanie Lieggi",
+   "b": "email-16"
+  },
+  {
+   "a": "t:Stephanie Lieggi",
+   "b": "email-32"
+  },
+  {
+   "a": "t:Stephanie Lieggi",
+   "b": "email-66"
+  },
+  {
+   "a": "t:Stephanie Lieggi",
+   "b": "email-65"
+  },
+  {
+   "a": "t:Stephanie Lieggi",
+   "b": "email-80"
+  },
+  {
+   "a": "t:Stephanie Lieggi",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:Stephanie Lieggi",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:UC Berkeley College of Computing, Data Science, and Society",
+   "b": "email-10"
+  },
+  {
+   "a": "t:UC Berkeley College of Computing, Data Science, and Society",
+   "b": "email-30"
+  },
+  {
+   "a": "t:UC Berkeley College of Computing, Data Science, and Society",
+   "b": "email-22"
+  },
+  {
+   "a": "t:UC San Diego Foundation",
+   "b": "calls-7"
+  },
+  {
+   "a": "t:University of California Office of the President",
+   "b": "calls-9"
+  },
+  {
+   "a": "t:University of California Office of the President",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:University of California Office of the President",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:University of California Office of the President",
+   "b": "zulip-2"
+  },
+  {
+   "a": "t:Vashishth Doshi",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:Vashishth Doshi",
+   "b": "calls-23"
+  },
+  {
+   "a": "t:Vashishth Doshi",
+   "b": "calls-36"
+  },
+  {
+   "a": "t:Vashishth Doshi",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:Vashishth Doshi",
+   "b": "zulip-4"
+  },
+  {
+   "a": "t:Vashishth Doshi",
+   "b": "calls-19"
+  },
+  {
+   "a": "t:Vashishth Doshi",
+   "b": "email-61"
+  },
+  {
+   "a": "t:Vashishth Doshi",
+   "b": "email-46"
+  },
+  {
+   "a": "t:Vashishth Doshi",
+   "b": "email-83"
+  },
+  {
+   "a": "t:Vashishth Doshi",
+   "b": "calls-18"
+  },
+  {
+   "a": "t:Vashishth Doshi",
+   "b": "zulip-2"
+  },
+  {
+   "a": "calls-2",
+   "b": "calls-3",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-4",
+   "b": "calls-5",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-5",
+   "b": "calls-3"
+  },
+  {
+   "a": "calls-10",
+   "b": "calls-11",
+   "kind": "flow"
+  },
+  {
+   "a": "r:raw/shared/2026-10-13 UC Regents B4 Update on Artificial Intelligence.md",
+   "b": "calls-11",
+   "kind": "flow"
+  },
+  {
+   "a": "r:raw/shared/2026-10-14 Poppy overview.md",
+   "b": "calls-11",
+   "kind": "flow"
+  },
+  {
+   "a": "r:raw/shared/2026-10-14 Poppy service page.md",
+   "b": "calls-11",
+   "kind": "flow"
+  },
+  {
+   "a": "r:raw/legislative/California Report on Frontier AI Policy 2025-06-17.md",
+   "b": "calls-11",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-8",
+   "b": "calls-9",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-9",
+   "b": "calls-5"
+  },
+  {
+   "a": "r:raw/shared/2026-10-13 UC Regents B4 Update on Artificial Intelligence.md",
+   "b": "calls-9",
+   "kind": "flow"
+  },
+  {
+   "a": "r:raw/legislative/California Report on Frontier AI Policy 2025-06-17.md",
+   "b": "calls-9",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-4",
+   "b": "calls-9",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-6",
+   "b": "calls-7",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-7",
+   "b": "calls-5"
+  },
+  {
+   "a": "calls-14",
+   "b": "calls-15",
+   "kind": "flow"
+  },
+  {
+   "a": "r:raw/legislative/Wiener SB-53 expansion release 2025-07-09.md",
+   "b": "calls-15",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-15",
+   "b": "calls-13"
+  },
+  {
+   "a": "r:raw/legislative/SB-53 Gov Code 11546.8.md",
+   "b": "calls-15",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-16",
+   "b": "calls-18",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-18",
+   "b": "calls-11"
+  },
+  {
+   "a": "calls-18",
+   "b": "calls-19"
+  },
+  {
+   "a": "calls-12",
+   "b": "calls-13",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-13",
+   "b": "calls-7"
+  },
+  {
+   "a": "r:raw/shared/2026-10-14 Executive Order N-6-26 AI and the workforce.md",
+   "b": "calls-13",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-17",
+   "b": "calls-19",
+   "kind": "flow"
+  },
+  {
+   "a": "meet-1",
+   "b": "calls-19",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-19",
+   "b": "calls-13"
+  },
+  {
+   "a": "calls-20",
+   "b": "calls-21",
+   "kind": "flow"
+  },
+  {
+   "a": "meet-2",
+   "b": "calls-21",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-21",
+   "b": "calls-15"
+  },
+  {
+   "a": "calls-21",
+   "b": "calls-18"
+  },
+  {
+   "a": "calls-21",
+   "b": "calls-23"
+  },
+  {
+   "a": "calls-21",
+   "b": "calls-19"
+  },
+  {
+   "a": "calls-22",
+   "b": "calls-23",
+   "kind": "flow"
+  },
+  {
+   "a": "meet-3",
+   "b": "calls-23",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-23",
+   "b": "calls-9"
+  },
+  {
+   "a": "r:raw/shared/2026-10-26 NSF 26-513 solicitation.md",
+   "b": "calls-23",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-23",
+   "b": "t:Epoch AI GPU clusters"
+  },
+  {
+   "a": "calls-23",
+   "b": "t:Epoch AI data centers"
+  },
+  {
+   "a": "calls-23",
+   "b": "t:CSIS If Compute Is the New Oil"
+  },
+  {
+   "a": "calls-23",
+   "b": "t:CMU Policy Innovation Lab"
+  },
+  {
+   "a": "t:ACCESS Allocations policy",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:ACCESS Get your first project",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:ACCESS Our impact",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:ACCESS Project types",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:AWS Acceptable Use Policy 2021-07-01",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:AWS Cloud Credit for Research (web)",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:AWS Responsible AI Policy 2025-01-13",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:Anthropic Usage Policy 2026-11-12",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:CDT executive team",
+   "b": "zulip-8"
+  },
+  {
+   "a": "t:ESP launches Economic Security California 2024-01-30 (web)",
+   "b": "calls-3"
+  },
+  {
+   "a": "t:ESP launches Economic Security California 2024-01-30 (web)",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:Empire AI access (web)",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:Google Cloud Acceptable Use Policy 2026-10-12",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:Google Generative AI Prohibited Use Policy 2024-12-17",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:Microsoft Enterprise AI Services Code of Conduct 2026-05-01",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:NAIRR Pilot allocation management policy",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:NAIRR Pilot proposal instructions",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:OpenAI Usage Policies 2025-10-29",
+   "b": "calls-15"
+  },
+  {
+   "a": "zulip-3",
+   "b": "zulip-4",
+   "kind": "flow"
+  },
+  {
+   "a": "zulip-1",
+   "b": "zulip-2",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-4",
+   "b": "zulip-2",
+   "kind": "flow"
+  },
+  {
+   "a": "r:raw/legislative/SB-53 Gov Code 11546.8.md",
+   "b": "zulip-2",
+   "kind": "flow"
+  },
+  {
+   "a": "zulip-5",
+   "b": "zulip-6",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-6",
+   "b": "zulip-6",
+   "kind": "flow"
+  },
+  {
+   "a": "zulip-6",
+   "b": "calls-19"
+  },
+  {
+   "a": "zulip-7",
+   "b": "zulip-8",
+   "kind": "flow"
+  },
+  {
+   "a": "zulip-8",
+   "b": "t:Governor appointments 2026-08-19"
+  },
+  {
+   "a": "zulip-8",
+   "b": "t:StateScoop California CTO Ayushi Roy"
+  },
+  {
+   "a": "zulip-8",
+   "b": "t:California Executive Branch org chart 2025-11-04"
+  },
+  {
+   "a": "zulip-8",
+   "b": "t:Executive Order N-6-26"
+  },
+  {
+   "a": "zulip-8",
+   "b": "calls-21"
+  },
+  {
+   "a": "email-17",
+   "b": "email-18",
+   "kind": "flow"
+  },
+  {
+   "a": "email-18",
+   "b": "t:SB-53 Gov Code 11546.8"
+  },
+  {
+   "a": "email-1",
+   "b": "email-2",
+   "kind": "flow"
+  },
+  {
+   "a": "email-5",
+   "b": "email-6",
+   "kind": "flow"
+  },
+  {
+   "a": "email-7",
+   "b": "email-8",
+   "kind": "flow"
+  },
+  {
+   "a": "email-19",
+   "b": "email-22",
+   "kind": "flow"
+  },
+  {
+   "a": "email-22",
+   "b": "calls-19"
+  },
+  {
+   "a": "email-22",
+   "b": "t:SB-53 Gov Code 11546.8"
+  },
+  {
+   "a": "email-63",
+   "b": "email-66",
+   "kind": "flow"
+  },
+  {
+   "a": "email-66",
+   "b": "email-65"
+  },
+  {
+   "a": "email-62",
+   "b": "email-65",
+   "kind": "flow"
+  },
+  {
+   "a": "email-65",
+   "b": "calls-11"
+  },
+  {
+   "a": "email-64",
+   "b": "email-67",
+   "kind": "flow"
+  },
+  {
+   "a": "email-67",
+   "b": "calls-3"
+  },
+  {
+   "a": "email-67",
+   "b": "email-81"
+  },
+  {
+   "a": "email-9",
+   "b": "email-10",
+   "kind": "flow"
+  },
+  {
+   "a": "email-33",
+   "b": "email-34",
+   "kind": "flow"
+  },
+  {
+   "a": "email-34",
+   "b": "t:Executive Order N-6-26"
+  },
+  {
+   "a": "email-35",
+   "b": "email-36",
+   "kind": "flow"
+  },
+  {
+   "a": "email-36",
+   "b": "email-47"
+  },
+  {
+   "a": "email-45",
+   "b": "email-53",
+   "kind": "flow"
+  },
+  {
+   "a": "email-23",
+   "b": "email-24",
+   "kind": "flow"
+  },
+  {
+   "a": "email-24",
+   "b": "email-22"
+  },
+  {
+   "a": "email-24",
+   "b": "t:Overview"
+  },
+  {
+   "a": "email-24",
+   "b": "t:SB-53 Gov Code 11546.8"
+  },
+  {
+   "a": "email-24",
+   "b": "email-18"
+  },
+  {
+   "a": "email-24",
+   "b": "zulip-2"
+  },
+  {
+   "a": "email-11",
+   "b": "email-12",
+   "kind": "flow"
+  },
+  {
+   "a": "email-13",
+   "b": "email-14",
+   "kind": "flow"
+  },
+  {
+   "a": "email-14",
+   "b": "t:SB-53 Gov Code 11546.8"
+  },
+  {
+   "a": "email-68",
+   "b": "email-70",
+   "kind": "flow"
+  },
+  {
+   "a": "email-69",
+   "b": "email-71",
+   "kind": "flow"
+  },
+  {
+   "a": "email-71",
+   "b": "calls-23"
+  },
+  {
+   "a": "email-72",
+   "b": "email-73",
+   "kind": "flow"
+  },
+  {
+   "a": "email-73",
+   "b": "email-81"
+  },
+  {
+   "a": "email-37",
+   "b": "email-46",
+   "kind": "flow"
+  },
+  {
+   "a": "email-46",
+   "b": "calls-1"
+  },
+  {
+   "a": "email-46",
+   "b": "calls-3"
+  },
+  {
+   "a": "email-46",
+   "b": "calls-5"
+  },
+  {
+   "a": "email-26",
+   "b": "email-29",
+   "kind": "flow"
+  },
+  {
+   "a": "email-29",
+   "b": "t:SB-53 Gov Code 11546.8"
+  },
+  {
+   "a": "email-25",
+   "b": "email-28",
+   "kind": "flow"
+  },
+  {
+   "a": "email-28",
+   "b": "email-32"
+  },
+  {
+   "a": "email-28",
+   "b": "t:SB-53 Gov Code 11546.8"
+  },
+  {
+   "a": "email-27",
+   "b": "email-30",
+   "kind": "flow"
+  },
+  {
+   "a": "email-30",
+   "b": "email-32"
+  },
+  {
+   "a": "email-30",
+   "b": "calls-5"
+  },
+  {
+   "a": "email-31",
+   "b": "email-32",
+   "kind": "flow"
+  },
+  {
+   "a": "email-32",
+   "b": "email-29"
+  },
+  {
+   "a": "email-15",
+   "b": "email-16",
+   "kind": "flow"
+  },
+  {
+   "a": "email-16",
+   "b": "t:SB-53 Gov Code 11546.8"
+  },
+  {
+   "a": "email-74",
+   "b": "email-75",
+   "kind": "flow"
+  },
+  {
+   "a": "email-75",
+   "b": "calls-9"
+  },
+  {
+   "a": "email-75",
+   "b": "email-80"
+  },
+  {
+   "a": "email-76",
+   "b": "email-79",
+   "kind": "flow"
+  },
+  {
+   "a": "email-79",
+   "b": "email-81"
+  },
+  {
+   "a": "email-79",
+   "b": "calls-13"
+  },
+  {
+   "a": "email-38",
+   "b": "calls-1",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-1",
+   "b": "t:SB-53 Gov Code 11546.8"
+  },
+  {
+   "a": "calls-1",
+   "b": "calls-5"
+  },
+  {
+   "a": "email-39",
+   "b": "email-47",
+   "kind": "flow"
+  },
+  {
+   "a": "email-47",
+   "b": "email-61"
+  },
+  {
+   "a": "email-40",
+   "b": "email-48",
+   "kind": "flow"
+  },
+  {
+   "a": "email-48",
+   "b": "calls-11"
+  },
+  {
+   "a": "email-41",
+   "b": "email-49",
+   "kind": "flow"
+  },
+  {
+   "a": "email-49",
+   "b": "email-59"
+  },
+  {
+   "a": "email-49",
+   "b": "calls-15"
+  },
+  {
+   "a": "email-78",
+   "b": "email-81",
+   "kind": "flow"
+  },
+  {
+   "a": "email-81",
+   "b": "calls-3"
+  },
+  {
+   "a": "email-81",
+   "b": "calls-9"
+  },
+  {
+   "a": "email-77",
+   "b": "email-80",
+   "kind": "flow"
+  },
+  {
+   "a": "email-82",
+   "b": "email-83",
+   "kind": "flow"
+  },
+  {
+   "a": "email-42",
+   "b": "email-50",
+   "kind": "flow"
+  },
+  {
+   "a": "email-50",
+   "b": "calls-13"
+  },
+  {
+   "a": "email-50",
+   "b": "calls-19"
+  },
+  {
+   "a": "email-50",
+   "b": "calls-7"
+  },
+  {
+   "a": "email-43",
+   "b": "email-51",
+   "kind": "flow"
+  },
+  {
+   "a": "email-44",
+   "b": "email-52",
+   "kind": "flow"
+  },
+  {
+   "a": "email-52",
+   "b": "email-50"
+  },
+  {
+   "a": "email-54",
+   "b": "email-55",
+   "kind": "flow"
+  },
+  {
+   "a": "email-56",
+   "b": "email-58",
+   "kind": "flow"
+  },
+  {
+   "a": "email-57",
+   "b": "email-59",
+   "kind": "flow"
+  },
+  {
+   "a": "email-59",
+   "b": "email-36"
+  },
+  {
+   "a": "email-60",
+   "b": "email-61",
+   "kind": "flow"
+  },
+  {
+   "a": "email-61",
+   "b": "calls-9"
+  },
+  {
+   "a": "email-61",
+   "b": "calls-23"
+  },
+  {
+   "a": "email-61",
+   "b": "zulip-4"
+  },
+  {
+   "a": "t:Guillen Imprint News profile",
+   "b": "calls-18"
+  },
+  {
+   "a": "t:Wagner BASE homepage",
+   "b": "calls-15"
+  },
+  {
+   "a": "t:Würthwein CENIC board of directors",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:CMU Policy Innovation Lab",
+   "b": "email-46"
+  },
+  {
+   "a": "t:CMU Policy Innovation Lab",
+   "b": "calls-21"
+  },
+  {
+   "a": "t:CloudBank at Berkeley",
+   "b": "email-30"
+  },
+  {
+   "a": "t:CloudBank at Berkeley",
+   "b": "email-55"
+  },
+  {
+   "a": "t:Deirdre K. Mulligan",
+   "b": "email-28"
+  },
+  {
+   "a": "t:Deirdre K. Mulligan",
+   "b": "email-58"
+  },
+  {
+   "a": "t:Deirdre K. Mulligan",
+   "b": "email-22"
+  },
+  {
+   "a": "t:UN Open Source Office",
+   "b": "email-24"
+  },
+  {
+   "a": "t:Mark Nitzberg",
+   "b": "email-22"
+  },
+  {
+   "a": "t:Mark Nitzberg",
+   "b": "email-29"
+  },
+  {
+   "a": "t:NSF 26-513 solicitation",
+   "b": "email-81"
+  },
+  {
+   "a": "t:NSF 26-513 solicitation",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:NSF 26-513 solicitation",
+   "b": "calls-13"
+  },
+  {
+   "a": "t:NSF 26-513 solicitation",
+   "b": "calls-23"
+  },
+  {
+   "a": "t:CROSS homepage",
+   "b": "email-80"
+  },
+  {
+   "a": "t:UN Open Source Week homepage",
+   "b": "email-24"
+  },
+  {
+   "a": "t:UN Open Source Week 2026 agenda",
+   "b": "email-24"
+  },
+  {
+   "a": "t:CCC ISTI memos index",
+   "b": "email-14"
+  },
+  {
+   "a": "t:Cal-ICOR homepage",
+   "b": "email-55"
+  },
+  {
+   "a": "t:GovOps homepage",
+   "b": "email-28"
+  },
+  {
+   "a": "t:GovOps AI independent oversight and kill switch",
+   "b": "email-34"
+  },
+  {
+   "a": "t:CDT homepage",
+   "b": "email-28"
+  },
+  {
+   "a": "t:CITRIS UC Santa Cruz homepage",
+   "b": "email-80"
+  },
+  {
+   "a": "t:CITRIS UC Santa Cruz homepage",
+   "b": "email-75"
+  },
+  {
+   "a": "t:CROSS",
+   "b": "email-80"
+  },
+  {
+   "a": "calls-28",
+   "b": "calls-29",
+   "kind": "flow"
+  },
+  {
+   "a": "meet-5",
+   "b": "calls-29",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-29",
+   "b": "calls-21"
+  },
+  {
+   "a": "calls-29",
+   "b": "calls-15"
+  },
+  {
+   "a": "calls-29",
+   "b": "calls-26"
+  },
+  {
+   "a": "calls-29",
+   "b": "calls-23"
+  },
+  {
+   "a": "r:raw/legislative/SB-53 Gov Code 11546.8.md",
+   "b": "calls-29",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-30",
+   "b": "calls-31",
+   "kind": "flow"
+  },
+  {
+   "a": "meet-6",
+   "b": "calls-31",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-31",
+   "b": "calls-23"
+  },
+  {
+   "a": "calls-24",
+   "b": "calls-26",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-26",
+   "b": "calls-18"
+  },
+  {
+   "a": "calls-26",
+   "b": "calls-11"
+  },
+  {
+   "a": "calls-26",
+   "b": "calls-23"
+  },
+  {
+   "a": "calls-26",
+   "b": "email-79"
+  },
+  {
+   "a": "calls-26",
+   "b": "t:UN OSET and UNDP 2024 DPI Safeguards"
+  },
+  {
+   "a": "calls-26",
+   "b": "t:Poppy overview"
+  },
+  {
+   "a": "calls-26",
+   "b": "t:Poppy service page"
+  },
+  {
+   "a": "calls-25",
+   "b": "calls-27",
+   "kind": "flow"
+  },
+  {
+   "a": "meet-4",
+   "b": "calls-27",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-27",
+   "b": "calls-19"
+  },
+  {
+   "a": "calls-27",
+   "b": "calls-13"
+  },
+  {
+   "a": "calls-27",
+   "b": "t:Crittenden UC Berkeley Human Rights Center profile"
+  },
+  {
+   "a": "r:raw/legislative/SB-53 Gov Code 11546.8.md",
+   "b": "calls-27",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-32",
+   "b": "calls-33",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-33",
+   "b": "email-51"
+  },
+  {
+   "a": "calls-33",
+   "b": "calls-26"
+  },
+  {
+   "a": "calls-33",
+   "b": "t:Hazelwood Empire AI governance"
+  },
+  {
+   "a": "calls-33",
+   "b": "t:PEARC 2025 Cultivating Computational Equity Central Valley"
+  },
+  {
+   "a": "t:Goranson CMU Heinz profile",
+   "b": "email-46"
+  },
+  {
+   "a": "t:Goranson CMU Heinz profile",
+   "b": "calls-23"
+  },
+  {
+   "a": "t:PEARC 2025 Empire AI model for provisioning AI and HPC",
+   "b": "email-81"
+  },
+  {
+   "a": "t:PEARC 2025 Empire AI model for provisioning AI and HPC",
+   "b": "calls-23"
+  },
+  {
+   "a": "t:Columbia Empire AI page",
+   "b": "calls-23"
+  },
+  {
+   "a": "t:Massachusetts AI Hub release",
+   "b": "email-46"
+  },
+  {
+   "a": "t:UC Davis HPC clusters",
+   "b": "calls-1"
+  },
+  {
+   "a": "t:UC Davis HPC clusters",
+   "b": "email-46"
+  },
+  {
+   "a": "email-38",
+   "b": "t:UC Davis HPC clusters",
+   "kind": "flow"
+  },
+  {
+   "a": "t:UC Davis HPC rates",
+   "b": "calls-1"
+  },
+  {
+   "a": "t:UC Davis HPC rates",
+   "b": "email-46"
+  },
+  {
+   "a": "email-38",
+   "b": "t:UC Davis HPC rates",
+   "kind": "flow"
+  },
+  {
+   "a": "t:Oracle Cloud Free Tier",
+   "b": "calls-1"
+  },
+  {
+   "a": "t:Oracle Cloud Free Tier",
+   "b": "email-46"
+  },
+  {
+   "a": "t:Homa Hosseinmardi",
+   "b": "email-53"
+  },
+  {
+   "a": "t:Homa Hosseinmardi",
+   "b": "email-4"
+  },
+  {
+   "a": "t:Lawrence Berkeley National Laboratory",
+   "b": "email-30"
+  },
+  {
+   "a": "t:UC Riverside",
+   "b": "calls-11"
+  },
+  {
+   "a": "t:Ashley Atkins",
+   "b": "calls-13"
+  },
+  {
+   "a": "calls-34",
+   "b": "calls-36",
+   "kind": "flow"
+  },
+  {
+   "a": "meet-7",
+   "b": "calls-36",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-36",
+   "b": "calls-26"
+  },
+  {
+   "a": "calls-36",
+   "b": "calls-33"
+  },
+  {
+   "a": "calls-36",
+   "b": "t:SB-53 Gov Code 11546.8"
+  },
+  {
+   "a": "calls-36",
+   "b": "email-81"
+  },
+  {
+   "a": "calls-36",
+   "b": "calls-37"
+  },
+  {
+   "a": "calls-35",
+   "b": "calls-37",
+   "kind": "flow"
+  },
+  {
+   "a": "meet-8",
+   "b": "calls-37",
+   "kind": "flow"
+  },
+  {
+   "a": "calls-37",
+   "b": "calls-27"
+  },
+  {
+   "a": "t:California Jobs First Economic Blueprint",
+   "b": "calls-37"
+  },
+  {
+   "a": "t:California Jobs First homepage",
+   "b": "calls-37"
+  },
+  {
+   "a": "t:California Jobs First regions",
+   "b": "calls-37"
+  },
+  {
+   "a": "t:Jobs First 2025 results release",
+   "b": "calls-37"
+  },
+  {
+   "a": "t:Pathways to College in California",
+   "b": "calls-37"
+  },
+  {
+   "a": "t:Public AI Network 2024 white paper",
+   "b": "email-86"
+  },
+  {
+   "a": "t:UC ANR Cooperative Extension",
+   "b": "calls-37"
+  },
+  {
+   "a": "t:UC OSPO Network education resources",
+   "b": "calls-37"
+  },
+  {
+   "a": "t:AI Singapore AIAP page (web)",
+   "b": "calls-37"
+  },
+  {
+   "a": "t:GO-Biz team page (web)",
+   "b": "calls-36"
+  },
+  {
+   "a": "t:Governor appointments 2024-10-24 (web)",
+   "b": "calls-36"
+  },
+  {
+   "a": "t:Norman Berkeley I School profile (web)",
+   "b": "calls-36"
+  },
+  {
+   "a": "email-3",
+   "b": "email-4",
+   "kind": "flow"
+  },
+  {
+   "a": "email-4",
+   "b": "calls-36"
+  },
+  {
+   "a": "email-4",
+   "b": "t:G - Public Sector Workforce"
+  },
+  {
+   "a": "email-4",
+   "b": "t:Leilani H. Gilpin"
+  },
+  {
+   "a": "email-4",
+   "b": "t:Kevin Michael Esterling"
+  },
+  {
+   "a": "email-4",
+   "b": "t:Stephanie Lieggi"
+  },
+  {
+   "a": "email-85",
+   "b": "email-86",
+   "kind": "flow"
+  },
+  {
+   "a": "email-86",
+   "b": "t:Massachusetts AI Hub release"
+  },
+  {
+   "a": "email-86",
+   "b": "calls-36"
+  },
+  {
+   "a": "email-86",
+   "b": "calls-26"
+  },
+  {
+   "a": "t:AI Singapore",
+   "b": "calls-37"
+  },
+  {
+   "a": "t:California Jobs First",
+   "b": "calls-37"
+  },
+  {
+   "a": "t:Chris Given",
+   "b": "email-4"
+  },
+  {
+   "a": "t:Chris Given",
+   "b": "calls-36"
+  },
+  {
+   "a": "t:Michael Chen",
+   "b": "calls-36"
+  },
+  {
+   "a": "t:Office of Data and Innovation",
+   "b": "calls-36"
+  },
+  {
+   "a": "t:Sarah Soto-Taylor",
+   "b": "calls-36"
+  },
+  {
+   "a": "t:UC Agriculture and Natural Resources",
+   "b": "calls-37"
+  },
+  {
+   "a": "t:Vera Zakem",
+   "b": "calls-36"
+  },
+  {
+   "a": "t:Vera Zakem",
+   "b": "zulip-8"
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-09-14",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2026-09-21",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2026-09-25",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-09-28",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-02",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-05",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-07",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-08",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-09",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-12",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-14",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-14",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-15",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-16",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-19",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-20",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-21",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-21",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-22",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-23",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-26",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-27",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-28",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-28",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-29",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-10-30",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-02",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-03",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-04",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-04",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-05",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-06",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-09",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-10",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-11",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-11",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-12",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-13",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-16",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-17",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-18",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-18",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-19",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-20",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-23",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-24",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-25",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-25",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-26",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-27",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-11-30",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-01",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-02",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-02",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-03",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-04",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-07",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-08",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-09",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-09",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-10",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-11",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-14",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-15",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-16",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-16",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-17",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-18",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-21",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-22",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-23",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-23",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-24",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-25",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-28",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-29",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-30",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-30",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2026-12-31",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-01",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-04",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-05",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-06",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-06",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-07",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-08",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-11",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-12",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-13",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-13",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-14",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-15",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-18",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-19",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-20",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-20",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-21",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-22",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-25",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-26",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-27",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-27",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-28",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-01-29",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-01",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-02",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-03",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-03",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-04",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-05",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-08",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-09",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-10",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-10",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-11",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-12",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-15",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-16",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-17",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-17",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-18",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-19",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-22",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-23",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-24",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-24",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-25",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-02-26",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-01",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-02",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-03",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-03",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-04",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-05",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-08",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-09",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-10",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-10",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-11",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-12",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-15",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-16",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-17",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-17",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-18",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-19",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-22",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-23",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-24",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-24",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-25",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-26",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-29",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-30",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-31",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-03-31",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-01",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-02",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-05",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-06",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-07",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-07",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-08",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-09",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-12",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-13",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-14",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-14",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-15",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-16",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-19",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-20",
+   "start": "12:00",
+   "end": "13:00",
+   "track": "F",
+   "title": "Element F call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-21",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C",
+   "title": "Element C call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-21",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-22",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-23",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-26",
+   "start": "12:00",
+   "end": "12:30",
+   "track": "sync",
+   "title": "Community sync",
+   "cancelled": false
+  }
+ ]
+}

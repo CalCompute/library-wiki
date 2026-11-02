@@ -1,0 +1,9 @@
+# Rebuild the public site (library-site) after every push to this wiki.
+name: Rebuild site
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    uses: CalCompute/library-site/.github/workflows/deploy.yml@main
+    secrets: inherit
