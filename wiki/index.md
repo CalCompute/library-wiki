@@ -311,7 +311,6 @@ _Last updated: 2026-11-01, 310 pages_
 - [United Nations Office for Digital and Emerging Technologies](entities/United%20Nations%20Office%20for%20Digital%20and%20Emerging%20Technologies.md)
 - [United Nations Office of Information and Communications Technology](entities/United%20Nations%20Office%20of%20Information%20and%20Communications%20Technology.md)
 - [University of California Office of the President](entities/University%20of%20California%20Office%20of%20the%20President.md)
-- [University of California, Office of the President](entities/University%20of%20California%2C%20Office%20of%20the%20President.md)
 - [Vashishth Doshi](entities/Vashishth%20Doshi.md)
 - [Vera Zakem](entities/Vera%20Zakem.md)
 

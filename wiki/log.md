@@ -32,3 +32,8 @@ Append only. Each entry starts with `## [YYYY-MM-DD] <type> | <title>`.
 - Summary: in the graph, a square marks a document with a copy in the public Google Drive "CalCompute Library", and opens it there. The markers are the consortium's calls, email threads and chat topics only (user, Nov. 2, 2026).
 - Pages created: none.
 - Pages updated: AGENTS.md.
+
+## [2026-11-02] lint | One page for the UC Office of the President
+- Summary: removed the publisher page "University of California, Office of the President", a duplicate of "University of California Office of the President" that already lists the same source.
+- Pages created: none.
+- Pages updated: wiki/index.md; removed wiki/entities/University of California, Office of the President.md.
