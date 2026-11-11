@@ -2,7 +2,7 @@
 title: SB-53 Gov Code 11546.8
 type: source
 created: 2026-10-15
-updated: 2026-10-20
+updated: 2026-11-06
 tags: [A, B, C, D, E, F, G, legislative, statute]
 elements: [A, B, C, D, E, F, G]
 origin: legislative
@@ -18,7 +18,7 @@ rehost: yes
 
 California Legislature, Senate Bill No. 53 (Wiener), Chapter 138, Statutes of 2025, Section 3, adding Government Code § 11546.8. Approved by the Governor and filed with the Secretary of State on September 29, 2025. California Legislative Information, <https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53>. Wiki copy: [raw/legislative/SB-53 Gov Code 11546.8.md](../../raw/legislative/SB-53%20Gov%20Code%2011546.8.md). Read 2026-10-15.
 
-They are lines 11-21, 31-33, 51-57 and 311-367 of a full transcription. `[...]` marks the cuts. The excerpt keeps all of § 11546.8, subdivisions (a) to (k).
+They are lines 12-22, 32-34, 52-58 and 312-368 of the full bill, [raw/legislative/SB-53 chaptered 2025-09-29.md](../../raw/legislative/SB-53%20chaptered%202025-09-29.md). `[...]` marks the cuts. The excerpt keeps all of § 11546.8, subdivisions (a) to (k).
 
 ## Bottom line
 
@@ -76,4 +76,5 @@ This is law. It gives requirements, not evidence. The excerpt also keeps the bil
 ## Limits
 
 - The excerpt does not include Gov. Code § 9795, which (f)(1) uses for the method of submission.
+- The rest of SB 53 is in the full bill: Section 2, the Transparency in Frontier Artificial Intelligence Act, and Section 4, the whistleblower protections.
 - The statute does not define "fully owned and hosted", "to the extent possible" or "current public sector workforce".

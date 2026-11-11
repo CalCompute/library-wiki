@@ -2,7 +2,7 @@
 title: SB-53 Assembly Privacy analysis 2025-07-08
 type: source
 created: 2026-10-15
-updated: 2026-10-20
+updated: 2026-11-06
 tags: [A, B, C, D, E, F, G, legislative, analysis]
 elements: [A, B, C, D, E, F, G]
 origin: legislative
@@ -18,7 +18,7 @@ rehost: yes
 
 California State Assembly, Committee on Privacy and Consumer Protection (Rebecca Bauer-Kahan, Chair), analysis of SB 53 (Wiener) as amended July 8, 2025, for the hearing of July 16, 2025. Prepared by John Bennett. <https://apcp.assembly.ca.gov/system/files/2025-07/sb-53-wiener-apcp-analysis_0.pdf>. Wiki copy: [raw/legislative/SB-53 Assembly Privacy analysis 2025-07-08.md](../../raw/legislative/SB-53%20Assembly%20Privacy%20analysis%202025-07-08.md). Read 2026-10-15.
 
-They are lines 10-31, 105-132, 177, 180, 190, 194, 244-248, 288, 290, 506-507, 565-567 and 607 of a full transcription. `[...]` marks the cuts.
+The wiki copy is the full transcription. The passages this page quotes are lines 12-33, 107-134, 179, 182, 192, 196, 246-250, 290, 292, 499, 508-509, 567-569 and 609.
 
 ## Bottom line
 
@@ -51,14 +51,14 @@ The Assembly Committee on Privacy and Consumer Protection heard SB 53 on July 16
 
 ## Evidence and method
 
-The analysis summarizes the bill and gives the committee staff's comments. The "resource and research gap" claim has no cited data in the excerpt. Footnote 33 and note 34 support the systemic risk paragraph, but the excerpt does not give them.
+The analysis summarizes the bill and gives the committee staff's comments. The "resource and research gap" claim cites no data. Footnotes 33 and 34 support the systemic risk paragraph. The copy gives them at the end.
 
 ## Limits
 
-- The excerpt does not show the "Proposed Amendments" the heading names.
+- The "Proposed Amendments" heading has no text under it. Comment 8, "Committee Amendments", gives them.
 - "Must prioritize" is the committee's paraphrase. Subd. (c) says "make reasonable efforts to ensure [...] to the extent possible".
 - The industrial policy passage is about AI auditing.
-- The excerpt shows "University of California" in the support list but not the rest of the list.
+- The support list names "University of California" among many groups.
 - The file's header says "Hearing Date: July 8, 2025". The analysis itself says "Date of Hearing: July 16, 2025" and "As Amended July 8, 2025".
 
 > ⚠️ Contradiction: Item 28 says "Requires that CalCompute become operative only upon an appropriation." Subd.

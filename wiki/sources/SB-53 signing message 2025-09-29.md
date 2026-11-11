@@ -2,13 +2,14 @@
 title: SB-53 signing message 2025-09-29
 type: source
 created: 2026-10-15
-updated: 2026-10-15
+updated: 2026-11-06
 tags: [legislative, executive]
 elements: []
 origin: legislative
 tier: primary
 citable: yes
-rehost: no
+url: https://www.gov.ca.gov/wp-content/uploads/2025/09/SB-53-Signing-Message.pdf
+rehost: yes
 ---
 
 # SB-53 signing message 2025-09-29
@@ -17,7 +18,7 @@ rehost: no
 
 Gavin Newsom, Governor of California, signing message for Senate Bill 53, to the Members of the California State Senate, Office of the Governor, September 29, 2025. <https://www.gov.ca.gov/wp-content/uploads/2025/09/SB-53-Signing-Message.pdf>. Markdown copy: [raw/legislative/SB-53 signing message 2025-09-29.md](../../raw/legislative/SB-53%20signing%20message%202025-09-29.md). Read 2026-10-15.
 
-The PDF is the original and the authority. The Markdown file is an **excerpt** of a transcription, lines 9-32. Those lines hold the whole letter, from the letterhead to the signature, with no cuts.
+The PDF is the original and the authority. The Markdown file is the full transcription, from the letterhead to the signature.
 
 ## Bottom line
 

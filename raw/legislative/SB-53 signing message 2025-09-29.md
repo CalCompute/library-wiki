@@ -5,8 +5,7 @@ publishedDate: 2025-09-29
 sourceUrl: "https://www.gov.ca.gov/wp-content/uploads/2025/09/SB-53-Signing-Message.pdf"
 description: "Governor Gavin Newsom's official signing message for SB-53, the Transparency in Frontier Artificial Intelligence Act, explaining his rationale for signing the bill into law on September 29, 2025."
 documentType: "executive-action"
-excerpt_lines: "9-32"
-excerpted: 2026-10-13
+passages: "11-34"
 rehost: yes
 ---
 

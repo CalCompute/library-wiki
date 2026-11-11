@@ -2,7 +2,7 @@
 title: SB-53 Assembly Privacy analysis 2025-09-05
 type: source
 created: 2026-10-15
-updated: 2026-10-20
+updated: 2026-11-06
 tags: [A, C, F, legislative, analysis]
 elements: [A, C, F]
 origin: legislative
@@ -18,7 +18,7 @@ rehost: yes
 
 California State Assembly, Committee on Privacy and Consumer Protection (Rebecca Bauer-Kahan, Chair), analysis of SB 53 (Wiener) as amended September 5, 2025, for the hearing of September 11, 2025. <https://apcp.assembly.ca.gov/system/files/2025-09/sb-53-wiener-apcp-analysis-9.11.pdf>. Wiki copy: [raw/legislative/SB-53 Assembly Privacy analysis 2025-09-05.md](../../raw/legislative/SB-53%20Assembly%20Privacy%20analysis%202025-09-05.md). Read 2026-10-15.
 
-They are lines 10-20, 121-135, 166, 169, 179, 183, 233-237, 285-286 and 340 of a full transcription. `[...]` marks the cuts.
+The wiki copy is the full transcription. The passages this page quotes are lines 12-22, 123-137, 168, 171, 181, 185, 235-239, 287-288 and 342.
 
 ## Bottom line
 
@@ -51,8 +51,8 @@ A committee staff summary of the bill. No new data on CalCompute.
 
 ## Limits
 
-- The excerpt's numbered list does not show subd. (e) (labor laws), (h), (i) or (k) as separate items. The full analysis may list them elsewhere.
+- The numbered list does not give subd. (e) (labor laws), (h), (i) or (k) as separate items. The rest of the analysis does not give them either.
 - The transcription lost many spaces ("thecreation", "andsustainable").
 - "Upon appropriation" shortens subd. (k).
 
-- The excerpt shows "University of California" in the support list but not the rest of the list.
+- The support list names "University of California" among many groups.

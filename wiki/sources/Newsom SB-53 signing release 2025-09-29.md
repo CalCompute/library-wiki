@@ -2,7 +2,7 @@
 title: Newsom SB-53 signing release 2025-09-29
 type: source
 created: 2026-10-15
-updated: 2026-10-20
+updated: 2026-11-06
 tags: [A, C, E, legislative, press-release]
 elements: [A, C, E]
 origin: legislative
@@ -18,7 +18,7 @@ rehost: yes
 
 Office of Governor Gavin Newsom, "Governor Newsom signs SB 53, advancing California's world-leading artificial intelligence industry", press release, Sacramento, September 29, 2025. <https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/>. Wiki copy: [raw/legislative/Newsom SB-53 signing release 2025-09-29.md](../../raw/legislative/Newsom%20SB-53%20signing%20release%202025-09-29.md). Read 2026-10-15.
 
-They are lines 12-21, 29-46 and 50 of a full transcription. `[...]` marks the cuts.
+The wiki copy is the full transcription. The passages this page quotes are lines 14-23, 31-48 and 52.
 
 ## Bottom line
 

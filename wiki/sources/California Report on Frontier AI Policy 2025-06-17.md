@@ -2,7 +2,7 @@
 title: California Report on Frontier AI Policy 2025-06-17
 type: source
 created: 2026-10-15
-updated: 2026-10-20
+updated: 2026-11-06
 tags: [A, B, C, D, E, legislative, report]
 elements: [A, B, C, D, E]
 origin: legislative
@@ -16,13 +16,13 @@ rehost: yes
 
 ## Citation
 
-Governor's AI working group (lead authors Fei-Fei Li, Mariano-Florentino Cuéllar and Jennifer Tour Chayes, per [the March 2025 release](Governor%20AI%20working%20group%20release%202025-03-18.md)), "The California Report on Frontier AI Policy", published by the Office of Governor Gavin Newsom, June 17, 2025. <https://www.gov.ca.gov/wp-content/uploads/2025/06/June-17-2025-%E2%80%93-The-California-Report-on-Frontier-AI-Policy.pdf>. Wiki copy: [raw/legislative/California Report on Frontier AI Policy 2025-06-17.md](../../raw/legislative/California%20Report%20on%20Frontier%20AI%20Policy%202025-06-17.md). Read 2026-10-15.
+Governor's AI working group (co-leads Jennifer Tour Chayes, Mariano-Florentino Cuéllar and Li Fei-Fei), "The California Report on Frontier AI Policy", published by the Office of Governor Gavin Newsom, June 17, 2025. <https://www.gov.ca.gov/wp-content/uploads/2025/06/June-17-2025-%E2%80%93-The-California-Report-on-Frontier-AI-Policy.pdf>. Wiki copy: [raw/legislative/California Report on Frontier AI Policy 2025-06-17.md](../../raw/legislative/California%20Report%20on%20Frontier%20AI%20Policy%202025-06-17.md). Read 2026-10-15.
 
-They are lines 10, 99-100, 169, 176-178, 195, 204, 212, 217, 222, 231, 250-254, 274, 300, 412, 415-417, 423, 521, 551 and 582-588 of a full transcription. `[...]` marks the cuts. The excerpt does not show the author list. The authors above come from the March 2025 release about the draft.
+The wiki copy is the full transcription. The passages this page quotes are lines 11, 100-101, 170, 177-179, 196, 205, 213, 218, 223, 232, 251-255, 275, 301, 413, 416-418, 424, 522, 552 and 583-589.
 
 ## Bottom line
 
-- The working group report does not mention CalCompute in the excerpt. Its one direct passage on compute is a summary of public comments: researchers lack access to compute, and New York has Empire AI.
+- The working group report does not mention CalCompute. Its passage on access to compute is a summary of public comments: researchers lack access to compute, and New York has Empire AI.
 - The Governor and the author say SB 53 builds on this report.
 
 ## Background
@@ -59,7 +59,7 @@ The "Resourcing" passage reports what public commenters said. It is not a findin
 
 ## Limits
 
-- The excerpt has no CalCompute passage.
+- The report has no CalCompute passage.
 - The compute access passage is a summary of comments, not the authors' recommendation.
 - The "AI talent pipeline" and "governance of open and closed models" passages also summarize comments. They are not findings of the working group.
 - None of them names CalCompute or a public compute cluster.

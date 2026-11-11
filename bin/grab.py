@@ -30,8 +30,10 @@ import urllib.parse
 import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TYPES = {"application/pdf": "pdf", "text/html": "html", "text/plain": "txt",
-         "application/vnd.openxmlformats-officedocument.wordprocessingml.document": "docx"}
+TYPES = {"application/pdf": "pdf", "text/html": "html", "text/plain": "txt", "application/json": "json",
+         "application/vnd.openxmlformats-officedocument.wordprocessingml.document": "docx",
+         "text/csv": "csv", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": "xlsx",
+         "application/zip": "zip", "application/x-zip-compressed": "zip"}  # markitdown converts each file in a zip
 GOV = re.compile(r"(\.|^)gov$|(\.|^)cccco\.edu$|(\.|^)universityofcalifornia\.edu$|leginfo|billtexts\.s3\.amazonaws\.com")
 
 try:  # python.org's macOS build has no CA store of its own
@@ -76,8 +78,8 @@ def main():
         print("%s.%s  %d bytes  original only" % (os.path.relpath(stem, ROOT), ext, len(body)))
         return
 
-    md = subprocess.run([os.path.join(ROOT, ".venv", "bin", "markitdown"), stem + "." + ext],
-                        capture_output=True, text=True, check=True).stdout
+    md = subprocess.run([os.path.join(ROOT, ".venv", "bin", "markitdown"), os.path.basename(stem + "." + ext)],
+                        cwd=folder, capture_output=True, text=True, check=True).stdout  # basename: a zip copy prints the path
     if len(md.split()) < 50:
         print("WARNING: Markdown copy has only %d words; check it" % len(md.split()))
     fm = ["---", "url: %s" % o.url, "fetched: %s" % today, 'publisher: "%s"' % o.publisher,

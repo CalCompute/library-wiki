@@ -2,11 +2,11 @@
 title: "Anthropic"
 type: entity
 created: 2026-10-15
-updated: 2026-10-29
-source_count: 3
+updated: 2026-11-09
+source_count: 5
 tags: [institution, publisher]
 kind: institution
-elements: [B, D, F]
+elements: [B, C, D, F]
 ---
 
 # Anthropic
@@ -17,8 +17,10 @@ elements: [B, D, F]
 
 ## Sources
 
-Publisher of 2 sources in this library.
+Publisher of 3 sources in this library.
 
+- [Anthropic detecting and countering misuse Aug 2025 (web)](../sources/Anthropic%20detecting%20and%20countering%20misuse%20Aug%202025%20%28web%29.md)
 - [Anthropic researcher access programs (web)](../sources/Anthropic%20researcher%20access%20programs%20%28web%29.md)
 - [Anthropic Usage Policy 2026-11-12](../sources/Anthropic%20Usage%20Policy%202026-11-12.md)
 - [CCC ISTI 25-300-02 AI Safety and Security](../sources/CCC%20ISTI%2025-300-02%20AI%20Safety%20and%20Security.md)
+- [CDT Anthropic partnership expansion 2026-07 (web)](../sources/CDT%20Anthropic%20partnership%20expansion%202026-07%20%28web%29.md)

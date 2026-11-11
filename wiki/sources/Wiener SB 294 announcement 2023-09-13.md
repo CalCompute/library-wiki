@@ -2,7 +2,7 @@
 title: Wiener SB 294 announcement 2023-09-13
 type: source
 created: 2026-10-15
-updated: 2026-10-20
+updated: 2026-11-06
 tags: [A, B, C, D, E, legislative, press-release, history]
 elements: [A, B, C, D, E]
 origin: legislative
@@ -18,7 +18,7 @@ rehost: yes
 
 Office of Senator Scott Wiener (D-San Francisco), "Senator Wiener Introduces Safety Framework in Artificial Intelligence Legislation", press release, Sacramento, September 13, 2023. <https://sd11.senate.ca.gov/news/senator-wiener-introduces-safety-framework-artificial-intelligence-legislation>. Wiki copy: [raw/legislative/Wiener SB 294 announcement 2023-09-13.md](../../raw/legislative/Wiener%20SB%20294%20announcement%202023-09-13.md). Read 2026-10-15.
 
-They are lines 10-16, 28-30, 40 and 50 of a full transcription. `[...]` marks the cuts.
+The wiki copy is the full transcription. The passages this page quotes are lines 12-18, 30-32, 42 and 52.
 
 ## Bottom line
 

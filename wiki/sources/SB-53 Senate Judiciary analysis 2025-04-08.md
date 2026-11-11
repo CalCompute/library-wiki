@@ -2,7 +2,7 @@
 title: SB-53 Senate Judiciary analysis 2025-04-08
 type: source
 created: 2026-10-15
-updated: 2026-10-15
+updated: 2026-11-06
 tags: [A, C, E, legislative, analysis]
 elements: [A, C, E]
 origin: legislative
@@ -18,7 +18,7 @@ rehost: yes
 
 California State Senate, Judiciary Committee (Senator Thomas Umberg, Chair), analysis of SB 53 (Wiener), version of March 27, 2025, for the hearing of April 8, 2025. <https://sjud.senate.ca.gov/system/files/2025-04/sb-53-wiener-sjud-analysis.pdf>. Wiki copy: [raw/legislative/SB-53 Senate Judiciary analysis 2025-04-08.md](../../raw/legislative/SB-53%20Senate%20Judiciary%20analysis%202025-04-08.md). Read 2026-10-15.
 
-They are lines 10-28, 49-73 and 132-165 of a full transcription. `[...]` marks the cuts.
+The wiki copy is the full transcription. The passages this page quotes are lines 12-30, 51-75, 134-155 and 156-167.
 
 ## Bottom line
 
@@ -44,7 +44,7 @@ The Senate Judiciary Committee heard SB 53 on April 8, 2025. The bill then had t
 
 ## Evidence and method
 
-A committee staff summary of the bill. The resource-gap figures come from a Washington Post article, footnote 1, which the excerpt does not give in full. That article cites "a Stanford report" and "a 2023 report". These are second-hand figures.
+A committee staff summary of the bill. The resource-gap figures come from a Washington Post article of March 10, 2024, footnote 1. That article cites "a Stanford report" and "a 2023 report". These are second-hand figures.
 
 ## Limits
 

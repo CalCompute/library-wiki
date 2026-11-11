@@ -5,12 +5,11 @@ publishedDate: 2025-03-18
 sourceUrl: "https://www.gov.ca.gov/2025/03/18/california-strengthens-its-position-as-the-global-ai-leader-with-new-working-report-issued-by-experts-and-academics/"
 description: "Press release announcing the Governor's AI working group report, strengthening California's position as the global AI leader with new recommendations issued by experts and academics."
 documentType: "press-release"
-excerpt_lines: "12-26, 36-42"
-excerpted: 2026-10-20
+passages: "14-28, 38-44"
 rehost: yes
 ---
 
-[...]
+*March 18, 2025*
 
 # California strengthens its position as the global AI leader with new working report issued by experts and academics
 > **What you need to know:** With the release of a new draft working report by leading artificial intelligence experts, California continues to lead in advocating for the responsible use of emerging AI technology and the study of its impacts and opportunities.
@@ -28,7 +27,13 @@ Today's working report is a result of the Governor's convening of leading **expe
 
 The working report includes recommendations on ensuring evidence-based policymaking, balancing the need for transparency with considerations such as security risks, and determining the appropriate level of regulation in this fast-evolving field.  As a working white paper, the authors invite public participation. Academics, experts, and other stakeholders can submit comments or suggestions regarding their recommendations [here](https://www.cafrontieraigov.org/).
 
-[...]
+## California's AI global leadership
+California has launched efforts to help the state take advantage of this emerging technology, while also creating responsible policy guardrails to protect Californians, businesses, and workers. In 2023, Governor Newsom signed an **executive order** laying out California’s measured approach to state GenAI procurement. That EO has shaped the future of ethical, transparent, and trustworthy GenAI deployment, all while California remains the world’s GenAI leader. 
+
+## Harnessing the power of AI
+In 2024, Governor Newsom announced the **state's** efforts to help utilize GenAI technologies to solve challenges — everything from **reducing traffic** to helping address **homelessness**.
+
+Governor Newsom also co-hosted a **GenAI summit** in May 2024 with leaders across academia, industry, civil society, and government to discuss how the state can best use this transformative technology on behalf of Californians.
 
 ## First-of-Its-Kind Effort with NVIDIA
 In August 2024, the state partnered with NVIDIA to launch a **first-of-its-kind AI collaboration**, signed by Governor Gavin Newsom and NVIDIA founder & CEO Jensen Huang. The initiative aims to:
@@ -38,4 +43,5 @@ In August 2024, the state partnered with NVIDIA to launch a **first-of-its-kind 
 
 Among other goals, it strives to bring new AI resources into community colleges from NVIDIA — including curriculum and certifications, hardware and software, AI labs and workshops, and more — to open new pathways for students, educators, and workers to learn new skills and advance their careers.
 
-[...]
+## Staying ahead of threats
+Last year, Governor Newsom also signed a series of bills to **crack down on sexually explicit deepfakes and require AI watermarking, protect performers’ digital likenesses,** and **combat deepfake election content**. 

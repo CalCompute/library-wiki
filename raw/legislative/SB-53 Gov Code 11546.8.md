@@ -3,7 +3,6 @@ title: "Senate Bill No. 53 — Full Bill Text"
 slug: "sb-53-bill-text"
 publishedDate: 2025-09-29
 sourceUrl: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53"
-description: "Complete text of California SB-53, Chapter 138 — the Transparency in Frontier Artificial Intelligence Act, including the statutory language establishing CalCompute in Government Code § 11546.8."
 documentType: "legislation"
 excerpt_lines: "11-21, 31-33, 51-57, 311-367"
 excerpted: 2026-10-20

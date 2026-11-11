@@ -1,5 +1,5 @@
 {
- "date": "2026-11-02",
+ "date": "2026-11-05",
  "stats": [
   [
    36,
@@ -10,7 +10,7 @@
    "emails"
   ],
   [
-   91,
+   93,
    "messages"
   ],
   [
@@ -858,7 +858,7 @@
    "id": "zulip-5",
    "type": "zulip",
    "system": "zulip",
-   "size": 3171,
+   "size": 3979,
    "ring": 4,
    "date": "2026-09-30",
    "elements": [
@@ -880,7 +880,7 @@
    "id": "zulip-6",
    "type": "zulip",
    "system": "zulip",
-   "size": 7574,
+   "size": 8436,
    "ring": 3,
    "date": "2026-09-30",
    "elements": [
@@ -4144,6 +4144,10 @@
    "b": "calls-19"
   },
   {
+   "a": "zulip-6",
+   "b": "calls-37"
+  },
+  {
    "a": "zulip-7",
    "b": "zulip-8",
    "kind": "flow"
@@ -5132,8 +5136,8 @@
    "date": "2026-10-14",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -5180,8 +5184,8 @@
    "date": "2026-10-21",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -5228,8 +5232,8 @@
    "date": "2026-10-28",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -5270,14 +5274,14 @@
    "end": "13:00",
    "track": "F",
    "title": "Element F call",
-   "cancelled": false
+   "cancelled": true
   },
   {
    "date": "2026-11-04",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -5318,14 +5322,14 @@
    "end": "13:00",
    "track": "F",
    "title": "Element F call",
-   "cancelled": false
+   "cancelled": true
   },
   {
    "date": "2026-11-11",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -5366,14 +5370,14 @@
    "end": "13:00",
    "track": "F",
    "title": "Element F call",
-   "cancelled": false
+   "cancelled": true
   },
   {
    "date": "2026-11-18",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -5414,14 +5418,14 @@
    "end": "13:00",
    "track": "F",
    "title": "Element F call",
-   "cancelled": false
+   "cancelled": true
   },
   {
    "date": "2026-11-25",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -5462,14 +5466,14 @@
    "end": "13:00",
    "track": "F",
    "title": "Element F call",
-   "cancelled": false
+   "cancelled": true
   },
   {
    "date": "2026-12-02",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -5505,19 +5509,11 @@
    "cancelled": false
   },
   {
-   "date": "2026-12-08",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2026-12-09",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -5553,19 +5549,11 @@
    "cancelled": false
   },
   {
-   "date": "2026-12-15",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2026-12-16",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -5601,19 +5589,11 @@
    "cancelled": false
   },
   {
-   "date": "2026-12-22",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2026-12-23",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -5649,19 +5629,11 @@
    "cancelled": false
   },
   {
-   "date": "2026-12-29",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2026-12-30",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -5697,19 +5669,11 @@
    "cancelled": false
   },
   {
-   "date": "2027-01-05",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2027-01-06",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -5745,19 +5709,11 @@
    "cancelled": false
   },
   {
-   "date": "2027-01-12",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2027-01-13",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -5793,19 +5749,11 @@
    "cancelled": false
   },
   {
-   "date": "2027-01-19",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2027-01-20",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -5841,19 +5789,11 @@
    "cancelled": false
   },
   {
-   "date": "2027-01-26",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2027-01-27",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -5889,19 +5829,11 @@
    "cancelled": false
   },
   {
-   "date": "2027-02-02",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2027-02-03",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -5937,19 +5869,11 @@
    "cancelled": false
   },
   {
-   "date": "2027-02-09",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2027-02-10",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -5985,19 +5909,11 @@
    "cancelled": false
   },
   {
-   "date": "2027-02-16",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2027-02-17",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -6033,19 +5949,11 @@
    "cancelled": false
   },
   {
-   "date": "2027-02-23",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2027-02-24",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -6081,19 +5989,11 @@
    "cancelled": false
   },
   {
-   "date": "2027-03-02",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2027-03-03",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -6129,19 +6029,11 @@
    "cancelled": false
   },
   {
-   "date": "2027-03-09",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2027-03-10",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -6177,19 +6069,11 @@
    "cancelled": false
   },
   {
-   "date": "2027-03-16",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2027-03-17",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -6225,19 +6109,11 @@
    "cancelled": false
   },
   {
-   "date": "2027-03-23",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2027-03-24",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -6273,19 +6149,11 @@
    "cancelled": false
   },
   {
-   "date": "2027-03-30",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2027-03-31",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -6321,19 +6189,11 @@
    "cancelled": false
   },
   {
-   "date": "2027-04-06",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2027-04-07",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -6369,19 +6229,11 @@
    "cancelled": false
   },
   {
-   "date": "2027-04-13",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2027-04-14",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -6417,19 +6269,11 @@
    "cancelled": false
   },
   {
-   "date": "2027-04-20",
-   "start": "12:00",
-   "end": "13:00",
-   "track": "F",
-   "title": "Element F call",
-   "cancelled": false
-  },
-  {
    "date": "2027-04-21",
    "start": "10:00",
    "end": "11:00",
-   "track": "C",
-   "title": "Element C call",
+   "track": "C & F",
+   "title": "Element C & F call",
    "cancelled": false
   },
   {
@@ -6462,6 +6306,38 @@
    "end": "12:30",
    "track": "sync",
    "title": "Community sync",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-28",
+   "start": "10:00",
+   "end": "11:00",
+   "track": "C & F",
+   "title": "Element C & F call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-28",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "E & G",
+   "title": "Element E & G call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-29",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "D",
+   "title": "Element D call",
+   "cancelled": false
+  },
+  {
+   "date": "2027-04-30",
+   "start": "11:00",
+   "end": "12:00",
+   "track": "A & B",
+   "title": "Element A & B call",
    "cancelled": false
   }
  ]

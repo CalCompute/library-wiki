@@ -2,7 +2,7 @@
 title: Governor AI working group release 2025-03-18
 type: source
 created: 2026-10-15
-updated: 2026-10-20
+updated: 2026-11-06
 tags: [A, E, F, legislative, press-release]
 elements: [A, E, F]
 origin: legislative
@@ -18,7 +18,7 @@ rehost: yes
 
 Office of Governor Gavin Newsom, "California strengthens its position as the global AI leader with new working report issued by experts and academics", press release, San Francisco, March 18, 2025. <https://www.gov.ca.gov/2025/03/18/california-strengthens-its-position-as-the-global-ai-leader-with-new-working-report-issued-by-experts-and-academics/>. Wiki copy: [raw/legislative/Governor AI working group release 2025-03-18.md](../../raw/legislative/Governor%20AI%20working%20group%20release%202025-03-18.md). Read 2026-10-15.
 
-They are lines 12-26 and 36-42 of a full transcription. `[...]` marks the cuts.
+The wiki copy is the full transcription. The passages this page quotes are lines 14-28 and 38-44.
 
 ## Bottom line
 

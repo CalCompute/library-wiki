@@ -2,7 +2,7 @@
 title: UC Regents B4 Update on AI 2026-09-16
 type: source
 created: 2026-10-15
-updated: 2026-10-15
+updated: 2026-11-09
 tags: [A, B, C, D, E, F, uc, governance]
 elements: [A, B, C, D, E, F]
 origin: shared
@@ -72,3 +72,5 @@ A management report to the Regents. Its source list mixes primary records with t
 - It says the University "can decide later how it is used" (p. 8). The governance of the Sovereign AI Cloud is open.
 
 > ⚠️ Contradiction: the item lists five working groups (p. 4 to 5) and none is a literacy group. On p. 9 it names a "Common AI Literacy Working Group" as the home of a foundation course. The item does not say how the two fit.
+
+> ⚠️ Contradiction: this item says President Milliken formed the Steering Committee in March 2026 (pp. 1 to 2). [UC press release systemwide AI expertise (web)](UC%20press%20release%20systemwide%20AI%20expertise%20%28web%29.md) says "in May of 2026".

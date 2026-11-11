@@ -2,8 +2,8 @@
 title: "Vashishth Doshi"
 type: entity
 created: 2026-11-01
-updated: 2026-11-01
-source_count: 0
+updated: 2026-11-06
+source_count: 1
 tags: [team]
 member: yes
 group: operations
@@ -12,19 +12,25 @@ institution: "Carnegie Mellon University"
 position: "Researcher"
 role: "Researcher"
 photo: "/images/people/vashishth-doshi.jpeg"
-profile: https://californiacompute.org/team/vashishth-doshi/
 ---
 
 # Vashishth Doshi
 
-On the CalCompute operations team.
+## Bottom line
 
-- Institution: Carnegie Mellon University
-- Title: Researcher
-- Role: Researcher
+- Vashishth Doshi describes himself as a graduate student from Carnegie Mellon who works across policy, AI and data science ([Doshi GitHub profile (web)](../sources/Doshi%20GitHub%20profile%20%28web%29.md)).
+
+## Background
+
+- His GitHub profile pins a repository named "SOTA-model-card-audit-ai-policy" ([Doshi GitHub profile (web)](../sources/Doshi%20GitHub%20profile%20%28web%29.md)).
+- It also pins a retrieval-augmented generation (RAG) learning portal for political analytics ([Doshi GitHub profile (web)](../sources/Doshi%20GitHub%20profile%20%28web%29.md)).
+- It also pins a machine learning system that predicts bridges in poor condition ([Doshi GitHub profile (web)](../sources/Doshi%20GitHub%20profile%20%28web%29.md)).
+
+## Sources
+
+- [Doshi GitHub profile (web)](../sources/Doshi%20GitHub%20profile%20%28web%29.md)
 
 ## Links
 
-- [CaliforniaCompute.org profile](https://californiacompute.org/team/vashishth-doshi/)
 - [LinkedIn](https://www.linkedin.com/in/vashishth-doshi/)
 - [GitHub](https://github.com/vashishthdoshi)

@@ -2,8 +2,8 @@
 title: G - Public Sector Workforce
 type: element
 created: 2026-11-01
-updated: 2026-11-01
-source_count: 35
+updated: 2026-11-10
+source_count: 67
 tags: [G]
 element: G
 elements: [G]
@@ -23,48 +23,82 @@ Source: [SB-53 Gov Code 11546.8](../sources/SB-53%20Gov%20Code%2011546.8.md).
 
 This list groups the library's sources for this element by tier. It does not say what the Report will recommend.
 
-### Primary (27)
+### Primary (50)
 
+- [CalCareers IT Specialist III exam bulletin (web)](../sources/CalCareers%20IT%20Specialist%20III%20exam%20bulletin%20%28web%29.md): State IT Specialist III exam: expert advisor level, $9,230 to $12,369 a month; no AI or research computing domain.
+- [CalHR 5102 Statewide Report 2026-06-30 (web)](../sources/CalHR%205102%20Statewide%20Report%202026-06-30%20%28web%29.md): State employees by class, ethnicity and gender on June 30, 2026: 234,477 total; 391 IT Specialist III.
 - [California Executive Branch org chart 2025-11-04](../sources/California%20Executive%20Branch%20org%20chart%202025-11-04.md): The state executive branch and its heads, as of Nov. 4, 2025.
 - [California Jobs First homepage](../sources/California%20Jobs%20First%20homepage.md): State regional economic program, 13 regions, council of nine agencies co-chaired by GO-Biz and LWDA
 - [California Jobs First regions](../sources/California%20Jobs%20First%20regions.md): The 13 economic regions, their plans and the Regional Data Tool
 - [CDT About the Department](../sources/CDT%20About%20the%20Department.md): CDT oversees state IT planning, projects, procurement and standards; runs the State Data Center; Director is State CIO.
 - [CDT AI community of practice](../sources/CDT%20AI%20community%20of%20practice.md): State AI forum since 2024 with UC and CSU speakers; Vera Zakem and Deirdre Mulligan in May 2025.
+- [CDT Anthropic partnership expansion 2026-07 (web)](../sources/CDT%20Anthropic%20partnership%20expansion%202026-07%20%28web%29.md): State departments buy Claude at a 50% discount through central procurement; cities and counties get the same price; first AI platform on SITeS.
 - [CDT career opportunities](../sources/CDT%20career%20opportunities.md): CDT hires by state exam and classification through CalCareer; links the IT classification map.
 - [CDT executive team](../sources/CDT%20executive%20team.md): CDT's 12 executives, with Chris Given as CIO and Vera Zakem as Chief Technology and Innovation Officer.
 - [CDT homepage](../sources/CDT%20homepage.md): Thin homepage: Poppy, middle mile, Digital ID; training and AI community links. Lists the pages taken.
 - [CDT IT Classification Mapping](../sources/CDT%20IT%20Classification%20Mapping.md): State IT jobs in six domains map to IT Technician to Manager II; Machine Learning Engineer and Cloud Architect are state titles.
+- [CDT Technology Letter 25-01 (web)](../sources/CDT%20Technology%20Letter%2025-01%20%28web%29.md): State GenAI IT policies SAM 4986.1 to 4986.13, effective Feb. 20, 2025: inventory, hosting, CDT sandboxes, procurement, privacy, workforce training.
 - [CDT workforce development](../sources/CDT%20workforce%20development.md): Training center for public sector IT staff: academies, a GenAI Boot Camp, no research computing course.
+- [DAS e-News 2024 zSystems apprenticeship (web)](../sources/DAS%20e-News%202024%20zSystems%20apprenticeship%20%28web%29.md): State mainframe apprenticeship for state staff, started 2019 with a $500,000 grant; three cohorts; 2024 Best Workforce Initiative award.
+- [Executive Order N-5-26 trusted AI procurement (web)](../sources/Executive%20Order%20N-5-26%20trusted%20AI%20procurement%20%28web%29.md): Governor's order of March 30, 2026: new vendor certifications for AI procurement; vetted GenAI tools and AI training for state employees.
 - [Executive Order N-6-26](../sources/Executive%20Order%20N-6-26.md): Directive 9 set a deadline of "No later than October 15, 2026" for the Government Operations Agency (GovOps).
 - [Fei-Fei Li Senate testimony 2023-09-14 (web)](../sources/Fei-Fei%20Li%20Senate%20testimony%202023-09-14%20%28web%29.md): Fei-Fei Li tells a U.S. Senate committee that compute and data needs leave frontier AI to "a select few industry players". She backs the National AI Research Resource.
+- [FSA Handbook 2026-27 Vol 6 Ch 2 Federal Work-Study (web)](../sources/FSA%20Handbook%202026-27%20Vol%206%20Ch%202%20Federal%20Work-Study%20%28web%29.md): Federal Work-Study rules: off-campus jobs at public agencies; federal wage share 75% at most, 90% for some agencies, 50% at for-profits.
+- [Governor Anthropic partnership release 2026-06-29 (web)](../sources/Governor%20Anthropic%20partnership%20release%202026-06-29%20%28web%29.md): State agencies, cities and counties get Claude at 50 percent off per seat, with free training, through CDT's SITeS portal.
 - [Governor appointments 2026-08-19](../sources/Governor%20appointments%202026-08-19.md): The Governor appoints Ayushi Roy State Chief Technology Officer at CDT.
+- [Governor California NVIDIA collaboration 2024-08-09 (web)](../sources/Governor%20California%20NVIDIA%20collaboration%202024-08-09%20%28web%29.md): Governor and NVIDIA MOU on AI training, mainly in community colleges; NVIDIA "aims to" give access to AI hardware, software and cloud resources.
+- [Governor partners with tech companies on AI education 2025-08-07 (web)](../sources/Governor%20partners%20with%20tech%20companies%20on%20AI%20education%202025-08-07%20%28web%29.md): No-cost state agreements with Google, Adobe, IBM and Microsoft for AI training in high schools, community colleges and CSU; "over two million students".
+- [Governor's Innovation Fellows program (web)](../sources/Governor%27s%20Innovation%20Fellows%20program%20%28web%29.md): State employees spend 6 months, 80 percent time, on service projects with ODI and CalAcademy training; three cohorts since August 2025.
+- [GovOps apprenticeships (web)](../sources/GovOps%20apprenticeships%20%28web%29.md): State employee apprenticeship pilots in IT, financial services and mainframe: up to 25 college credits and two years of on-the-job training.
 - [GovOps departments](../sources/GovOps%20departments.md): 15 entities; CalHR sets job classifications and training; Learning Lab is a state grantmaker.
+- [GovOps generative AI executive order page (web)](../sources/GovOps%20generative%20AI%20executive%20order%20page%20%28web%29.md): GovOps says it leads the state's GenAI work under Executive Order N-12-23; lists ten linked documents and milestones, November 2023 to February 2025.
 - [GovOps homepage](../sources/GovOps%20homepage.md): GovOps oversees 16 departments, including CDT, CalHR and Learning Lab; leads AI oversight. Lists the pages taken.
 - [GovOps more efficient California](../sources/GovOps%20more%20efficient%20California.md)
 - [GovOps vision mission and goals](../sources/GovOps%20vision%20mission%20and%20goals.md): Goal 1: "Develop the State Workforce".
 - [Jobs First 2025 results release](../sources/Jobs%20First%202025%20results%20release.md): $1.6 billion in 2025; 142,000 trained, 61,000 jobs; ETP, apprenticeship and HRTP channels
+- [Maryland Chapter 633 of 2026 SB 597 (web)](../sources/Maryland%20Chapter%20633%20of%202026%20SB%20597%20%28web%29.md): Maryland law: AI Partnership in the University System of Maryland, regional technology hubs, an AI Public Service Fellowship and an AI Incubation Lab for agencies.
+- [Mississippi ITS AI Innovation Student Teams (web)](../sources/Mississippi%20ITS%20AI%20Innovation%20Student%20Teams%20%28web%29.md): Mississippi's IT agency pairs supervised student teams from three universities with agencies for 6 to 8 week AI proofs of concept; AWS is a Hub partner.
+- [NSF 26-503 CyberAICorps Scholarship for Service (web)](../sources/NSF%2026-503%20CyberAICorps%20Scholarship%20for%20Service%20%28web%29.md): NSF program page: AI and cybersecurity scholarships; recipients serve in a government organization; awards up to $2,500,000.
+- [NSF 26-503 CyberAICorps solicitation (web)](../sources/NSF%2026-503%20CyberAICorps%20solicitation%20%28web%29.md): Full solicitation: stipends of $27,000 or $37,000 a year plus tuition; service in government after graduation; up to 25 awards a year.
 - [NSF 26-508 TechAccess solicitation (web)](../sources/NSF%2026-508%20TechAccess%20solicitation%20%28web%29.md)
+- [ODI and CalHR Foundations of GenAI certificate series (web)](../sources/ODI%20and%20CalHR%20Foundations%20of%20GenAI%20certificate%20series%20%28web%29.md): Five-course GenAI certificate for all state employees; CalLearns hosts four courses, CalAcademy one; led by GovOps with CDT.
 - [ODI homepage (web)](../sources/ODI%20homepage%20%28web%29.md): ODI: data, design and technology for departments; Governor's Innovation Fellows
+- [ODI Statewide Data Strategy 2026-2027 (web)](../sources/ODI%20Statewide%20Data%20Strategy%202026-2027%20%28web%29.md): ODI's two-year state data strategy: a "federated, trusted data highway" and ten objectives for 2026-2028 on platforms, data sharing, privacy, responsible AI and workforce.
+- [ODI third cohort of Governor's Innovation Fellows (web)](../sources/ODI%20third%20cohort%20of%20Governor%27s%20Innovation%20Fellows%20%28web%29.md): Third cohort: 15 state employees from 11 departments and 7 agencies; one-week boot camp June 22, 2026; 6 months at 80 percent time.
+- [ODI Work with us (web)](../sources/ODI%20Work%20with%20us%20%28web%29.md): ODI's six services to state departments, including an experimental Modern Data Stack Accelerator and free training.
 - [Poppy overview](../sources/Poppy%20overview.md): Poppy is a generative AI (GenAI) platform that CDT built for state employees.
 - [Poppy service page](../sources/Poppy%20service%20page.md): CDT charges state departments for Poppy.
+- [SAM 4983.1 cloud computing (web)](../sources/SAM%204983.1%20cloud%20computing%20%28web%29.md): State cloud policy (rev. Aug. 2025): cloud through CDT or DGS, data in the U.S., exit strategy, IT staff and total cost of ownership.
 - [SB 1047 CalCompute section 2024-08-29](../sources/SB%201047%20CalCompute%20section%202024-08-29.md): SB 1047's CalCompute section: the same elements as SB-53, report due Jan. 1, 2026; vetoed
 - [SB-53 Assembly Privacy analysis 2025-07-08](../sources/SB-53%20Assembly%20Privacy%20analysis%202025-07-08.md): The committee's summary of the bill (items 17 to 28) already matches the enacted § 11546.8 almost item for item.
 - [SB-53 Gov Code 11546.8](../sources/SB-53%20Gov%20Code%2011546.8.md): The statute: Gov. Code § 11546.8, subdivisions (a) to (k), word for word. The base of every definition.
 - [SB-53 Senate GO analysis 2025-03-25](../sources/SB-53%20Senate%20GO%20analysis%202025-03-25.md): Excerpt of the CalCompute passages of the Senate Governmental Organization analysis. The full copy is the (web) page.
 - [SB-53 Senate GO analysis 2025-03-25 (web)](../sources/SB-53%20Senate%20GO%20analysis%202025-03-25%20%28web%29.md): The first committee analysis of SB 53. It has the enacted mission, UC placement and seven elements, with the March appointment scheme. It says "This bill does not establish CalCompute" and records no opposition.
+- [Senate Budget Committee hearing agenda 2026-06-29](../sources/Senate%20Budget%20Committee%20hearing%20agenda%202026-06-29.md): Senate Budget hearing on the 2026-27 budget package of 20 bills; $351.7 billion spending; no line for CalCompute.
 
-### Institutional (7)
+### Institutional (16)
 
 - [ACCESS Our impact](../sources/ACCESS%20Our%20impact.md): ACCESS reports 67,925 "Users with an allocation" and 2,055 "Research institutions served" since its launch in September 2022.
+- [Becerra AI priorities (web)](../sources/Becerra%20AI%20priorities%20%28web%29.md): Campaign platform: "I will fund CalCompute fully and make it operational"; AI literacy, state AI audits, workforce transition, a data center standard.
+- [CFA PERB hearing on management's AI initiative (web)](../sources/CFA%20PERB%20hearing%20on%20management%27s%20AI%20initiative%20%28web%29.md): CSU faculty union: PERB hearing on CSU's failure to meet and confer over its 2025 AI Initiative; AI contract article; SB 928.
 - [CMU Policy Innovation Lab](../sources/CMU%20Policy%20Innovation%20Lab.md): Heinz College course page: students build public interest technology for government clients; no compute facts
 - [CRB Prytaneum brief](../sources/CRB%20Prytaneum%20brief.md)
 - [CROSS About](../sources/CROSS%20About.md): Founded 2015 with a $2M gift and three founding industry members; leadership, advisory board and stakeholder benefits. No fees or member rights.
 - [CROSS homepage](../sources/CROSS%20homepage.md): Thin homepage; CROSS funds student open source projects and works with the six-campus UC OSPO Network. Lists the pages taken.
+- [NACo county AI use cases (web)](../sources/NACo%20county%20AI%20use%20cases%20%28web%29.md): 22 county AI and GenAI use cases in five themes; five California counties; San Diego's in-house ChatAI on Amazon Bedrock.
+- [NSF AI-Ready America Workshop Report (web)](../sources/NSF%20AI-Ready%20America%20Workshop%20Report%20%28web%29.md): SeedAI workshop report for NSF: build regional "compute commons" in trusted public institutions with federal seed money; names Empire AI and the Massachusetts AI Hub as models.
+- [SEIU Local 1000 Master Table Update 2026-06-11 (web)](../sources/SEIU%20Local%201000%20Master%20Table%20Update%202026-06-11%20%28web%29.md): Union for nearly 100,000 state workers proposes AI and new technology protections in contract bargaining; State gave a counter proposal.
+- [SEIU Local 1000 statement on new AI executive order (web)](../sources/SEIU%20Local%201000%20statement%20on%20new%20AI%20executive%20order%20%28web%29.md): State workers' union on Executive Order N-6-26: asks for "a real seat at the table" as the State brings in AI.
 - [UC ANR Cooperative Extension](../sources/UC%20ANR%20Cooperative%20Extension.md)
+- [UMass PIT 2026 AI for the Commonwealth interns and projects (web)](../sources/UMass%20PIT%202026%20AI%20for%20the%20Commonwealth%20interns%20and%20projects%20%28web%29.md): 14 UMass students took a spring course and paid summer internships building AI prototypes for Massachusetts agencies, with the state IT office and AWS mentoring.
 - [UN Open Source Week 2026 agenda](../sources/UN%20Open%20Source%20Week%202026%20agenda.md): AI day sessions on public AI infrastructure and open source GenAI governance; UC Santa Cruz on a university OSPO panel.
+- [WEF Global Cybersecurity Outlook 2026 (web)](../sources/WEF%20Global%20Cybersecurity%20Outlook%202026%20%28web%29.md): Survey of 804 respondents: 57 percent of the public sector name the cyber skills shortage as a main challenge.
+- [WEF Making Agentic AI Work for Government 2026 (web)](../sources/WEF%20Making%20Agentic%20AI%20Work%20for%20Government%202026%20%28web%29.md): Readiness scores for 70 government functions; agentic AI as augmentation of public servants; investment in AI literacy and skills.
 
-### Trade (1)
+### Trade (3)
 
+- [GovAI Coalition Summit event page (web)](../sources/GovAI%20Coalition%20Summit%20event%20page%20%28web%29.md): GovAI Coalition: members from over 900 agencies in seven countries. Summit Dec. 9-10, 2026, San Jose; sessions on AI budgets, cooperative procurement, upskilling, data centers.
+- [Skills Caravan training vs development (web)](../sources/Skills%20Caravan%20training%20vs%20development%20%28web%29.md): Vendor blog: training is short-term and job-focused, development is long-term and growth-focused; not for a public report.
 - [StateScoop California CTO Ayushi Roy](../sources/StateScoop%20California%20CTO%20Ayushi%20Roy.md): Roy replaces Jonathan Porat; CIO Chris Given's priorities include digital identity and AI.
 
 Know a source this list is missing? Use **Suggest reading** on the site, or write to team@californiacompute.org with the subject "Suggested reading".

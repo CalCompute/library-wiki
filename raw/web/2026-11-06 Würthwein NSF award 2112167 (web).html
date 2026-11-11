@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <meta name="awardsearch/config/environment" content="%7B%22modulePrefix%22%3A%22awardsearch%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2Fawardsearch%2F%22%2C%22locationType%22%3A%22history%22%2C%22EmberENV%22%3A%7B%22EXTEND_PROTOTYPES%22%3Afalse%2C%22FEATURES%22%3A%7B%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_JQUERY_INTEGRATION%22%3Afalse%2C%22_NO_IMPLICIT_ROUTE_MODEL%22%3Atrue%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%22name%22%3A%22awardsearch%22%2C%22version%22%3A%221.4.0%2Bef58d3a4%22%7D%2C%22ember-meta%22%3A%7B%22title%22%3A%22NSF%20Award%20Search%20-%20National%20Science%20Foundation%22%2C%22description%22%3A%22Quickly%20find%20active%20and%20expired%20NSF-funded%20awards%20by%20searching%20for%20project%20title%2C%20awardee%20name%2C%20institution%2C%20or%20research%20topic.%22%7D%2C%22fastboot%22%3A%7B%22hostWhitelist%22%3A%5B%7B%7D%2C%22localhost%22%2C%22127.0.0.1%22%2C%22www.dev.nsf.gov%22%2C%22www.acpt.nsf.gov%22%2C%22www.nsf.gov%22%5D%7D%7D" />
+<!-- EMBER_CLI_FASTBOOT_TITLE -->  <meta name="ember-cli-head-start" content>
+  
+
+  <meta name="description" content="Find award details and explore award abstracts and publications.">
+<meta name="ember-cli-head-end" content>
+<title>Award Details - NSF Award Search</title>
+
+    <link rel="stylesheet" href="/awardsearch/assets/vendor-d41d8cd98f00b204e9800998ecf8427e.css">
+    <link rel="stylesheet" href="/awardsearch/assets/awardsearch-bca817eff70c1de734be36b2f6c7594c.css">
+
+    <script src="/awardsearch/assets/webtrends-fe9d76e4c1f19331a9940c5794d97dbd.js"></script>
+    <script>
+    var _tag = new WebTrends();
+    </script>
+    
+    
+  </head>
+  <body>
+    <script type="x/boundary" id="fastboot-body-start"></script>
+<!---->
+
+<div class="skip-links hideWhilePrinting" aria-label="Skip navigation links">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <a href="#primary-navigation" class="skip-link">Skip to navigation</a>
+</div>
+
+<div class="app-container" role="application" aria-label="NSF Award Search Application">
+  <header role="banner" class="hideWhilePrinting header-async">
+    <div class="header">
+<!----></div>
+
+    <nav id="primary-navigation" class="hideWhilePrinting">
+      <div id="primary_nav_wrap" class="tabs js-horizontal-tabs hideWhilePrinting" data-once="jsTabsWrapper">
+  <div class="tabs_nav_item">
+    <a id="ember155" class="ember-view tabs_button to-navigation" href="/awardsearch/simple-search">Simple Search</a>
+  </div>
+  <div class="tabs_nav_item">
+    <a id="ember156" class="ember-view tabs_button to-navigation" href="/awardsearch/advanced-search">Advanced Search</a>
+  </div>
+  <div class="tabs_nav_item">
+    <a id="ember157" class="ember-view tabs_button to-navigation" href="/awardsearch/popular-searches">Popular Searches</a>
+  </div>
+  <div class="tabs_nav_item">
+    <a id="ember158" class="ember-view tabs_button to-navigation" href="/awardsearch/download-awards">Download Awards</a>
+  </div>
+  <div class="tabs_nav_item">
+    <a id="ember159" class="ember-view tabs_button to-navigation" href="/awardsearch/contact-us">Contact Us     </a>
+  </div>
+  <div class="tabs_nav_item">
+    <a id="ember160" class="ember-view tabs_button to-navigation " href="/awardsearch/help">Award Search Help</a>
+  </div>
+</div>
+
+    </nav>
+  </header>
+  <main role="main" id="main-content" aria-label="Main content" tabindex="-1" class="main-async">
+    
+
+
+  <nav class="breadcrumb-navigation hideWhilePrinting" aria-label="Breadcrumb navigation">
+    <div class="breadcrumb-text">
+          <button class="breadcrumb-link" title="Go to Home" type="button">
+            Home
+          </button>
+          <span class="breadcrumb-separator" aria-hidden="true"> / </span>
+          <span class="breadcrumb-item current" aria-current="page">
+            Award Details (award number)
+          </span>
+<!---->    </div>
+  </nav>
+
+
+<div class="awards-help show-award-page">
+  <div id="maindiv">
+    <h1 id="pageNameBanner" class="hideWhilePrinting">
+      Award Details
+    </h1>
+    
+    <div class="content-layout">
+      <aside class="left-sidebar hideWhilePrinting" role="complementary" aria-label="Awards navigation">
+        <nav class="main-navigation" role="navigation" aria-label="Awards menu">
+          <h2 class="sr-only">Awards Navigation</h2>
+          <div class="nav-section">
+            <ul class="nav-list" role="list">
+              <li class="awards-header" role="listitem">
+                <a href="/about/index.jsp" class="awards-title"><strong>Awards</strong></a>
+              </li>
+              <li class="awards-image" role="listitem">
+                <img src="/awardsearch/images/common/left_nav/awards_left-26b71c3959914300dd24ab5609df1fe9.jpg" width="100%" height="68" alt aria-hidden="true">
+              </li>
+              <li><a href="/awardsearch" class="nav-link" target="_blank" rel="noopener noreferrer" title="Search Awards - opens in new window">Search Awards</a></li>
+              <li><a href="https://www.fastlane.nsf.gov/servlet/A6RecentWeeks" class="nav-link" target="_blank" rel="noopener noreferrer" title="Recent Awards - opens in new window">Recent Awards</a></li>
+              <li><a href="http://www.nsf.gov/awards/presidential.jsp" class="nav-link" target="_blank" rel="noopener noreferrer" title="Presidential and Honorary Awards - opens in new window">Presidential and Honorary Awards</a></li>
+              <li><a href="http://www.nsf.gov/awards/about.jsp" class="nav-link" target="_blank" rel="noopener noreferrer" title="About Awards - opens in new window">About Awards</a></li>
+              <li><a href="http://www.nsf.gov/awards/managing/index.jsp?org=NSF" class="nav-link" target="_blank" rel="noopener noreferrer" title="How to Manage Your Award - opens in new window">How to Manage Your Award</a></li>
+              <li><a href="http://www.nsf.gov/awards/managing/general_conditions.jsp?org=NSF" class="nav-link" target="_blank" rel="noopener noreferrer" title="Grant General Conditions - opens in new window">Grant General Conditions</a></li>
+              <li><a href="http://www.nsf.gov/awards/managing/co-op_conditions.jsp?org=NSF" class="nav-link" target="_blank" rel="noopener noreferrer" title="Cooperative Agreement Conditions - opens in new window">Cooperative Agreement Conditions</a></li>
+              <li><a href="http://www.nsf.gov/awards/managing/special_conditions.jsp?org=NSF" class="nav-link" target="_blank" rel="noopener noreferrer" title="Special Conditions - opens in new window">Special Conditions</a></li>
+              <li><a href="http://www.nsf.gov/bfa/dias/policy/" class="nav-link" target="_blank" rel="noopener noreferrer" title="Policy Office Website - opens in new window">Policy Office Website</a></li>
+            </ul>
+          </div>
+        </nav>
+      </aside>
+
+      <main class="award-main-content" role="main">
+          <div class="award-section">
+        <div class="clear">
+        <div class="pageheadsubline">
+          <strong>Award Abstract # </strong>
+        </div>
+        <div class="pageheadline"><strong>No Award Specified</strong></div>
+        <img src="images/common/greenline.jpg" alt aria-hidden="true" width="507" height="4">
+        </div>
+        
+        <table class="clear award-details-table" role="table" aria-label="Award details and information">
+          <tbody>
+<!---->            
+            <tr>
+              <td class="tabletext2" style="text-align: right; border-left: none;"><strong>NSF Org:</strong></td>
+              <td class="tabletext2" style="border-right: none;">
+                  <br>
+                  
+              </td>
+            </tr>
+            
+            <tr>
+              <td class="tabletext2" style="text-align: right;"><strong>Recipient:</strong></td>
+              <td class="tabletext2">
+                <span><!----></span>
+              </td>
+            </tr>
+            
+            <tr>
+              <td class="tabletext2" style="text-align: right;"><strong>Initial Amendment Date:</strong></td>
+              <td class="tabletext2"></td>
+            </tr>
+            
+<!---->            
+            <tr>
+              <td class="tabletext2" style="text-align: right;"><strong>Award Number:</strong></td>
+              <td class="tabletext2"></td>
+            </tr>
+            
+            <tr>
+              <td class="tabletext2" style="text-align: right;"><strong>Award Instrument:</strong></td>
+              <td class="tabletext2"></td>
+            </tr>
+            
+            <tr>
+              <td><strong>Program Manager:</strong></td>
+              <td>
+<!----><!----><!----><!----><!----><!----><!---->              </td>
+            </tr>
+            
+            <tr>
+              <td><strong>Start Date:</strong></td>
+              <td></td>
+            </tr>
+            
+            <tr>
+              <td><strong>End Date:</strong></td>
+              <td> (Estimated)</td>
+            </tr>
+            
+            <tr>
+              <td><strong>Total Intended Award Amount:</strong></td>
+              <td></td>
+            </tr>
+            
+            <tr>
+              <td><strong>Total Awarded Amount to Date:</strong></td>
+              <td></td>
+            </tr>
+            
+            <tr>
+              <td class="tabletext2" style="text-align: right;"><strong>Funds Obligated to Date:</strong></td>
+              <td class="tabletext2">
+<!---->              </td>
+            </tr>
+            
+<!---->            
+            <tr>
+              <td class="tabletext2" style="text-align: right;"><strong>History of Investigator:</strong></td>
+              <td class="tabletext2">
+<!---->                <!---->
+<!---->              </td>
+            </tr>
+            
+            <tr>
+              <td class="tabletext2" style="text-align: right;"><strong>Recipient Sponsored Research Office:</strong></td>
+              <td class="tabletext2">
+               
+<!----><!----><!----><!----><!----><!----><!---->              </td>
+            </tr>
+            
+            <tr>
+              <td class="tabletext2" style="text-align: right;"><strong>Sponsor Congressional District:</strong></td>
+              <td class="tabletext2">
+                  <span><!----></span>
+              </td>
+            </tr>
+            
+            <tr>
+              <td class="tabletext2" style="text-align: right;"><strong>Primary Place of Performance:</strong></td>
+              <td class="tabletext2">
+               
+<!----><!----><!----><!----><!----><!---->              </td>
+            </tr>
+            
+            <tr>
+              <td class="tabletext2" style="text-align: right;"><strong>Primary Place of Performance<br>Congressional District:</strong></td>
+              <td class="tabletext2">
+                  <span><!----></span>
+              </td>
+            </tr>
+            
+            <tr>
+              <td class="tabletext2" style="text-align: right;"><strong>Unique Entity Identifier (UEI):</strong></td>
+              <td class="tabletext2">
+                <span><!----></span>
+              </td>
+            </tr>
+            
+            <tr>
+              <td class="tabletext2" style="text-align: right;"><strong>Parent UEI:</strong></td>
+              <td class="tabletext2">
+                 <span><!----></span>
+              </td>
+            </tr>
+            
+            <tr>
+              <td class="tabletext2" style="text-align: right;"><strong>NSF Program(s):</strong></td>
+              <td class="tabletext2">
+<!---->              </td>
+            </tr>
+            
+            <tr>
+              <td class="tabletext2" style="text-align: right;"><strong>Primary Program Source:</strong></td>
+              <td class="tabletext2">
+<!---->              </td>
+            </tr>
+            
+            <tr>
+              <td class="tabletext2" style="text-align: right;"><strong>Program Reference Code(s):</strong></td>
+              <td class="tabletext2">
+               <span><!----></span>
+              </td>
+            </tr>
+            
+            <tr>
+              <td class="tabletext2" style="text-align: right;"><strong>Program Element Code(s):</strong></td>
+              <td class="tabletext2">
+                <span><!----></span>
+              </td>
+            </tr>
+            
+            <tr>
+              <td class="tabletext2" style="text-align: right;"><strong>Award Agency Code:</strong></td>
+              <td class="tabletext2">
+                <span><!----></span>
+              </td>
+            </tr>
+            
+            <tr>
+              <td class="tabletext2" style="text-align: right;"><strong>Fund Agency Code:</strong></td>
+              <td class="tabletext2">
+                <span><!----></span>
+              </td>
+            </tr>
+            
+            <tr>
+              <td class="tabletext2" style="text-align: right;"><strong>Assistance Listing Number(s):</strong></td>
+              <td class="tabletext2">
+                <span><!----></span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <!-- CARES Act funding note -->
+<!---->        
+        <br>
+        
+        <!-- Abstract -->
+        <section class="award-abstract" aria-labelledby="abstract-heading">
+          <h2 id="abstract-heading" class="greybold">ABSTRACT</h2>
+          <img src="/awardsearch/images/common/bluefade-1d0ac452e63d5c69903a0c7da39c2f85.jpg" alt aria-hidden="true" width="457" height="1">
+          <div class="abstract-content">
+            Not Available
+          </div>
+        </section>
+        
+        <!-- Publications -->
+<!---->        
+        <!-- Project Outcomes Report -->
+<!---->        
+        <p class="clear margintop25">
+          Please report errors in award information by writing to: <a href="mailto:awardsearch@nsf.gov">awardsearch@nsf.gov</a>.
+        </p>
+        
+        <!-- Complete POR Gallery JavaScript Functions -->
+        <script>
+          // Global POR Gallery variables
+          var photoTotal = 0;
+          var currentImageIndex = 1;
+          var galleryInitialized = false;
+          var currentModalGalleryId = '0';
+          var currentModalImageNumber = 1;
+          
+          // PopWin function to match Thymeleaf template functionality
+          function popwin(url) {
+            if (!url) return false;
+            
+            // Open popup window with specified dimensions and features
+            var popup = window.open(
+              url, 
+              '_blank',
+              'width=800,height=600,scrollbars=yes,resizable=yes,toolbar=no,location=no,directories=no,status=no,menubar=no,copyhistory=no'
+            );
+            
+            if (popup) {
+              popup.focus();
+            }
+            
+            return false;
+          }
+          
+          // Toggle citation function for showing/hiding additional citations
+          function toggleCitation() {
+            var toggleElements = document.querySelectorAll('.toggleTextCitation');
+            var showC1 = document.getElementById('showC1');
+            var showC2 = document.getElementById('showC2');
+            var showC3 = document.getElementById('showC3');
+            var showC4 = document.getElementById('showC4');
+            var displayTextC1 = document.getElementById('displayTextC1');
+            var displayTextC2 = document.getElementById('displayTextC2');
+            
+            var isCurrentlyHidden = toggleElements.length &gt; 0 &amp;&amp; toggleElements[0].style.display === 'none';
+            
+            toggleElements.forEach(function(element) {
+              element.style.display = isCurrentlyHidden ? 'block' : 'none';
+            });
+            
+            if (showC1 &amp;&amp; showC2) {
+              showC1.style.display = isCurrentlyHidden ? 'none' : 'block';
+              showC2.style.display = isCurrentlyHidden ? 'block' : 'none';
+            }
+            
+            if (showC3 &amp;&amp; showC4) {
+              showC3.style.display = isCurrentlyHidden ? 'none' : 'block';
+              showC4.style.display = isCurrentlyHidden ? 'block' : 'none';
+            }
+            
+            if (displayTextC1) {
+              displayTextC1.textContent = isCurrentlyHidden ? 'Show Less' : 'Show All';
+            }
+            
+            if (displayTextC2) {
+              displayTextC2.textContent = isCurrentlyHidden ? 'Show Less' : 'Show All';
+            }
+          }
+          
+          function galleriaOfJustice() {
+            if (galleryInitialized) return false;
+            
+            var galleries = document.querySelectorAll('.each-gallery');
+            if (galleries.length === 0) return false;
+            
+            galleries.forEach(function(gallery, galleryIndex) {
+              var thumbsItems = gallery.querySelectorAll('ul.thumbs li');
+              var photoTotal = thumbsItems.length;
+              
+              if (photoTotal === 0) return;
+              
+              var galleryId = gallery.querySelector('.galContent').id.replace('gallery', '');
+              var photoCountEl = document.getElementById('photoCount' + galleryId);
+              
+              // Update total count
+              if (photoCountEl &amp;&amp; photoTotal &gt; 1) {
+                var totalSpan = photoCountEl.querySelector('.totalNumber');
+                if (totalSpan) {
+                  totalSpan.textContent = photoTotal;
+                } else if (photoCountEl.innerHTML.includes(' of ')) {
+                  photoCountEl.innerHTML = photoCountEl.innerHTML.replace(/ of\s*\)/, ' of &lt;span class="totalNumber"&gt;' + photoTotal + '&lt;/span&gt;)');
+                }
+                
+                // Add navigation for multi-image galleries
+                if (!photoCountEl.querySelector('.nav-controls')) {
+                  photoCountEl.innerHTML += '&lt;div class="nav-controls"&gt;&lt;a class="prev previousImage" data-gallery="' + galleryId + '" href="#" title="Previous Image"&gt;&lt;/a&gt;&lt;a class="next nextImage" data-gallery="' + galleryId + '" href="#" title="Next Image"&gt;&lt;/a&gt;&lt;/div&gt;';
+                  photoCountEl.style.display = 'flex';
+                  photoCountEl.style.justifyContent = 'space-between';
+                  photoCountEl.style.alignItems = 'center';
+                }
+              }
+              
+              // Add click handlers
+              thumbsItems.forEach(function(li, index) {
+                var link = li.querySelector('a');
+                if (link) {
+                  link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    selectPORImage(index + 1, galleryId);
+                  });
+                }
+                if (index === 0) li.classList.add('selected');
+              });
+              
+              // Initialize first image
+              selectPORImage(1, galleryId);
+            });
+            
+            galleryInitialized = true;
+            return true;
+          }
+          
+          function selectPORImage(imageNumber, galleryId) {
+            galleryId = galleryId || '0';
+            
+            var thumbnailItems = document.querySelectorAll('#thumbs' + galleryId + ' li');
+            var photoTotal = thumbnailItems.length;
+            
+            if (imageNumber &lt;= 0) imageNumber = photoTotal;
+            if (imageNumber &gt;= photoTotal + 1) imageNumber = 1;
+            
+            var selectedPhoto = document.getElementById('selectedPhoto' + galleryId);
+            if (selectedPhoto) selectedPhoto.textContent = imageNumber;
+            
+            var slideshow = document.getElementById('slideshow' + galleryId);
+            
+            thumbnailItems.forEach(function(li, index) {
+              li.classList.remove('selected');
+              if (index === imageNumber - 1) {
+                li.classList.add('selected');
+                
+                var link = li.querySelector('a');
+                if (link &amp;&amp; slideshow) {
+                  var originalUrl = link.getAttribute('original');
+                  var title = link.getAttribute('title') || '';
+                  
+                  slideshow.innerHTML = '&lt;img src="' + originalUrl + '" alt="' + title + '" title="' + title + '" style="max-width: 100%; height: auto;" onclick="openPORImageModal(' + imageNumber + ', \'' + galleryId + '\')" /&gt;';
+                }
+              }
+            });
+          }
+          
+          function openPORImageModal(imageNumber, galleryId) {
+            galleryId = galleryId || '0';
+            currentModalGalleryId = galleryId;
+            currentModalImageNumber = imageNumber;
+            var thumbnailItems = document.querySelectorAll('#thumbs' + galleryId + ' li');
+            
+            if (!thumbnailItems || imageNumber &lt;= 0 || imageNumber &gt;= thumbnailItems.length + 1) return;
+            
+            var selectedThumbnail = thumbnailItems[imageNumber - 1];
+            var link = selectedThumbnail.querySelector('a');
+            var imageCaptionContainer = selectedThumbnail.querySelector('.imageCaptionContainer');
+            
+            if (!link) return;
+            
+            var largeImageUrl = link.getAttribute('original') || link.getAttribute('href');
+            var imageTitle = link.getAttribute('title') || '';
+            
+            var modalImage = document.getElementById('modalImage');
+            var modal = document.getElementById('porImageModal');
+            
+            if (modalImage &amp;&amp; modal) {
+              modalImage.src = largeImageUrl;
+              modalImage.alt = imageTitle;
+              
+              var modalImageCount = document.getElementById('modalImageCount');
+              if (modalImageCount) {
+                modalImageCount.textContent = 'Image ' + imageNumber + ' of ' + thumbnailItems.length;
+              }
+              
+              // Extract and populate image metadata
+              if (imageCaptionContainer) {
+                var imageCaption = imageCaptionContainer.querySelector('.imageCaption');
+                var modalImageCaption = document.getElementById('modalImageCaption');
+                if (imageCaption &amp;&amp; modalImageCaption) {
+                  var captionValue = modalImageCaption.querySelector('.info-value');
+                  captionValue.textContent = imageCaption.textContent || '';
+                  modalImageCaption.style.display = imageCaption.textContent ? 'block' : 'none';
+                }
+                
+                var imageCredit = imageCaptionContainer.querySelector('.imageCredit');
+                var modalImageCredit = document.getElementById('modalImageCredit');
+                if (imageCredit &amp;&amp; modalImageCredit) {
+                  var creditValue = modalImageCredit.querySelector('.info-value');
+                  creditValue.textContent = imageCredit.textContent || '';
+                  modalImageCredit.style.display = imageCredit.textContent ? 'block' : 'none';
+                }
+                
+                var imagePermissions = imageCaptionContainer.querySelector('.imagePermisssions');
+                var modalImagePermissions = document.getElementById('modalImagePermissions');
+                if (imagePermissions &amp;&amp; modalImagePermissions) {
+                  var permissionsValue = modalImagePermissions.querySelector('.info-value');
+                  permissionsValue.textContent = imagePermissions.textContent || '';
+                  modalImagePermissions.style.display = imagePermissions.textContent ? 'block' : 'none';
+                }
+                
+                var imageSubmitted = imageCaptionContainer.querySelector('.imageSubmitted');
+                var modalImageSubmitted = document.getElementById('modalImageSubmitted');
+                if (imageSubmitted &amp;&amp; modalImageSubmitted) {
+                  var submittedValue = modalImageSubmitted.querySelector('.info-value');
+                  var submittedText = imageSubmitted.childNodes[0] ? imageSubmitted.childNodes[0].textContent.trim() : '';
+                  submittedValue.textContent = submittedText || '';
+                  modalImageSubmitted.style.display = submittedText ? 'block' : 'none';
+                }
+                
+                var imageTitleEl = imageCaptionContainer.querySelector('.imageTitle');
+                var modalImageTitle = document.getElementById('modalImageTitle');
+                if (imageTitleEl &amp;&amp; modalImageTitle) {
+                  var titleValue = modalImageTitle.querySelector('.info-value');
+                  titleValue.textContent = imageTitleEl.textContent || '';
+                  modalImageTitle.style.display = imageTitleEl.textContent ? 'block' : 'none';
+                }
+              } else {
+                document.querySelectorAll('#modalImageInfo .info-row').forEach(function(row) {
+                  row.style.display = 'none';
+                });
+              }
+              
+              modal.classList.add('active');
+              modal.style.display = 'flex';
+              modalImage.focus();
+            }
+          }
+          
+          function navigateModalImage(direction) {
+            var thumbnailItems = document.querySelectorAll('#thumbs' + currentModalGalleryId + ' li');
+            var totalImages = thumbnailItems.length;
+            
+            if (totalImages &lt;= 1) return;
+            
+            var newImageNumber = currentModalImageNumber + direction;
+            
+            if (newImageNumber &gt;= totalImages + 1) {
+              newImageNumber = 1;
+            } else if (newImageNumber &lt;= 0) {
+              newImageNumber = totalImages;
+            }
+            
+            openPORImageModal(newImageNumber, currentModalGalleryId);
+          }
+          
+          function closePORImageModal() {
+            var modal = document.getElementById('porImageModal');
+            if (modal) {
+              modal.classList.remove('active');
+              modal.style.display = 'none';
+            }
+          }
+          
+          // Initialize POR gallery setup
+          function initializePORGallerySetup() {
+            var porContent = document.getElementById('porContent');
+            if (porContent) {
+              if (porContent.innerHTML.trim() !== '') {
+                setTimeout(galleriaOfJustice, 100);
+              }
+              
+              var observer = new MutationObserver(function(mutations) {
+                mutations.forEach(function(mutation) {
+                  if (mutation.type === 'childList' &amp;&amp; mutation.addedNodes.length &gt; 0) {
+                    setTimeout(galleriaOfJustice, 100);
+                  }
+                });
+              });
+              
+              observer.observe(porContent, { childList: true, subtree: true });
+            }
+            
+            setTimeout(function() { if (photoTotal === 0) galleriaOfJustice(); }, 500);
+            setTimeout(function() { if (photoTotal === 0) galleriaOfJustice(); }, 1500);
+          }
+          
+          // Navigation event handlers
+          document.addEventListener('click', function(e) {
+            if (e.target.classList.contains('previousImage')) {
+              e.preventDefault();
+              var galleryId = e.target.getAttribute('data-gallery') || '0';
+              var thumbnailItems = document.querySelectorAll('#thumbs' + galleryId + ' li');
+              var photoTotal = thumbnailItems.length;
+              
+              if (photoTotal &lt;= 1) return;
+              
+              var selectedPhoto = document.getElementById('selectedPhoto' + galleryId);
+              var current = parseInt(selectedPhoto ? selectedPhoto.textContent : 1);
+              var previous = current - 1;
+              
+              if (previous &gt;= 1) {
+                selectPORImage(previous, galleryId);
+              } else {
+                selectPORImage(photoTotal, galleryId);
+              }
+            }
+            
+            if (e.target.classList.contains('nextImage')) {
+              e.preventDefault();
+              var galleryId = e.target.getAttribute('data-gallery') || '0';
+              var thumbnailItems = document.querySelectorAll('#thumbs' + galleryId + ' li');
+              var photoTotal = thumbnailItems.length;
+              
+              if (photoTotal &lt;= 1) return;
+              
+              var selectedPhoto = document.getElementById('selectedPhoto' + galleryId);
+              var current = parseInt(selectedPhoto ? selectedPhoto.textContent : 1);
+              var next = current + 1;
+              
+              if (next &lt;= photoTotal) {
+                selectPORImage(next, galleryId);
+              } else {
+                selectPORImage(1, galleryId);
+              }
+            }
+          });
+          
+          // Initialize when DOM is ready
+          if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', function() {
+              initializePORGallerySetup();
+            });
+          } else {
+            initializePORGallerySetup();
+          }
+          
+          // Close modal on escape key
+          document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' || e.keyCode === 27) {
+              closePORImageModal();
+            }
+          });
+        </script>
+        
+        <p id="printFriendly2" class="clear margintop25 hideWhilePrinting">
+          <a href="javascript:printerFriendlyView();" class="print-button">
+            <img src="images/common/printpage.gif" width="134" height="23" alt="Print this page" onerror="this.style.display='none'; this.parentNode.classList.add('fallback-print-btn');">
+            <span class="fallback-text">🖨️ Print this page</span>
+          </a>
+        </p>
+        
+        
+
+        
+        </div>
+              </main>
+    </div>
+  </div>
+</div>
+
+
+  </main>
+  
+  <footer role="contentinfo" class="hideWhilePrinting footer-async">
+    <div class="footer hideWhilePrinting">
+<!----></div>
+
+  </footer>
+</div>
+
+<div id="aria-live-region" aria-live="polite" aria-atomic="true" class="sr-only"></div>
+<div id="aria-live-region-assertive" aria-live="assertive" aria-atomic="true" class="sr-only"></div>
+<script type="x/boundary" id="fastboot-body-end"></script>
+
+    <script src="/awardsearch/assets/vendor-0b5446bc56f2f0eb6e447ba02b7976a5.js"></script>
+<script src="/awardsearch/assets/chunk.936.7f8ed5c5ebd943fdaefd.js"></script>
+<script src="/awardsearch/assets/chunk.524.7c72181eafa2440e8b79.js"></script>
+    <script src="/awardsearch/assets/awardsearch-f30885e2c630bdc91fbcaec0c4953e34.js"></script>
+
+    
+  </body>
+</html>

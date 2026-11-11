@@ -2,7 +2,7 @@
 title: LBNL 2024 US Data Center Energy Usage Report
 type: source
 created: 2026-10-28
-updated: 2026-10-28
+updated: 2026-11-10
 tags: [A, B, energy, data-centers, water, federal]
 elements: [B, A]
 origin: shared
@@ -27,7 +27,9 @@ Shehabi, Arman, Sarah Josephine Smith, Alex Hubbard, Alexander Newkirk, Nuoa Lei
 
 ## Background
 
-The Energy Act of 2020 asks the U.S. Department of Energy to update the LBNL report of 2016. This report is "designed to meet that Congressional request" (p. 5). It is the third such report "released over nearly 20 years" (p. 67). The DOE Office of Energy Efficiency and Renewable Energy funded it (title page). Analyst firms Omdia, Dell'Oro Group, S&P Global and the International Data Corporation gave input data (Acknowledgements).
+The Energy Act of 2020 asks the U.S. Department of Energy to update the LBNL report of 2016. This report is "designed to meet that Congressional request" (p. 5). It is the third such report "released over nearly 20 years" (p. 67). The DOE Office of Energy Efficiency and Renewable Energy funded it (title page).
+
+The report gives its place as "Lawrence Berkeley National Laboratory, Berkeley, California" (Citation). It says that LBNL "is supported by the Office of Science of the United States Department of Energy" (Acknowledgements). Analyst firms Omdia, Dell'Oro Group, S&P Global and the International Data Corporation gave input data (Acknowledgements).
 
 ## Key claims
 

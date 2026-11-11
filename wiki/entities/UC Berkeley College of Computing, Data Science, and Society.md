@@ -2,8 +2,8 @@
 title: "UC Berkeley College of Computing, Data Science, and Society"
 type: entity
 created: 2026-10-15
-updated: 2026-10-29
-source_count: 4
+updated: 2026-11-05
+source_count: 5
 tags: [institution, publisher]
 kind: institution
 elements: [A, B, C, E, F]
@@ -25,8 +25,9 @@ elements: [A, B, C, E, F]
 
 ## Sources
 
-Publisher of 2 sources in this library.
+Publisher of 3 sources in this library.
 
+- [Berkeley Data Science Discovery partner page (web)](../sources/Berkeley%20Data%20Science%20Discovery%20partner%20page%20%28web%29.md)
 - [California Report on Frontier AI Policy 2025-06-17](../sources/California%20Report%20on%20Frontier%20AI%20Policy%202025-06-17.md)
 - [CloudBank at Berkeley](../sources/CloudBank%20at%20Berkeley.md)
 - [Governor AI working group release 2025-03-18](../sources/Governor%20AI%20working%20group%20release%202025-03-18.md)

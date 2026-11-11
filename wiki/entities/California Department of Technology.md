@@ -2,8 +2,8 @@
 title: "California Department of Technology"
 type: entity
 created: 2026-10-15
-updated: 2026-10-30
-source_count: 17
+updated: 2026-11-09
+source_count: 20
 tags: [institution, publisher]
 kind: institution
 elements: [A, B, C, D, F, G]
@@ -26,6 +26,7 @@ elements: [A, B, C, D, F, G]
 - CDT oversees "statewide IT strategic planning, project delivery, procurement, policy and standards, and enterprise architecture". It is "Home to the State Data Center", and its Director is the State CIO ([CDT About the Department](../sources/CDT%20About%20the%20Department.md)).
 - Its Training & Education Center runs IT leadership academies and a "GenAI Boot Camp" for public sector staff ([CDT workforce development](../sources/CDT%20workforce%20development.md)). Its AI community of practice meets about every two months, with UC speakers ([CDT AI community of practice](../sources/CDT%20AI%20community%20of%20practice.md)).
 - State IT jobs map to a few classifications, Information Technology Technician to Manager II. "Machine Learning Engineer" and "Cloud Architect" are state titles ([CDT IT Classification Mapping](../sources/CDT%20IT%20Classification%20Mapping.md); [CDT career opportunities](../sources/CDT%20career%20opportunities.md)).
+- Its Technology Letter 25-01 set the state's GenAI policies, State Administrative Manual (SAM) 4986.1 to 4986.13, effective Feb. 20, 2025. They apply "to all GenAI procured or developed by a state entity" ([CDT Technology Letter 25-01 (web)](../sources/CDT%20Technology%20Letter%2025-01%20%28web%29.md)). Its model GenAI contract terms make State prompts and their output State Data ([CDT GenAI Special Provisions January 2025 (web)](../sources/CDT%20GenAI%20Special%20Provisions%20January%202025%20%28web%29.md)).
 - CDT's new SITeS portal offers Anthropic's Claude to state agencies ([GovOps more efficient California](../sources/GovOps%20more%20efficient%20California.md)).
 
 ## Affiliations
@@ -34,14 +35,16 @@ elements: [A, B, C, D, F, G]
 
 ## Sources
 
-Publisher of 10 sources in this library.
+Publisher of 13 sources in this library.
 
 - [CDT About the Department](../sources/CDT%20About%20the%20Department.md)
 - [CDT AI community of practice](../sources/CDT%20AI%20community%20of%20practice.md)
 - [CDT career opportunities](../sources/CDT%20career%20opportunities.md)
 - [CDT executive team](../sources/CDT%20executive%20team.md)
+- [CDT GenAI Special Provisions January 2025 (web)](../sources/CDT%20GenAI%20Special%20Provisions%20January%202025%20%28web%29.md)
 - [CDT homepage](../sources/CDT%20homepage.md)
 - [CDT IT Classification Mapping](../sources/CDT%20IT%20Classification%20Mapping.md)
+- [CDT Technology Letter 25-01 (web)](../sources/CDT%20Technology%20Letter%2025-01%20%28web%29.md)
 - [CDT workforce development](../sources/CDT%20workforce%20development.md)
 - [Governor appointments 2026-04-29 (web)](../sources/Governor%20appointments%202026-04-29%20%28web%29.md)
 - [Governor appointments 2026-08-19](../sources/Governor%20appointments%202026-08-19.md)
@@ -53,3 +56,4 @@ Publisher of 10 sources in this library.
 - [Poppy Terms of Use (web)](../sources/Poppy%20Terms%20of%20Use%20%28web%29.md)
 - [StateScoop California CTO Ayushi Roy](../sources/StateScoop%20California%20CTO%20Ayushi%20Roy.md)
 - [Zakem Berkeley I School profile (web)](../sources/Zakem%20Berkeley%20I%20School%20profile%20%28web%29.md)
+- [CDT Anthropic partnership expansion 2026-07 (web)](../sources/CDT%20Anthropic%20partnership%20expansion%202026-07%20%28web%29.md)

@@ -15,7 +15,7 @@ This library is a tool to navigate and explore the research. An AI agent keeps i
 
 ## Suggest reading or ask a question
 
-Write to team@californiacompute.org with the subject "Suggested reading". Give the link, what it is, and the element it is about. A consortium member reads every suggestion. The [Suggestions](wiki/analyses/Suggestions.md) page shows what came in and what happened to it, without names.
+Press **Suggest or correct** on any page of [the library](https://research.californiacompute.org/#suggest). Send a source, a correction, data or a question, with a link and the element it is about if you know them. A consortium member reads every suggestion, and nothing changes until a person makes the change. The [Suggestions](wiki/analyses/Suggestions.md) page shows what came in and what happened to it, without names. The sources the consortium's own research uses arrive on the same page, already approved.
 
 ## How it is built
 

@@ -2,8 +2,8 @@
 title: "California State Assembly"
 type: entity
 created: 2026-11-01
-updated: 2026-11-01
-source_count: 1
+updated: 2026-11-09
+source_count: 2
 tags: [institution, publisher]
 kind: institution
 ---
@@ -12,6 +12,7 @@ kind: institution
 
 ## Sources
 
-Publisher of 1 source in this library.
+Publisher of 2 sources in this library.
 
 - [2026-10-14 SB-53 Assembly Floor analysis](../sources/2026-10-14%20SB-53%20Assembly%20Floor%20analysis.md)
+- [AB 2392 Assembly committee analysis](../sources/AB%202392%20Assembly%20committee%20analysis.md)

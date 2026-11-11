@@ -6,7 +6,7 @@
   "folder": false,
   "id": "1TS7qPrs_0D_XHt93cevJvo-GeeTKB8AetZkV9ZTW0xk",
   "mime": "application/vnd.google-apps.document",
-  "modified": "2026-11-02T18:36:10.751Z",
+  "modified": "2026-11-06T23:35:42.022Z",
   "name": "0 - LIBRARY GUIDE",
   "path": "CalCompute Library",
   "url": "https://docs.google.com/document/d/1TS7qPrs_0D_XHt93cevJvo-GeeTKB8AetZkV9ZTW0xk/edit?usp=drivesdk"
@@ -98,6 +98,18 @@
  {
   "bot": "writes",
   "by": "",
+  "copy": "raw/web/2026-11-06 FCC Consumer Advisory Committee twelfth term members (web).md",
+  "folder": false,
+  "id": "15X8EWE4SMg0QJKh7YYGNCJBu2iQ4fxH8",
+  "mime": "application/pdf",
+  "modified": "2026-11-06T22:48:43.119Z",
+  "name": "FCC Consumer Advisory Committee twelfth term members (web) (Federal Communications Commission, 2024-02-20)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/15X8EWE4SMg0QJKh7YYGNCJBu2iQ4fxH8/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
   "copy": "raw/web/2026-10-20 Fei-Fei Li Senate testimony on AI acquisition and procurement.md",
   "folder": false,
   "id": "1gG5tzhr0XRLDLv5NWMQnlfsKcIsDXpdR",
@@ -134,6 +146,30 @@
  {
   "bot": "writes",
   "by": "",
+  "copy": "raw/web/2026-11-05 NSF AI-Ready America Workshop Report.md",
+  "folder": false,
+  "id": "14tLUuKn03M1sJZX-vyisHQlrGsR6Zb9x",
+  "mime": "application/pdf",
+  "modified": "2026-11-05T18:05:24.439Z",
+  "name": "NSF AI-Ready America Workshop Report (U.S. National Science Foundation)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/14tLUuKn03M1sJZX-vyisHQlrGsR6Zb9x/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-06 Newsom SB 1047 veto message 2024-09-29 (web).md",
+  "folder": false,
+  "id": "1P_QtASHBF3lROeWa0o_HISv9e7jMf1xe",
+  "mime": "application/pdf",
+  "modified": "2026-11-06T22:48:45.295Z",
+  "name": "Newsom SB 1047 veto message 2024-09-29 (web) (Office of Governor Gavin Newsom, 2024-09-29)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1P_QtASHBF3lROeWa0o_HISv9e7jMf1xe/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
   "copy": "raw/shared/2026-10-28 PEARC 2025 Cultivating Computational Equity Central Valley.md",
   "folder": false,
   "id": "1RZj3jR_IeH3ZMxUpSjBAQS_pbmK3xBVs",
@@ -166,6 +202,18 @@
   "name": "Poppy Terms of Use (California Department of Technology)",
   "path": "CalCompute Library",
   "url": "https://drive.google.com/file/d/1mSb9YAcM3glnu9k2JwJs7VOz48jCYURe/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-06 Rivas Assembly Daily Journal 2023-06-30 (web).md",
+  "folder": false,
+  "id": "1bdEJtq7Y2CBsGGXvLujgB-JHZ-i4zkyz",
+  "mime": "application/pdf",
+  "modified": "2026-11-06T22:48:47.124Z",
+  "name": "Rivas Assembly Daily Journal 2023-06-30 (web) (California State Assembly, Office of the Chief Clerk, 2023-06-30)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1bdEJtq7Y2CBsGGXvLujgB-JHZ-i4zkyz/view?usp=drivesdk"
  },
  {
   "bot": "writes",
@@ -234,7 +282,7 @@
   "folder": false,
   "id": "1OkhXriCZg9QwSQ6KU4IlMOvT7XZ5qXtfLrFfzchoNnQ",
   "mime": "application/vnd.google-apps.document",
-  "modified": "2026-11-02T18:35:02.351Z",
+  "modified": "2026-11-06T23:34:33.244Z",
   "name": "0 - LEGISLATIVE CONTENTS",
   "path": "CalCompute Library/Legislative Sources",
   "url": "https://docs.google.com/document/d/1OkhXriCZg9QwSQ6KU4IlMOvT7XZ5qXtfLrFfzchoNnQ/edit?usp=drivesdk"

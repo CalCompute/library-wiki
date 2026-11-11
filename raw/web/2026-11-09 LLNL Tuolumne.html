@@ -1,0 +1,2270 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<noscript><style>form.antibot * :not(.antibot-message) { display: none !important; }</style>
+</noscript><script>var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://analytics.llnl.gov/" : "http://analytics.llnl.gov/");_paq.push(["setSiteId", "149"]);_paq.push(["setTrackerUrl", u+"matomo.php"]);_paq.push(["setDoNotTrack", 1]);pingUserType('https://osc.llnl.gov/ping/');
+
+function pingUserType(url, callbackFn) {
+    /**
+     * pings the specified URL, and stores last result in localStorage, if possible
+     * if localStorage cache is marked as an internal user, will send to Matomo
+     * without ping re-verification.
+     *  */
+    var pingKey = 'userType',
+        defaultUserType = 'Anonymous',
+        internalUserType = 'Internal',
+        userType = defaultUserType;
+
+    // check localStorage cache (previous pings) for userType, if possible
+    if ("localStorage" in window) {
+        userType = localStorage.getItem(pingKey) || defaultUserType;
+    }
+
+    // if identified as internal from localStorage cache, record as internal
+    if (userType === internalUserType) {
+        recordUserType(userType);
+        return;
+    }
+
+    // use ping URL to attempt to determine user type
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+        if (this.readyState == 4) {
+            var isSuccess = this.status >= 200 && this.status < 400;
+            if (isSuccess) {
+                userType = internalUserType;
+            }
+            recordUserType(userType);
+        }
+    };
+
+    // consider a timeout to be an unsuccessful attempt
+    xhr.ontimeout = function() {
+        recordUserType(userType);
+        callbackFn();
+    };
+    xhr.timeout = 500;
+    xhr.open('GET', url, true);
+    xhr.send();
+
+    function recordUserType(userType) {
+        if (typeof _paq !== 'undefined') {
+            _paq.push(['setCustomDimension', 1, userType, 'visit']);
+            // ensures the custom Dimension is recorded in the page view in Matomo
+            _paq.push(["trackPageView"]);
+        }
+        if ("localStorage" in window) {
+            localStorage.setItem(pingKey, userType);
+        }
+    }
+}if (!window.matomo_search_results_active) {_paq.push(["trackPageView"]);}_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"matomo.js";s.parentNode.insertBefore(g,s);})();</script>
+<meta name="description" content="Details about Tuolumne, a supercomputer at Lawrence Livermore National Lab." />
+<link rel="canonical" href="https://hpc.llnl.gov/hardware/compute-platforms/tuolumne" />
+<meta name="modified" content="2026-10-23T14:53:20-07:00" />
+<meta name="Generator" content="Drupal 11 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<link rel="icon" href="/themes/contrib/lwds-drupal/images/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Tuolumne | HPC @ LLNL</title>
+    <link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/core/modules/filter/css/filter.caption.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/core/modules/media/css/filter.caption.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/modules/contrib/back_to_top/css/back_to_top.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/modules/contrib/ckeditor_accordion/css/accordion.frontend.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/modules/contrib/extlink/css/extlink.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/libraries/mmenu/dist/mmenu.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/libraries/mmenu/dist/wrappers/bootstrap/mmenu.bootstrap.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/responsive_menu_breakpoint.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/modules/contrib/responsive_menu/css/responsive_menu.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/custom/hpc/css/style.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/variables.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/user.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/progress.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/node.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/breadcrumb.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/form.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/affix.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/book.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/contextual.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/feed-icon.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/field.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/header.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/help.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/icons.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/image-button.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/item-list.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/list-group.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/media.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/page.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/search-form.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/shortcut.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/sidebar.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/site-footer.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/skip-link.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/table.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/tabledrag.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/tableselect.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/tablesort-indicator.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/ui.widget.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/tabs.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/toolbar.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/vertical-tabs.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/views.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/webform.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/ui-dialog.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/core/../themes/contrib/bootstrap_barrio/components/menu/menu.css?to9hpk" />
+<link rel="stylesheet" media="all" href="/themes/custom/hpc/css/messages.css?to9hpk" />
+<link rel="stylesheet" media="all" href="//use.fontawesome.com/releases/v5.13.0/css/all.css" />
+<link rel="stylesheet" media="all" href="/themes/contrib/lwds-drupal/css/llnl.min.css?to9hpk" />
+<link rel="stylesheet" media="print" href="/themes/contrib/bootstrap_barrio/css/print.css?to9hpk" />
+<link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700,800,800i&amp;display=swap" />
+
+    <script src="/libraries/fontawesome/js/all.min.js?v=6.4.2" defer></script>
+<script src="/libraries/fontawesome/js/v4-shims.min.js?v=6.4.2" defer></script>
+
+  </head>
+  <body class="layout-one-sidebar layout-sidebar-first page-node-1266 path-node node--type-user-portal-systems">
+    <a href="#main-content" class="visually-hidden-focusable">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="page-wrapper">
+  <div id="page">
+    <header id="header" class="header" role="banner" aria-label="Site header">
+                                  
+<header class="navbar navbar-expand-lg navbar-default navbar-fixed-top" id="navbar-main" id="navbar" role="banner" aria-label="Site header">
+  <section class="usa-banner" aria-label="Official website of the United States government"">
+    <div class="usa-accordion container">
+      <div class="usa-banner__inner">
+        <img aria-hidden="true" class="usa-banner__header-flag" src="/themes/contrib/lwds-drupal/images/flag.png" alt="" />
+        <p class="usa-banner__header-text">An official website of the United States government</p>
+        <p class="usa-banner__header-action" aria-hidden="true">Here's how you know</p>
+        <button type="button" class="usa-accordion__button usa-banner__button" data-bs-toggle="collapse" data-bs-target="#gov-banner" aria-expanded="false" aria-controls="gov-banner">
+            <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
+      <div id="gov-banner" class="usa-banner__content usa-accordion__content row collapse" id="gov-banner">
+        <div class="usa-media-block__body col-12 col-md-6 col-lg-5">
+          <img class="usa-banner__icon usa-media-block__img" src="/themes/contrib/lwds-drupal/images/icon-dot-gov.svg" role="img" alt="" aria-hidden="true"/>
+          <p><strong>Official websites use .gov</strong><br />A <strong>.gov</strong> website belongs to an official government organization in the United States.</p>
+        </div>
+        <div class="usa-media-block__body col-12 col-md-6 col-lg-5">
+          <img class="usa-banner__icon usa-media-block__img" src="/themes/contrib/lwds-drupal/images/icon-https.svg" role="img" alt="" aria-hidden="true" />
+          <p><strong>Secure .gov websites use HTTPS</strong><br />A <strong>lock</strong> (<span class="icon-lock">
+          <svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-description-default" focusable="false">
+            <title id="banner-lock-title-default">Lock</title>
+            <desc id="banner-lock-description-default">Locked padlock icon</desc>
+            <path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+          </svg>
+          </span>) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div id="llnl-menu">
+    <div class="container">
+      <ul class="llnl-nav">
+        <li><a href="https://www.llnl.gov/purpose">Our Purpose</a></li>
+        <li><a href="https://www.llnl.gov/science-technology">Our Science and Technology</a></li>
+        <li><a href="https://www.llnl.gov/join-our-team">Join Our Team</a></li>
+        <li><a href="https://www.llnl.gov/partner">Partner with Us</a></li>
+        <li><a href="https://www.llnl.gov/news">News</a></li>
+        <li><a href="https://www.llnl.gov/community-education">Community and Education</a></li>
+        <li><a href="https://www.llnl.gov/about">About</a></li>
+      </ul>
+    </div>
+  </div>
+
+    <div class="container menu-wrap">
+    
+    <div class="llnl-logo-wrap">
+      <div id="llnl-logo">
+        <a href="https://www.llnl.gov"><img src="/themes/contrib/lwds-drupal/images/llnl-logo.png" alt="LLNL Logo" /></a>
+      </div>
+    </div>
+    <div class="nav-wrap">
+      <div id="llnl-org">
+        <div class="site-text-container">
+          <div class="site-text">
+            <a href="https://hpc.llnl.gov/" title="Home" rel="home">HPC @ LLNL</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-header">
+          <nav role="navigation" aria-labelledby="block-computing-main-menu-menu" id="block-computing-main-menu" class="block block-menu navigation menu--menu-user-portal-menu">
+            
+  <h2 class="visually-hidden" id="block-computing-main-menu-menu">Main Menu--Top Nav</h2>
+  
+
+        
+              <ul class="clearfix nav navbar-nav">
+                    <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/about-us" class="nav-link" aria-expanded="false" data-drupal-link-system-path="node/902">About Livermore Computing</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item menu-item--collapsed">
+                          <a href="/#Contact" data-drupal-link-system-path="&lt;front&gt;">Contact Us</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/about-livermore-computing/livermore-computing-resources-overview" data-drupal-link-system-path="node/901">Livermore Computing Resources Overview</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/si-ml-lc" data-drupal-link-system-path="node/1316">SI/ML @ LC</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/about-livermore-computing/mission-support" data-drupal-link-system-path="node/900">Mission Support</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/about-livermore-computing/our-users" data-drupal-link-system-path="node/897">Our Users</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/site-map" data-drupal-link-system-path="node/881">Site Map</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/accounts" class="nav-link" aria-expanded="false" data-drupal-link-system-path="node/73">Accounts</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/accounts/new-account-setup" data-drupal-link-system-path="node/89">New Account Setup</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/accounts/idm" data-drupal-link-system-path="node/1124">Identity Management (IDM)</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/accounts/accessing-lc-systems" data-drupal-link-system-path="node/1404">Accessing LC Systems</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/accounts/computer-coordinator-roles" data-drupal-link-system-path="node/464">Computer Coordinator Roles</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/accounts/data-sharing-livermore-computing" data-drupal-link-system-path="node/1297">Data Sharing in Livermore Computing</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/accounts/forms" data-drupal-link-system-path="node/13">Forms</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/accounts/lc-mailing-lists" data-drupal-link-system-path="node/459">Mailing Lists</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/accounts/policies" data-drupal-link-system-path="node/342">Policies</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/banks-allocations-and-jobs" class="nav-link" aria-expanded="false" data-drupal-link-system-path="node/17">Banks &amp; Jobs</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/banks-jobs/allocations-and-priority" data-drupal-link-system-path="node/953">Allocations</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/banks-jobs/banks" data-drupal-link-system-path="node/1430">Banks</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/banks-jobs/running-jobs" data-drupal-link-system-path="node/394">Running Jobs</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/accounts/forms/asc-dat">ASC DAT Request</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/accounts/forms/m-ic-dedicated-application-time-request" data-drupal-link-system-path="node/705">M&amp;IC DAT Request</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded active dropdown">
+                          <a href="/hardware" class="nav-link active" aria-expanded="false" data-drupal-link-system-path="node/15">Hardware</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item menu-item--collapsed active">
+                          <a href="/hardware/compute-platforms" class="active" data-drupal-link-system-path="node/326">Compute Platforms</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/hardware/compute-platforms-gpus" data-drupal-link-system-path="node/697">Compute Platforms with GPUs</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/hardware/file-systems" data-drupal-link-system-path="node/23">File Systems</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/hardware/storage-data-transfer-clusters" data-drupal-link-system-path="node/333">Storage Data Transfer Clusters</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/hardware/testbeds" data-drupal-link-system-path="node/379">Testbeds</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/hardware/quotas" data-drupal-link-system-path="node/1447">Quotas</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/hardware/zones-enclave" data-drupal-link-system-path="node/828">Zones (a.k.a. &quot;The Enclave&quot;)</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="https://lc.llnl.gov/lorenz/mylc/mylc.cgi" title="">MyLC (Lorenz)</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="https://lc.llnl.gov/cgi-bin/lccgi/customstatus.cgi?" title="">CZ Compute Platform Status</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="https://rzlc.llnl.gov/cgi-bin/lccgi/customstatus.cgi" title="">RZ Compute System Status</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="https://lc.llnl.gov/fsstatus/fsstatus.cgi" title="">CZ File System Status</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="https://rzlc.llnl.gov/fsstatus/fsstatus.cgi" title="">RZ File System Status</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="https://lc.llnl.gov/confluence/x/7A_sK" title="Authentication Required">El Capitan EAS Systems Confluence</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/services" class="nav-link" aria-expanded="false" data-drupal-link-system-path="node/18">Services</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item menu-item--collapsed">
+                          <a href="/services/cloud" data-drupal-link-system-path="node/1127">Cloud Services</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/services/green-collaboration-environment" data-drupal-link-system-path="node/1283">Green Collaboration Environment</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/services/visualization-services" data-drupal-link-system-path="node/624">Visualization Services</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/services/web-services" data-drupal-link-system-path="node/1118">Web Services</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/software" class="nav-link" aria-expanded="false" data-drupal-link-system-path="node/27">Software</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/software/toss-tri-lab-operating-system-stack" data-drupal-link-system-path="node/1367">TOSS: Tri-Lab Operating System Stack</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/software/archival-storage-software" data-drupal-link-system-path="node/36">Archival Storage Software</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/software/si-ml-software-and-tools" data-drupal-link-system-path="node/1346">AI/ML Software and Tools</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/documentation/user-guides/using-containers-lc-hpc-systems" data-drupal-link-system-path="node/1136">Containers in LC HPC</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/software/data-management-tools-projects" data-drupal-link-system-path="node/33">Data Management Tools</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/software/development-environment-software" data-drupal-link-system-path="node/411">Development Environment Software</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/software/hubcast" data-drupal-link-system-path="node/1440">Hubcast</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/software/mathematical-software" data-drupal-link-system-path="node/905">Mathematical Software</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/software/modules-and-software-packaging" data-drupal-link-system-path="node/651">Modules and Software Packaging</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/software/github" data-drupal-link-system-path="node/1372">GitHub</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="https://software.llnl.gov/">Open Source Software</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="https://computing.llnl.gov/projects/radiuss" title="">RADIUSS</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/software/visualization-software" data-drupal-link-system-path="node/903">Visualization Software</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/documentation" class="nav-link" aria-expanded="false" data-drupal-link-system-path="node/75">Documentation</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/accounts/policies" data-drupal-link-system-path="node/342">Policies</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/documentation/tutorials" data-drupal-link-system-path="node/20">Tutorials</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/documentation/user-guides" data-drupal-link-system-path="node/21">User Guides</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="https://dev.llnl.gov/">Developer Docs (dev.llnl.gov)</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/updates-events" class="nav-link" aria-expanded="false" data-drupal-link-system-path="node/913">Updates &amp; Events</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="https://computing.llnl.gov/hpc-news">HPC News</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/updates-events/training-events" data-drupal-link-system-path="node/468">Training Events</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/updates-events/technical-bulletins-catalog" data-drupal-link-system-path="node/496">Technical Bulletins Catalog</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/updates-events/user-meeting-presentations-archive" data-drupal-link-system-path="node/567">User Meeting Presentation Archive</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+
+                <div id="llnl-header-search-form" class="block-llnl-search-mobile d-print-none">
+          <div class="search-form">
+            <div class="form-group form-group-search has-feedback">
+              <div class="sr-only">Search</div>
+              <div class="form-item">
+                <form class="search-block-form search-form form-row" data-drupal-selector="search-block-form" action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+  
+
+
+
+
+        
+  <div class="js-form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label mb-3">
+          <label for="edit-keys" class="visually-hidden">Search</label>
+                    <input title="Enter the terms you wish to search for." placeholder="Search this site" data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search form-control" />
+
+                      </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper mb-3" id="edit-actions"><input class="pull-right button js-form-submit form-submit btn btn-primary form-control" data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search" />
+</div>
+
+</form>
+
+                <span class="fa fa-search form-control-feedback"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section id="block-responsivemenumobileicon" data-block-plugin-id="responsive_menu_toggle" class="responsive-menu-toggle-wrapper responsive-menu-toggle block block-responsive-menu block-responsive-menu-toggle clearfix">
+          <a id="toggle-icon" class="toggle responsive-menu-toggle-icon" title="Menu" href="#off-canvas">
+            <span class="icon"></span>
+          </a>
+        </section>
+      </div>
+      <div id="navbar-collapse" class="navbar-collapse collapse">
+        <div id="search-button">
+          <form class="search-block-form search-form form-row" data-drupal-selector="search-block-form-2" action="/search/node" method="get" id="search-block-form--2" accept-charset="UTF-8">
+  
+
+
+
+
+        
+  <div class="js-form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label mb-3">
+          <label for="edit-keys--2" class="visually-hidden">Search</label>
+                    <input title="Enter the terms you wish to search for." placeholder="Search this site" data-drupal-selector="edit-keys" type="search" id="edit-keys--2" name="keys" value="" size="15" maxlength="128" class="form-search form-control" />
+
+                      </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper mb-3" id="edit-actions--2"><input class="pull-right button js-form-submit form-submit btn btn-primary form-control" data-drupal-selector="edit-submit" type="submit" id="edit-submit--2" value="Search" />
+</div>
+
+</form>
+
+          <span class="fa fa-search form-control-feedback"></span>
+        </div>
+      </div>
+          </div>
+  </div>
+
+  
+</header>
+                  </header>
+          <div class="highlighted">
+        <aside aria-label="Alert Area"  class="container section clearfix">
+            <div data-drupal-messages-fallback class="hidden"></div>
+
+
+        </aside>
+      </div>
+                                    <div class="title-area">
+              <aside aria-label="Title Area" class="title-area__inner section container clearfix">
+                                                              <div class="container title-area-container">
+    <div class="row">
+        <div class="title-area-text>  col-md-12 ">
+            <div class="title-area-inner">                                    <h1>Tuolumne</h1>
+                                            </div>
+        </div>
+            </div>
+</div>
+
+              </aside>
+            </div>
+                          <div id="main-wrapper" class="layout-main-wrapper clearfix">
+              <div id="main" class="container">
+          
+          <div class="row clearfix">
+            <main class="main-content col order-last" id="content">
+              <section class="section">
+                <a id="main-content" tabindex="-1"></a>
+                  <div id="block-hpc-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+      <div class="content">
+      
+
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+          <a href="/">Home</a>
+        </li>
+                        <li class="breadcrumb-item">
+          <a href="/hardware">Hardware</a>
+        </li>
+                        <li class="breadcrumb-item">
+          <a href="/hardware/compute-platforms">Compute Platforms</a>
+        </li>
+                        <li class="breadcrumb-item active">
+          Tuolumne
+        </li>
+              </ol>
+  </nav>
+
+    </div>
+  </div>
+<div id="block-tid-system-main" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      
+
+<article class="node node--type-user-portal-systems node--promoted node--view-mode-full clearfix">
+	<header>
+		
+				
+			</header>
+	<div class="node__content clearfix">
+				
+		
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="align-center">
+  
+  
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <a href="/sites/default/files/2024-10/Tuolumne%20Low%20view%20front.jpg"><img loading="lazy" src="/sites/default/files/2024-10/Tuolumne%20Low%20view%20front.jpg" width="8206" height="3634" alt="Tuolumne">
+</a>
+</div>
+      
+</div>
+<p>For a comparison of ATS-4 systems, see: <a href="/documentation/user-guides/using-el-capitan-systems/hardware-overview#ats4-comparison">Using El Capitan Systems: Hardware Overview</a></p>
+<p>Tuolumne is an unclassified sibling system of El Capitan, sharing the same architecture. At greater than 288 petaflops, it not only outstrips its unclassified predecessor Lassen, it also exceeds the speed of LLNL's previous flagship petascale machine, Sierra. Tuolumne debuted at #10 on the November 2024 Top500 list of most powerful supercomputers in the world.</p>
+</div>
+      
+
+		<table class="table table-striped">
+			<caption>
+            <div class="clearfix text-formatted field field--name-field-system-details field--type-text-with-summary field--label-hidden field__item"><h2 id="job-limits">Job Limits</h2>
+<p>Each LC platform is a shared resource. Users are expected to adhere to the following usage policies to ensure that the&nbsp;resources can be effectively and productively used by everyone. You can view the policies on a system itself by running&nbsp;either:</p>
+<pre>joblimits
+news job.lim.MACHINENAME
+</pre><h3>Web Version of Tuolumne Job Limits</h3>
+<p>Tuolumne is an CORAL2 system. There are 8 login nodes, 44 compute nodes in a pdebug partition, and 1100 compute nodes in the&nbsp;pbatch partition. The compute nodes have 96 AMD EPYC&nbsp;cores/node, 4 AMD MI300A gpus/node, and 512 GB memory per node.&nbsp;Tuolumne is running TOSS 4 with Cray compilers.</p>
+<p>Batch jobs are scheduled through FLUX.</p>
+<ul>
+<li data-list-item-id="e11d28454b38164dbdc0c155de46feb01">pdebug—44 nodes 4224 cores 176 gpus interactive use only.</li>
+<li data-list-item-id="e3da86ca8b1b5228d6a8e81468a56c7dd">pbatch—1100 nodes 105600 cores 4400 gpus batch use only.</li>
+<li data-list-item-id="ec18475afa01cbb3630243e10c6196df7">pci—6 nodes 576 cores 24 gpus GitLab CI/CD use only</li>
+</ul>
+<pre>Pools &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max nodes           Max runtime
+---------------------------------------------------
+pdebug&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16/user&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 hour
+pbatch &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;256/job&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;24 hours<br>pci                   1/job               4 hours
+---------------------------------------------------</pre><p>Do NOT run computationally intensive work on the login nodes. There are a limited number of login nodes which are meant primarily for editing files and launching jobs. A majority of the time when a login node is laggy, it is because a user has started up a compile on that login node.</p>
+<p>pdebug is intended for debugging, visualization, and other inherently interactive work. Do not use pdebug to run batch jobs.&nbsp; Do not chain&nbsp;jobs to run one after the other. Individuals who misuse the pdebug queue in this or any similar manner may be denied access to running&nbsp;jobs in the pdebug queue.</p>
+<p>Pci is intended for CI/CD testing jobs originating from GitLab pipelines. It is not for production or debugging work. Do not use pci to run batch jobs. Individuals who misuse the pci queue in this or any similar manner may be denied access to running jobs in the pci queue. Technical limits are in place to restrict the total number of nodes that a given user may use across all jobs within pci. Large parameterized test suites may therefore submit many jobs without interrupting other users.</p>
+<p>Interactive access to a batch node is allowed while you have a batch job running on that node, and only for the purpose of monitoring your job. When logging into a batch node, be mindful of the impact your work has on the other jobs running on the node.</p>
+<p>The queue can be found by typing "flux jobs -A" at the prompt</p>
+</div>
+      </caption>
+			<tbody>
+									<tr>
+						<td>Zone</td>
+						<td>
+            <div class="field field--name-field-ocf-scf field--type-string field--label-hidden field__item">CZ</div>
+      </td>
+					</tr>
+													<tr>
+						<td>Vendor</td>
+						<td>
+            <div class="field field--name-field-architecture field--type-string field--label-hidden field__item">HPE Cray</div>
+      </td>
+					</tr>
+								<tr>
+					<td>User-Available Nodes</td>
+					<td>
+						<div class="container pl-0">
+															<div class="row justify-content-start">
+									<div class="col-5">
+										Login Nodes*
+									</div>
+									<div class="col-4 text-right">
+										
+            8 nodes: tuolumne[1001-1004,2149-2152]
+      
+									</div>
+								</div>
+																						<div class="row justify-content-start">
+									<div class="col-5">
+										Batch Nodes
+									</div>
+									<div class="col-4 text-right">
+										
+            1,100
+      
+									</div>
+								</div>
+																						<div class="row justify-content-start">
+									<div class="col-5">
+										Debug Nodes
+									</div>
+									<div class="col-4 text-right">
+										
+            44
+      
+									</div>
+								</div>
+																						<div class="row justify-content-start">
+									<div class="col-5">
+										Total Nodes
+									</div>
+									<div class="col-4 text-right">
+										
+            1,152
+      
+									</div>
+								</div>
+													</div>
+					</td>
+				</tr>
+									<tr>
+						<td>APUs</td>
+						<td>
+							<div class="container pl-0">
+								<div class="row justify-content-start">
+									<div class="col-5">
+										APU Architecture
+									</div>
+									<div class="col-4 text-right">
+										
+            AMD MI300A
+      
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+													<tr>
+						<td>CPUs</td>
+						<td>
+							<div class="container pl-0">
+								<div class="row justify-content-start">
+									<div class="col-5">
+										CPU Architecture
+									</div>
+									<div class="col-4 text-right">
+										
+            4th Generation AMD EPYC
+      
+									</div>
+								</div>
+								<div class="row justify-content-start">
+									<div class="col-5">
+										Cores/Node
+									</div>
+									<div class="col-4 text-right">
+										
+            96
+      
+									</div>
+								</div>
+								<div class="row justify-content-start">
+									<div class="col-5">
+										Total Cores
+									</div>
+									<div class="col-4 text-right">
+										
+            110,592
+      
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+													<tr>
+						<td>GPUs</td>
+						<td>
+							<div class="container pl-0">
+								<div class="row justify-content-start">
+																			<div class="col-5">
+											GPU Architecture
+										</div>
+										<div class="col-4 text-right">
+											
+            CDNA 3 [APU: AMD MI300A]
+      
+										</div>
+									</div>
+																									<div class="row justify-content-start">
+										<div class="col-5">
+											Total GPUs
+										</div>
+										<div class="col-4 text-right">
+											
+            4,608
+      
+										</div>
+									</div>
+																									<div class="row justify-content-start">
+										<div class="col-6">
+											GPUs per compute node
+										</div>
+										<div class="col-3 text-right">
+											
+            4
+      
+										</div>
+									</div>
+																									<div class="row justify-content-start">
+										<div class="col-5">
+											GPU global memory (GiB)
+										</div>
+										<div class="col-4 text-right">
+											
+            512.00
+      
+										</div>
+									</div>
+															</div>
+						</td>
+					</tr>
+													<tr>
+						<td>Memory Total (GiB)</td>
+						<td>
+            <div content="589824" class="field field--name-field-memory-total-gb-dec field--type-decimal field--label-hidden field__item">589,824</div>
+      </td>
+					</tr>
+																	<tr>
+						<td>Peak Performance</td>
+						<td>
+							<div class="container pl-0">
+								<div class="row justify-content-start">
+																																		<div class="row justify-content-start">
+										<div class="col-5">
+											Peak PFLOPS (CPUs+GPUs)	
+										</div>
+										<div class="col-4 text-right">
+											
+            288.900
+      
+										</div>
+									</div>
+															</div>
+						</td>
+					</tr>
+								 
+					<tr>
+						<td>Clock Speed (GHz)</td>
+						<td>
+            <div class="field field--name-field-clock-speed-ghz-dec field--type-decimal field--label-hidden field__item">2.0</div>
+      </td>
+					</tr>
+																	<tr>
+						<td>OS</td>
+						<td>
+            <div class="field field--name-field-os field--type-string field--label-hidden field__item">TOSS 4</div>
+      </td>
+					</tr>
+													<tr>
+						<td>Interconnect</td>
+						<td>
+            <div class="field field--name-field-switch field--type-string field--label-hidden field__item">HPE Slingshot 11</div>
+      </td>
+					</tr>
+													<tr>
+						<td>Scheduling Policy (main batch queue)</td>
+						<td>
+            <div class="field field--name-field-scheduling-policy-main-bat field--type-string field--label-hidden field__item">node-scheduled</div>
+      </td>
+					</tr>
+													<tr>
+						<td>Scheduler</td>
+						<td>
+            <div class="field field--name-field-run-command field--type-string field--label-hidden field__item">Flux</div>
+      </td>
+					</tr>
+													<tr>
+						<td>Recommended location for parallel file space</td>
+						<td>
+            <div class="field field--name-field-recommended-location-for-s field--type-string field--label-hidden field__item">/p/lustre5</div>
+      </td>
+					</tr>
+													<tr>
+						<td>Program</td>
+						<td>
+            <div class="field field--name-field-asc-m-ic field--type-string field--label-hidden field__item">ASC, M&amp;IC, Bio</div>
+      </td>
+					</tr>
+													<tr>
+						<td>Class</td>
+						<td>
+            <div class="field field--name-field-class field--type-string field--label-hidden field__item">ATS-4, CORAL-2</div>
+      </td>
+					</tr>
+					
+									<tr>
+						<td>Year Commissioned</td>
+						<td>
+            <div class="field field--name-field-year-commissioned field--type-integer field--label-hidden field__item">2024</div>
+      </td>
+					</tr>
+													<tr>
+						<td>Compilers</td>
+						<td>
+            <div class="clearfix text-formatted field field--name-field-compilers field--type-text-long field--label-hidden field__item"><p>See <a href="/software/development-environment-software/compilers">Compilers</a> page or the <a href="https://hpc.llnl.gov/documentation/user-guides/using-el-capitan-systems/using-el-capitan-systems-compilers-and-user">El Capitan Systems user guide</a></p>
+</div>
+      </td>
+					</tr>
+													<tr>
+						<td>Documentation</td>
+						<td>
+            <div class="clearfix text-formatted field field--name-field-documentation field--type-text-long field--label-hidden field__item"><p><a href="/documentation/user-guides/using-el-capitan-systems">Using El Capitan Systems</a></p>
+</div>
+      </td>
+					</tr>
+							</tbody>
+		</table>
+	</div>
+</article>
+
+    </div>
+  </div>
+<div class="openid-connect-login-form block block-openid-connect block-openid-connect-login" data-drupal-selector="openid-connect-login-form" id="block-hpc-openidconnectlogin">
+  
+    
+      <div class="content">
+      
+<form action="/hardware/compute-platforms/tuolumne" method="post" id="openid-connect-login-form" accept-charset="UTF-8">
+  <div><input data-drupal-selector="edit-openid-connect-client-oauth-login" type="submit" id="edit-openid-connect-client-oauth-login" name="oauth" value="Log in with OAuth" class="button js-form-submit form-submit btn btn-primary form-control" />
+</div><input autocomplete="off" data-drupal-selector="form-nagb-qn4u8ewnxxb-ygpzhuio5rwuebfgfja7bg9qew" type="hidden" name="form_build_id" value="form-NAgb_QN4u8EWNXxb_yGpzhUIo5RWuEBFGfja7Bg9qew" class="form-control" />
+<input data-drupal-selector="edit-openid-connect-login-form" type="hidden" name="form_id" value="openid_connect_login_form" class="form-control" />
+
+</form>
+
+    </div>
+  </div>
+
+
+              </section>
+            </main>
+                          <div class="sidebar_first sidebar col-md-3 order-first" id="sidebar_first">
+                <aside aria-label="Sidebar" class="section">
+                    <nav role="navigation" aria-labelledby="block-userportalmenu-2-menu" id="block-userportalmenu-2" class="block block-menu navigation menu--menu-user-portal-menu">
+      
+  <h2 id="block-userportalmenu-2-menu"><a href="/hardware/compute-platforms" class="menu-item--active-trail" data-drupal-link-system-path="node/326">Compute Platforms</a></h2>
+  
+
+        
+                  <ul class="clearfix nav" data-component-id="bootstrap_barrio:menu">
+                    <li class="nav-item">
+                <a href="/hardware/compute-platforms/bengal" class="nav-link nav-link--hardware-compute-platforms-bengal" data-drupal-link-system-path="node/1065">Bengal</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/corona" class="nav-link nav-link--hardware-compute-platforms-corona" data-drupal-link-system-path="node/749">Corona</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/dane" class="nav-link nav-link--hardware-compute-platforms-dane" data-drupal-link-system-path="node/1066">Dane</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/el-capitan" class="nav-link nav-link--hardware-compute-platforms-el-capitan" data-drupal-link-system-path="node/1269">El Capitan</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/jade" class="nav-link nav-link--hardware-compute-platforms-jade" data-drupal-link-system-path="node/355">Jade</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/jadeita" class="nav-link nav-link--hardware-compute-platforms-jadeita" data-drupal-link-system-path="node/424">Jadeita</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/magma" class="nav-link nav-link--hardware-compute-platforms-magma" data-drupal-link-system-path="node/777">Magma</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/mammoth" class="nav-link nav-link--hardware-compute-platforms-mammoth" data-drupal-link-system-path="node/809">Mammoth</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/matrix" class="nav-link nav-link--hardware-compute-platforms-matrix" data-drupal-link-system-path="node/1290">Matrix</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/mica" class="nav-link nav-link--hardware-compute-platforms-mica" data-drupal-link-system-path="node/356">Mica</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/neo" class="nav-link nav-link--hardware-compute-platforms-neo" data-drupal-link-system-path="node/1449">Neo</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/pinot" class="nav-link nav-link--hardware-compute-platforms-pinot" data-drupal-link-system-path="node/316">Pinot</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/rzadams" class="nav-link nav-link--hardware-compute-platforms-rzadams" data-drupal-link-system-path="node/1227">RZAdams</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/rzhound" class="nav-link nav-link--hardware-compute-platforms-rzhound" data-drupal-link-system-path="node/1067">RZHound</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/rzgenie" class="nav-link nav-link--hardware-compute-platforms-rzgenie" data-drupal-link-system-path="node/350">RZGenie</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/rzvernal" class="nav-link nav-link--hardware-compute-platforms-rzvernal" data-drupal-link-system-path="node/991">RZVernal</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/rzwhamo" class="nav-link nav-link--hardware-compute-platforms-rzwhamo" data-drupal-link-system-path="node/870">RZWhamo</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/rzwhippet" class="nav-link nav-link--hardware-compute-platforms-rzwhippet" data-drupal-link-system-path="node/1015">RZWhippet</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/tenaya" class="nav-link nav-link--hardware-compute-platforms-tenaya" data-drupal-link-system-path="node/992">Tenaya</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/tioga" class="nav-link nav-link--hardware-compute-platforms-tioga" data-drupal-link-system-path="node/990">Tioga</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/tron" class="nav-link nav-link--hardware-compute-platforms-tron" data-drupal-link-system-path="node/795">Tron</a>
+              </li>
+                <li class="nav-item">
+                <a href="/hardware/compute-platforms/rzvector" class="nav-link nav-link--hardware-compute-platforms-rzvector" data-drupal-link-system-path="node/1386">RZVector</a>
+              </li>
+                <li class="nav-item active">
+                <a href="/hardware/compute-platforms/tuolumne" class="nav-link active nav-link--hardware-compute-platforms-tuolumne is-active" data-drupal-link-system-path="node/1266" aria-current="page">Tuolumne</a>
+              </li>
+        </ul>
+  
+
+
+
+  </nav>
+<div id="block-lchotlineinfo" class="block-content-basic block block-block-content block-block-contentfea8059f-0d3d-4052-9d28-7a109da5ae5e">
+  
+      <h2>LC Hotline Info</h2>
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="hotline-block-with-icons">
+<div class="pull-left"><span class="fa fa-phone sidebar-icon icon">&nbsp;</span></div>
+
+<div class="pull-left">
+<h3>LC Hotline:<br />
+<a href="tel:19254224531">1(925) 422-4531</a></h3>
+</div>
+
+<div class="pull-left"><span class="fa fa-clock sidebar-icon icon">&nbsp;</span></div>
+
+<div class="pull-left">
+<h3>Hours</h3>
+
+<p class="small smaller-bottom-margin">Monday–Friday<br />
+8am–12pm, 1–4:45pm<br />
+B453 R1103 | Q-clearance area</p>
+
+
+<div class="pull-left"><span class="fa-solid fa-comment-question sidebar-icon icon">&nbsp;</span></div>
+
+<div class="pull-left">
+<h3><a href="/about-us/contact-us/should-i-call-lc-hotline-or-livit">Should I Call LC Hotline<br />
+or LivIT?</a></h3>
+</div>
+<div class="pull-left"><span class="fa-browser fa-solid icon sidebar-icon">&nbsp;</span></div>
+
+<p class="small smaller-bottom-margin"><a href="https://hpc.llnl.gov/contact">Website Feedback</a></p>
+</div>
+
+</div>
+</div>
+      
+    </div>
+  </div>
+
+
+                </aside>
+              </div>
+                                  </div>
+        </div>
+          </div>
+      </div>
+</div>
+<footer class="site-footer">
+      <div id="footer-wrapper">
+            <div class="site-footer__bottom">
+                                    <div class="footer-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-2 col-lg-4 col-md-3 col-12" id="footer-logo-wrapper">
+        <div id="footer-logo">
+          <a class="llnl" href="http://www.llnl.gov/" target="_blank"><img src="/themes/contrib/lwds-drupal/images/llnl-logo-dark.png" alt="LLNL"></a>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-8 col-md-9 col-12" id="footer-text-wrapper">
+        <div id="footer-text">
+          <div id="footer-text-name">Lawrence Livermore National Laboratory </div>
+          <div id="footer-text-address">
+            <span class="hidden-xs">&nbsp;|</span>
+            7000 East Avenue • Livermore, CA 94550 | 
+          </div>
+          <div id="footer-text-info">
+            Operated by the Lawrence Livermore National Security, LLC for the
+            Department of Energy's National Nuclear Security Administration
+            Learn about the Department of Energy's <a href="http://www.energy.gov/vulnerability-disclosure-policy" target="_blank" rel="noopener noreferrer">Vulnerability Disclosure Program</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6 col-12"  id="footer-affiliates">
+        <a class="llns" href="http://www.llnsllc.com/" target="_blank" rel="noopener noreferrer"><img src="/themes/contrib/lwds-drupal/images/llns.png" alt="LLNS"></a>
+        <a class="doe" href="https://www.energy.gov/" target="_blank" rel="noopener noreferrer"><img src="/themes/contrib/lwds-drupal/images/doe_small.svg" alt="U.S. DOE"></a>
+        <a class="nnsa" href="https://www.energy.gov/nnsa/national-nuclear-security-administration/" target="_blank" rel="noopener noreferrer"><img src="/themes/contrib/lwds-drupal/images/nnsa.png" alt="NNSA"></a>
+      </div>
+
+      <div class="col-xl-3 col-md-6 col-12" id="footer-links">
+        <div class="disclaimer">
+          <a href="https://hpc.llnl.gov/">Home</a>
+          <a href="https://www.llnl.gov/disclaimer" target="_blank">Disclaimer</a>
+          <a href="https://www.llnl.gov/website-privacy-notice" target="_blank">Privacy Notice</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+    </div>
+  </footer>
+  </div>
+
+    <div class="off-canvas-wrapper"><div id="off-canvas">
+              <ul>
+                    <li class="menu-item--_b21a8c0-0152-4529-b6b8-81d41287b3ef menu-name--menu-user-portal-menu">
+        <a href="/about-us" data-drupal-link-system-path="node/902">About Livermore Computing</a>
+                                <ul>
+                    <li class="menu-item--ec63da50-ef26-4659-9c02-a39005705a0a menu-name--menu-user-portal-menu">
+        <a href="/#Contact" data-drupal-link-system-path="&lt;front&gt;">Contact Us</a>
+                                <ul>
+                    <li class="menu-item--f7423d64-11a6-4a31-b40f-078bdb114889 menu-name--menu-user-portal-menu">
+        <a href="/contact" data-drupal-link-system-path="node/956">Contact Form</a>
+              </li>
+                <li class="menu-item--b7e2d845-c6bd-451d-9772-fed11b54105a menu-name--menu-user-portal-menu">
+        <a href="/about-livermore-computing/contact-us/should-i-call-lc-hotline-or-livit" data-drupal-link-system-path="node/617">Should I call  LC Hotline or LivIT?</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_8b779b5-9765-4f85-b032-e345ea2c9723 menu-name--menu-user-portal-menu">
+        <a href="/about-livermore-computing/livermore-computing-resources-overview" data-drupal-link-system-path="node/901">Livermore Computing Resources Overview</a>
+              </li>
+                <li class="menu-item--_76555c2-9db6-49f6-8073-0bfeacf7d9bc menu-name--menu-user-portal-menu">
+        <a href="/si-ml-lc" data-drupal-link-system-path="node/1316">SI/ML @ LC</a>
+                                <ul>
+                    <li class="menu-item--_be1cd10-1a90-43af-91cb-0ecf30a452b0 menu-name--menu-user-portal-menu">
+        <a href="/si-agents" data-drupal-link-system-path="node/1453">Running SI Agents on LC</a>
+              </li>
+                <li class="menu-item--_a01cdae-f4d3-4d1f-9c86-2e42bc218621 menu-name--menu-user-portal-menu">
+        <a href="/lc-llms" data-drupal-link-system-path="node/1423">Using LLMs in Livermore Computing</a>
+              </li>
+                <li class="menu-item--_587250f-5a88-47f0-a434-a5fcfc67b5ab menu-name--menu-user-portal-menu">
+        <a href="/lc-models" data-drupal-link-system-path="node/1426">LC LLM Model Download Decision Guide</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--ba46d2e7-9baf-4c8c-b776-586244cd3f10 menu-name--menu-user-portal-menu">
+        <a href="/about-livermore-computing/mission-support" data-drupal-link-system-path="node/900">Mission Support</a>
+              </li>
+                <li class="menu-item--_9f277e2-7983-45be-b40b-b5d1a241ecfc menu-name--menu-user-portal-menu">
+        <a href="/about-livermore-computing/our-users" data-drupal-link-system-path="node/897">Our Users</a>
+                                <ul>
+                    <li class="menu-item--_d7ce62c-41cb-4d65-a799-93fdfda600f3 menu-name--menu-user-portal-menu">
+        <a href="/about-livermore-computing/our-users/center-predictive-bioresilience-user-resources" data-drupal-link-system-path="node/1088">For Our Center for Bioresilience Users</a>
+              </li>
+                <li class="menu-item--b8757b51-70dc-461c-b468-16ecb67f0b60 menu-name--menu-user-portal-menu">
+        <a href="/about-livermore-computing/our-users/tri-lab-users" data-drupal-link-system-path="node/937">For Tri-lab Users</a>
+                                <ul>
+                    <li class="menu-item--e7d453e7-056e-4d7e-9d14-27da7098adc6 menu-name--menu-user-portal-menu">
+        <a href="/about-livermore-computing/our-users/tri-lab-users/connecting-lanl-hpc-platforms" data-drupal-link-system-path="node/495">Connecting to LANL HPC Platforms</a>
+              </li>
+                <li class="menu-item--d80c7af1-ea87-4949-949b-e5ea91bdd8cf menu-name--menu-user-portal-menu">
+        <a href="/about-livermore-computing/our-users/tri-lab-users/connecting-sandia-hpc-platforms" data-drupal-link-system-path="node/494">Connecting to Sandia HPC Platforms</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_66dac69-54bd-4386-9c58-a039c42e0446 menu-name--menu-user-portal-menu">
+        <a href="/site-map" data-drupal-link-system-path="node/881">Site Map</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_2550fbc-4636-49fe-acdd-2d75c2abc47b menu-name--menu-user-portal-menu">
+        <a href="/accounts" data-drupal-link-system-path="node/73">Accounts</a>
+                                <ul>
+                    <li class="menu-item--_12ffd9b-c3ea-495e-8b59-f974c8232da4 menu-name--menu-user-portal-menu">
+        <a href="/accounts/new-account-setup" data-drupal-link-system-path="node/89">New Account Setup</a>
+              </li>
+                <li class="menu-item--_b62a23b-47c8-451e-b135-1e8c8abea013 menu-name--menu-user-portal-menu">
+        <a href="/accounts/idm" data-drupal-link-system-path="node/1124">Identity Management (IDM)</a>
+                                <ul>
+                    <li class="menu-item--_1c49447-60b5-46d8-95c3-d7ebb1999f68 menu-name--menu-user-portal-menu">
+        <a href="/accounts/idm/idm-users" data-drupal-link-system-path="node/1177">For Users</a>
+                                <ul>
+                    <li class="menu-item--bf96d8b7-2822-49c9-8c6d-c6f40984b057 menu-name--menu-user-portal-menu">
+        <a href="/accounts/idm/getting-started" data-drupal-link-system-path="node/1167">Getting Started With IDM</a>
+              </li>
+                <li class="menu-item--_9250dd1-80f3-4b89-9638-a3ee9c78a8a6 menu-name--menu-user-portal-menu">
+        <a href="/accounts/idm/create-new-account" data-drupal-link-system-path="node/1170">How to Create a New Account</a>
+              </li>
+                <li class="menu-item--_349c6b0-60f8-44fc-b945-a3b518f023c9 menu-name--menu-user-portal-menu">
+        <a href="/accounts/idm/users/how-be-added-group" data-drupal-link-system-path="node/1169">How To Be Added To A Group</a>
+              </li>
+                <li class="menu-item--_13df2cb-574e-4e93-9fde-4e559169fe48 menu-name--menu-user-portal-menu">
+        <a href="/accounts/idm/users/how-be-added-resource" data-drupal-link-system-path="node/1176">How to be Added to a Resource</a>
+              </li>
+                <li class="menu-item--aeb79773-c161-4927-9297-495a523795ac menu-name--menu-user-portal-menu">
+        <a href="/accounts/idm/idm-users/how-edit-your-default-shells" data-drupal-link-system-path="node/1203">How To Edit Your Default Shells</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--f91b7f21-80f7-4df4-ada7-04bed52419b4 menu-name--menu-user-portal-menu">
+        <a href="/accounts/identity-management-idm/idm%E2%80%94-coordinators-and-approvers" data-drupal-link-system-path="node/1178">For Coordinators and Approvers</a>
+                                <ul>
+                    <li class="menu-item--_703c6a4-d933-4c8a-b5a8-bbd39a39c360 menu-name--menu-user-portal-menu">
+        <a href="/accounts/idm/add-remove-group-members" data-drupal-link-system-path="node/1171">Add or Remove Group Members</a>
+              </li>
+                <li class="menu-item--_fc6f48d-5426-4bc9-8ddb-06719b108259 menu-name--menu-user-portal-menu">
+        <a href="/accounts/idm/add-remove-roles" data-drupal-link-system-path="node/1172">Add or Remove Role Members</a>
+              </li>
+                <li class="menu-item--_67cf0c2-157f-47d4-b7b0-f263a14a27f2 menu-name--menu-user-portal-menu">
+        <a href="/accounts/idm/approving-request" data-drupal-link-system-path="node/1173">Approving a Request</a>
+              </li>
+                <li class="menu-item--_c2e3420-425a-4c0b-a819-d40d469140ce menu-name--menu-user-portal-menu">
+        <a href="/accounts/idm/request-and-manage-roles" data-drupal-link-system-path="node/1174">Request and Manage Defined Roles</a>
+              </li>
+                <li class="menu-item--e9924ae8-7270-4ce7-b40c-c14b738f9ae6 menu-name--menu-user-portal-menu">
+        <a href="/accounts/idm/create-new-group" data-drupal-link-system-path="node/1175">Create a New Group</a>
+              </li>
+                <li class="menu-item--_55def97-ee97-47dd-a530-4749fafafec6 menu-name--menu-user-portal-menu">
+        <a href="/accounts/identity-management-idm/coordinators-and-approvers/2026-idm-revalidation%E2%80%94updated-guide" data-drupal-link-system-path="node/1347">IDM Revalidation</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_339e37c-2b04-4057-adb9-9f02154cf14e menu-name--menu-user-portal-menu">
+        <a href="/accounts/accessing-lc-systems" data-drupal-link-system-path="node/1404">Accessing LC Systems</a>
+                                <ul>
+                    <li class="menu-item--_96b0d14-46c4-45f1-8402-331111d716b1 menu-name--menu-user-portal-menu">
+        <a href="/accounts/accessing-lc-systems/authenticating" data-drupal-link-system-path="node/1413">Authenticating</a>
+              </li>
+                <li class="menu-item--_5d966b2-b6c4-43fd-9b71-11257200c926 menu-name--menu-user-portal-menu">
+        <a href="/accounts/accessing-lc-systems/connecting-ssh" data-drupal-link-system-path="node/1407">Connecting with SSH</a>
+              </li>
+                <li class="menu-item--_1ca518d-5c6a-49a9-b83d-df0e79105a80 menu-name--menu-user-portal-menu">
+        <a href="/accounts/accessing-lc-systems/connecting-vnc" data-drupal-link-system-path="node/1408">Connecting with VNC</a>
+              </li>
+                <li class="menu-item--_fc4b3a9-2991-4249-a69e-529d5e83c02e menu-name--menu-user-portal-menu">
+        <a href="/accounts/accessing-lc-systems/connecting-x-win32" data-drupal-link-system-path="node/1410">Connecting with X-Win32</a>
+              </li>
+                <li class="menu-item--e43edf90-db1b-4d66-b331-00d9581dc43b menu-name--menu-user-portal-menu">
+        <a href="/accounts/accessing-lc-systems/accessing-lc-web-services" data-drupal-link-system-path="node/1417">Accessing LC Web Services</a>
+              </li>
+                <li class="menu-item--fe155981-b665-4bcc-b496-9e01fe0d777c menu-name--menu-user-portal-menu">
+        <a href="/services/web-services/gitlab/getting-started-lc-gitlab">Getting Started with LC GitLab</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_5a9548b-d785-469b-affc-927d9c3147bf menu-name--menu-user-portal-menu">
+        <a href="/accounts/computer-coordinator-roles" data-drupal-link-system-path="node/464">Computer Coordinator Roles</a>
+              </li>
+                <li class="menu-item--de0a09f3-64f9-4995-afd3-6f9e381d7454 menu-name--menu-user-portal-menu">
+        <a href="/accounts/data-sharing-livermore-computing" data-drupal-link-system-path="node/1297">Data Sharing in Livermore Computing</a>
+                                <ul>
+                    <li class="menu-item--_40102fe-5df1-4c55-8f4c-91839fea0413 menu-name--menu-user-portal-menu">
+        <a href="/accounts/data-sharing-livermore-computing/access-control-lists-acls-livermore-computing" data-drupal-link-system-path="node/1298">Access Control Lists (ACLs) in Livermore Computing</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_0f3e20e-5967-45b1-828e-3ac32f2975fd menu-name--menu-user-portal-menu">
+        <a href="/accounts/forms" data-drupal-link-system-path="node/13">Forms</a>
+                                <ul>
+                    <li class="menu-item--_4b4233a-38fa-4e3d-b933-3e332daca5bb menu-name--menu-user-portal-menu">
+        <a href="/accounts/forms/asc-dedicated-application-time-request" data-drupal-link-system-path="node/704">ASC Dedicated Application Time Request</a>
+              </li>
+                <li class="menu-item--c9ceb973-b9ba-4e14-9263-691ee55155ee menu-name--menu-user-portal-menu">
+        <a href="/accounts/forms/ldrd-researcher-allocation-request" data-drupal-link-system-path="node/706">LDRD Researcher Allocation Request</a>
+              </li>
+                <li class="menu-item--cd4dc1d0-8f07-4f17-9c49-451e7f89dc83 menu-name--menu-user-portal-menu">
+        <a href="/accounts/forms/m-ic-dedicated-application-time-request" data-drupal-link-system-path="node/705">M&amp;IC Dedicated Application Time Request</a>
+              </li>
+                <li class="menu-item--f9d239b9-37fc-458d-9d59-37702240ceb1 menu-name--menu-user-portal-menu">
+        <a href="/form/tier-two-quota-increase-request" data-drupal-link-system-path="webform/tier_two_quota_increase_request">Tier Two Quota Increase Request</a>
+              </li>
+                <li class="menu-item--dbaa5351-4a2b-4a3d-a5cc-5d219d2a0fee menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/totalview-debugger/totalview-site-license-request" data-drupal-link-system-path="node/722">TotalView Site License Request Form</a>
+              </li>
+                <li class="menu-item--_f438c44-4d2e-44ef-9a56-7a8baaaca60a menu-name--menu-user-portal-menu">
+        <a href="https://hpc.llnl.gov/sites/default/files/LC_UHyperion1.pdf">Unrestricted Hyperion Acknowledgment</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--b921c2f2-2b4c-41d0-9692-957474315d11 menu-name--menu-user-portal-menu">
+        <a href="/accounts/lc-mailing-lists" data-drupal-link-system-path="node/459">Mailing Lists</a>
+              </li>
+                <li class="menu-item--_4d423fa-b2e8-44f7-9820-32e35adede2b menu-name--menu-user-portal-menu">
+        <a href="/accounts/policies" data-drupal-link-system-path="node/342">Policies</a>
+                                <ul>
+                    <li class="menu-item--b61ce92d-0693-4c54-a337-c41c58dc218d menu-name--menu-user-portal-menu">
+        <a href="/accounts/policies/acceptable-use-policy-licensed-software" data-drupal-link-system-path="node/515">Acceptable Use Policy for Licensed Software</a>
+              </li>
+                <li class="menu-item--f0a66bb0-a642-4744-9be7-f3d19903ebcd menu-name--menu-user-portal-menu">
+        <a href="/accounts/policies/adding-printer-lc-printcap" data-drupal-link-system-path="node/344">Adding a Printer to the LC Printcap</a>
+              </li>
+                <li class="menu-item--_075491e-3c76-4e57-b48e-5c6cf77221e7 menu-name--menu-user-portal-menu">
+        <a href="/accounts/policies/compute-platform-policies" data-drupal-link-system-path="node/1055">Compute Platform Policies</a>
+              </li>
+                <li class="menu-item--_3867030-7542-4a5e-83d5-95dc182e6eb3 menu-name--menu-user-portal-menu">
+        <a href="/accounts/policies/lc-policies-and-procedures" data-drupal-link-system-path="node/1251">LC Policies and Procedures</a>
+              </li>
+                <li class="menu-item--_88fe9c1-ddd5-448c-9306-17464c06f586 menu-name--menu-user-portal-menu">
+        <a href="/accounts/policies/lc-s-policy-minimizing-user-impact" data-drupal-link-system-path="node/341">LC&#039;s Policy on Minimizing User Impact</a>
+              </li>
+                <li class="menu-item--_fb6dc58-deaf-463b-a452-6d46d11a8bee menu-name--menu-user-portal-menu">
+        <a href="/accounts/policies/lc-policy-use-usr-gapps" data-drupal-link-system-path="node/345">LC Policy for Use of /usr/gapps</a>
+              </li>
+                <li class="menu-item--d2972607-26aa-437f-8e47-480b3b146fcf menu-name--menu-user-portal-menu">
+        <a href="/accounts/policies/guidance-dedicated-application-runs-m-ic-resources" data-drupal-link-system-path="node/346">M&amp;IC Dedicated Run Guidance</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_f7c2bb3-0d63-4c90-8548-c4384ab0ff3e menu-name--menu-user-portal-menu">
+        <a href="/banks-allocations-and-jobs" data-drupal-link-system-path="node/17">Banks &amp; Jobs</a>
+                                <ul>
+                    <li class="menu-item--_a0f9d97-38fa-4fac-bfb4-028c59324384 menu-name--menu-user-portal-menu">
+        <a href="/banks-jobs/allocations-and-priority" data-drupal-link-system-path="node/953">Allocations</a>
+              </li>
+                <li class="menu-item--b7026b9e-c4da-46b9-b647-898c7cd988fd menu-name--menu-user-portal-menu">
+        <a href="/banks-jobs/banks" data-drupal-link-system-path="node/1430">Banks</a>
+              </li>
+                <li class="menu-item--_0214085-55a7-4d1f-a70d-cf27b64cfbef menu-name--menu-user-portal-menu">
+        <a href="/banks-jobs/running-jobs" data-drupal-link-system-path="node/394">Running Jobs</a>
+                                <ul>
+                    <li class="menu-item--_064faad-959e-4471-9ab6-e7c37dfeedec menu-name--menu-user-portal-menu">
+        <a href="/banks-jobs/running-jobs/batch-system-primer" data-drupal-link-system-path="node/407">Batch System Primer</a>
+              </li>
+                <li class="menu-item--_bf78589-d1b4-49b5-af7f-c920d8f950c5 menu-name--menu-user-portal-menu">
+        <a href="/banks-jobs/running-jobs/batch-system-cross-reference-guides" data-drupal-link-system-path="node/450">Batch System Cross-Reference</a>
+              </li>
+                <li class="menu-item--_4134ab3-f472-4ae1-b826-d265adb4ca16 menu-name--menu-user-portal-menu">
+        <a href="/banks-jobs/running-jobs/flux-quick-start-guide" data-drupal-link-system-path="node/1344">Flux Quick Start Guide</a>
+              </li>
+                <li class="menu-item--b95381b6-d386-4c5c-ae55-e4f134b5c0e6 menu-name--menu-user-portal-menu">
+        <a href="https://hpc-tutorials.llnl.gov/flux/">Flux Tutorial</a>
+              </li>
+                <li class="menu-item--_ea08f51-b117-467d-941b-b446698b0be8 menu-name--menu-user-portal-menu">
+        <a href="/banks-jobs/running-jobs/slurm-user-manual" title="Guide to using the Slurm Workload/Resource Manager" data-drupal-link-system-path="node/406">Slurm User Manual</a>
+              </li>
+                <li class="menu-item--_124deb1-1680-4893-a2d4-8d357f3d0600 menu-name--menu-user-portal-menu">
+        <a href="/banks-jobs/running-jobs/slurm-quick-start-guide" data-drupal-link-system-path="node/415">Slurm Quick Start Guide</a>
+              </li>
+                <li class="menu-item--d524aab7-8b52-4441-b93d-c69ab39ba806 menu-name--menu-user-portal-menu">
+        <a href="/banks-jobs/running-jobs/slurm-commands" data-drupal-link-system-path="node/439">Slurm Commands</a>
+              </li>
+                <li class="menu-item--_fa13cd9-a096-43fa-8004-897b77082184 menu-name--menu-user-portal-menu">
+        <a href="/banks-jobs/running-jobs/slurm" data-drupal-link-system-path="node/847">Slurm Tutorial</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_8c5e9d9-5c22-4889-a7bd-1ed8e3dac91e menu-name--menu-user-portal-menu">
+        <a href="/accounts/forms/asc-dat">ASC DAT Request</a>
+              </li>
+                <li class="menu-item--_a9bd8d7-6f9e-410a-b440-2e1af417fc43 menu-name--menu-user-portal-menu">
+        <a href="/accounts/forms/m-ic-dedicated-application-time-request" data-drupal-link-system-path="node/705">M&amp;IC DAT Request</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--e2390f13-fdc5-43af-9745-8d623c9cabed menu-name--menu-user-portal-menu menu-item--active-trail">
+        <a href="/hardware" data-drupal-link-system-path="node/15">Hardware</a>
+                                <ul>
+                    <li class="menu-item--a4683747-1059-4994-b6f9-db4240528ccb menu-name--menu-user-portal-menu menu-item--active-trail">
+        <a href="/hardware/compute-platforms" data-drupal-link-system-path="node/326">Compute Platforms</a>
+                                <ul>
+                    <li class="menu-item--_fb86cf8-b8ae-4a3f-96de-80c75366248e menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/bengal" data-drupal-link-system-path="node/1065">Bengal</a>
+              </li>
+                <li class="menu-item--_4669bc8-20d8-481f-911b-bdae94742561 menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/corona" data-drupal-link-system-path="node/749">Corona</a>
+              </li>
+                <li class="menu-item--_2b3db89-d300-4008-bfcd-4d70b25d4854 menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/dane" data-drupal-link-system-path="node/1066">Dane</a>
+              </li>
+                <li class="menu-item--f443b879-39a7-4b34-9ecc-f762a600f9ad menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/el-capitan" data-drupal-link-system-path="node/1269">El Capitan</a>
+              </li>
+                <li class="menu-item--_e4cfbc1-bb5c-45aa-bd07-8b4f9398b0e6 menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/jade" data-drupal-link-system-path="node/355">Jade</a>
+              </li>
+                <li class="menu-item--d8f35a84-2945-46dc-a237-a2916cc1b5a9 menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/jadeita" data-drupal-link-system-path="node/424">Jadeita</a>
+              </li>
+                <li class="menu-item--_dd11720-ad54-4499-b77f-73063e62bc31 menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/magma" data-drupal-link-system-path="node/777">Magma</a>
+              </li>
+                <li class="menu-item--fbca441d-e236-42d3-bf8b-176fa432997e menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/mammoth" data-drupal-link-system-path="node/809">Mammoth</a>
+              </li>
+                <li class="menu-item--_8cf2422-b2b1-448a-a955-051544143a5f menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/matrix" data-drupal-link-system-path="node/1290">Matrix</a>
+              </li>
+                <li class="menu-item--_97e34b7-cc68-406f-90e0-b88149c09776 menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/mica" data-drupal-link-system-path="node/356">Mica</a>
+              </li>
+                <li class="menu-item--_917fc31-fc89-4268-b379-a20e8ed9ba2e menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/neo" data-drupal-link-system-path="node/1449">Neo</a>
+              </li>
+                <li class="menu-item--_e264d3a-d093-4d63-8525-029bbb475b79 menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/pinot" data-drupal-link-system-path="node/316">Pinot</a>
+              </li>
+                <li class="menu-item--a82bf1a9-0c47-4768-a139-af0d66798773 menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/rzadams" data-drupal-link-system-path="node/1227">RZAdams</a>
+              </li>
+                <li class="menu-item--e2b8615a-112b-4071-815e-7e712b9bfa55 menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/rzhound" data-drupal-link-system-path="node/1067">RZHound</a>
+              </li>
+                <li class="menu-item--_9bee713-083c-4190-9540-68dd3f31c0cf menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/rzgenie" data-drupal-link-system-path="node/350">RZGenie</a>
+              </li>
+                <li class="menu-item--b9393387-1442-4753-a30b-54cd304d724a menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/rzvernal" data-drupal-link-system-path="node/991">RZVernal</a>
+              </li>
+                <li class="menu-item--f12610c9-301a-4e97-b4a7-a9bd0f2a4dfa menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/rzwhamo" data-drupal-link-system-path="node/870">RZWhamo</a>
+              </li>
+                <li class="menu-item--_76b76f9-3318-42bb-9e0d-3bee5cef5b36 menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/rzwhippet" data-drupal-link-system-path="node/1015">RZWhippet</a>
+              </li>
+                <li class="menu-item--_4b05826-4e9a-4f5c-9585-5a7eace074bd menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/tenaya" data-drupal-link-system-path="node/992">Tenaya</a>
+              </li>
+                <li class="menu-item--_005d4de-114f-415d-bebd-186060025886 menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/tioga" data-drupal-link-system-path="node/990">Tioga</a>
+              </li>
+                <li class="menu-item--fcd7d0be-d82f-4c2c-aec6-fb8904b410a7 menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/tron" data-drupal-link-system-path="node/795">Tron</a>
+              </li>
+                <li class="menu-item--_938e82f-905f-4eb4-ab2a-55ffd07c36a0 menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms/rzvector" data-drupal-link-system-path="node/1386">RZVector</a>
+              </li>
+                <li class="menu-item--_d286f74-b1a7-4329-9e00-f45cf8d0d363 menu-name--menu-user-portal-menu menu-item--active-trail">
+        <a href="/hardware/compute-platforms/tuolumne" data-drupal-link-system-path="node/1266" class="is-active" aria-current="page">Tuolumne</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--cfa10c50-de03-4783-9742-0944d3c4d6fd menu-name--menu-user-portal-menu">
+        <a href="/hardware/compute-platforms-gpus" data-drupal-link-system-path="node/697">Compute Platforms with GPUs</a>
+              </li>
+                <li class="menu-item--_58fe08b-f32a-411a-93b9-316f63ec272b menu-name--menu-user-portal-menu">
+        <a href="/hardware/file-systems" data-drupal-link-system-path="node/23">File Systems</a>
+                                <ul>
+                    <li class="menu-item--af289c06-397a-4629-9977-fdac6724f128 menu-name--menu-user-portal-menu">
+        <a href="/hardware/file-systems/parallel-file-systems" data-drupal-link-system-path="node/455">Parallel File Systems</a>
+              </li>
+                <li class="menu-item--ea1d0f8c-9009-4cb6-9254-92cb8070db01 menu-name--menu-user-portal-menu">
+        <a href="/hardware/file-systems/usr-gapps-file-system" data-drupal-link-system-path="node/514">/usr/gapps File System</a>
+              </li>
+                <li class="menu-item--e819fdb8-55c9-4778-a3c9-a67771083d3c menu-name--menu-user-portal-menu">
+        <a href="/hardware/file-systems/file-management" data-drupal-link-system-path="node/359">File Management</a>
+                                <ul>
+                    <li class="menu-item--_8258133-3a0c-4a5d-b53d-ca04cdbac3f6 menu-name--menu-user-portal-menu">
+        <a href="/hardware/file-systems/file-management/tri-lab-data-transfer-tools" data-drupal-link-system-path="node/815">Tri-lab Distance Communication Transfer Tools</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_1e27fce-6d8b-4148-9ff0-4ed83201fecf menu-name--menu-user-portal-menu">
+        <a href="/hardware/storage-data-transfer-clusters" data-drupal-link-system-path="node/333">Storage Data Transfer Clusters</a>
+                                <ul>
+                    <li class="menu-item--ed6c10ad-7d8f-4fdf-8148-6ac079bcf65e menu-name--menu-user-portal-menu">
+        <a href="/hardware/storage-data-transfer-clusters/oslic" data-drupal-link-system-path="node/339">OSLIC</a>
+              </li>
+                <li class="menu-item--e023737c-f7af-4470-963d-f62ceb357a0f menu-name--menu-user-portal-menu">
+        <a href="/hardware/storage-data-transfer-clusters/rzslic" data-drupal-link-system-path="node/340">RZSLIC</a>
+              </li>
+                <li class="menu-item--_3a75d14-362b-40ea-9941-8ae180705ccc menu-name--menu-user-portal-menu">
+        <a href="/hardware/storage-data-transfer-clusters/cslic" data-drupal-link-system-path="node/347">CSLIC</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_b29dbb4-fb9e-42d7-9f68-f55f4881adf2 menu-name--menu-user-portal-menu">
+        <a href="/hardware/testbeds" data-drupal-link-system-path="node/379">Testbeds</a>
+              </li>
+                <li class="menu-item--abd1c3c9-bcaa-4b59-8478-36c2924d34f6 menu-name--menu-user-portal-menu">
+        <a href="/hardware/quotas" data-drupal-link-system-path="node/1447">Quotas</a>
+              </li>
+                <li class="menu-item--fad0211e-bfd8-4199-8da9-a381d3ed759a menu-name--menu-user-portal-menu">
+        <a href="/hardware/zones-enclave" data-drupal-link-system-path="node/828">Zones (a.k.a. &quot;The Enclave&quot;)</a>
+                                <ul>
+                    <li class="menu-item--_b02aeb4-2e37-473a-a849-a99baf305426 menu-name--menu-user-portal-menu">
+        <a href="/hardware/zones-k-enclave/zone-access" data-drupal-link-system-path="node/422">Zone Access</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_0fe7c77-ef4a-4a15-9ae5-75614495e9f2 menu-name--menu-user-portal-menu">
+        <a href="https://lc.llnl.gov/lorenz/mylc/mylc.cgi" title="">MyLC (Lorenz)</a>
+              </li>
+                <li class="menu-item--babc25ee-4d12-41dd-a746-e6d49df4716a menu-name--menu-user-portal-menu">
+        <a href="https://lc.llnl.gov/cgi-bin/lccgi/customstatus.cgi?" title="">CZ Compute Platform Status</a>
+              </li>
+                <li class="menu-item--_0ee8269-bd40-4dc4-b08c-fcd5579560a1 menu-name--menu-user-portal-menu">
+        <a href="https://rzlc.llnl.gov/cgi-bin/lccgi/customstatus.cgi" title="">RZ Compute System Status</a>
+              </li>
+                <li class="menu-item--ae763574-c959-47a9-8de4-4cad21879023 menu-name--menu-user-portal-menu">
+        <a href="https://lc.llnl.gov/fsstatus/fsstatus.cgi" title="">CZ File System Status</a>
+              </li>
+                <li class="menu-item--_78edc32-3452-497f-8948-f6c90a6956f8 menu-name--menu-user-portal-menu">
+        <a href="https://rzlc.llnl.gov/fsstatus/fsstatus.cgi" title="">RZ File System Status</a>
+              </li>
+                <li class="menu-item--_dd5a3e7-9821-4e24-af46-d94785cf621e menu-name--menu-user-portal-menu">
+        <a href="https://lc.llnl.gov/confluence/x/7A_sK" title="Authentication Required">El Capitan EAS Systems Confluence</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_1abad53-42b8-4f50-87ff-17fdb9bf9199 menu-name--menu-user-portal-menu">
+        <a href="/services" data-drupal-link-system-path="node/18">Services</a>
+                                <ul>
+                    <li class="menu-item--de048382-c608-441d-a8b0-c69c9e8066b8 menu-name--menu-user-portal-menu">
+        <a href="/services/cloud" data-drupal-link-system-path="node/1127">Cloud Services</a>
+                                <ul>
+                    <li class="menu-item--e8d18ab5-abd6-4f80-bdb5-4ac82047bbc5 menu-name--menu-user-portal-menu">
+        <a href="/services/cloud-services/si-ml-services" data-drupal-link-system-path="node/1284">AI/ML Services</a>
+                                <ul>
+                    <li class="menu-item--_c5a4949-1c81-430a-aa33-8acb39c44cba menu-name--menu-user-portal-menu">
+        <a href="/llamame" data-drupal-link-system-path="node/1285">LLamaMe</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_2d285c4-c64a-4ee4-99fb-43865e13b0d6 menu-name--menu-user-portal-menu">
+        <a href="/services/cloud/jeds" data-drupal-link-system-path="node/1369">JEDS</a>
+              </li>
+                <li class="menu-item--_6a401ca-d863-4ef3-b35c-ae981e2ead51 menu-name--menu-user-portal-menu">
+        <a href="/services/cloud-services/launchit" data-drupal-link-system-path="node/1157">LaunchIT</a>
+                                <ul>
+                    <li class="menu-item--_39bb4de-5609-4a1f-a02f-24014e98c0a2 menu-name--menu-user-portal-menu">
+        <a href="/services/cloud/help/faq" data-drupal-link-system-path="node/1158">FAQ</a>
+              </li>
+                <li class="menu-item--_8bb287c-8e53-4d7a-8b2a-d744ff39032a menu-name--menu-user-portal-menu">
+        <a href="/services/cloud/help" data-drupal-link-system-path="node/1159">Help</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_f73fdd3-9c61-4ec6-b16f-67ea40c17c18 menu-name--menu-user-portal-menu">
+        <a href="/services/cloud-services/object-storage" data-drupal-link-system-path="node/1151">Object Storage</a>
+              </li>
+                <li class="menu-item--_761f1e7-3da2-46dc-9549-d6f27bad3522 menu-name--menu-user-portal-menu">
+        <a href="/services/cloud/pds" data-drupal-link-system-path="node/1128">Persistent Data Services (PDS)</a>
+                                <ul>
+                    <li class="menu-item--_b09fa74-1925-40d5-a4c1-b82646714285 menu-name--menu-user-portal-menu">
+        <a href="/services/cloud-services/persistent-data-services-pds/embedded-storage-pgvector" data-drupal-link-system-path="node/1403">Embedded Storage with PGVector</a>
+              </li>
+                <li class="menu-item--_cee5f57-5060-4da8-9f4e-b52dd0dfb120 menu-name--menu-user-portal-menu">
+        <a href="/services/cloud/pds/mariadb" data-drupal-link-system-path="node/1130">MariaDB</a>
+              </li>
+                <li class="menu-item--b4d1e0ab-3349-483d-8246-db2a87eca68e menu-name--menu-user-portal-menu">
+        <a href="/services/cloud/pds/mongodb" data-drupal-link-system-path="node/1132">MongoDB</a>
+                                <ul>
+                    <li class="menu-item--a38ece16-b1fd-43e6-af60-f9e5205dd19c menu-name--menu-user-portal-menu">
+        <a href="/services/cloud/pds/mongodb/mongodb-containers" data-drupal-link-system-path="node/1162">MongoDB Containers</a>
+              </li>
+                <li class="menu-item--be24ff3b-6219-46e4-bf96-d086ca1c159c menu-name--menu-user-portal-menu">
+        <a href="/services/cloud/pds/mongodb/mongodb-python" data-drupal-link-system-path="node/1163">MongoDB Python</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_be4986a-d146-40e7-84fe-662d53dd10f2 menu-name--menu-user-portal-menu">
+        <a href="/services/cloud/pds/mysql" data-drupal-link-system-path="node/1131">MySQL</a>
+              </li>
+                <li class="menu-item--_bad3479-7dbd-4ba4-869b-c74feec6cb63 menu-name--menu-user-portal-menu">
+        <a href="/services/cloud/pds/postgresql" data-drupal-link-system-path="node/1133">PostgreSQL</a>
+              </li>
+                <li class="menu-item--ac81c950-d148-44fa-aac5-c3e192956f1b menu-name--menu-user-portal-menu">
+        <a href="/services/cloud/pds/rabbitmq" data-drupal-link-system-path="node/1134">RabbitMQ</a>
+              </li>
+                <li class="menu-item--_b52fdb3-4d7c-472d-86eb-f0b98b27d402 menu-name--menu-user-portal-menu">
+        <a href="/services/cloud/pds/redis" data-drupal-link-system-path="node/1135">Redis</a>
+              </li>
+                <li class="menu-item--_334e0c0-2b28-4f14-97ac-ebf38b07f712 menu-name--menu-user-portal-menu">
+        <a href="/services/cloud/pds-technical-details" data-drupal-link-system-path="node/1165">PDS Deeper Dive</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--daf2ebf7-194f-4a07-ae35-1bd1d60750fd menu-name--menu-user-portal-menu">
+        <a href="/services/cloud/workflow-tools" data-drupal-link-system-path="node/1153">Workflow Tools</a>
+                                <ul>
+                    <li class="menu-item--_f41f2e5-98d6-4279-bc56-7b349d1d87df menu-name--menu-user-portal-menu">
+        <a href="/services/cloud-services/workflow-tools/aiida" data-drupal-link-system-path="node/1152">AiiDA</a>
+                                <ul>
+                    <li class="menu-item--_fbdfbc2-3850-46e6-9d1a-c29cfd2582b0 menu-name--menu-user-portal-menu">
+        <a href="/services/cloud/workflow-tools/aiida/how-configure-aiida-v1-3" data-drupal-link-system-path="node/1197">How to Configure AiiDA v1.3</a>
+              </li>
+                <li class="menu-item--e296b596-7448-48c0-b83a-780f1cc73134 menu-name--menu-user-portal-menu">
+        <a href="/services/cloud/workflow-tools/aiida/how-configure-aiida-v1-5-2" data-drupal-link-system-path="node/1196">How to Configure AiiDA v1.5.2</a>
+              </li>
+                <li class="menu-item--_2820bbb-8bf5-4686-bd1d-ae3a4ebf813a menu-name--menu-user-portal-menu">
+        <a href="/services/cloud/workflow-tools/aiida/how-configure-aiida-v1-6-4-maya6" data-drupal-link-system-path="node/1198">How to Configure AiiDA v1.6.4 on maya6</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--ab17f14a-dcd0-4fe9-b19b-f086bb999ded menu-name--menu-user-portal-menu">
+        <a href="/services/cloud-services/workflow-tools/fireworks" data-drupal-link-system-path="node/1154">FireWorks</a>
+              </li>
+                <li class="menu-item--d17b4b0e-88df-46e2-a748-44aab6f9bfe1 menu-name--menu-user-portal-menu">
+        <a href="/services/cloud/workflow-tools/merlin" data-drupal-link-system-path="node/1155">Merlin</a>
+              </li>
+                <li class="menu-item--_8907661-de76-4093-b7fd-0b2f932fee81 menu-name--menu-user-portal-menu">
+        <a href="/services/cloud-services/workflow-tools/sina" data-drupal-link-system-path="node/1156">Sina</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_f2ab59f-3d96-4c9f-ba60-341324d192e2 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-containers-lc-hpc-systems" data-drupal-link-system-path="node/1136">Containers in LC HPC</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_e0d85cf-6a83-44c1-a7a6-b42c9eab8f6a menu-name--menu-user-portal-menu">
+        <a href="/services/green-collaboration-environment" data-drupal-link-system-path="node/1283">Green Collaboration Environment</a>
+                                <ul>
+                    <li class="menu-item--_3720698-08f5-4b5e-a270-717b74a02499 menu-name--menu-user-portal-menu">
+        <a href="/services/green-collaboration-environment/globus" data-drupal-link-system-path="node/979">Globus</a>
+                                <ul>
+                    <li class="menu-item--ce37b777-f831-4762-a2aa-12061adcaf25 menu-name--menu-user-portal-menu">
+        <a href="/services/green-collaboration-environment/globus/globftp" data-drupal-link-system-path="node/1296">globftp</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_9ddc776-4815-4590-add2-f9cfdb80a5e6 menu-name--menu-user-portal-menu">
+        <a href="/services/green-collaboration-environment/green-data-oasis" data-drupal-link-system-path="node/34">Green Data Oasis (GDO)</a>
+                                <ul>
+                    <li class="menu-item--e4691e3e-b06f-4e02-bd41-0ca2ca2ff45c menu-name--menu-user-portal-menu">
+        <a href="/services/green-data-oasis-gdo/green-data-oasis-usage" data-drupal-link-system-path="node/329">Usage</a>
+              </li>
+                <li class="menu-item--_5135354-ebf5-4ea4-add3-f862a55c3218 menu-name--menu-user-portal-menu">
+        <a href="/services/green-data-oasis-gdo/data-custodian" data-drupal-link-system-path="node/331">Data Custodian</a>
+              </li>
+                <li class="menu-item--_65c043a-f3a1-47c0-9f47-19dadc0240ae menu-name--menu-user-portal-menu">
+        <a href="/services/green-collaboration-environment/green-data-oasis-gdo/review-and-release-large-datasets" data-drupal-link-system-path="node/330">Review and Release of Large Datasets</a>
+              </li>
+                <li class="menu-item--_b81b1ab-3b2d-45ea-abac-b39e4a60a93c menu-name--menu-user-portal-menu">
+        <a href="/services/green-collaboration-environment/green-data-oasis-gdo/terms-and-conditions" data-drupal-link-system-path="node/332">Terms and Conditions</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_6c6d9a2-4c7a-4e3d-bb4b-9a6fd25368f0 menu-name--menu-user-portal-menu">
+        <a href="/services/green-collaboration-environment/guidelines-external-data-transfers" data-drupal-link-system-path="node/1219">Guidelines for External Data Transfers</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_21c8674-9902-4aa7-b4f5-1570aa3bd929 menu-name--menu-user-portal-menu">
+        <a href="/services/visualization-services" data-drupal-link-system-path="node/624">Visualization Services</a>
+              </li>
+                <li class="menu-item--cb6ae9af-1c2c-4e67-b87a-cd8bee80b6b6 menu-name--menu-user-portal-menu">
+        <a href="/services/web-services" data-drupal-link-system-path="node/1118">Web Services</a>
+                                <ul>
+                    <li class="menu-item--_ba61895-a5cd-49ab-91be-1d9b927a7b7c menu-name--menu-user-portal-menu">
+        <a href="/services/web-services/cdash" data-drupal-link-system-path="node/1180">CDash</a>
+              </li>
+                <li class="menu-item--a18aa434-ef63-49f9-8340-cbe202b71a88 menu-name--menu-user-portal-menu">
+        <a href="/services/web-services/lc-gitlab" data-drupal-link-system-path="node/1144">LC GitLab</a>
+                                <ul>
+                    <li class="menu-item--f6686d16-db1a-4183-b3a0-07b034a817e8 menu-name--menu-user-portal-menu">
+        <a href="/services/web-services/lc-gitlab/getting-started-lc-gitlab" data-drupal-link-system-path="node/1145">Getting Started with LC GitLab</a>
+                                <ul>
+                    <li class="menu-item--ce67cc66-7ead-47e0-9b7b-af8f6f752051 menu-name--menu-user-portal-menu">
+        <a href="/services/web-services/gitlab/getting-started-lc-gitlab/logging-lc-gitlab-browser" data-drupal-link-system-path="node/1149">Logging in to LC GitLab from a browser</a>
+              </li>
+                <li class="menu-item--ec8b700f-0620-4213-8a5b-267c9711acd6 menu-name--menu-user-portal-menu">
+        <a href="/services/web-services/lc-gitlab/getting-started-lc-gitlab/gitlab-setup-lc" data-drupal-link-system-path="node/1419">GitLab Setup from LC</a>
+              </li>
+                <li class="menu-item--d6451584-0757-4028-842b-6e0ad87893b5 menu-name--menu-user-portal-menu">
+        <a href="/services/web-services/lc-gitlab/getting-started-lc-gitlab/gitlab-setup-local-machine" data-drupal-link-system-path="node/1418">GitLab Setup from a Local Machine</a>
+              </li>
+                <li class="menu-item--f434d9dc-303e-4a59-b7bd-54748faa77a6 menu-name--menu-user-portal-menu">
+        <a href="/services/web-services/lc-gitlab/getting-started-lc-gitlab/using-personal-access-token-git-over" data-drupal-link-system-path="node/1415">Using a Personal Access Token for Git-over-HTTPS</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--bf3bef4d-8ff6-42a4-bbdc-0183b110c671 menu-name--menu-user-portal-menu">
+        <a href="/services/web-services/lc-gitlab/lc-gitlab-duo-limited-access" data-drupal-link-system-path="node/1343">LC GitLab Duo (Pilot)</a>
+              </li>
+                <li class="menu-item--_8961448-0cab-43d3-931c-c101e421ba40 menu-name--menu-user-portal-menu">
+        <a href="/services/web-services/gitlab/gitlab-troubleshooting" data-drupal-link-system-path="node/1146">Troubleshooting</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_d3b53ba-9e6e-4b98-9c8f-b6559b718ca7 menu-name--menu-user-portal-menu">
+        <a href="https://lc.llnl.gov/lorenz/mylc/mylc.cgi">MyLC (Lorenz)</a>
+              </li>
+                <li class="menu-item--_699cb37-1009-47d7-8beb-19c746b880ab menu-name--menu-user-portal-menu">
+        <a href="/services/web-services/orbit-and-jupyter-notebooks" data-drupal-link-system-path="node/877">Orbit and Jupyter Notebooks</a>
+                                <ul>
+                    <li class="menu-item--_8e1429e-82fe-495f-9ab9-1fd150a246d7 menu-name--menu-user-portal-menu">
+        <a href="/services/jupyterhub-and-jupyter-notebooks/jupyterhub-julia-kernel" data-drupal-link-system-path="node/879">JupyterHub: Julia kernel</a>
+              </li>
+                <li class="menu-item--_1b63fec-2221-4e99-87be-3409cebd3b5f menu-name--menu-user-portal-menu">
+        <a href="/services/web-services/orbit-and-jupyter-notebooks/jupyterhub-matlab-kernel" data-drupal-link-system-path="node/878">JupyterHub: Matlab kernel</a>
+              </li>
+                <li class="menu-item--df5e775c-6baa-47bc-81d7-e8fa2505cd7f menu-name--menu-user-portal-menu">
+        <a href="/services/jupyterhub-and-jupyter-notebooks/jupyterhub-r-kernel" data-drupal-link-system-path="node/880">JupyterHub: R kernel</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_b167d8c-26a0-404c-a950-69e6c9258f60 menu-name--menu-user-portal-menu">
+        <a href="/software" data-drupal-link-system-path="node/27">Software</a>
+                                <ul>
+                    <li class="menu-item--f968c256-dffe-4aa8-b45e-f8ddf2e0ca80 menu-name--menu-user-portal-menu">
+        <a href="/software/toss-tri-lab-operating-system-stack" data-drupal-link-system-path="node/1367">TOSS: Tri-Lab Operating System Stack</a>
+              </li>
+                <li class="menu-item--_a9e9080-265f-4ac3-80ca-7a150ebc7fe6 menu-name--menu-user-portal-menu">
+        <a href="/software/archival-storage-software" data-drupal-link-system-path="node/36">Archival Storage Software</a>
+              </li>
+                <li class="menu-item--_2f5222b-e1eb-415e-81a4-ea056349f93b menu-name--menu-user-portal-menu">
+        <a href="/software/si-ml-software-and-tools" data-drupal-link-system-path="node/1346">AI/ML Software and Tools</a>
+                                <ul>
+                    <li class="menu-item--_6e68075-9d3d-47d3-a5ba-0d3598c870ac menu-name--menu-user-portal-menu">
+        <a href="/software/ai-ml-software-and-tools/using-tensorboard-login-nodes-part-1" data-drupal-link-system-path="node/1303">Using TensorBoard on Login Nodes</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_519deb2-1a8b-4ea7-a48f-57265ec1b3ff menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-containers-lc-hpc-systems" data-drupal-link-system-path="node/1136">Containers in LC HPC</a>
+                                <ul>
+                    <li class="menu-item--_278eb4f-0d36-422f-a47d-9dc54b56bb99 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-containers-lc-hpc-systems/containers-background" data-drupal-link-system-path="node/1137">Background</a>
+              </li>
+                <li class="menu-item--_84fddb6-4fbb-45eb-bc95-a65ec263d03a menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-containers-lc-hpc-systems/containers-gotchas" data-drupal-link-system-path="node/1140">Gotchas</a>
+              </li>
+                <li class="menu-item--_0708703-386e-4996-8572-fecfe27f1306 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-containers-lc-hpc-systems/containers-how-build-container" data-drupal-link-system-path="node/1138">How to Build a Container</a>
+              </li>
+                <li class="menu-item--_4b9d9ed-4b61-4c73-b933-2e747660dede menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-containers-lc-hpc-systems/containers-how-interact-container" data-drupal-link-system-path="node/1139">How to Interact with a Container</a>
+              </li>
+                <li class="menu-item--_b8d198f-26bb-4b75-a3f4-0dae0ccf073d menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-containers-lc-hpc-systems/containers-troubleshooting" data-drupal-link-system-path="node/1141">Troubleshooting</a>
+              </li>
+                <li class="menu-item--_c7f90d2-e793-4c5f-9ee3-4c1332abd0fe menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-containers-lc-hpc-systems/containers-using-containers-ci-pipelines" data-drupal-link-system-path="node/1143">Using Containers in CI Pipelines</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_0c39981-6bac-456c-a3e3-fc78660a2fc3 menu-name--menu-user-portal-menu">
+        <a href="/software/data-management-tools-projects" data-drupal-link-system-path="node/33">Data Management Tools</a>
+                                <ul>
+                    <li class="menu-item--_5780313-010c-4321-a0b9-89d302e0756b menu-name--menu-user-portal-menu">
+        <a href="/software/data-management-tools/using-hopper" data-drupal-link-system-path="node/923">Using Hopper</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_d6bfd12-2b77-49b6-87d3-f2975858000e menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software" data-drupal-link-system-path="node/411">Development Environment Software</a>
+                                <ul>
+                    <li class="menu-item--_18dbcbe-1300-4999-8a27-81135c232d10 menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/allinea-ddt" data-drupal-link-system-path="node/533">Allinea DDT</a>
+              </li>
+                <li class="menu-item--_f54596d-57ac-4a61-9140-95fadca5ff51 menu-name--menu-user-portal-menu">
+        <a href="https://pruners.github.io/archer/" title="">Archer</a>
+              </li>
+                <li class="menu-item--_37b192f-6db7-4d35-81ba-1e7119b59b7f menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/compilers-lc" data-drupal-link-system-path="node/373">Compilers</a>
+              </li>
+                <li class="menu-item--fe11ad80-bbf8-466d-8206-de167c31782b menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/gprof" data-drupal-link-system-path="node/534">Gprof</a>
+              </li>
+                <li class="menu-item--_7d13362-dbae-459a-9da8-bf9b7484d86e menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/file-editors" data-drupal-link-system-path="node/413">File Editors</a>
+              </li>
+                <li class="menu-item--db1ed58c-dd9c-44b1-a459-eb3fecc826f2 menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/fpchecker" data-drupal-link-system-path="node/766">FPChecker</a>
+              </li>
+                <li class="menu-item--_e0b7400-ab52-49b1-adb6-272b6bd7a00f menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/hpc-toolkit" data-drupal-link-system-path="node/536">HPC Toolkit</a>
+              </li>
+                <li class="menu-item--f693249c-9f8a-43ea-8570-74e5f4fc2cbe menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/intel-advisor" data-drupal-link-system-path="node/535">Intel Advisor</a>
+              </li>
+                <li class="menu-item--_a101bf2-bf37-40f1-9398-ebb0f3235a39 menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/intel-inspector" data-drupal-link-system-path="node/537">Intel Inspector</a>
+              </li>
+                <li class="menu-item--_aa8cc42-692a-45ff-af1b-75dac995793b menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/intel-vtune-amplifier" data-drupal-link-system-path="node/538">Intel VTune Amplifier</a>
+              </li>
+                <li class="menu-item--b3471fbc-27e8-4ad1-9335-533410ec5b77 menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/memp-parallel-heap-profiling" data-drupal-link-system-path="node/539">memP: Parallel Heap Profiling</a>
+              </li>
+                <li class="menu-item--_b252a8b-d0b6-44fb-ba83-c16b89a4a454 menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/must" data-drupal-link-system-path="node/640">MUST</a>
+              </li>
+                <li class="menu-item--_25f4220-fcaf-4ae5-bb7d-8c788b848f50 menu-name--menu-user-portal-menu">
+        <a href="https://software.llnl.gov/mpiP/">mpiP</a>
+              </li>
+                <li class="menu-item--ca9fe5bf-03d4-4361-bbf2-4698c8c5c84c menu-name--menu-user-portal-menu">
+        <a href="https://pruners.github.io/ninja/" title="">NINJA</a>
+              </li>
+                <li class="menu-item--e25c0130-5d9d-48c4-a936-21ee8f7f4110 menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/papi-performance-application-programming-interface" data-drupal-link-system-path="node/542">PAPI: Performance Application Programming Interface</a>
+              </li>
+                <li class="menu-item--fedbcb4c-8140-48f1-a977-e4af0ce65bca menu-name--menu-user-portal-menu">
+        <a href="https://pruners.github.io/">Pruners</a>
+              </li>
+                <li class="menu-item--b40691cc-a930-49ad-8697-a127976a6516 menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/python" data-drupal-link-system-path="node/550">Python</a>
+                                <ul>
+                    <li class="menu-item--_6a2a8a3-277e-422a-96f6-cdda39f43a38 menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/python/debugging-python" data-drupal-link-system-path="node/551">Debugging Python</a>
+              </li>
+                <li class="menu-item--dcb3d555-365c-4ecb-98ea-1991d1aa6f3f menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/python/python-site-packages" data-drupal-link-system-path="node/552">Python Site Packages</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_c02178c-b49a-4ad3-8b24-dae90dc88822 menu-name--menu-user-portal-menu">
+        <a href="https://pruners.github.io/rempi/" title="">ReMPI</a>
+              </li>
+                <li class="menu-item--fef2edc6-b41e-4d54-9238-97515c84aa03 menu-name--menu-user-portal-menu">
+        <a href="https://github.com/spack/spack" title="">Spack</a>
+              </li>
+                <li class="menu-item--d9b5dd8b-f42c-46b1-b057-ef1735d2ada4 menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/stat-stack-trace-analysis-tool" data-drupal-link-system-path="node/544">STAT: Stack Trace Analysis Tool</a>
+              </li>
+                <li class="menu-item--_a56b561-c56e-4da3-b3b8-fe484acdd905 menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/tau-tuning-and-analysis-utilities" data-drupal-link-system-path="node/545">TAU: Tuning and Analysis Utilities</a>
+              </li>
+                <li class="menu-item--_c37ee15-3507-4523-9704-6339384b7ce4 menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/totalview-debugger" data-drupal-link-system-path="node/546">TotalView Debugger</a>
+                                <ul>
+                    <li class="menu-item--c1744b56-fd4e-4d8c-a5f0-272729b029f5 menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/totalview-debugger/totalview-site-license-request" data-drupal-link-system-path="node/722">TotalView Site License Request</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_23e75ff-39cb-4a6f-b2b6-696befd1bf68 menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/vampir" data-drupal-link-system-path="node/547">Vampir/VampirServer</a>
+              </li>
+                <li class="menu-item--ddfa78d8-ddbc-4633-854d-125ea79fbec1 menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/valgrind-memcheck-tool" data-drupal-link-system-path="node/540">Valgrind Memcheck Tool</a>
+              </li>
+                <li class="menu-item--e995b10b-ab78-4a26-845c-8293bbfc2745 menu-name--menu-user-portal-menu">
+        <a href="/software/development-environment-software/gpu-programming" data-drupal-link-system-path="node/1452">GPU Programming</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_5192304-7671-42fb-9b70-a3000453ac56 menu-name--menu-user-portal-menu">
+        <a href="/software/hubcast" data-drupal-link-system-path="node/1440">Hubcast</a>
+              </li>
+                <li class="menu-item--_1bc9db8-859a-4834-881f-1857ac76715e menu-name--menu-user-portal-menu">
+        <a href="/software/mathematical-software" data-drupal-link-system-path="node/905">Mathematical Software</a>
+                                <ul>
+                    <li class="menu-item--b9e35d23-d834-4ece-98f5-601f7df228aa menu-name--menu-user-portal-menu">
+        <a href="/software/mathematical-software/atlas" data-drupal-link-system-path="node/906">ATLAS</a>
+              </li>
+                <li class="menu-item--_c40cf4b-935b-49f2-a2f1-bb6350300e2a menu-name--menu-user-portal-menu">
+        <a href="/software/mathematical-software/blas" data-drupal-link-system-path="node/907">BLAS</a>
+              </li>
+                <li class="menu-item--b5630ae2-8aa1-4f90-b36b-166f3532d694 menu-name--menu-user-portal-menu">
+        <a href="/software/mathematical-software/fftw" data-drupal-link-system-path="node/909">FFTW</a>
+              </li>
+                <li class="menu-item--_2badf14-afa7-4e95-b7d4-b3d9d196e84e menu-name--menu-user-portal-menu">
+        <a href="/software/mathematical-software/gnu-scientific-library" data-drupal-link-system-path="node/910">GNU Scientific Library</a>
+              </li>
+                <li class="menu-item--_e739de0-1a78-4681-b6cb-26cbd03145af menu-name--menu-user-portal-menu">
+        <a href="/software/mathematical-software/interactive-math-tools" data-drupal-link-system-path="node/954">Interactive Math Tools</a>
+              </li>
+                <li class="menu-item--_88b900a-ee1a-43ce-a2c1-45e31f3acca7 menu-name--menu-user-portal-menu">
+        <a href="/software/mathematical-software/lapack" data-drupal-link-system-path="node/911">LAPACK</a>
+              </li>
+                <li class="menu-item--_fd69d8f-9475-4ff7-bda7-1d62517ac637 menu-name--menu-user-portal-menu">
+        <a href="/software/mathematical-software/largest-and-smallest-numbers" data-drupal-link-system-path="node/952">Largest and Smallest Numbers</a>
+              </li>
+                <li class="menu-item--c8e6cecd-8c4e-4964-a5c8-17bb1c73c04d menu-name--menu-user-portal-menu">
+        <a href="/software/mathematical-software/libm" data-drupal-link-system-path="node/912">LIBM</a>
+              </li>
+                <li class="menu-item--_d8da905-efc4-4b14-99a1-d40514f2356a menu-name--menu-user-portal-menu">
+        <a href="/software/mathematical-software/linmath" data-drupal-link-system-path="node/949">LINMath</a>
+              </li>
+                <li class="menu-item--_549376d-936d-4851-a691-0dfad89a09c2 menu-name--menu-user-portal-menu">
+        <a href="/software/mathematical-software/mass" data-drupal-link-system-path="node/951">MASS</a>
+              </li>
+                <li class="menu-item--_11f0725-5cab-4291-8853-c77338c6b5ba menu-name--menu-user-portal-menu">
+        <a href="/software/mathematical-software/mkl" data-drupal-link-system-path="node/942">MKL</a>
+              </li>
+                <li class="menu-item--_81a5615-3155-437b-acce-4771f68c8d2b menu-name--menu-user-portal-menu">
+        <a href="/software/mathematical-software/mssl-and-mssl3" data-drupal-link-system-path="node/943">MSSL and mssl3</a>
+              </li>
+                <li class="menu-item--a9f25623-3864-49d7-b596-eada922cb0d9 menu-name--menu-user-portal-menu">
+        <a href="https://computing.llnl.gov/projects/odepack">ODEPACK</a>
+              </li>
+                <li class="menu-item--fcc8512e-a6fc-40f7-9e37-e64e6b8ac155 menu-name--menu-user-portal-menu">
+        <a href="/software/mathematical-software/petsc" data-drupal-link-system-path="node/944">PETSc</a>
+              </li>
+                <li class="menu-item--_5d2c20b-2a7d-4f94-8cab-fb0f3280eeea menu-name--menu-user-portal-menu">
+        <a href="/software/mathematical-software/pmath" data-drupal-link-system-path="node/945">PMATH</a>
+              </li>
+                <li class="menu-item--_ef47c37-0b05-46a0-878b-ef7b9cdb372b menu-name--menu-user-portal-menu">
+        <a href="/software/mathematical-software/slatec" data-drupal-link-system-path="node/947">SLATEC</a>
+              </li>
+                <li class="menu-item--f1410b99-7e0f-4dcb-835a-4512dd14384b menu-name--menu-user-portal-menu">
+        <a href="/software/mathematical-software/scalapack" data-drupal-link-system-path="node/946">ScaLAPACK</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_1e788a2-008c-45ae-bde0-ecff9b9570b6 menu-name--menu-user-portal-menu">
+        <a href="/software/modules-and-software-packaging" data-drupal-link-system-path="node/651">Modules and Software Packaging</a>
+              </li>
+                <li class="menu-item--_3866619-1b16-4700-8fcd-e68f94471f0c menu-name--menu-user-portal-menu">
+        <a href="/software/github" data-drupal-link-system-path="node/1372">GitHub</a>
+              </li>
+                <li class="menu-item--ec422494-2bb2-46c1-bd4e-d04ccd844f8d menu-name--menu-user-portal-menu">
+        <a href="https://software.llnl.gov/">Open Source Software</a>
+              </li>
+                <li class="menu-item--_995b8aa-b5d1-4655-8ad5-740c40d0a95f menu-name--menu-user-portal-menu">
+        <a href="https://computing.llnl.gov/projects/radiuss" title="">RADIUSS</a>
+              </li>
+                <li class="menu-item--e10fb034-58d5-41eb-9c90-7498bca0851b menu-name--menu-user-portal-menu">
+        <a href="/software/visualization-software" data-drupal-link-system-path="node/903">Visualization Software</a>
+                                <ul>
+                    <li class="menu-item--_2db7911-09e9-4dc3-9644-73002243c3ab menu-name--menu-user-portal-menu">
+        <a href="/software/visualization-software/ensight" data-drupal-link-system-path="node/363">EnSight</a>
+              </li>
+                <li class="menu-item--_687c687-b621-4157-9186-cb76778fbe08 menu-name--menu-user-portal-menu">
+        <a href="/software/visualization-software/gmt" data-drupal-link-system-path="node/378">GMT</a>
+              </li>
+                <li class="menu-item--_dd90581-5623-4aca-a765-79ea40542dfc menu-name--menu-user-portal-menu">
+        <a href="/software/visualization-software/gnuplot" data-drupal-link-system-path="node/380">gnuplot</a>
+              </li>
+                <li class="menu-item--d0531598-dc07-4f6c-9c32-5e6a3e056489 menu-name--menu-user-portal-menu">
+        <a href="/software/visualization-software/grace" data-drupal-link-system-path="node/383">Grace</a>
+              </li>
+                <li class="menu-item--_b35b21b-4a52-48e2-b652-471bd24cd518 menu-name--menu-user-portal-menu">
+        <a href="/software/visualization-software/idl" data-drupal-link-system-path="node/384">IDL</a>
+              </li>
+                <li class="menu-item--_5b72f5b-43f4-48c8-9d4c-9a89db336af4 menu-name--menu-user-portal-menu">
+        <a href="/software/visualization-software/ncar">NCAR</a>
+              </li>
+                <li class="menu-item--_929a6bc-2c23-4de7-b609-c5d62cb74ae5 menu-name--menu-user-portal-menu">
+        <a href="/software/visualization-software/nice-dcv" data-drupal-link-system-path="node/397">NICE DCV</a>
+              </li>
+                <li class="menu-item--_90a378a-c3d9-4c5d-ab5e-dd740aeced4d menu-name--menu-user-portal-menu">
+        <a href="/software/visualization-software/paraview" data-drupal-link-system-path="node/387">ParaView</a>
+              </li>
+                <li class="menu-item--e7b3f396-5781-4fd1-b1ba-6409b4470bed menu-name--menu-user-portal-menu">
+        <a href="/software/visualization-software/sm-tools" data-drupal-link-system-path="node/390">SM Tools</a>
+              </li>
+                <li class="menu-item--_0e241de-d5c8-4e57-9c29-08f2381520a4 menu-name--menu-user-portal-menu">
+        <a href="/software/visualization-software/tecplot-360">Tecplot 360</a>
+              </li>
+                <li class="menu-item--_ecbeb2b-4449-4669-bf7c-7b587478e079 menu-name--menu-user-portal-menu">
+        <a href="/software/visualization-software/visit" data-drupal-link-system-path="node/393">Visit</a>
+              </li>
+                <li class="menu-item--_1b3d3c3-f519-48b1-a191-20159574d052 menu-name--menu-user-portal-menu">
+        <a href="/software/visualization-software/vmd" data-drupal-link-system-path="node/396">VMD</a>
+              </li>
+                <li class="menu-item--_7ed39a5-ba9f-4e77-87d0-64078bcaa773 menu-name--menu-user-portal-menu">
+        <a href="/software/visualization-software/vnc-realvnc" data-drupal-link-system-path="node/398">VNC: RealVNC | VNC Viewer</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_9faa953-8a8d-4ba5-af89-7309d0429a4f menu-name--menu-user-portal-menu">
+        <a href="/documentation" data-drupal-link-system-path="node/75">Documentation</a>
+                                <ul>
+                    <li class="menu-item--c3ea7098-2341-4d3d-9abd-fac1fcfd4d44 menu-name--menu-user-portal-menu">
+        <a href="/accounts/policies" data-drupal-link-system-path="node/342">Policies</a>
+              </li>
+                <li class="menu-item--ccbaa1ac-a8a3-4c0c-88dd-91bad3cd6ea6 menu-name--menu-user-portal-menu">
+        <a href="/documentation/tutorials" data-drupal-link-system-path="node/20">Tutorials</a>
+                                <ul>
+                    <li class="menu-item--_c467bed-547d-4d45-b2bb-afe6e54199b5 menu-name--menu-user-portal-menu">
+        <a href="/documentation/tutorials/introduction-parallel-computing-tutorial" data-drupal-link-system-path="node/588">Introduction to Parallel Computing Tutorial</a>
+              </li>
+                <li class="menu-item--_9aeda31-1832-4250-b271-79b6e595b839 menu-name--menu-user-portal-menu">
+        <a href="/documentation/tutorials/livermore-computing-resources-and-environment" data-drupal-link-system-path="node/594">Livermore Computing Resources and Environment</a>
+              </li>
+                <li class="menu-item--_6d59f02-412a-48b4-bbc7-c3a1900a7440 menu-name--menu-user-portal-menu">
+        <a href="/documentation/tutorials/livermore-computing-commodity-clusters-overview-part-one" data-drupal-link-system-path="node/830">Commodity Clusters Overview Part One</a>
+              </li>
+                <li class="menu-item--_c0412ac-2480-4b65-a4e3-f3da0860d645 menu-name--menu-user-portal-menu">
+        <a href="/documentation/tutorials/livermore-computing-commodity-clusters-overview-part-two" data-drupal-link-system-path="node/833">Commodity Clusters Overview Part Two</a>
+                                <ul>
+                    <li class="menu-item--_ef48672-656e-42e9-a1c0-2c5b61613272 menu-name--menu-user-portal-menu">
+        <a href="/documentation/tutorials/livermore-computing-linux-clusters-overview-part-two/srun-auto-affinity" data-drupal-link-system-path="node/839">srun --auto-affinity</a>
+              </li>
+                <li class="menu-item--_b55fa14-6cba-48b6-aff7-1c604af0a4b8 menu-name--menu-user-portal-menu">
+        <a href="/documentation/tutorials/livermore-computing-linux-clusters-overview-part-two/srun-multi-prog" data-drupal-link-system-path="node/840">srun --multi-prog</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--f3ab05b4-e9ab-40e4-8b72-49b832d26a00 menu-name--menu-user-portal-menu">
+        <a href="/documentation/tutorials/commodity-cluster-tutorial-exercises" data-drupal-link-system-path="node/831">Commodity Tutorial Exercises</a>
+              </li>
+                <li class="menu-item--_25be18b-8456-449e-95f0-304c216f9540 menu-name--menu-user-portal-menu">
+        <a href="https://hpc-tutorials.llnl.gov/mpi/">MPI Tutorial</a>
+              </li>
+                <li class="menu-item--_8b6eaac-7d93-4ce7-8486-a5bff39bc188 menu-name--menu-user-portal-menu">
+        <a href="https://hpc-tutorials.llnl.gov/openmp/">OpenMP Tutorial</a>
+              </li>
+                <li class="menu-item--ed3ed6e1-d15a-4920-a786-0652b4cf91f3 menu-name--menu-user-portal-menu">
+        <a href="https://hpc-tutorials.llnl.gov/posix/">Posix Threading (aka, pthreads) Tutorial</a>
+              </li>
+                <li class="menu-item--_06a2ace-e5d0-4a1f-ba7d-f0157dd4d52b menu-name--menu-user-portal-menu">
+        <a href="/banks-jobs/running-jobs/slurm" data-drupal-link-system-path="node/847">Slurm and Moab Tutorial</a>
+                                <ul>
+                    <li class="menu-item--a10278ba-4a6f-4d9a-86d9-7cff09ca325e menu-name--menu-user-portal-menu">
+        <a href="/documentation/tutorials/slurm-and-moab-tutorial/slurm-and-moab-exercises" data-drupal-link-system-path="node/674">Slurm and Moab Exercise</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_ad56cd4-0e35-42eb-bd4b-08f4e7360d2f menu-name--menu-user-portal-menu">
+        <a href="/documentation/tutorials/totalview-tutorial" data-drupal-link-system-path="node/662">TotalView Tutorial</a>
+                                <ul>
+                    <li class="menu-item--d68d5046-070c-481d-960b-13d95bc1b0fe menu-name--menu-user-portal-menu">
+        <a href="/training/tutorials/totalview-tutorial/totalview-built-variables-and-statements" data-drupal-link-system-path="node/671">TotalView Built-in Variables and Statements</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_2bc9b70-0696-4a2c-9ea9-618ee7b4ac10 menu-name--menu-user-portal-menu">
+        <a href="/documentation/tutorials/totalview-part-2-common-functions" data-drupal-link-system-path="node/663">TotalView Part 2: Common Functions</a>
+              </li>
+                <li class="menu-item--d79d8d16-11bb-45af-8842-bcabda8b4f68 menu-name--menu-user-portal-menu">
+        <a href="/documentation/tutorials/totalview-part-3-debugging-parallel-programs" data-drupal-link-system-path="node/664">TotalView Part 3: Debugging Parallel Programs</a>
+              </li>
+                <li class="menu-item--_27fb40c-01ec-4e8f-b509-8cb761137c79 menu-name--menu-user-portal-menu">
+        <a href="/documentation/tutorials/tutorial-evaluation-form" data-drupal-link-system-path="node/610">Tutorial Evaluation Form</a>
+              </li>
+                <li class="menu-item--dfe67382-35b6-4d41-bc5b-c8de63e8dc73 menu-name--menu-user-portal-menu">
+        <a href="/documentation/tutorials/livermore-computing-psaap-iv-quick-start-guide" data-drupal-link-system-path="node/1342">Livermore Computing PSAAP IV Quick Start Guide</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_d570183-36bb-4236-bfbf-6a258e5f3ca9 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides" data-drupal-link-system-path="node/21">User Guides</a>
+                                <ul>
+                    <li class="menu-item--_0e64a8e-b188-4afa-8cd8-1a6b75bb197d menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-containers-lc-hpc-systems" data-drupal-link-system-path="node/1136">Using Containers on LC HPC Systems</a>
+                                <ul>
+                    <li class="menu-item--_e7a588c-bca5-45dd-9d4d-43ec50e52a58 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-containers-lc-hpc-systems/containers-background" data-drupal-link-system-path="node/1137">Background</a>
+              </li>
+                <li class="menu-item--_f9a45fb-6a5a-4898-8653-a075f368f396 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-containers-lc-hpc-systems/containers-how-build-container" data-drupal-link-system-path="node/1138">How to Build a Container</a>
+              </li>
+                <li class="menu-item--e9cba788-f047-43f7-b67a-432debd68f51 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-containers-lc-hpc-systems/containers-how-interact-container" data-drupal-link-system-path="node/1139">How to Interact with a Container</a>
+              </li>
+                <li class="menu-item--f22be95d-1b21-4089-9306-e91120058ff1 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-containers-lc-hpc-systems/containers-gotchas" data-drupal-link-system-path="node/1140">Gotchas</a>
+              </li>
+                <li class="menu-item--_f8f8527-b4d5-43e2-b816-64209406ec2e menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-containers-lc-hpc-systems/containers-troubleshooting" data-drupal-link-system-path="node/1141">Troubleshooting</a>
+              </li>
+                <li class="menu-item--f3762b1c-7e88-4cd2-83f4-4b72b09366b7 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-containers-lc-hpc-systems/containers-using-containers-ci-pipelines" data-drupal-link-system-path="node/1143">Using Containers in CI Pipelines</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_07716ba-6b65-490a-84ba-a65fdd4d6c1b menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems" data-drupal-link-system-path="node/1231">Using El Capitan Systems</a>
+                                <ul>
+                    <li class="menu-item--_bdfdad9-ac9a-431d-aedf-4c736a296d41 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/quickstart" data-drupal-link-system-path="node/1243">QuickStart</a>
+                                <ul>
+                    <li class="menu-item--_2e30b06-5f79-4d73-9183-491a9b2c23ac menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/introduction-and-quickstart/pro-tips" data-drupal-link-system-path="node/1276">Pro Tips</a>
+              </li>
+                <li class="menu-item--_5607ffa-ff0b-4299-b996-0145ed7f08c6 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/introduction-and-quickstart/c" data-drupal-link-system-path="node/1238">C++ Code Examples</a>
+              </li>
+                <li class="menu-item--_9b7f9f9-2790-4606-95a0-f31416312a84 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/introduction-and-quickstart/fortran" data-drupal-link-system-path="node/1239">Fortran Code Examples</a>
+              </li>
+                <li class="menu-item--e4ebb890-694f-4428-a17b-87e65f331851 menu-name--menu-user-portal-menu">
+        <a href="https://hpc.llnl.gov/documentation/user-guides/using-python-lc/pytorch-amd-systems-quickstart-guide">PyTorch on AMD Systems Quickstart Guide</a>
+              </li>
+                <li class="menu-item--e2c7944a-5fbf-4f85-b596-3a2c4e4b4664 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/introduction-and-quickstart/build-examples" data-drupal-link-system-path="node/1245">Explicit Paths Build Example</a>
+              </li>
+                <li class="menu-item--a6dbe2dd-7f5a-4836-8389-1a409e20cce8 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/introduction-and-quickstart/flux" data-drupal-link-system-path="node/1255">Flux Script Examples</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_14dcd89-0228-4cf7-973e-6a7b4e851423 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/announcements-presentations" data-drupal-link-system-path="node/1252">Announcements and Presentations</a>
+              </li>
+                <li class="menu-item--_deb36a7-37db-4f2d-bf65-22db0eeae015 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/known-issues" data-drupal-link-system-path="node/1242">Known Issues</a>
+              </li>
+                <li class="menu-item--_eb5ed42-dcd9-475a-852b-b2a402b63925 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/hardware-overview" data-drupal-link-system-path="node/1244">Hardware Overview</a>
+              </li>
+                <li class="menu-item--ae769112-6780-47b1-b839-179c99876f67 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/using-el-capitan-systems-compilers-and-user" data-drupal-link-system-path="node/1232">Compilers and User Environment</a>
+                                <ul>
+                    <li class="menu-item--_21fd805-59b4-4a6a-a9e1-48992d0905bd menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/compilers-and-user-environment/magic" data-drupal-link-system-path="node/1247">LC Magic Modules Guide</a>
+              </li>
+                <li class="menu-item--_94d7c16-8d69-489d-9cb5-4f898bc8e95c menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/compilers-and-user-environment/cray" data-drupal-link-system-path="node/1248">Cray Modules Guide</a>
+              </li>
+                <li class="menu-item--b7a84f8b-6d26-47a8-bf7e-00f13b440c7e menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/compilers-and-user-environment/spack" data-drupal-link-system-path="node/1249">Spack Guide</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_4afb239-8276-4c5d-b2b0-10e1d41e01eb menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/using-el-capitan-systems-gpu-programming" data-drupal-link-system-path="node/1241">GPU Programming</a>
+              </li>
+                <li class="menu-item--_3430038-9b9b-4c10-93d3-a29a3c7d0bf4 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/using-el-capitan-systems-memory-management" data-drupal-link-system-path="node/1442">Memory Management</a>
+              </li>
+                <li class="menu-item--_c90d7be-4d3d-4262-8ba5-b8f9ea5c5cdd menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/mpi-overview" data-drupal-link-system-path="node/1240">MPI Overview</a>
+              </li>
+                <li class="menu-item--_a7d65ff-e283-40af-a3ac-504237fbf483 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/running-jobs-flux-and-mpi" data-drupal-link-system-path="node/1237">Running Jobs with Flux and MPI Bind</a>
+              </li>
+                <li class="menu-item--_cfb4a82-4ff5-4882-8048-0dd3168a5993 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/using-el-capitan-systems-spindle-and-library" data-drupal-link-system-path="node/1345">Spindle and Library Loading</a>
+              </li>
+                <li class="menu-item--_d746b1b-1dc3-4420-ba99-abef327ab085 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/using-el-capitan-systems-debugging-tools" data-drupal-link-system-path="node/1236">Debugging Tools</a>
+              </li>
+                <li class="menu-item--_ee278f1-ea00-4f17-9051-b11d17a13969 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/using-el-capitan-systems-performance-tools" data-drupal-link-system-path="node/1235">Performance Tools</a>
+              </li>
+                <li class="menu-item--_5de4321-5fad-4e27-be7e-6db894e9c7b3 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/math-libraries" data-drupal-link-system-path="node/1246">Math Libraries</a>
+              </li>
+                <li class="menu-item--_87e5369-8e37-493e-bc9f-9f137a56c6db menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-el-capitan-systems/file-systems-rabbits" data-drupal-link-system-path="node/1250">File Systems and Rabbits</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--ac99580f-4ef9-4a5c-af2d-f5aeefe01a89 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-ftp-file-transfer-protocol" data-drupal-link-system-path="node/920">Using FTP</a>
+              </li>
+                <li class="menu-item--_d1b57b6-c374-4f57-87e5-ba4b01f5638f menu-name--menu-user-portal-menu">
+        <a href="/software/data-management-tools/using-hopper" data-drupal-link-system-path="node/923">Using Hopper</a>
+                                <ul>
+                    <li class="menu-item--_a4774a7-1e80-4ee2-be32-92c4e33ab8aa menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-hopper/hopper-help" data-drupal-link-system-path="node/934">Hopper Help</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--b9d6a24c-2a9b-4e23-8271-43c532150a5a menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-hsi-hierarchical-storage-interface" data-drupal-link-system-path="node/898">Using HSI</a>
+              </li>
+                <li class="menu-item--_c2c937b-b214-437d-9d3a-cfe2730734f0 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-htar-hpss-tape-archiver" data-drupal-link-system-path="node/921">Using HTAR</a>
+              </li>
+                <li class="menu-item--cb0f79eb-f11c-41de-85ff-539de7c494a2 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-lc-archival-storage" data-drupal-link-system-path="node/914">Using LC Archival Storage</a>
+              </li>
+                <li class="menu-item--_301f7d5-7ab7-46c5-b0c7-a676364001dd menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-lc-file-interchange-service-fis" data-drupal-link-system-path="node/916">Using LC File Interchange Service (FIS)</a>
+                                <ul>
+                    <li class="menu-item--_5cde87f-a4be-40e5-9e3a-d243422f3057 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-lc-file-interchange-service-fis/fis-dc-support-secure-open" data-drupal-link-system-path="node/968">FIS: DC Support for Secure-to-Open Transfers</a>
+              </li>
+                <li class="menu-item--a96c780e-3ddc-4fcc-b46a-d6b60308faaf menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-lc-file-interchange-service-fis/quick-start-guide-hopper-and-fis" data-drupal-link-system-path="node/967">Quick Start Guide: Hopper and FIS</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--ebfe520d-2fc3-495a-9abe-6981085939b0 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-lc-file-systems" data-drupal-link-system-path="node/915">Using LC File Systems</a>
+              </li>
+                <li class="menu-item--e286d042-5169-4089-b752-e964cd76d44f menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/printing-lc-systems" data-drupal-link-system-path="node/919">Using LC Print Services</a>
+              </li>
+                <li class="menu-item--b6ccbc31-b4df-481e-9d0a-1833d28a46ce menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-lc-file-systems/using-nft" data-drupal-link-system-path="node/917">Using NFT</a>
+              </li>
+                <li class="menu-item--_ac8d857-f4a8-40c8-994b-674d4a2a0b94 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-pytorch-lc" data-drupal-link-system-path="node/1360">Using PyTorch in LC</a>
+                                <ul>
+                    <li class="menu-item--defd9159-157a-4a35-8977-969701f9fc4d menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-pytorch-lc/pytorch-amd-gpu-systems-quickstart-guide" data-drupal-link-system-path="node/1359">PyTorch on AMD Systems Quickstart Guide</a>
+              </li>
+                <li class="menu-item--ebe0ada9-e160-4855-a9f6-874a7603486a menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-pytorch-lc/pytorch-corona-quickstart-guide" data-drupal-link-system-path="node/1411">PyTorch on Corona Quickstart Guide</a>
+              </li>
+                <li class="menu-item--_0608727-0237-4a92-9538-725e0e605538 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-pytorch-lc/pytorch-cpu-systems-quickstart-guide" data-drupal-link-system-path="node/1373">PyTorch on CPU Systems Quickstart Guide</a>
+              </li>
+                <li class="menu-item--dd75e37e-dccb-476a-95ec-8c47ac33653b menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-pytorch-lc/pytorch-nvidia-gpu-systems-quickstart-guide" data-drupal-link-system-path="node/1361">PyTorch on NVIDIA GPU Systems Quickstart Guide</a>
+              </li>
+                <li class="menu-item--a0c3bf61-ba8c-4571-8982-2f52944c5f14 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-pytorch-lc/pytorch-weave-quickstart-guide" data-drupal-link-system-path="node/1387">PyTorch via WEAVE Quickstart Guide</a>
+              </li>
+                <li class="menu-item--_c85ef15-fcc0-4602-ac6d-143ba196c8ff menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-pytorch-lc/building-pytorch-source" data-drupal-link-system-path="node/1429">Building PyTorch from Source</a>
+              </li>
+                <li class="menu-item--b8d63f72-77ad-4d72-8d3b-61b751da07c2 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-pytorch-lc/lbann-s-hpc-launcher-pytorch-runs" data-drupal-link-system-path="node/1435">LBANN&#039;s hpc-launcher for PyTorch runs</a>
+              </li>
+                <li class="menu-item--_036418b-7a8f-497c-b0d9-1b0f24b349a6 menu-name--menu-user-portal-menu">
+        <a href="/documentation/user-guides/using-pytorch-lc/jupyter-quickstart-guide" data-drupal-link-system-path="node/1363">Jupyter Quickstart Guide</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_6ef83a7-be5b-40a4-9085-016abcd22854 menu-name--menu-user-portal-menu">
+        <a href="https://dev.llnl.gov/">Developer Docs (dev.llnl.gov)</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--d9b505b4-e435-46d7-9b9e-4e02f8a09511 menu-name--menu-user-portal-menu">
+        <a href="/updates-events" data-drupal-link-system-path="node/913">Updates &amp; Events</a>
+                                <ul>
+                    <li class="menu-item--c6698ee5-e0a7-4bab-a88e-c91ef2cc97d1 menu-name--menu-user-portal-menu">
+        <a href="https://computing.llnl.gov/hpc-news">HPC News</a>
+              </li>
+                <li class="menu-item--_b58490a-acb5-4416-b456-e455417b5515 menu-name--menu-user-portal-menu">
+        <a href="/updates-events/training-events" data-drupal-link-system-path="node/468">Training Events</a>
+                                <ul>
+                    <li class="menu-item--_60e1b46-5784-4fa7-a315-36308b7f1061 menu-name--menu-user-portal-menu">
+        <a href="/updates-events/training-events/2026-totalview-debugger-presentations-and-tutorial" data-drupal-link-system-path="node/1446">2026 Totalview Debugger Presentations and Tutorial</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--c2a9cf61-648f-459a-9651-565bef316251 menu-name--menu-user-portal-menu">
+        <a href="/updates-events/technical-bulletins-catalog" data-drupal-link-system-path="node/496">Technical Bulletins Catalog</a>
+              </li>
+                <li class="menu-item--_a91cc7d-60d9-4368-88db-94c9f2cd4a38 menu-name--menu-user-portal-menu">
+        <a href="/updates-events/user-meeting-presentations-archive" data-drupal-link-system-path="node/567">User Meeting Presentation Archive</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--_8c4c55d-b529-4b05-966d-f100ab785789 menu-name--menu-user-portal-menu">
+        <a href="/user/login" data-drupal-link-system-path="user/login">Log in</a>
+              </li>
+        </ul>
+  
+
+</div></div>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/1266","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"matomo":{"disableCookies":false,"trackColorbox":false,"trackMailto":true},"responsive_menu":{"position":"right","theme":"theme-dark","pagedim":"pagedim","modifyViewport":true,"use_bootstrap":true,"breakpoint":"(min-width: 960px)","drag":false},"back_to_top":{"back_to_top_button_trigger":100,"back_to_top_speed":1200,"back_to_top_prevent_on_mobile":true,"back_to_top_prevent_in_admin":false,"back_to_top_button_type":"image","back_to_top_button_text":"Back to top"},"data":{"extlink":{"extTarget":true,"extTargetAppendNewWindowDisplay":true,"extTargetAppendNewWindowLabel":"(opens in a new window)","extTargetNoOverride":false,"extNofollow":false,"extTitleNoOverride":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":".gov|.com|.org|.io|.be|.us|.edu","extInclude":"-int.llnl.gov|lc.llnl.gov|caas.llnl.gov|exchangetools.llnl.gov","extCssExclude":"","extCssInclude":"","extCssExplicit":"","extAlert":true,"extAlertText":"This page is routing you to a page which requires extra authentication.\r\n\r\nPress OK to continue or cancel to return.\r\n\r\nIf this fails or times-out, you are not allowed access to the internal page or the server may be temporarily unavailable.\r\n\r\nIf you are authenticated and are still having trouble, please send e-mail to lc-hotline@llnl.gov or call 925-422-4531 for further assistance.","extHideIcons":false,"mailtoClass":"mailto","telClass":"0","mailtoLabel":"(link sends email)","telLabel":"(link is a phone number)","extUseFontAwesome":false,"extIconPlacement":"append","extPreventOrphan":true,"extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","extAdditionalLinkClasses":"","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","allowedDomains":[],"extExcludeNoreferrer":""}},"ckeditorAccordion":{"accordionStyle":{"collapseAll":null,"keepRowsOpen":null,"animateAccordionOpenAndClose":1,"openTabsWithHash":1,"allowHtmlInTitles":0}},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/search\/node":true},"user":{"uid":0,"permissionsHash":"7307baa4742f92a6d9bb38aefeed35b3e3d25207ca0c99ba6e73de561f2431db"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=4.0.0"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=11.3.19"></script>
+<script src="/core/misc/drupal.js?v=11.3.19"></script>
+<script src="/core/misc/drupal.init.js?v=11.3.19"></script>
+<script src="/modules/contrib/back_to_top/js/back_to_top.js?v=11.3.19"></script>
+<script src="/themes/contrib/bootstrap_barrio/js/barrio.js?v=11.3.19"></script>
+<script src="/modules/contrib/ckeditor_accordion/js/accordion.frontend.min.js?to9hpk"></script>
+<script src="/modules/contrib/extlink/js/extlink.js?to9hpk"></script>
+<script src="/themes/custom/hpc/js/messages.js?v=11.3.19"></script>
+<script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOE&amp;amp;subagency=LLNL&amp;amp;sdor=fda.gov&amp;amp;dclink=true" id="_fed_an_ua_tag" type="text/javascript"></script>
+<script src="/themes/contrib/lwds-drupal/js/jquery.slide-transition.js?v=0.x"></script>
+<script src="/themes/contrib/lwds-drupal/js/llnl-menu.js?v=1.x"></script>
+<script src="/modules/contrib/matomo/js/matomo.js?to9hpk"></script>
+<script src="/libraries/mmenu/dist/mmenu.js?v=11.3.19"></script>
+<script src="/modules/contrib/responsive_menu/js/responsive_menu.config.js?v=11.3.19"></script>
+<script src="/modules/contrib/responsive_menu/js/responsive_menu.bootstrap.js?v=11.3.19"></script>
+
+  </body>
+</html>

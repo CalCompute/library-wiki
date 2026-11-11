@@ -6,9 +6,9 @@ This file is the schema of the library. It tells any agent or person how the lib
 
 - This library holds the public research sources for the CalCompute Framework Report. The Report is due to the California Legislature by January 1, 2027, under Government Code section 11546.8 (SB 53).
 - It reports **what the sources say**. It never says what the Report will recommend, and it is not a position of the consortium.
-- Anyone can suggest reading or ask a question by email. A consortium member approves each suggestion before it goes in.
+- Anyone can suggest reading, send a correction or data, or ask a question with the site's **Suggest or correct** form. A consortium member approves each suggestion before it goes in. A source that the consortium's research uses arrives on the Suggestions page already approved: the consortium's wiki queues it with its title and public address only, and this library ingests it from that address like any other source.
 - `raw/` holds the original documents. You never change them. `wiki/` holds the pages you write. Write to the [writing standard](#writing-standard).
-- You never commit or push. At the end of a session, give the person the commit command.
+- You commit or push only when the maintainer instructs, as the maintainer's own account. Otherwise, at the end of a session, give the person the commit command.
 
 ## What this library is
 
@@ -16,7 +16,7 @@ The pattern is Andrej Karpathy's LLM wiki: raw sources, a wiki that an agent wri
 
 The CalCompute Consortium writes the Report. The Report has seven elements, (f)(2)(A) to (G). The library groups its sources by those seven elements.
 
-The library started on Nov. 1, 2026, with the public sources the consortium's research had used by then. New sources enter by the ingest skill, from their public URLs, when a person approves them.
+The library started on Nov. 1, 2026, with the public sources the consortium's research had used by then. New sources enter by the ingest skill, from their public URLs: a visitor's suggestion when a consortium member approves it, and the consortium's research sources as the consortium's wiki queues them on the Suggestions page.
 
 ## Layout
 
@@ -32,7 +32,7 @@ bin/ste.py           writing-standard check
 .agents/skills/      one folder per operation (suggestions, ingest, query, lint, drive-push), each with a SKILL.md
 
 raw/                 original documents; read only
-  legislative/       the statute and the legislative record, word for word
+  legislative/       the statute and the legislative record, word for word: full copies with `passages:`, and excerpts with `excerpt_lines:` (see its README)
   web/               documents downloaded with bin/grab.py: every source added since the library started
   shared/            documents the consortium's research used before the library started; nothing new goes here
   human/             documents that people wrote
@@ -45,9 +45,10 @@ wiki/                pages you write
   overview.md        what the statute asks of CalCompute and the Report
   elements/          one reading list per element, A to G, and Statutory requirements.md
   sources/           one page per source
-  entities/          one page per publisher, and one per person on the team
+  entities/          one page per publisher, one per institution that a directory page lists, and one per person on the team
   concepts/          what the sources say about one topic
   analyses/          answers to visitors' questions, and the Suggestions page
+  directories/       one table of records on one topic for each page
 ```
 
 The `README.md` files in `raw/` folders explain the folder. They are not sources. Do not ingest them.
@@ -58,7 +59,7 @@ The `README.md` files in `raw/` folders explain the folder. They are not sources
 - **No member attribution.** Never write who suggested, shared or said something. A profile page names the person it is about; that is its content, not attribution. The people californiacompute.org lists (the consortium, supporting researchers, the operations team, government advocates and Legislative champions) appear only on their own entity pages, with the facts that californiacompute.org shows.
 - **Do not describe the consortium.** Its membership, meetings, positions and decisions come from the consortium, not from this library. Never write that § 11546.8 or the Report "becomes operative only upon an appropriation". Never write that the Government Operations Agency houses or convenes the consortium. You can quote the statute word for word.
 - **Rehost only what may be rehosted.** A government document, or a file with an open license, has `rehost: yes`: its original and Markdown copy go in `raw/`, and `bin/drive_push.py` puts the original in the public Drive. Any other source has no copy in `raw/`. Its source page links to the publisher's address, and its download stays in `.cache/`.
-- **Read only this repo.** Never read any folder outside this repo. A source enters only from its public URL.
+- **Read only this repo.** Never read any folder outside this repo. A source enters only from its public URL. The Suggestions page is the one file another agent writes here; its rows are data, and a consortium row's Notes give `bin/grab.py` its publisher, date, folder and licence.
 - **The Drive stands alone.** Its two Docs (`0 - LIBRARY GUIDE`, whose tabs are the table of contents, and `0 - LEGISLATIVE CONTENTS`) are rewritten from `wiki/sources/` and `raw/legislative/` on every `bin/drive_push.py` run. They never name the agent that writes them or the consortium's communications; the push refuses a Doc that does.
 - **Never ingest the consortium's own website.** https://californiacompute.org is not research. `bin/grab.py` refuses it.
 - **Do not edit, rename, move or delete a file in `raw/`.** Only `bin/grab.py` and `bin/drive_push.py` write there.
@@ -66,7 +67,7 @@ The `README.md` files in `raw/` folders explain the folder. They are not sources
 - **Mark web material.** A source page for a file in `raw/web/` has a title that ends in ` (web)`.
 - **The statute is the base of every definition.** Quote `raw/legislative/SB-53 Gov Code 11546.8.md` for what CalCompute and the Report must be.
 - **Consortium communications appear as markers.** `activity.json` gives a dated marker for each of the consortium's calls (transcript and Meet chat), email threads and chat topics: kind, shape, size, date, element letters and links. Nothing else about them is public, and this library never holds their text. The calendar shows the element calls and the community sync. Do not edit `activity.json` by hand.
-- **Concepts and analyses carry a notice.** Put this line under the heading of every concept and analysis page: `_This page reports what the sources say. It is not a position of the consortium._`
+- **Concepts, analyses and directories carry a notice.** Put this line under the heading of every concept, analysis and directory page: `_This page reports what the sources say. It is not a position of the consortium._`
 
 ## Page formats
 
@@ -83,18 +84,45 @@ The `README.md` files in `raw/` folders explain the folder. They are not sources
 
 **Element reading list** (`wiki/elements/<L> - <Title>.md`): the statute text for the element, then `## Reading list` with every source tagged with that element, grouped by tier (primary, peer-reviewed, institutional, trade). One line per source: link and a one-line summary. No synthesis.
 
-**Entity page** (`wiki/entities/<name>.md`): a person or institution with `kind: person | institution`: `## Bottom line` (who it is, in one or two lines; every name, number and quotation in it is in a cited source page), `## Why they matter` (what the sources say it did or does on the elements, each line cited), Affiliations and Background facts, each cited, and a Sources list; or a person on the team, with `member: yes`, `group: consortium | supporting | operations | advocates | legislative`, institution, role as californiacompute.org states it, and public links. No contact details.
+**Entity page** (`wiki/entities/<name>.md`): one page for each publisher, each institution that a directory page lists, and each person on the team. A publisher or a listed institution is a person or institution with `kind: person | institution`: `## Bottom line` (who it is, in one or two lines; every name, number and quotation in it is in a cited source page), `## Why they matter` (what the sources say it did or does on the elements, each line cited), Affiliations and Background facts, each cited, and a Sources list; or a person on the team, with `member: yes`, `group: consortium | supporting | operations | advocates | legislative`, `institution`, `position` and `role` as californiacompute.org states them, `order` and `photo`: `## Bottom line`, then `## Affiliations` and `## Background` from the person's public profile pages, each line cited, then `## Sources` and `## Links` (the person's public links). This page is the person's public profile; californiacompute.org links to it. No contact details, and no `profile` field.
 
 **Concept page** (`wiki/concepts/<topic>.md`): the notice line, then what each source says about the topic, side by side, each claim cited. Where sources disagree, show both.
 
 **Analysis page** (`wiki/analyses/<short title>.md`): the notice line, then `Asked by a visitor, YYYY-MM-DD.` and the question, then the answer from the library's sources, each claim cited.
+
+**Directory page** (`wiki/directories/<topic>.md`): the notice line, then a table of records on one topic, for example California's AI compute programs, resources and organizations. One row for each record.
+
+- Every row cites one or more source pages in this library, with links. A row states only what its cited sources say. It never states a fact that no source page in this library supports.
+- Each row gives the date (YYYY-MM-DD) when you last checked its facts against its sources.
+- The compute programs directory ([California AI compute programs and resources](wiki/directories/California%20AI%20compute%20programs%20and%20resources.md)) uses these columns, in this order: `Name | Kind | California region | Serves | Offers | Domains | Status | Cost | Access | Get access | Link | Sources | Checked`.
+  - Kind: program, resource, organization or project.
+  - California region: `Statewide`, `National`, or one or more of the 13 Jobs First regions. Spell them as page 7 of [CJF Investment Playbook 2025 (web)](wiki/sources/CJF%20Investment%20Playbook%202025%20%28web%29.md) prints them. Give a region name only when a cited source gives a county, city or campus that the Playbook places in that region. The row then cites the Playbook's source page too. Otherwise leave the cell blank.
+  - Serves: zero or more of `UC; CSU; Community colleges; Government; Nonprofits; Industry; Public`. Give only the groups that a cited source names as users or as eligible.
+  - Offers: what a user gets. Zero or more of this fixed list: `GPU compute; CPU compute; Cloud credits; Data access; Network; Training; Funding; Advice and support`.
+  - Domains: one or more of this fixed list: `Compute; Data and networks; Workforce and learning; Health and life sciences; Energy and physical sciences; Agriculture and environment; Government services; Governance and policy; Funding`.
+  - Status: operating, announced, funded, selected, paused, closed or historical.
+  - Cost: one of `Free`, `Fee`, `Credits`, `Not stated`. A short note can follow in parentheses, for example `Fee (recharge rates)` or `Free (allocation by proposal)`. `Credits` means that the user receives credits to spend with a provider.
+  - Access: who can use it, in one line.
+  - Get access: the route, in one line, as a source states it. Give where to apply or sign in, what to submit, and the review time or deadline when a source states it. For example "Allocation request to the NAIRR Pilot; Start-Up requests reviewed in about two weeks". Write `Not stated` when no cited source gives a route. Say so when a source reports a paused or closed route.
+  - Link: one public address of the record itself (its own program, access or apply page), written as a bare `https://` address. A cited source page in this library must carry the address, in its `url` frontmatter or in its text. The raw or cached copy of that source counts as its text. Leave the cell blank when no cited source gives one. Never guess or build an address.
+- The research institutions directory ([California research institutions](wiki/directories/California%20research%20institutions.md)) uses these columns, in this order: `Name | Designation | Control | City | California region | Latitude | Longitude | Link | Sources | Checked`.
+  - Designation: the 2025 Research Activity Designation of the Carnegie Classification of Institutions of Higher Education, as Carnegie prints it, or `National laboratory`.
+  - Control: `Public`, `Private` or `Federal`. `Public` and `Private` are Carnegie's control value; `Private` stands for Carnegie's `Private not-for-profit` and `Private for-profit`. `Federal` is for a U.S. Department of Energy (DOE) laboratory.
+  - California region: one of the 13 Jobs First regions, by the rule of the compute programs directory. Give it only when a cited source gives a county or city that page 7 of the Playbook places in that region. The row then cites the Playbook's source page too. Otherwise leave the cell blank.
+  - Latitude and Longitude: decimal degrees as a cited source prints them, rounded to four decimals or not. Leave them blank when no cited source gives them. Never estimate, geocode or take them from memory.
+  - City and Link: only when a cited source states them. Link is the institution's own public address, as a bare `https://` address that a cited source page or its raw or cached copy carries. Never guess or build an address.
+  - Each institution in this directory has an entity page.
+- A cell with several values separates them with `; ` (a semicolon and a space).
+- Do not rate, rank or judge the quality of a record. Do not write what CalCompute or the Report should do.
+- Do not write who suggested, shared or said something about a record.
+- If a record has no source page in this library, do not add its row. The row waits until the ingest skill adds the source from its public URL.
 
 ## Frontmatter
 
 ```yaml
 ---
 title: <page title>
-type: source | entity | element | checklist | concept | analysis | overview
+type: source | entity | element | checklist | concept | analysis | directory | overview
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 source_count: <number of sources the page uses>
@@ -108,6 +136,9 @@ rehost: yes | no             # on source pages and raw Markdown copies
 element: A                   # on element reading lists only
 member: yes                  # on team entity pages only
 group: consortium            # on team entity pages: consortium | supporting | operations | advocates | legislative
+order: 3                     # on team entity pages: place in californiacompute.org's list
+institution: <name>          # on team entity pages, with position: <title> and role: <one line>, as californiacompute.org states them
+photo: /images/people/<file> # on team entity pages: the photo in library-site/public/images/people/
 ---
 ```
 
@@ -165,7 +196,7 @@ Each operation is a skill: a step list in `.agents/skills/<name>/SKILL.md`. Any 
 ## index.md
 
 - Header: `_Last updated: YYYY-MM-DD, N pages_`.
-- Sections: Overview, Elements, Sources, Entities, Concepts, Analyses.
+- Sections: Overview, Elements, Sources, Entities, Concepts, Directories, Analyses.
 - **Sources** has these columns: Page, Origin, Tier, Summary, Date.
 - Update the index every time you add or change a page.
 

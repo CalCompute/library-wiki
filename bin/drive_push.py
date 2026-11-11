@@ -75,7 +75,7 @@ FOLDER = "application/vnd.google-apps.folder"
 GDOC = "application/vnd.google-apps.document"
 SITE_URL = "https://research.californiacompute.org"
 REPO = "https://github.com/CalCompute/library-wiki"
-SUGGEST = "mailto:team@californiacompute.org?subject=Suggested%20reading"
+SUGGEST = "https://research.californiacompute.org/#suggest"
 # What a Doc must never name (AGENTS.md, "The Drive stands alone").
 OFF_LIMITS = re.compile(r"\bthe agent\b|zulip", re.I)
 MONTHS = ("January", "February", "March", "April", "May", "June", "July", "August", "September",
@@ -317,8 +317,22 @@ def contents_tabs(files):
 
 
 def excerpt_paragraphs(md):
-    """The excerpt's body as plain paragraphs, word for word; markdown marks removed, "[...]" kept."""
-    body = open(md).read().split("\n---\n", 1)[1]
+    """The CalCompute passages as plain paragraphs, word for word; markdown marks removed, "[...]" kept.
+    A full copy names them in `passages:` (file line numbers): only those lines, "[...]" where ranges are apart.
+    An excerpt is its whole body."""
+    text = open(md).read()
+    body = text.split("\n---\n", 1)[1]
+    ranges = frontmatter(md).get("passages")
+    if ranges:
+        lines, keep, last = text.split("\n"), [], None
+        for part in ranges.split(","):
+            a, _, b = part.strip().partition("-")
+            a, b = int(a), int(b or a)
+            if last is not None and a > last + 1:
+                keep += ["", "[...]", ""]
+            keep += lines[a - 1:b]
+            last = b
+        body = "\n".join(keep)
     out = []
     for block in re.split(r"\n\s*\n", body):
         lines = [re.sub(r"^(\s*>\s*)+", "", l).strip() for l in block.splitlines()]
@@ -334,10 +348,14 @@ def legislative_tabs(files):
     import gdoc
     drive = drive_links(files)
     docs = []
-    for md in glob.glob(os.path.join(ROOT, "raw", "legislative", "*.md")):
-        if os.path.basename(md) == "README.md":
-            continue
+    mds = [md for md in glob.glob(os.path.join(ROOT, "raw", "legislative", "*.md")) if os.path.basename(md) != "README.md"]
+    # An excerpt cut from a document the folder also holds in full (same slug) is left out: the full copy's tab
+    # quotes the same passages. The statute excerpt and the chaptered bill are the case.
+    full = {frontmatter(md).get("slug") for md in mds if frontmatter(md).get("passages")}
+    for md in mds:
         fm = frontmatter(md)
+        if fm.get("excerpt_lines") and fm.get("slug") in full:
+            continue
         url, stem = fm.get("sourceUrl", ""), os.path.basename(md)[:-3]
         title = fm.get("title", stem).replace(" — ", ": ")
         docs.append((fm.get("publishedDate", ""), title, drive.get("raw/legislative/%s.pdf" % stem), url, md))
@@ -381,7 +399,7 @@ def guide_tabs(tok, did, root, files):
     start += [[link(c, True), GUIDE_NOTES[c["name"]]] for k in inside.values() for c in k if tag(c) == "legislative"]
     start += [[[("The library's website", {"link": SITE_URL, "bold": True})], "A page for each source, with its citation and key claims, reading lists by element, and search."],
               [[("The library's files on GitHub", {"link": REPO, "bold": True})], "Every page of the library as plain text, and how it is kept."],
-              [[("Suggest reading", {"link": SUGGEST, "bold": True})], "Write to team@californiacompute.org with the subject \"Suggested reading\". A consortium member reads each suggestion."]]
+              [[("Suggest or correct", {"link": SUGGEST, "bold": True})], "The form on the library's website. A consortium member reads each suggestion."]]
     blocks = head("CalCompute Research Library", "How to find and use the library's public documents.")
     blocks += [gdoc.h1("Start here"), gdoc.table(["Where", "What it is"], start, [190, 314]), gdoc.h1("In this Drive")]
     blocks += [gdoc.h2("Original documents"), gdoc.p("Government documents and files with an open license, at the top of this Drive.")]

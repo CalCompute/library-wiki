@@ -2,7 +2,7 @@
 title: Wiener SB-53 expansion release 2025-07-09
 type: source
 created: 2026-10-15
-updated: 2026-10-20
+updated: 2026-11-06
 tags: [A, B, C, D, legislative, press-release]
 elements: [A, B, C, D]
 origin: legislative
@@ -18,7 +18,7 @@ rehost: yes
 
 Office of Senator Scott Wiener (D-San Francisco), "Senator Wiener Expands AI Bill Into Landmark Transparency Measure Based on Recommendations of Governor's Working Group", press release, Sacramento, July 9, 2025. <https://sd11.senate.ca.gov/news/senator-wiener-expands-ai-bill-landmark-transparency-measure-based-recommendations-governors>. Wiki copy: [raw/legislative/Wiener SB-53 expansion release 2025-07-09.md](../../raw/legislative/Wiener%20SB-53%20expansion%20release%202025-07-09.md). Read 2026-10-15.
 
-They are lines 10-14, 18, 27, 52-54 and 69 of a full transcription. `[...]` marks the cuts.
+The wiki copy is the full transcription. The passages this page quotes are lines 12-16, 20, 29, 54-56 and 71.
 
 ## Bottom line
 

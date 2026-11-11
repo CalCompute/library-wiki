@@ -2,7 +2,7 @@
 title: "Ariya Mohanty"
 type: entity
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-06
 source_count: 0
 tags: [team]
 member: yes
@@ -12,18 +12,14 @@ institution: "UC Berkeley"
 position: "Researcher"
 role: "Researcher"
 photo: "/images/people/ariya-mohanty.jpeg"
-profile: https://californiacompute.org/team/ariya-mohanty/
 ---
 
 # Ariya Mohanty
 
-On the CalCompute operations team.
+## Bottom line
 
-- Institution: UC Berkeley
-- Title: Researcher
-- Role: Researcher
+- The library has no public source about Ariya Mohanty.
 
 ## Links
 
-- [CaliforniaCompute.org profile](https://californiacompute.org/team/ariya-mohanty/)
 - [LinkedIn](https://www.linkedin.com/in/ariya-mohanty-6103a5168)

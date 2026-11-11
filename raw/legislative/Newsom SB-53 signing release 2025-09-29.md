@@ -5,12 +5,11 @@ publishedDate: 2025-09-29
 sourceUrl: "https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/"
 description: "Official press release announcing Governor Newsom's signing of SB-53, advancing California's world-leading artificial intelligence industry."
 documentType: "press-release"
-excerpt_lines: "12-21, 29-46, 50"
-excerpted: 2026-10-20
+passages: "14-23, 31-48, 52"
 rehost: yes
 ---
 
-[...]
+*September 29, 2025*
 
 # Governor Newsom signs SB 53, advancing California's world-leading artificial intelligence industry
 > **What you need to know:** Governor Newsom today signed legislation further establishing California as a world leader in safe, secure, and trustworthy artificial intelligence, creating a new law that helps the state both boost innovation and protect public safety.
@@ -23,7 +22,11 @@ rehost: yes
 
 California works closely to foster tech leadership and create an environment where industry and talent thrive. The state is balancing its work to advance AI with commonsense laws to protect the public, embracing the technology to make our lives easier and make government more efficient, effective, and transparent. California's leadership in the AI industry is helping to guide the world in the responsible implementation and use of this emerging technology.
 
-[...]
+> **"With a technology as transformative as AI, we have a responsibility to support that innovation while putting in place commonsense guardrails to understand and reduce risk. With this law, California is stepping up, once again, as a global leader on both technology innovation and safety. I'm grateful to the Governor for his leadership in convening the Joint California AI Policy Working Group, working with us to refine the legislation, and now signing it into law. His Administration's partnership helped this groundbreaking legislation promote innovation and establish guardrails for trust, fairness, and accountability in the most remarkable new technology in many years."**
+>
+> — **Senator Scott Wiener**
+
+Earlier this year, a group of world-leading AI academics and experts — **convened at the request of Governor Newsom** — released a **first-in-the-nation report** on sensible AI guardrails, based on an empirical, science-based analysis of the capabilities and attendant risks of frontier models. The report included recommendations on ensuring evidence-based policymaking, balancing the need for transparency with considerations such as security risks, and determining the appropriate level of regulation in this fast-evolving field. SB 53 is responsive to the recommendations in the report — and will help ensure California’s position as an AI leader. This legislation is particularly important given the failure of the federal government to enact comprehensive, sensible AI policy. SB 53 fills this gap and presents a model for the nation to follow.
 
 > **"Last year Governor Newsom called upon us to study how California should properly approach frontier artificial intelligence development. The Transparency in Frontier Artificial Intelligence Act (TFAIA) moves us towards the transparency and 'trust but verify' policy principles outlined in our report. As artificial intelligence continues its long journey of development, more frontier breakthroughs will occur. AI policy should continue emphasizing thoughtful scientific review and keeping America at the forefront of technology."**
 >
@@ -44,8 +47,12 @@ California continues to dominate the AI sector. In addition to being the birthpl
 
 SB 53 establishes new requirements for frontier AI developers, creating stronger:
 
-[...]
+✅ **Transparency**: Requires large frontier developers to publicly publish a framework on its website describing how the company has incorporated national standards, international standards, and industry-consensus best practices into its frontier AI framework.
 
 ✅ **Innovation**: Establishes a new consortium within the Government Operations Agency to develop a framework for creating a public computing cluster. The consortium, called CalCompute, will advance the development and deployment of artificial intelligence that is safe, ethical, equitable, and sustainable by fostering research and innovation.
 
-[...]
+✅ **Safety**: Creates a new mechanism for frontier AI companies and the public to report potential critical safety incidents to California's Office of Emergency Services.
+
+✅ **Accountability**: Protects whistleblowers who disclose significant health and safety risks posed by frontier models, and creates a civil penalty for noncompliance, enforceable by the Attorney General's office.
+
+✅ **Responsiveness**: Directs the California Department of Technology to annually recommend appropriate updates to the law based on multistakeholder input, technological developments, and international standards.

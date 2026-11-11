@@ -2,7 +2,7 @@
 title: NSF 26-508 TechAccess solicitation (web)
 type: source
 created: 2026-10-15
-updated: 2026-10-15
+updated: 2026-11-09
 tags: [A, B, E, F, G, nsf, funding]
 elements: [A, B, E, F, G]
 origin: web
@@ -57,3 +57,5 @@ A federal funding solicitation. It cites an NSF workshop report on AI readiness,
 - The page does not list round 1 awards.
 - The National Lead terms come in a separate Other Transaction call that is not yet linked.
 - The program depends on "the availability of funds". (Section III)
+
+> ⚠️ Contradiction: [NJIT NSF 26-508 round dates (web)](NJIT%20NSF%2026-508%20round%20dates%20%28web%29.md) gives the round 2 letter of intent date as "December 15, 2027". This page gives Dec. 15, 2026.

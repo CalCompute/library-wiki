@@ -2,8 +2,8 @@
 title: "Lawrence Wagner"
 type: entity
 created: 2026-11-01
-updated: 2026-11-01
-source_count: 3
+updated: 2026-11-06
+source_count: 2
 tags: [team]
 member: yes
 group: consortium
@@ -12,30 +12,31 @@ institution: "BASE"
 position: "Executive Director and Co-Founder, BASE"
 role: "Executive Director/Co-founder"
 photo: "/images/people/lawrence-wagner.jpeg"
-profile: https://californiacompute.org/team/lawrence-wagner/
 ---
 
 # Lawrence Wagner
 
-Member of the CalCompute Consortium.
+## Bottom line
 
-- Institution: BASE
-- Title: Executive Director and Co-Founder, BASE
-- Role: Executive Director/Co-founder
+- Lawrence Wagner is Executive Director of BASE (Base Research) ([Wagner BASE team page (web)](../sources/Wagner%20BASE%20team%20page%20%28web%29.md)).
+- BASE calls itself an AI safety research lab for Black researchers and professionals ([Wagner BASE homepage](../sources/Wagner%20BASE%20homepage.md)).
+
+## Affiliations
+
+- [BASE (Black in AI Safety and Ethics)](../entities/BASE%20%28Black%20in%20AI%20Safety%20and%20Ethics%29.md): Executive Director ([Wagner BASE team page (web)](../sources/Wagner%20BASE%20team%20page%20%28web%29.md)).
 
 ## Background
 
 - BASE calls itself "an AI safety research lab building pathways for Black researchers and professionals across the Black diaspora and Global South" ([Wagner BASE homepage](../sources/Wagner%20BASE%20homepage.md)).
-- "BASE is a fiscally sponsored project of Community Initiatives". Its fellowship opens a third cohort in spring 2027 ([Wagner BASE homepage](../sources/Wagner%20BASE%20homepage.md)).
+- "BASE is a fiscally sponsored project of Community Initiatives" ([Wagner BASE homepage](../sources/Wagner%20BASE%20homepage.md)).
+- BASE says that mentor applications for the third cohort of its fellowship, spring 2027, open soon ([Wagner BASE homepage](../sources/Wagner%20BASE%20homepage.md)).
 
 ## Sources
 
-- [ACCESS homepage](../sources/ACCESS%20homepage.md)
-- [Granted AI on NSF 26-508](../sources/Granted%20AI%20on%20NSF%2026-508.md)
 - [Wagner BASE homepage](../sources/Wagner%20BASE%20homepage.md)
+- [Wagner BASE team page (web)](../sources/Wagner%20BASE%20team%20page%20%28web%29.md)
 
 ## Links
 
-- [CaliforniaCompute.org profile](https://californiacompute.org/team/lawrence-wagner/)
 - [LinkedIn](https://www.linkedin.com/in/lawrence-wagner/)
 - [BASE.org](https://www.baseresearch.org)
