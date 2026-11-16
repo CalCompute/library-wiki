@@ -2,8 +2,8 @@
 title: E - Workforce
 type: element
 created: 2026-11-01
-updated: 2026-11-10
-source_count: 99
+updated: 2026-11-12
+source_count: 151
 tags: [E]
 element: E
 elements: [E]
@@ -23,19 +23,23 @@ Source: [SB-53 Gov Code 11546.8](../sources/SB-53%20Gov%20Code%2011546.8.md).
 
 This list groups the library's sources for this element by tier. It does not say what the Report will recommend.
 
-### Primary (49)
+### Primary (58)
 
 - [AB 2392 Assembly committee analysis](../sources/AB%202392%20Assembly%20committee%20analysis.md): Floor analysis of AB 2392: CCC and CSU working group on GenAI training and procurement standards; cites CSU's $16.9 million ChatGPT Edu contract.
 - [California Jobs First Economic Blueprint](../sources/California%20Jobs%20First%20Economic%20Blueprint.md): State strategic sectors (Strengthen, Accelerate, Bet, Anchor) and GO-Biz sector strategies
 - [California Jobs First homepage](../sources/California%20Jobs%20First%20homepage.md): State regional economic program, 13 regions, council of nine agencies co-chaired by GO-Biz and LWDA
 - [California Jobs First regions](../sources/California%20Jobs%20First%20regions.md): The 13 economic regions, their plans and the Regional Data Tool
 - [California Report on Frontier AI Policy 2025-06-17](../sources/California%20Report%20on%20Frontier%20AI%20Policy%202025-06-17.md): The working group report does not mention CalCompute.
+- [CCC 2027-28 Shared Advocacy Request Appendix E (web)](../sources/CCC%202027-28%20Shared%20Advocacy%20Request%20Appendix%20E%20%28web%29.md): CCC 2027-28 AI budget requests: professional development, interoperability grants, shared agentic AI, CENIC AIR access for all colleges, and an AI Innovation Fund.
+- [CCC 2027-28 Shared Advocacy Request Executive Summary (web)](../sources/CCC%202027-28%20Shared%20Advocacy%20Request%20Executive%20Summary%20%28web%29.md): CCC 2027-28 budget and legislative request summary: amounts for each proposal, with a generative AI group.
 - [CCC ISTI 25-300-01 AI Literacy](../sources/CCC%20ISTI%2025-300-01%20AI%20Literacy.md): The CCC system has a written AI literacy standard: the PEOPLE framework, six competencies for all students, faculty and staff.
 - [CCC ISTI 25-300-02 AI Safety and Security](../sources/CCC%20ISTI%2025-300-02%20AI%20Safety%20and%20Security.md): The California Community Colleges (CCC) Chancellor's Office tells colleges to test agentic AI in isolated sandboxes.
 - [CCC ISTI 26-300-01 Digital Identity Verification](../sources/CCC%20ISTI%2026-300-01%20Digital%20Identity%20Verification.md): The CCC system requires digital identity verification for students, from August 2026.
 - [CCC ISTI 26-300-02 CCCStart Supplemental Data Collection](../sources/CCC%20ISTI%2026-300-02%20CCCStart%20Supplemental%20Data%20Collection.md): Sept. 22, 2026: ask only what admission needs; new questions go through central review and an approved list.
 - [CCC ISTI memos index](../sources/CCC%20ISTI%20memos%20index.md): Four ISTI memos; one new, 26-300-02. Lists the pages taken.
 - [CCC work experience regulations final text 2023 (web)](../sources/CCC%20work%20experience%20regulations%20final%20text%202023%20%28web%29.md): Title 5 work experience rules, 2023: districts partner with public or private employers; may subsidize public-employer placements; 54 hours per unit.
+- [CCCCO Data Science ADT form (web)](../sources/CCCCO%20Data%20Science%20ADT%20form%20%28web%29.md): Community college Data Science AS-T template: required core courses and faculty review notes.
+- [CCCCO ESS 26-71 Data Science TMC memo (web)](../sources/CCCCO%20ESS%2026-71%20Data%20Science%20TMC%20memo%20%28web%29.md): Chancellor's Office memo ESS 26-71: release of the Data Science Transfer Model Curriculum.
 - [CDT IT Classification Mapping](../sources/CDT%20IT%20Classification%20Mapping.md): State IT jobs in six domains map to IT Technician to Manager II; Machine Learning Engineer and Cloud Architect are state titles.
 - [CDT workforce development](../sources/CDT%20workforce%20development.md): Training center for public sector IT staff: academies, a GenAI Boot Camp, no research computing course.
 - [CJF Investment Playbook 2025 (web)](../sources/CJF%20Investment%20Playbook%202025%20%28web%29.md): Jobs First investor guide: $286 million to 13 regions to date, "capital stacking" of federal, state, private and philanthropic funds; counties of each region.
@@ -49,11 +53,13 @@ This list groups the library's sources for this element by tier. It does not say
 - [FSA Handbook 2026-27 Vol 6 Ch 2 Federal Work-Study (web)](../sources/FSA%20Handbook%202026-27%20Vol%206%20Ch%202%20Federal%20Work-Study%20%28web%29.md): Federal Work-Study rules: off-campus jobs at public agencies; federal wage share 75% at most, 90% for some agencies, 50% at for-profits.
 - [Governor AI bill signings including AB 2392 2026-09-30 (web)](../sources/Governor%20AI%20bill%20signings%20including%20AB%202392%202026-09-30%20%28web%29.md): The Governor signs 13 AI bills, among them AB 2392 on GenAI training and procurement in public higher education.
 - [Governor AI working group release 2025-03-18](../sources/Governor%20AI%20working%20group%20release%202025-03-18.md): The release announces the draft of the Governor's working group report.
+- [Governor AI-Unemployment Tracker launch release 2026-06-25 (web)](../sources/Governor%20AI-Unemployment%20Tracker%20launch%20release%202026-06-25%20%28web%29.md): Governor launches the AI-Unemployment Tracker (CPL UCLA site and EDD), updated monthly; no statewide rise in AI-exposed UI claims; $750,000 for an AI workforce strategy.
 - [Governor California NVIDIA collaboration 2024-08-09 (web)](../sources/Governor%20California%20NVIDIA%20collaboration%202024-08-09%20%28web%29.md): Governor and NVIDIA MOU on AI training, mainly in community colleges; NVIDIA "aims to" give access to AI hardware, software and cloud resources.
 - [Governor economy tops 4.5 trillion 2026-10-05 (web)](../sources/Governor%20economy%20tops%204.5%20trillion%202026-10-05%20%28web%29.md): California output tops $4.5 trillion in 2025 (BEA) and "remains" the fourth-largest economy. No CalCompute.
 - [Governor partners with tech companies on AI education 2025-08-07 (web)](../sources/Governor%20partners%20with%20tech%20companies%20on%20AI%20education%202025-08-07%20%28web%29.md): No-cost state agreements with Google, Adobe, IBM and Microsoft for AI training in high schools, community colleges and CSU; "over two million students".
 - [Governor TIME Person of the Year made in California 2025-12-12 (web)](../sources/Governor%20TIME%20Person%20of%20the%20Year%20made%20in%20California%202025-12-12%20%28web%29.md): "33 of the 50 top AI companies", 15.7% of U.S. AI job postings, and over half of global AI venture capital in the Bay Area. No CalCompute.
 - [GovOps apprenticeships (web)](../sources/GovOps%20apprenticeships%20%28web%29.md): State employee apprenticeship pilots in IT, financial services and mainframe: up to 25 college credits and two years of on-the-job training.
+- [Hochul Empire AI expansion 2025-05-09 (web)](../sources/Hochul%20Empire%20AI%20expansion%202025-05-09%20%28web%29.md): $90 million in FY 2026 capital funding for Empire AI: more computing power, SUNY access, three new members; AI Prep and state workforce training.
 - [Jobs First 2025 results release](../sources/Jobs%20First%202025%20results%20release.md): $1.6 billion in 2025; 142,000 trained, 61,000 jobs; ETP, apprenticeship and HRTP channels
 - [Maryland Chapter 633 of 2026 SB 597 (web)](../sources/Maryland%20Chapter%20633%20of%202026%20SB%20597%20%28web%29.md): Maryland law: AI Partnership in the University System of Maryland, regional technology hubs, an AI Public Service Fellowship and an AI Incubation Lab for agencies.
 - [Mississippi ITS AI Innovation Student Teams (web)](../sources/Mississippi%20ITS%20AI%20Innovation%20Student%20Teams%20%28web%29.md): Mississippi's IT agency pairs supervised student teams from three universities with agencies for 6 to 8 week AI proofs of concept; AWS is a Hub partner.
@@ -66,6 +72,7 @@ This list groups the library's sources for this element by tier. It does not say
 - [NSF news AI Infrastructure Hubs (web)](../sources/NSF%20news%20AI%20Infrastructure%20Hubs%20%28web%29.md): NSF announces the $100 million AI Infrastructure Hubs program: state and regional consortia pool contributions to build compute; up to 10 hubs.
 - [ODI and CalHR Foundations of GenAI certificate series (web)](../sources/ODI%20and%20CalHR%20Foundations%20of%20GenAI%20certificate%20series%20%28web%29.md): Five-course GenAI certificate for all state employees; CalLearns hosts four courses, CalAcademy one; led by GovOps with CDT.
 - [Pathways to College in California](../sources/Pathways%20to%20College%20in%20California.md): C2C data story on students from high school to college and work, by district
+- [PIB IndiaAI document doc2026210784401 (web)](../sources/PIB%20IndiaAI%20document%20doc2026210784401%20%28web%29.md): PIB backgrounder: 38,000+ IndiaAI GPUs at ₹65 per hour; ₹10,371.92 crore Mission outlay; AIKosh datasets; AI skills and fellowships.
 - [SB 1047 CalCompute section 2024-08-29](../sources/SB%201047%20CalCompute%20section%202024-08-29.md): SB 1047's CalCompute section: the same elements as SB-53, report due Jan. 1, 2026; vetoed
 - [SB-53 Assembly Privacy analysis 2025-07-08](../sources/SB-53%20Assembly%20Privacy%20analysis%202025-07-08.md): The committee's summary of the bill (items 17 to 28) already matches the enacted § 11546.8 almost item for item.
 - [SB-53 Gov Code 11546.8](../sources/SB-53%20Gov%20Code%2011546.8.md): The statute: Gov. Code § 11546.8, subdivisions (a) to (k), word for word. The base of every definition.
@@ -73,25 +80,40 @@ This list groups the library's sources for this element by tier. It does not say
 - [SB-53 Senate GO analysis 2025-03-25 (web)](../sources/SB-53%20Senate%20GO%20analysis%202025-03-25%20%28web%29.md): The first committee analysis of SB 53. It has the enacted mission, UC placement and seven elements, with the March appointment scheme. It says "This bill does not establish CalCompute" and records no opposition.
 - [SB-53 Senate Judiciary analysis 2025-04-08](../sources/SB-53%20Senate%20Judiciary%20analysis%202025-04-08.md)
 - [UC Regents B4 Update on AI 2026-09-16](../sources/UC%20Regents%20B4%20Update%20on%20AI%202026-09-16.md): UC is scoping its own "Sovereign AI Cloud", UC-owned and UC-governed. It does not name CalCompute.
+- [Washington OFM GenAI impact on state workforce (web)](../sources/Washington%20OFM%20GenAI%20impact%20on%20state%20workforce%20%28web%29.md): Washington State report on GenAI effects on state employees, mitigation strategies, skill programs and the views of labor and management.
+- [White House science initiatives fact sheet 2026-10 (web)](../sources/White%20House%20science%20initiatives%20fact%20sheet%202026-10%20%28web%29.md): Over $6 billion in science initiatives, including $2.4B in industry compute and tools for the Genesis Mission and regional compute hubs.
 - [Wiener SB 294 announcement 2023-09-13](../sources/Wiener%20SB%20294%20announcement%202023-09-13.md)
 
-### Peer-reviewed (3)
+### Peer-reviewed (4)
 
 - [LeMahieu 2017 Networked improvement communities](../sources/LeMahieu%202017%20Networked%20improvement%20communities.md): Abstract only: six principles of networked improvement communities (Carnegie Foundation)
 - [PEARC 2025 Cultivating Computational Equity Central Valley](../sources/PEARC%202025%20Cultivating%20Computational%20Equity%20Central%20Valley.md): CENVAL-ARC: Central Valley campuses use under 0.05% of ACCESS allocations; training and shared infrastructure
+- [SciPy Majora-4af1f417-002 JupyterHub paper (web)](../sources/SciPy%20Majora-4af1f417-002%20JupyterHub%20paper%20%28web%29.md): Suen et al. 2018: equity, scale and sustainability of JupyterHub teaching infrastructure; cloud credits, staffing, regional hubs.
 - [Sommerhoff 2018 What Do We Teach When We Teach the Learning Sciences](../sources/Sommerhoff%202018%20What%20Do%20We%20Teach%20When%20We%20Teach%20the%20Learning%20Sciences.md): 75 learning sciences graduate programs: technology for learning is the most common concept
 
-### Institutional (46)
+### Institutional (79)
 
+- [ACCESS MATCH services (web)](../sources/ACCESS%20MATCH%20services%20%28web%29.md): Free ACCESS mentoring: researchers attend office hours, then get an expert for "typically 1-5 sessions".
+- [ACCESS Resource Advisor announcement (web)](../sources/ACCESS%20Resource%20Advisor%20announcement%20%28web%29.md): ACCESS Resource Catalog, Resource Advisor questionnaire (with wait times) and Software Documentation Service help new users pick a resource; "hundreds of recommendations".
+- [ACCJC directory of institutions (web)](../sources/ACCJC%20directory%20of%20institutions%20%28web%29.md): ACCJC directory: 139 institutions with city, type and accreditation status; 124 in California; 132 "Accredited".
+- [Ahmed Thompson Brookings industry influence in AI research 2023-12-05 (web)](../sources/Ahmed%20Thompson%20Brookings%20industry%20influence%20in%20AI%20research%202023-12-05%20%28web%29.md): Brookings article (MIT authors) on industry's lead over academia in data, talent and compute, with responses such as public computing platforms.
 - [AI Singapore AIAP page (web)](../sources/AI%20Singapore%20AIAP%20page%20%28web%29.md): AIAP: paid AI apprenticeship of 6 or 9 months; 90% placed in AI roles
 - [Becerra AI priorities (web)](../sources/Becerra%20AI%20priorities%20%28web%29.md): Campaign platform: "I will fund CalCompute fully and make it operational"; AI literacy, state AI audits, workforce transition, a data center standard.
+- [Berkeley CDSS DataHub page (web)](../sources/Berkeley%20CDSS%20DataHub%20page%20%28web%29.md): UC Berkeley's DataHub course compute service: usage across 109 courses and a cloud cost of $5 for each student each semester.
 - [Berkeley Data Science Discovery partner page (web)](../sources/Berkeley%20Data%20Science%20Discovery%20partner%20page%20%28web%29.md): Teams of 3 to 5 students work 12 weeks on a mentor's data project; mentors come from industry, nonprofits and government; cloud compute and support.
+- [Berkeley VCR Cal-ICOR compute hub launch (web)](../sources/Berkeley%20VCR%20Cal-ICOR%20compute%20hub%20launch%20%28web%29.md): Launch of Cal-ICOR: a $1.5 million state Learning Lab grant for a Berkeley-run JupyterHub hub for California public colleges.
+- [CAIT Frequently Asked Questions (web)](../sources/CAIT%20Frequently%20Asked%20Questions%20%28web%29.md): FAQ on the AI-Unemployment Tracker: links UI claims to occupation AI exposure; misses workers who do not file; cannot show that AI caused a layoff.
+- [Cal Poly AI Factory release (web)](../sources/Cal%20Poly%20AI%20Factory%20release%20%28web%29.md): Announcement of Cal Poly's $3 million on-campus GPU system for students, faculty and regional partners.
+- [Cal Poly AI Factory unveiling release (web)](../sources/Cal%20Poly%20AI%20Factory%20unveiling%20release%20%28web%29.md): Unveiling of Cal Poly's AI Factory, with faculty uses that need local training on protected data.
 - [Cal-ICOR About](../sources/Cal-ICOR%20About.md): Partners (UC Berkeley lead, Learning Lab, 2i2c) and five named staff.
 - [Cal-ICOR homepage](../sources/Cal-ICOR%20homepage.md): 1,907 students this term and 4,369 all time (UC 275, CSU 1,497, CCC 134); Learning Lab supports it; "Free". Lists the pages taken.
 - [Cal-ICOR Partner With Us](../sources/Cal-ICOR%20Partner%20With%20Us.md): 20 partner institutions (15 CSU, 2 UC, 3 CCC) and a four-step onboarding with a choice of support model.
 - [California Policy Lab AI-Unemployment Tracker (web)](../sources/California%20Policy%20Lab%20AI-Unemployment%20Tracker%20%28web%29.md): CPL and EDD tracker of UI claims by AI exposure: no statewide surge through May 2026; September 2026 high-exposure three-month averages fell.
 - [California Policy Lab AI-Unemployment Tracker launch (web)](../sources/California%20Policy%20Lab%20AI-Unemployment%20Tracker%20launch%20%28web%29.md): Tracker links UI claims to AI exposure; no statewide layoff surge through May 2026; claims up for college-educated, Bay Area, tech sectors.
+- [CaRCC RCD Capabilities Model (web)](../sources/CaRCC%20RCD%20Capabilities%20Model%20%28web%29.md): CaRCC working group page for the Research Computing and Data Capabilities Model; version 3 in alpha in 2026; NSF-funded.
+- [CaRCC RCD Capabilities Model one-page overview (web)](../sources/CaRCC%20RCD%20Capabilities%20Model%20one-page%20overview%20%28web%29.md): Self-assessment tool of about 150 capabilities in five areas, for an institution's research computing and data support; peer benchmarks.
 - [CCST about (web)](../sources/CCST%20about%20%28web%29.md): Nonpartisan nonprofit chartered by the Legislature in 1988; advises state bodies on request; universities and federal labs support it.
+- [CCST Science Fellows program (web)](../sources/CCST%20Science%20Fellows%20program%20%28web%29.md): CCST places a yearly cohort of PhD scientists in the Legislature and executive branch; PhD and U.S. work right needed.
 - [CENIC AIR initiative (web)](../sources/CENIC%20AIR%20initiative%20%28web%29.md): CENIC AIR is the California part of the National Research Platform on Nautilus; open to any faculty with CILogon; campuses add hardware by BYOR.
 - [Center for AI Safety About (web)](../sources/Center%20for%20AI%20Safety%20About%20%28web%29.md): AI safety nonprofit; has given compute to more than 100 university researchers since March 2023; its cluster supports about 20 labs.
 - [CENVAL-ARC homepage](../sources/CENVAL-ARC%20homepage.md): UC Merced-led regional research computing network; NSF CC* award; symposium March 2027
@@ -99,29 +121,48 @@ This list groups the library's sources for this element by tier. It does not say
 - [CITRIS UC Santa Cruz leadership and staff](../sources/CITRIS%20UC%20Santa%20Cruz%20leadership%20and%20staff.md): Director Katia Obraczka, Executive Director Michael Matkin; CIDER drone program employs trained students.
 - [CITRIS UC Santa Cruz programs](../sources/CITRIS%20UC%20Santa%20Cruz%20programs.md): Campus-only seed grants (I2P) and student Tech for Social Good grants.
 - [CloudBank at Berkeley](../sources/CloudBank%20at%20Berkeley.md): 2020 UC Berkeley data science college (CDSS) news: NSF CloudBank (SDSC, UC Berkeley) brokers public cloud for research and teaching
+- [CMU NSF award for Bridges-3 2026-07 (web)](../sources/CMU%20NSF%20award%20for%20Bridges-3%202026-07%20%28web%29.md): CMU story: $10M NSF award funds PSC's Bridges-3, allocated mainly through ACCESS and the NAIRR Pilot, with training and internships
 - [CMU Policy Innovation Lab](../sources/CMU%20Policy%20Innovation%20Lab.md): Heinz College course page: students build public interest technology for government clients; no compute facts
+- [CPL Tracking AI-Related Job Loss Using UI Claims Data (web)](../sources/CPL%20Tracking%20AI-Related%20Job%20Loss%20Using%20UI%20Claims%20Data%20%28web%29.md): CPL report: no statewide surge in AI-exposed UI claims through May 2026; rises for college-educated, Bay Area and tech-sector workers; descriptive only.
 - [CSET State of AI-Related Apprenticeships (web)](../sources/CSET%20State%20of%20AI-Related%20Apprenticeships%20%28web%29.md): Over 19,000 new AI-related apprentices 2013 to 2023, 68 percent completion; California third with 1,823.
 - [CSU GenAI Advisory Committee 2026 report (web)](../sources/CSU%20GenAI%20Advisory%20Committee%202026%20report%20%28web%29.md): Seven recommendations: renew ChatGPT EDU now, move to a multi-LLM or gateway model, one systemwide AI governance and procurement framework.
+- [CSUSB high performance computing article (web)](../sources/CSUSB%20high%20performance%20computing%20article%20%28web%29.md): CSU San Bernardino's High Performance Computing Initiative, its NSF sub-award for cyberinfrastructure staff and its CENIC and PRP links.
 - [F3 Innovate about (web)](../sources/F3%20Innovate%20about%20%28web%29.md): Fresno agriculture nonprofit F3 Innovate (F3i); works with UC Merced, UC ANR and CSU Fresno researchers; UC Merced Chancellor is board treasurer.
 - [F3I homepage (web)](../sources/F3I%20homepage%20%28web%29.md): F3i home page: infrastructure for food production and rural economies; talent development, commercialization engine and catalyst fund programs.
 - [F3i Supercomputing Center (web)](../sources/F3i%20Supercomputing%20Center%20%28web%29.md): F3 Innovate leads; SDSC at UC San Diego gives cyberinfrastructure; CSU Fresno hosts and operates. Priority for California agriculture and biotech users, Central Valley first.
+- [Fast Forward 2025 AI for Humanity Report (web)](../sources/Fast%20Forward%202025%20AI%20for%20Humanity%20Report%20%28web%29.md): Fast Forward survey of nearly 200 nonprofits using AI: cost is the top barrier, 84% of AI-powered nonprofits need more funding; asks funders for unrestricted, upfront capital.
 - [Imagine Canada State of AI Adoption in Canadian Nonprofits (web)](../sources/Imagine%20Canada%20State%20of%20AI%20Adoption%20in%20Canadian%20Nonprofits%20%28web%29.md): Survey of 963 Canadian nonprofits: 80% use AI, mostly for few tasks; skills and time predict use more than money; 10% have AI policies.
+- [Irvine Foundation about us (web)](../sources/Irvine%20Foundation%20about%20us%20%28web%29.md): Foundation for California's low-income workers; $160.2 million in grants in 2025; $3.6 billion endowment.
+- [ITU OSEE project page (web)](../sources/ITU%20OSEE%20project%20page%20%28web%29.md): ITU and UNDP's Open Source Ecosystem Enabler helps governments adopt open source for digital public services: training, technical facilities, a knowledge hub.
 - [NJIT NSF 26-508 round dates (web)](../sources/NJIT%20NSF%2026-508%20round%20dates%20%28web%29.md): University listing of NSF 26-508: up to 56 hubs at $1M a year in three rounds; its round 2 letter of intent date differs from NSF's.
 - [NSF AI-Ready America Workshop Report (web)](../sources/NSF%20AI-Ready%20America%20Workshop%20Report%20%28web%29.md): SeedAI workshop report for NSF: build regional "compute commons" in trusted public institutions with federal seed money; names Empire AI and the Massachusetts AI Hub as models.
+- [NTEN Bridgespan State of Nonprofit AI 2026 (web)](../sources/NTEN%20Bridgespan%20State%20of%20Nonprofit%20AI%202026%20%28web%29.md): NTEN and Bridgespan survey of 917 nonprofit professionals: 57% of executives have no AI budget, and only 24% report sufficient tools or infrastructure for AI.
+- [Oregon State CIC 72 million legislature release (web)](../sources/Oregon%20State%20CIC%2072%20million%20legislature%20release%20%28web%29.md): OSU release: $72M state bonds plus a $50M Huang gift for the $213M Collaborative Innovation Complex and its supercomputer
+- [Oregon State Huang Complex FAQ (web)](../sources/Oregon%20State%20Huang%20Complex%20FAQ%20%28web%29.md): OSU FAQ: Huang Complex purpose, resource use, responsible AI, cloud use, access for other Oregon universities, upgrade plan
 - [OSC getting started and fees (web)](../sources/OSC%20getting%20started%20and%20fees%20%28web%29.md): Free for Ohio classroom use; credits largely or completely offset fees for Ohio academic researchers; set rates for others.
+- [PSC state funding release 2021-01-21 (web)](../sources/PSC%20state%20funding%20release%202021-01-21%20%28web%29.md): PSC: $500K state budget line for workforce and outreach and a $1M state capital grant for Bridges-2 power and cooling
+- [PSC state funding release 2021-07-12 (web)](../sources/PSC%20state%20funding%20release%202021-07-12%20%28web%29.md): PSC: $500K in the 2021-22 Pennsylvania budget for training and outreach; PSC credits it with $200M+ in federal funding
+- [Purdue RCAC 2025 annual report (web)](../sources/Purdue%20RCAC%202025%20annual%20report%20%28web%29.md): Purdue RCAC annual report: community clusters, Anvil on ACCESS and NAIRR, on-prem LLMs, Argonne Lighthouse, course and student use
 - [RAISE at UCR homepage (web)](../sources/RAISE%20at%20UCR%20homepage%20%28web%29.md): UCR's campus AI institute: AI Foundations, Applications and Education; first AI Summit on Oct. 15, 2026.
 - [RAISE at UCR people (web)](../sources/RAISE%20at%20UCR%20people%20%28web%29.md): Eleven thrusts with faculty leads; Kevin Esterling leads Social Sciences, Mariam Salloum leads Education and Outreach.
 - [SDSC data-driven agriculture 2026-01-13 (web)](../sources/SDSC%20data-driven%20agriculture%202026-01-13%20%28web%29.md): CENIC leads a precision agriculture testbed at Iron Horse Vineyards in Sonoma County; SDSC processes its data and builds a digital twin, with student interns.
 - [SDSC F3i Supercomputing Center release 2026-07-16 (web)](../sources/SDSC%20F3i%20Supercomputing%20Center%20release%202026-07-16%20%28web%29.md): F3 Innovate, Fresno State and SDSC launch the F3i Supercomputing Center at Fresno State: shared computing, applied AI services, workforce and talent development.
 - [SDSC NAIRR Operations Center launch](../sources/SDSC%20NAIRR%20Operations%20Center%20launch.md): NSF chose SDSC to lead the National AI Research Resource (NAIRR) Operations Center.
 - [SDSU AI-Ready California launch 2026-07 (web)](../sources/SDSU%20AI-Ready%20California%20launch%202026-07%20%28web%29.md): SDSU co-leads AI-Ready California, a statewide pilot AI literacy micro-credential; 500 first participants from San Diego; AWS, Community Colleges and Labor Agency partners.
+- [Stanford HAI AI Index Report 2023 (web)](../sources/Stanford%20HAI%20AI%20Index%20Report%202023%20%28web%29.md): AI Index 2023: industry ahead of academia in models; California leads U.S. AI job postings.
+- [Stanford HAI AI Index Report 2025 (web)](../sources/Stanford%20HAI%20AI%20Index%20Report%202025%20%28web%29.md): AI Index 2025: industry share of models, compute growth, falling inference costs, California job share.
 - [Stanford NSSA SB 129 Budget Act of 2021 (web)](../sources/Stanford%20NSSA%20SB%20129%20Budget%20Act%20of%202021%20%28web%29.md): Database entry: SB 129 (2021) funds the California for All College Corps, $10,000 for one year of service at 46 campuses.
 - [UC ANR Cooperative Extension](../sources/UC%20ANR%20Cooperative%20Extension.md)
+- [UC Data Science Transfer Pathway (web)](../sources/UC%20Data%20Science%20Transfer%20Pathway%20%28web%29.md): UC Data Science Transfer Pathway: courses for transfer to nine UC data science majors.
 - [UC OSPO Network education resources](../sources/UC%20OSPO%20Network%20education%20resources.md): 43 curated open source lessons from six UC campuses; aggregated curriculum model for E
 - [UC press release systemwide AI expertise (web)](../sources/UC%20press%20release%20systemwide%20AI%20expertise%20%28web%29.md): UC AI Steering Committee's first report to the Regents: five working groups, Google and Amazon credits, no reliance on a single vendor.
 - [UCR receives 8 million federal grants 2026-10-19 (web)](../sources/UCR%20receives%208%20million%20federal%20grants%202026-10-19%20%28web%29.md): $5M Department of Education grant for AI education with six community colleges under RAISE@UCR; $3M for industry-aligned engineering courses.
+- [UCSC CruzCon 2026 event page (web)](../sources/UCSC%20CruzCon%202026%20event%20page%20%28web%29.md): Program of CruzCon 2026, a UC Santa Cruz event on open source and campus research infrastructure.
+- [UCSC CruzCon 2026 Katz keynote (web)](../sources/UCSC%20CruzCon%202026%20Katz%20keynote%20%28web%29.md): Session listing for a CruzCon 2026 keynote on research software engineering, with the speaker's bio.
+- [UCSC CruzCon 2026 Whitaker keynote (web)](../sources/UCSC%20CruzCon%202026%20Whitaker%20keynote%20%28web%29.md): Session listing for a CruzCon 2026 keynote by the Executive Director of the Berkeley Institute for Data Science.
 - [UF HiPerGator upgrade 2024 (web)](../sources/UF%20HiPerGator%20upgrade%202024%20%28web%29.md): UF trustees approve $24 million for a 63-node NVIDIA DGX B200 HiPerGator, shared with the State University System of Florida.
 - [UMass PIT 2026 AI for the Commonwealth interns and projects (web)](../sources/UMass%20PIT%202026%20AI%20for%20the%20Commonwealth%20interns%20and%20projects%20%28web%29.md): 14 UMass students took a spring course and paid summer internships building AI prototypes for Massachusetts agencies, with the state IT office and AWS mentoring.
+- [UN Open Source United initiatives (web)](../sources/UN%20Open%20Source%20United%20initiatives%20%28web%29.md): UN open source initiatives: OSEC, OSEE (EUR 3 million, Sept. 2023 to Feb. 2027), GenAI for Good, a Trinidad and Tobago OSPO.
 - [UN Open Source Week 2025 Conference Report](../sources/UN%20Open%20Source%20Week%202025%20Conference%20Report.md): RISE report: the GDC recognizes open access to compute; OSPOs succeed by mandate and authority, not tools.
 - [UN OSET and UNDP 2024 DPI Safeguards](../sources/UN%20OSET%20and%20UNDP%202024%20DPI%20Safeguards.md): This is a United Nations framework for safe and inclusive digital public infrastructure (DPI).
 - [WEF AI and the Future of Entry-Level Work 2026 (web)](../sources/WEF%20AI%20and%20the%20Future%20of%20Entry-Level%20Work%202026%20%28web%29.md): 37 percent of young workers worldwide, 69 percent in Northern America, have jobs with medium to high AI exposure; work-integrated learning beside degrees.
@@ -129,13 +170,18 @@ This list groups the library's sources for this element by tier. It does not say
 - [WEF Global Cybersecurity Outlook 2026 (web)](../sources/WEF%20Global%20Cybersecurity%20Outlook%202026%20%28web%29.md): Survey of 804 respondents: 57 percent of the public sector name the cyber skills shortage as a main challenge.
 - [WEF Global Risks Report 2026 (web)](../sources/WEF%20Global%20Risks%20Report%202026%20%28web%29.md): Adverse outcomes of AI rise from #30 (two-year) to #5 (10-year) in the expert survey; job-impact estimates vary widely.
 - [WEF Next-Generation Computing Framework 2026 (web)](../sources/WEF%20Next-Generation%20Computing%20Framework%202026%20%28web%29.md): Seven-dimension scorecard for national compute readiness, with compute access, infrastructure, talent and partnerships.
+- [World Bank Morocco digital transformation release 2026-06-12 (web)](../sources/World%20Bank%20Morocco%20digital%20transformation%20release%202026-06-12%20%28web%29.md): World Bank approves $650 million for Morocco: a $250 million digital program (cloud for government, AI centres of excellence, startups, skills) and $400 million for risk finance.
+- [WSCUC directory of institutions (web)](../sources/WSCUC%20directory%20of%20institutions%20%28web%29.md): WSCUC directory of accredited and candidate institutions; the copy holds the first 50 rows, with city, country, status and financial structure.
 
-### Trade (7)
+### Trade (10)
 
+- [Anthropic Claude for Nonprofits (web)](../sources/Anthropic%20Claude%20for%20Nonprofits%20%28web%29.md): Anthropic gives nonprofits up to 75% off Claude plans, connectors and a free AI fluency course
 - [Campus Explorer university extension programs (web)](../sources/Campus%20Explorer%20university%20extension%20programs%20%28web%29.md): A college-search site defines extension programs as non-credit classes open to all; not for a public report.
 - [Chronicle of Philanthropy nonprofit AI gap (web)](../sources/Chronicle%20of%20Philanthropy%20nonprofit%20AI%20gap%20%28web%29.md): NTEN and Bridgespan survey of more than 900 nonprofit workers: executives see more promise in AI than staff; few have AI policies, budgets or grants.
 - [Chronicle of Philanthropy nonprofits embracing AI funding (web)](../sources/Chronicle%20of%20Philanthropy%20nonprofits%20embracing%20AI%20funding%20%28web%29.md): Fast Forward survey of nearly 200 nonprofits: funding for systems, tools and talent is the top need of AI-powered nonprofits.
+- [Fortune forward deployed engineers 2026-09-03 (web)](../sources/Fortune%20forward%20deployed%20engineers%202026-09-03%20%28web%29.md): Forward-deployed engineer postings up more than 1000% (Jan. to Aug. 2026, Lightcast); median advertised salary over $188,000.
 - [Google Summer of Code how it works (web)](../sources/Google%20Summer%20of%20Code%20how%20it%20works%20%28web%29.md): Mentored open source program: proposal, 3 weeks of community bonding, 12+ weeks of coding, mutual evaluations.
+- [Google.org Accelerator Generative AI 2025 open call (web)](../sources/Google.org%20Accelerator%20Generative%20AI%202025%20open%20call%20%28web%29.md): Google.org's $30 million gen AI accelerator for nonprofits and academic institutions, with cloud credits and training
 - [Granted AI on NSF 26-508](../sources/Granted%20AI%20on%20NSF%2026-508.md): This is a vendor blog post that sells a grant-writing product.
 - [Littler California 2026 AI employment laws (web)](../sources/Littler%20California%202026%20AI%20employment%20laws%20%28web%29.md): Law firm analysis of California's 2026 AI employment laws: AB 1883, AB 1331, SB 947 (No Robo Bosses Act), SB 951, SB 574, Assembly Bill 316.
 - [Skills Caravan training vs development (web)](../sources/Skills%20Caravan%20training%20vs%20development%20%28web%29.md): Vendor blog: training is short-term and job-focused, development is long-term and growth-focused; not for a public report.

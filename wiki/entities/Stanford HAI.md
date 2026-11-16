@@ -2,8 +2,8 @@
 title: "Stanford HAI"
 type: entity
 created: 2026-10-15
-updated: 2026-10-29
-source_count: 7
+updated: 2026-11-11
+source_count: 10
 tags: [institution, publisher]
 kind: institution
 elements: [A, B, C, F]
@@ -21,6 +21,9 @@ elements: [A, B, C, F]
 - Fei-Fei Li, Founding Co-Director, is a lead author of the working group report. SB-53 builds on that report ([Governor AI working group release 2025-03-18](../sources/Governor%20AI%20working%20group%20release%202025-03-18.md)). An analysis quotes her on the public sector lagging industry in resources ([SB-53 Senate Judiciary analysis 2025-04-08](../sources/SB-53%20Senate%20Judiciary%20analysis%202025-04-08.md)).
 - SB 294 built CalCompute on Stanford's National Research Cloud proposal ([Wiener SB 294 announcement 2023-09-13](../sources/Wiener%20SB%20294%20announcement%202023-09-13.md)).
 - Fei-Fei Li told a U.S. Senate committee in 2023 that only "a select few industry players" can work at the frontier, because of the compute and data that training needs. She supported a National AI Research Resource for academic researchers ([Fei-Fei Li Senate testimony 2023-09-14 (web)](../sources/Fei-Fei%20Li%20Senate%20testimony%202023-09-14%20%28web%29.md)).
+- Its 2021 white paper recommends commercial cloud first and a pilot of public infrastructure for the National Research Cloud ([Stanford HAI National Research Cloud blueprint 2021 (web)](../sources/Stanford%20HAI%20National%20Research%20Cloud%20blueprint%202021%20%28web%29.md)).
+- Its AI Index counts 32 significant machine learning models from industry in 2022, and three from academia ([Stanford HAI AI Index Report 2023 (web)](../sources/Stanford%20HAI%20AI%20Index%20Report%202023%20%28web%29.md)).
+- The 2025 AI Index says "Nearly 90% of notable AI models in 2024 came from industry" ([Stanford HAI AI Index Report 2025 (web)](../sources/Stanford%20HAI%20AI%20Index%20Report%202025%20%28web%29.md)).
 
 ## Affiliations
 
@@ -28,9 +31,12 @@ elements: [A, B, C, F]
 
 ## Sources
 
-Publisher of 1 source in this library.
+Publisher of 4 sources in this library.
 
 - [California Report on Frontier AI Policy 2025-06-17](../sources/California%20Report%20on%20Frontier%20AI%20Policy%202025-06-17.md)
+- [Stanford HAI AI Index Report 2023 (web)](../sources/Stanford%20HAI%20AI%20Index%20Report%202023%20%28web%29.md)
+- [Stanford HAI AI Index Report 2025 (web)](../sources/Stanford%20HAI%20AI%20Index%20Report%202025%20%28web%29.md)
+- [Stanford HAI National Research Cloud blueprint 2021 (web)](../sources/Stanford%20HAI%20National%20Research%20Cloud%20blueprint%202021%20%28web%29.md)
 - [Cryst Stanford HAI profile](../sources/Cryst%20Stanford%20HAI%20profile.md)
 - [Executive Order N-6-26](../sources/Executive%20Order%20N-6-26.md)
 - [Fei-Fei Li Senate testimony 2023-09-14 (web)](../sources/Fei-Fei%20Li%20Senate%20testimony%202023-09-14%20%28web%29.md)

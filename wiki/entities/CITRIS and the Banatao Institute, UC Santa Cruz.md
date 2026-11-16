@@ -6,6 +6,7 @@ updated: 2026-11-01
 source_count: 4
 tags: [institution, publisher]
 kind: institution
+mirror: yes
 ---
 
 # CITRIS and the Banatao Institute, UC Santa Cruz

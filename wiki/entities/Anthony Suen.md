@@ -2,12 +2,12 @@
 title: "Anthony Suen"
 type: entity
 created: 2026-11-01
-updated: 2026-11-06
-source_count: 2
+updated: 2026-11-13
+source_count: 3
 tags: [team]
 member: yes
 group: consortium
-order: 2
+order: 1
 institution: "UC Berkeley"
 position: "Founder, Cal-ICOR"
 role: "Built UC Berkeley's data science education and access programs, the kind of workforce pathway SB-53 asks the CalCompute consortium to analyze"
@@ -37,9 +37,11 @@ photo: "/images/people/anthony-suen.png"
 - He holds a Master of Information Management and Systems from UC Berkeley ([Suen D-Lab profile](../sources/Suen%20D-Lab%20profile.md)).
 - He was a Schneider Fellow at the Beijing office of the Natural Resources Defense Council ([Suen D-Lab profile](../sources/Suen%20D-Lab%20profile.md)).
 - He co-founded the environmental nonprofit Energyfolks ([Suen D-Lab profile](../sources/Suen%20D-Lab%20profile.md)).
+- He is the first author of "Equity, Scalability, and Sustainability of Data Science Infrastructure" (SciPy 2018) ([SciPy Majora-4af1f417-002 JupyterHub paper (web)](../sources/SciPy%20Majora-4af1f417-002%20JupyterHub%20paper%20%28web%29.md)).
 
 ## Sources
 
+- [SciPy Majora-4af1f417-002 JupyterHub paper (web)](../sources/SciPy%20Majora-4af1f417-002%20JupyterHub%20paper%20%28web%29.md)
 - [Suen Chancellor's Outstanding Staff Award](../sources/Suen%20Chancellor%27s%20Outstanding%20Staff%20Award.md)
 - [Suen D-Lab profile](../sources/Suen%20D-Lab%20profile.md)
 

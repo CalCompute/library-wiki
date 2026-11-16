@@ -56,6 +56,10 @@ def main():
     if "californiacompute.org" in host:
         sys.exit("refused: californiacompute.org is the consortium's own website, not research")
 
+    # A Wayback Machine copy (leginfo refuses scripts) is judged by the page it archives.
+    m = re.match(r"https?://web\.archive\.org/web/[^/]+/(https?://[^/]+)", o.url)
+    if m:
+        host = urllib.parse.urlsplit(m.group(1)).netloc.lower()
     rehost = bool(GOV.search(host.split(":")[0]) or o.license)
     today = datetime.date.today().isoformat()
     folder = os.path.join(ROOT, "raw", o.folder) if rehost else os.path.join(ROOT, ".cache", o.folder)

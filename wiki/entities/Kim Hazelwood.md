@@ -2,12 +2,12 @@
 title: "Kim Hazelwood"
 type: entity
 created: 2026-11-01
-updated: 2026-11-06
-source_count: 5
+updated: 2026-11-13
+source_count: 6
 tags: [team]
 member: yes
 group: consortium
-order: 1
+order: 3
 institution: "Empire AI"
 position: "At-Large Board Member, Empire AI"
 role: "Sits on the board of a public AI computing consortium already running in another state, the governance and cost questions CalCompute faces in practice"
@@ -37,6 +37,7 @@ photo: "/images/people/kim-hazelwood.jpeg"
 - She holds a PhD in Computer Science from Harvard University ([Hazelwood personal site](../sources/Hazelwood%20personal%20site.md)).
 - Her site says she has "authored over 70 peer-reviewed publications and a book" ([Hazelwood personal site](../sources/Hazelwood%20personal%20site.md)).
 - Her papers include "Sustainable AI" (2022) and "Applied machine learning at Facebook: A datacenter infrastructure perspective" (2018) ([Hazelwood personal site](../sources/Hazelwood%20personal%20site.md)).
+- She is a co-author of "Sustainable AI: Environmental Implications, Challenges and Opportunities" (MLSys 2022). The paper gives her affiliation as Meta AI ([Wu et al Sustainable AI MLSys 2022 (web)](../sources/Wu%20et%20al%20Sustainable%20AI%20MLSys%202022%20%28web%29.md)).
 - She was the principal investigator of a CAREER award at the University of Virginia, from 2008 to 2012 ([Hazelwood NSF CAREER award 0747273 (web)](../sources/Hazelwood%20NSF%20CAREER%20award%200747273%20%28web%29.md)).
 - The National Science Foundation (NSF) CAREER award, 0747273, was on hardware and software collaborative design ([Hazelwood NSF CAREER award 0747273 (web)](../sources/Hazelwood%20NSF%20CAREER%20award%200747273%20%28web%29.md)).
 - Her awards include the 2025 Top 100 Women in AI Award ([Hazelwood NC State ECE honor](../sources/Hazelwood%20NC%20State%20ECE%20honor.md)).
@@ -56,6 +57,7 @@ photo: "/images/people/kim-hazelwood.jpeg"
 - [Hazelwood NC State ECE honor](../sources/Hazelwood%20NC%20State%20ECE%20honor.md)
 - [Hazelwood NSF CAREER award 0747273 (web)](../sources/Hazelwood%20NSF%20CAREER%20award%200747273%20%28web%29.md)
 - [Hazelwood personal site](../sources/Hazelwood%20personal%20site.md)
+- [Wu et al Sustainable AI MLSys 2022 (web)](../sources/Wu%20et%20al%20Sustainable%20AI%20MLSys%202022%20%28web%29.md)
 
 ## Links
 

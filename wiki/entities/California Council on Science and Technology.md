@@ -2,8 +2,8 @@
 title: "California Council on Science and Technology"
 type: entity
 created: 2026-11-01
-updated: 2026-11-09
-source_count: 2
+updated: 2026-11-11
+source_count: 5
 tags: [institution, publisher]
 kind: institution
 ---
@@ -19,6 +19,7 @@ The California Council on Science and Technology (CCST) is a nonpartisan nonprof
 - It responds to the Governor, the Legislature and other state entities that request "independent assessment of public policy issues" ([CCST about (web)](../sources/CCST%20about%20%28web%29.md)).
 - It places science and technology PhDs in the Legislature and executive branch offices for one year ([CCST about (web)](../sources/CCST%20about%20%28web%29.md)).
 - It places AI Science Advisors at the Governor's Office of Emergency Services (Cal OES) ([Chen CCST AI Science Advisor announcement (web)](../sources/Chen%20CCST%20AI%20Science%20Advisor%20announcement%20%28web%29.md)).
+- Its AI Policy Initiative runs a Legislative Staff Academy on AI, launched in October 2025, and an AI Science Residency Program ([CCST artificial intelligence program (web)](../sources/CCST%20artificial%20intelligence%20program%20%28web%29.md)).
 
 ## Affiliations
 
@@ -27,7 +28,10 @@ The California Council on Science and Technology (CCST) is a nonpartisan nonprof
 
 ## Sources
 
-Publisher of 2 sources in this library.
+Publisher of 5 sources in this library.
 
 - [Chen CCST AI Science Advisor announcement (web)](../sources/Chen%20CCST%20AI%20Science%20Advisor%20announcement%20%28web%29.md)
 - [CCST about (web)](../sources/CCST%20about%20%28web%29.md)
+- [CCST artificial intelligence program (web)](../sources/CCST%20artificial%20intelligence%20program%20%28web%29.md)
+- [CCST homepage (web)](../sources/CCST%20homepage%20%28web%29.md)
+- [CCST Science Fellows program (web)](../sources/CCST%20Science%20Fellows%20program%20%28web%29.md)

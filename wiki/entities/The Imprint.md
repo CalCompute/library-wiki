@@ -6,6 +6,7 @@ updated: 2026-11-01
 source_count: 1
 tags: [institution, publisher]
 kind: institution
+mirror: yes
 ---
 
 # The Imprint

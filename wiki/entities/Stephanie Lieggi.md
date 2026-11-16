@@ -2,12 +2,12 @@
 title: "Stephanie Lieggi"
 type: entity
 created: 2026-11-01
-updated: 2026-11-06
-source_count: 4
+updated: 2026-11-13
+source_count: 5
 tags: [team]
 member: yes
 group: consortium
-order: 6
+order: 2
 institution: "UC Santa Cruz"
 position: "Executive Director, CROSS & OSPO"
 role: "Open source infrastructure leader; technology governance and reproducibility researcher"
@@ -26,6 +26,7 @@ photo: "/images/people/stephanie-lieggi.jpeg"
 - UC Santa Cruz, [CROSS](../entities/CROSS.md): Executive Director ([CROSS About](../sources/CROSS%20About.md)).
 - [UC Santa Cruz Open Source Program Office](../entities/UC%20Santa%20Cruz%20Open%20Source%20Program%20Office.md): Executive Director ([Lieggi UCSC OSPO profile](../sources/Lieggi%20UCSC%20OSPO%20profile.md)).
 - CHAOSS University Working Group, on metrics: co-chair ([Lieggi UCSC OSPO profile](../sources/Lieggi%20UCSC%20OSPO%20profile.md)).
+- [Apereo Foundation](../entities/Apereo%20Foundation.md): Board Director ([Apereo board of directors (web)](../sources/Apereo%20board%20of%20directors%20%28web%29.md)).
 
 ## Background
 
@@ -46,6 +47,7 @@ photo: "/images/people/stephanie-lieggi.jpeg"
 
 ## Sources
 
+- [Apereo board of directors (web)](../sources/Apereo%20board%20of%20directors%20%28web%29.md)
 - [CROSS About](../sources/CROSS%20About.md)
 - [Lieggi NSF award 2226407 (web)](../sources/Lieggi%20NSF%20award%202226407%20%28web%29.md)
 - [Lieggi NSF award 2347360 (web)](../sources/Lieggi%20NSF%20award%202347360%20%28web%29.md)

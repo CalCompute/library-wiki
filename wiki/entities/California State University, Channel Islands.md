@@ -6,6 +6,7 @@ updated: 2026-11-10
 source_count: 1
 tags: [institution]
 kind: institution
+mirror: yes
 ---
 
 # California State University, Channel Islands

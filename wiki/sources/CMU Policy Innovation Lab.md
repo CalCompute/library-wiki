@@ -2,7 +2,7 @@
 title: CMU Policy Innovation Lab
 type: source
 created: 2026-10-26
-updated: 2026-10-28
+updated: 2026-11-13
 tags: [A, E, G]
 elements: [A, E, G]
 origin: shared
@@ -17,8 +17,6 @@ rehost: no
 ## Citation
 
 Carnegie Mellon University (CMU), Heinz College of Information Systems and Public Policy. "Policy Innovation Lab." Web page, no date. https://www.heinz.cmu.edu/about/public-interest-technology/policy-innovation-lab. Read 2026-10-26.
-
-It gives the thread's first day, 2026-09-15, as the date of the share. The message itself has the date 2026-10-16.
 
 ## Bottom line
 

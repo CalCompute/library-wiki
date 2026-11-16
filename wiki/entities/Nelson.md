@@ -2,12 +2,12 @@
 title: "Nelson"
 type: entity
 created: 2026-11-01
-updated: 2026-11-06
+updated: 2026-11-13
 source_count: 4
 tags: [team]
 member: yes
 group: consortium
-order: 10
+order: 9
 institution: "SoCal Blender Group"
 position: "Founder, SoCal Blender Group"
 role: "Founder, SoCal Blender Group"

@@ -2,12 +2,12 @@
 title: "Lawrence Wagner"
 type: entity
 created: 2026-11-01
-updated: 2026-11-06
+updated: 2026-11-13
 source_count: 2
 tags: [team]
 member: yes
 group: consortium
-order: 9
+order: 8
 institution: "BASE"
 position: "Executive Director and Co-Founder, BASE"
 role: "Executive Director/Co-founder"

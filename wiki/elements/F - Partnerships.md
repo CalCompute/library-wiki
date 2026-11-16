@@ -2,8 +2,8 @@
 title: F - Partnerships
 type: element
 created: 2026-11-01
-updated: 2026-11-10
-source_count: 116
+updated: 2026-11-14
+source_count: 213
 tags: [F]
 element: F
 elements: [F]
@@ -23,28 +23,49 @@ Source: [SB-53 Gov Code 11546.8](../sources/SB-53%20Gov%20Code%2011546.8.md).
 
 This list groups the library's sources for this element by tier. It does not say what the Report will recommend.
 
-### Primary (53)
+### Primary (87)
 
+- [Anthropic Commercial Terms of Service (web)](../sources/Anthropic%20Commercial%20Terms%20of%20Service%20%28web%29.md): Business terms for the Anthropic API and services: customer owns Outputs; no model training on Customer Content; Usage Policy applies.
 - [Anthropic Usage Policy 2026-11-12](../sources/Anthropic%20Usage%20Policy%202026-11-12.md): The Anthropic Usage Policy has three tiers: Universal Usage Standards, High-risk Use Case Requirements and Additional Use Case Guidelines.
 - [AWS Acceptable Use Policy 2021-07-01](../sources/AWS%20Acceptable%20Use%20Policy%202021-07-01.md): The AWS Acceptable Use Policy is short and general.
+- [AWS Customer Agreement (web)](../sources/AWS%20Customer%20Agreement%20%28web%29.md): Standard AWS contract: customer picks regions; 12 months' notice before AWS ends a material function; liability cap of 12 months' fees.
 - [AWS Responsible AI Policy 2025-01-13](../sources/AWS%20Responsible%20AI%20Policy%202025-01-13.md): This is the AI-specific hard-limits document of Amazon Web Services (AWS).
+- [Cal-Secure 2.0 (web)](../sources/Cal-Secure%202.0%20%28web%29.md): CDT's five-year Executive Branch cybersecurity roadmap: People, Process, Technology; AI-driven security operations, shared services, workforce pathways.
 - [California Executive Branch org chart 2025-11-04](../sources/California%20Executive%20Branch%20org%20chart%202025-11-04.md): The state executive branch and its heads, as of Nov. 4, 2025.
 - [California Jobs First homepage](../sources/California%20Jobs%20First%20homepage.md): State regional economic program, 13 regions, council of nine agencies co-chaired by GO-Biz and LWDA
+- [Canadian Sovereign AI Compute Strategy (web)](../sources/Canadian%20Sovereign%20AI%20Compute%20Strategy%20%28web%29.md): Canada's $2 billion AI compute strategy: up to $700 million for commercial data centres, $1 billion for public supercomputing, $300 million for an Access Fund.
+- [CCC 2027-28 Shared Advocacy Request Appendix E (web)](../sources/CCC%202027-28%20Shared%20Advocacy%20Request%20Appendix%20E%20%28web%29.md): CCC 2027-28 AI budget requests: professional development, interoperability grants, shared agentic AI, CENIC AIR access for all colleges, and an AI Innovation Fund.
 - [CCC ISTI 25-300-02 AI Safety and Security](../sources/CCC%20ISTI%2025-300-02%20AI%20Safety%20and%20Security.md): The California Community Colleges (CCC) Chancellor's Office tells colleges to test agentic AI in isolated sandboxes.
 - [CCC ISTI 26-300-01 Digital Identity Verification](../sources/CCC%20ISTI%2026-300-01%20Digital%20Identity%20Verification.md): The CCC system requires digital identity verification for students, from August 2026.
 - [CDT About the Department](../sources/CDT%20About%20the%20Department.md): CDT oversees state IT planning, projects, procurement and standards; runs the State Data Center; Director is State CIO.
 - [CDT AI community of practice](../sources/CDT%20AI%20community%20of%20practice.md): State AI forum since 2024 with UC and CSU speakers; Vera Zakem and Deirdre Mulligan in May 2025.
 - [CDT Anthropic partnership expansion 2026-07 (web)](../sources/CDT%20Anthropic%20partnership%20expansion%202026-07%20%28web%29.md): State departments buy Claude at a 50% discount through central procurement; cities and counties get the same price; first AI platform on SITeS.
+- [CDT California Managed Cloud CAMC (web)](../sources/CDT%20California%20Managed%20Cloud%20CAMC%20%28web%29.md): CDT California Managed Cloud (CAMC): state-managed IaaS on commercial clouds, with rates and request steps.
+- [CDT cloud services (web)](../sources/CDT%20cloud%20services%20%28web%29.md): CDT California Cloud Services overview: four cloud options compared, and the Private Marketplace.
 - [CDT executive team](../sources/CDT%20executive%20team.md): CDT's 12 executives, with Chris Given as CIO and Vera Zakem as Chief Technology and Innovation Officer.
 - [CDT homepage](../sources/CDT%20homepage.md): Thin homepage: Poppy, middle mile, Digital ID; training and AI community links. Lists the pages taken.
+- [CIRM allowable costs and cofunding FAQ 2025-04 (web)](../sources/CIRM%20allowable%20costs%20and%20cofunding%20FAQ%202025-04%20%28web%29.md): CIRM FAQ: costs count only after ICOC approval; out-of-state work that keeps IP rights is not allowable; co-funding in cash, equity warrants or both.
+- [CIRM common requirements and definitions memo (web)](../sources/CIRM%20common%20requirements%20and%20definitions%20memo%20%28web%29.md): CIRM rules for all funding: a California Organization needs most W-2 staff in California and a California-based PI; good standing, 180-day solvency, no in-kind co-funding.
 - [CJF Investment Playbook 2025 (web)](../sources/CJF%20Investment%20Playbook%202025%20%28web%29.md): Jobs First investor guide: $286 million to 13 regions to date, "capital stacking" of federal, state, private and philanthropic funds; counties of each region.
+- [DoD HPCMP computation centers (web)](../sources/DoD%20HPCMP%20computation%20centers%20%28web%29.md): Federal defense HPC program structure: five supercomputing centers, four affiliated centers, commercial vendors.
+- [DOE COVID-19 HPC Consortium Q&A 2020-03-30 (web)](../sources/DOE%20COVID-19%20HPC%20Consortium%20Q%26A%202020-03-30%20%28web%29.md): COVID-19 HPC Consortium: public-private supercomputer time at no cost, assigned by an expert panel (2020).
+- [DOE Genesis Mission 800 million partner commitments (web)](../sources/DOE%20Genesis%20Mission%20800%20million%20partner%20commitments%20%28web%29.md): More than $800 million in partner commitments (compute, credits, models, cloud, funding) to the Genesis Mission.
 - [DOE Genesis Mission awards list 2026 (web)](../sources/DOE%20Genesis%20Mission%20awards%20list%202026%20%28web%29.md): First Genesis Mission selections (DE-FOA-0003612, posted 7/22/2026): 278 rows, 56 in California; no amounts.
 - [ESP Governor signs SB-53 release 2025-09-29 (web)](../sources/ESP%20Governor%20signs%20SB-53%20release%202025-09-29%20%28web%29.md): The co-sponsor says compute is "dominated by just three companies: Amazon, Google, and Microsoft" and CalCompute is "a public option".
 - [ESP launches Economic Security California 2024-01-30 (web)](../sources/ESP%20launches%20Economic%20Security%20California%202024-01-30%20%28web%29.md): Economic Security California (ESCA) is the California state affiliate of the Economic Security Project (ESP).
+- [EuroHPC JU AI Factories (web)](../sources/EuroHPC%20JU%20AI%20Factories%20%28web%29.md): The EU has 19 AI Factories and 13 Antennas built around AI-optimised supercomputers, with free, customised support for SMEs and startups.
+- [EuroHPC JU governance (web)](../sources/EuroHPC%20JU%20governance%20%28web%29.md): EuroHPC JU governance: a Governing Board of the Commission and Participating States, an Executive Director, an advisory board, and an Access Resource Committee.
+- [EuroHPC JUPITER launch release 2025-09-05 (web)](../sources/EuroHPC%20JUPITER%20launch%20release%202025-09-05%20%28web%29.md): JUPITER, Europe's first exascale system: EuroHPC JU owns it and pays half; German federal and NRW ministries pay half; access through EuroHPC calls.
+- [Executive Order 14363 Launching the Genesis Mission (web)](../sources/Executive%20Order%2014363%20Launching%20the%20Genesis%20Mission%20%28web%29.md): Executive Order 14363: Genesis Mission and the American Science and Security Platform, subject to appropriations.
 - [Executive Order N-6-26](../sources/Executive%20Order%20N-6-26.md): Directive 9 set a deadline of "No later than October 15, 2026" for the Government Operations Agency (GovOps).
 - [Fei-Fei Li Senate testimony 2023-09-14 (web)](../sources/Fei-Fei%20Li%20Senate%20testimony%202023-09-14%20%28web%29.md): Fei-Fei Li tells a U.S. Senate committee that compute and data needs leave frontier AI to "a select few industry players". She backs the National AI Research Resource.
+- [GitHub Acceptable Use Policies (web)](../sources/GitHub%20Acceptable%20Use%20Policies%20%28web%29.md): GitHub content and conduct rules: no cryptocurrency mining, attacks or resale; research use of public data needs open-access publication.
+- [GitHub Terms of Service (web)](../sources/GitHub%20Terms%20of%20Service%20%28web%29.md): GitHub user agreement: users own content and license it to GitHub and its Affiliates, AI training included; individual users can opt out for AI Inputs and Outputs.
 - [Google Cloud Acceptable Use Policy 2026-10-12](../sources/Google%20Cloud%20Acceptable%20Use%20Policy%202026-10-12.md): The Google Cloud Acceptable Use Policy (AUP) is general.
+- [Google Cloud Platform Terms of Service (web)](../sources/Google%20Cloud%20Platform%20Terms%20of%20Service%20%28web%29.md): Google Cloud contract: 12 months' notice before a service ends; suspension after 24 hours for an AUP violation; silent on governing law for U.S. state and local government.
 - [Google Generative AI Prohibited Use Policy 2024-12-17](../sources/Google%20Generative%20AI%20Prohibited%20Use%20Policy%202024-12-17.md): This is the AI-specific hard-limits document of Google.
+- [Gov Code 14837](../sources/Gov%20Code%2014837.md): Small Business Procurement and Contract Act definitions: small business up to 100 employees and $15 million receipts; microbusiness; commercially useful function.
+- [Governor AI Cyber Defense Program release (web)](../sources/Governor%20AI%20Cyber%20Defense%20Program%20release%20%28web%29.md): Aug. 10, 2026: AI Cyber Defense Program within Cal-CSIC, AI-enabled defenses for local governments, an AI Cybersecurity Officer in every agency.
 - [Governor AI working group release 2025-03-18](../sources/Governor%20AI%20working%20group%20release%202025-03-18.md): The release announces the draft of the Governor's working group report.
 - [Governor Anthropic partnership release 2026-06-29 (web)](../sources/Governor%20Anthropic%20partnership%20release%202026-06-29%20%28web%29.md): State agencies, cities and counties get Claude at 50 percent off per seat, with free training, through CDT's SITeS portal.
 - [Governor appointments 2026-08-19](../sources/Governor%20appointments%202026-08-19.md): The Governor appoints Ayushi Roy State Chief Technology Officer at CDT.
@@ -55,16 +76,26 @@ This list groups the library's sources for this element by tier. It does not say
 - [GovOps departments](../sources/GovOps%20departments.md): 15 entities; CalHR sets job classifications and training; Learning Lab is a state grantmaker.
 - [GovOps homepage](../sources/GovOps%20homepage.md): GovOps oversees 16 departments, including CDT, CalHR and Learning Lab; leads AI oversight. Lists the pages taken.
 - [GovOps more efficient California](../sources/GovOps%20more%20efficient%20California.md)
+- [Hochul Empire AI Beta fully online (web)](../sources/Hochul%20Empire%20AI%20Beta%20fully%20online%20%28web%29.md): NY Governor: Empire AI Beta online at the University at Buffalo, 300+ projects queued, Gamma facility due end of 2027
+- [Hochul Empire AI Beta launch 2025-06-26 (web)](../sources/Hochul%20Empire%20AI%20Beta%20launch%202025-06-26%20%28web%29.md): NY Governor: ESD Board approves $40M for Empire AI Beta; gives the state, SUNY, institutional and philanthropic funding mix
 - [Maryland Chapter 633 of 2026 SB 597 (web)](../sources/Maryland%20Chapter%20633%20of%202026%20SB%20597%20%28web%29.md): Maryland law: AI Partnership in the University System of Maryland, regional technology hubs, an AI Public Service Fellowship and an AI Incubation Lab for agencies.
 - [Massachusetts AI Hub release](../sources/Massachusetts%20AI%20Hub%20release.md): $31M state grant to MGHPCC for AI Compute Resources; about $120M over five years
+- [MassTech AICR builder selection (web)](../sources/MassTech%20AICR%20builder%20selection%20%28web%29.md): Cambridge Computer, with Dell and VAST Data, to build AICR at MGHPCC in Holyoke: hundreds of NVIDIA B200 and RTX GPUs; $31 million state grant matched by six universities.
 - [Microsoft Enterprise AI Services Code of Conduct 2026-05-01](../sources/Microsoft%20Enterprise%20AI%20Services%20Code%20of%20Conduct%202026-05-01.md): The Code of Conduct sets the prohibited uses for all Microsoft AI Services, including Azure OpenAI.
+- [Microsoft Product Terms For Online Services (web)](../sources/Microsoft%20Product%20Terms%20For%20Online%20Services%20%28web%29.md): Microsoft Online Services terms: a 12-item Acceptable Use Policy; AI services follow the Code of Conduct; no foundation model training on Customer Data.
 - [Mississippi ITS AI Innovation Student Teams (web)](../sources/Mississippi%20ITS%20AI%20Innovation%20Student%20Teams%20%28web%29.md): Mississippi's IT agency pairs supervised student teams from three universities with agencies for 6 to 8 week AI proofs of concept; AWS is a Hub partner.
+- [NAIRR Task Force final report 2023 (web)](../sources/NAIRR%20Task%20Force%20final%20report%202023%20%28web%29.md): Federal task force plan for NAIRR: cooperative stewardship, an Operating Entity, $2.6 billion over six years.
 - [NIH STRIDES benefits (web)](../sources/NIH%20STRIDES%20benefits%20%28web%29.md): NIH STRIDES gives NIH units and NIH-funded institutions discounted partner cloud services, training and technical support.
 - [NJ Governor release 2026-10-20 (web)](../sources/NJ%20Governor%20release%202026-10-20%20%28web%29.md): NJ Supercomputer Initiative: over $125 million public-private, run from 2027 by an independent nonprofit, hosted by SHI, eight research universities.
 - [NSF 26-508 TechAccess solicitation (web)](../sources/NSF%2026-508%20TechAccess%20solicitation%20%28web%29.md)
+- [NSF 26-512 AI Datasets solicitation (web)](../sources/NSF%2026-512%20AI%20Datasets%20solicitation%20%28web%29.md): NSF solicitation: $60M to $100M for AI-ready scientific datasets, with dataset governance required.
 - [NSF 26-513 solicitation](../sources/NSF%2026-513%20solicitation.md): NSF AI Infrastructure Hubs: one award per state, first deadline Nov. 4, 2026; partners fund five years of compute, NSF funds staff and training
+- [NSF NAIRR Operations Center update (web)](../sources/NSF%20NAIRR%20Operations%20Center%20update%20%28web%29.md): NSF notice: SDSC-led NAIRR Operations Center to coordinate providers and run the national portal.
 - [NSF NAIRR pilot launch release 2024-01-24 (web)](../sources/NSF%20NAIRR%20pilot%20launch%20release%202024-01-24%20%28web%29.md): NSF launches the NAIRR pilot with 10 federal agencies and 25 private and nonprofit partners, in four focus areas.
 - [NSF news AI Infrastructure Hubs (web)](../sources/NSF%20news%20AI%20Infrastructure%20Hubs%20%28web%29.md): NSF announces the $100 million AI Infrastructure Hubs program: state and regional consortia pool contributions to build compute; up to 10 hubs.
+- [NSF PAPPG 24-1 Chapter II (web)](../sources/NSF%20PAPPG%2024-1%20Chapter%20II%20%28web%29.md): NSF proposal rules (PAPPG 24-1): budget lines, computer services, de minimis 10% indirect rate, no voluntary committed cost sharing, collaborative proposals, ACCESS and other national compute.
+- [NSF PAPPG Chapter I eligibility (web)](../sources/NSF%20PAPPG%20Chapter%20I%20eligibility%20%28web%29.md): Who may submit to NSF: accredited U.S. colleges including community colleges, nonprofits and Tribal Nations; for-profits and state governments under conditions.
+- [OpenAI Services Agreement (web)](../sources/OpenAI%20Services%20Agreement%20%28web%29.md): OpenAI business terms from Jan. 1, 2026: customer owns Output; no use of Customer Content to improve services without consent; deletion within thirty days of termination.
 - [OpenAI Usage Policies 2025-10-29](../sources/OpenAI%20Usage%20Policies%202025-10-29.md): OpenAI has one set of usage policies for all of its products.
 - [Poppy overview](../sources/Poppy%20overview.md): Poppy is a generative AI (GenAI) platform that CDT built for state employees.
 - [Poppy service page](../sources/Poppy%20service%20page.md): CDT charges state departments for Poppy.
@@ -74,21 +105,35 @@ This list groups the library's sources for this element by tier. It does not say
 - [SB-53 Assembly Privacy analysis 2025-07-08](../sources/SB-53%20Assembly%20Privacy%20analysis%202025-07-08.md): The committee's summary of the bill (items 17 to 28) already matches the enacted § 11546.8 almost item for item.
 - [SB-53 Assembly Privacy analysis 2025-09-05](../sources/SB-53%20Assembly%20Privacy%20analysis%202025-09-05.md): This is the last committee analysis of SB 53, on the version the Governor signed.
 - [SB-53 Gov Code 11546.8](../sources/SB-53%20Gov%20Code%2011546.8.md): The statute: Gov. Code § 11546.8, subdivisions (a) to (k), word for word. The base of every definition.
-- [SB-53 Senate GO analysis 2025-03-25](../sources/SB-53%20Senate%20GO%20analysis%202025-03-25.md): Excerpt of the CalCompute passages of the Senate Governmental Organization analysis. The full copy is the (web) page.
 - [SB-53 Senate GO analysis 2025-03-25 (web)](../sources/SB-53%20Senate%20GO%20analysis%202025-03-25%20%28web%29.md): The first committee analysis of SB 53. It has the enacted mission, UC placement and seven elements, with the March appointment scheme. It says "This bill does not establish CalCompute" and records no opposition.
+- [SB-53 Senate GO analysis 2025-03-25](../sources/SB-53%20Senate%20GO%20analysis%202025-03-25.md): Excerpt of the CalCompute passages of the Senate Governmental Organization analysis. The full copy is the (web) page.
 - [UC Regents B4 Update on AI 2026-09-16](../sources/UC%20Regents%20B4%20Update%20on%20AI%202026-09-16.md): UC is scoping its own "Sovereign AI Cloud", UC-owned and UC-governed. It does not name CalCompute.
+- [UK AI Research Resource publication page (web)](../sources/UK%20AI%20Research%20Resource%20publication%20page%20%28web%29.md): UK AI Research Resource: AI supercomputers Isambard-AI (Bristol) and Zenith (Cambridge) for researchers and SMEs; a government, UKRI, university and vendor partnership.
+- [White House Genesis Mission 5 billion release 2026-07 (web)](../sources/White%20House%20Genesis%20Mission%205%20billion%20release%202026-07%20%28web%29.md): More than $5 billion in federal commitments to the Genesis Mission; list of national challenges.
+- [White House science initiatives fact sheet 2026-10 (web)](../sources/White%20House%20science%20initiatives%20fact%20sheet%202026-10%20%28web%29.md): Over $6 billion in science initiatives, including $2.4B in industry compute and tools for the Genesis Mission and regional compute hubs.
 - [Wiener SB 1047 introduction release 2024-02-07 (web)](../sources/Wiener%20SB%201047%20introduction%20release%202024-02-07%20%28web%29.md): SB 1047's release names CalCompute users as "startups, researchers, and community groups" and asks cloud firms for transparent pricing.
 
-### Peer-reviewed (1)
+### Peer-reviewed (2)
 
 - [PEARC 2025 Empire AI model for provisioning AI and HPC](../sources/PEARC%202025%20Empire%20AI%20model%20for%20provisioning%20AI%20and%20HPC.md): Empire AI: $250M state capital, $150M from members, nonprofit governance, member-ranked proposals
+- [SciPy Majora-4af1f417-002 JupyterHub paper (web)](../sources/SciPy%20Majora-4af1f417-002%20JupyterHub%20paper%20%28web%29.md): Suen et al. 2018: equity, scale and sustainability of JupyterHub teaching infrastructure; cloud credits, staffing, regional hubs.
 
-### Institutional (67)
+### Institutional (117)
 
+- [AARC-I044 Implementers Guide to the WISE Baseline AUP (web)](../sources/AARC-I044%20Implementers%20Guide%20to%20the%20WISE%20Baseline%20AUP%20%28web%29.md): How to show one acceptable use policy to a user once, across many research services; community-first and user-first examples (2019).
+- [ABCI about (web)](../sources/ABCI%20about%20%28web%29.md): Japan's ABCI: open AI compute built by AIST, run by AISol; ABCI 3.0 since January 2025; from FY2024 mainly for domestic industry, academia and government.
 - [ACCESS Allocations policy](../sources/ACCESS%20Allocations%20policy.md): This is the full ACCESS rule set for who can get compute and how ACCESS decides.
 - [ALERTCalifornia homepage (web)](../sources/ALERTCalifornia%20homepage%20%28web%29.md): UC San Diego public safety program; more than 1,300 wildfire cameras statewide; UC San Diego builds the cyberinfrastructure that processes and stores the camera data.
+- [Apache Software Foundation bylaws (web)](../sources/Apache%20Software%20Foundation%20bylaws%20%28web%29.md): Apache Software Foundation bylaws: members join by vote of members and elect the board; Project Management Committees run open-source projects.
+- [Apache trademark policy (web)](../sources/Apache%20trademark%20policy%20%28web%29.md): Apache trademark policy: the ASF owns all project trademarks as a vendor-neutral body; nominative use is free, branding needs approval.
 - [Apereo Foundation homepage](../sources/Apereo%20Foundation%20homepage.md): This is a thin homepage.
+- [Apereo institutional members (web)](../sources/Apereo%20institutional%20members%20%28web%29.md): Apereo Institutional membership: OSPO services for an institution, $1,080 to $8,100 a year on a sliding scale by budget.
+- [Apereo join us (web)](../sources/Apereo%20join%20us%20%28web%29.md): Apereo membership types and costs: free Community, sliding-scale Foundation and Institutional, project Sustaining, $2,500 or $10,000 Commercial.
+- [Apereo sustaining members (web)](../sources/Apereo%20sustaining%20members%20%28web%29.md): Apereo Sustaining membership: project-directed dues managed by each project's committee, e.g. CAS $1,000 to $15,000 a year.
+- [Apereo vendor policies (web)](../sources/Apereo%20vendor%20policies%20%28web%29.md): Apereo vendor policies: contractor test, invoice rules, payment terms and approvals for a small open-source foundation.
 - [Berkeley Data Science Discovery partner page (web)](../sources/Berkeley%20Data%20Science%20Discovery%20partner%20page%20%28web%29.md): Teams of 3 to 5 students work 12 weeks on a mentor's data project; mentors come from industry, nonprofits and government; cloud compute and support.
+- [Berkeley VCR Cal-ICOR compute hub launch (web)](../sources/Berkeley%20VCR%20Cal-ICOR%20compute%20hub%20launch%20%28web%29.md): Launch of Cal-ICOR: a $1.5 million state Learning Lab grant for a Berkeley-run JupyterHub hub for California public colleges.
+- [Cal Poly AI Factory release (web)](../sources/Cal%20Poly%20AI%20Factory%20release%20%28web%29.md): Announcement of Cal Poly's $3 million on-campus GPU system for students, faculty and regional partners.
 - [Cal-ICOR About](../sources/Cal-ICOR%20About.md): Partners (UC Berkeley lead, Learning Lab, 2i2c) and five named staff.
 - [Cal-ICOR homepage](../sources/Cal-ICOR%20homepage.md): 1,907 students this term and 4,369 all time (UC 275, CSU 1,497, CCC 134); Learning Lab supports it; "Free". Lists the pages taken.
 - [Cal-ICOR Partner With Us](../sources/Cal-ICOR%20Partner%20With%20Us.md): 20 partner institutions (15 CSU, 2 UC, 3 CCC) and a four-step onboarding with a choice of support model.
@@ -96,6 +141,7 @@ This list groups the library's sources for this element by tier. It does not say
 - [CCST about (web)](../sources/CCST%20about%20%28web%29.md): Nonpartisan nonprofit chartered by the Legislature in 1988; advises state bodies on request; universities and federal labs support it.
 - [CENIC About (web)](../sources/CENIC%20About%20%28web%29.md): CENIC runs CalREN, 8,000 miles of fiber for 20 million users; its members govern it; CENIC AIR links California to the National Research Platform.
 - [CENIC AIR initiative (web)](../sources/CENIC%20AIR%20initiative%20%28web%29.md): CENIC AIR is the California part of the National Research Platform on Nautilus; open to any faculty with CILogon; campuses add hardware by BYOR.
+- [CENIC leadership page (web)](../sources/CENIC%20leadership%20page%20%28web%29.md): CENIC staff list: eight executive leaders, with Louis Fox as President and CEO, and twelve departments; Network Planning leads the design of CalREN.
 - [CENIC membership (web)](../sources/CENIC%20membership%20%28web%29.md): Five membership classes; Charter Associates form the board and set policy; the others get a direct or indirect connection.
 - [CENIC research education and cultural community (web)](../sources/CENIC%20research%20education%20and%20cultural%20community%20%28web%29.md): 34 research, private education and cultural institutions on CalREN behind a Charter Associate; no per-bit charge; nearly 100 peers.
 - [CFPIC who we are (web)](../sources/CFPIC%20who%20we%20are%20%28web%29.md): Nonprofit founded in 2004 that partners with county human services agencies; its board is ten county agency directors.
@@ -106,21 +152,52 @@ This list groups the library's sources for this element by tier. It does not say
 - [CITRIS UC Santa Cruz homepage](../sources/CITRIS%20UC%20Santa%20Cruz%20homepage.md): Four-campus UC institute since 2001; no compute or AI program at UC Santa Cruz. Lists the pages taken.
 - [CITRIS UC Santa Cruz leadership and staff](../sources/CITRIS%20UC%20Santa%20Cruz%20leadership%20and%20staff.md): Director Katia Obraczka, Executive Director Michael Matkin; CIDER drone program employs trained students.
 - [CITRIS UC Santa Cruz programs](../sources/CITRIS%20UC%20Santa%20Cruz%20programs.md): Campus-only seed grants (I2P) and student Tech for Social Good grants.
+- [CloudBank FAQ (web)](../sources/CloudBank%20FAQ%20%28web%29.md): CloudBank is open to any U.S. researcher or educator through ACCESS and the NAIRR Pilot; AWS, Google Cloud, IBM Cloud and Azure; UC San Diego charges no indirect costs on cloud.
+- [CMU NSF award for Bridges-3 2026-07 (web)](../sources/CMU%20NSF%20award%20for%20Bridges-3%202026-07%20%28web%29.md): CMU story: $10M NSF award funds PSC's Bridges-3, allocated mainly through ACCESS and the NAIRR Pilot, with training and internships
+- [Common Paper Cloud Service Agreement v3.0 (web)](../sources/Common%20Paper%20Cloud%20Service%20Agreement%20v3.0%20%28web%29.md): Standard cloud service contract form: a Cover Page sets fees, liability cap and governing law; bars High Risk Activities and Prohibited Data.
 - [CROSS About](../sources/CROSS%20About.md): Founded 2015 with a $2M gift and three founding industry members; leadership, advisory board and stakeholder benefits. No fees or member rights.
 - [CROSS homepage](../sources/CROSS%20homepage.md): Thin homepage; CROSS funds student open source projects and works with the six-campus UC OSPO Network. Lists the pages taken.
 - [CSIS If Compute Is the New Oil](../sources/CSIS%20If%20Compute%20Is%20the%20New%20Oil.md): Commentary on compute as a strategic resource in the Gulf; links a UC record on data center energy use
+- [CSUSB high performance computing article (web)](../sources/CSUSB%20high%20performance%20computing%20article%20%28web%29.md): CSU San Bernardino's High Performance Computing Initiative, its NSF sub-award for cyberinfrastructure staff and its CENIC and PRP links.
+- [CZI homepage (web)](../sources/CZI%20homepage%20%28web%29.md): CZI, founded 2015 by Priscilla Chan and Mark Zuckerberg: about $7.22 billion in grants since 2015; AI-powered biology at the Biohub.
+- [DPI Safeguards resources page (web)](../sources/DPI%20Safeguards%20resources%20page%20%28web%29.md): DPI Safeguards Initiative of UN ODET and UNDP: resource hub, knowledge library, Framework guide, adoption pathways, assessment, and outside DPI resources.
+- [East Bay Broadband Consortium funding (web)](../sources/East%20Bay%20Broadband%20Consortium%20funding%20%28web%29.md): EBBC helps East Bay applicants with broadband grants; lists five California Advanced Services Fund (CASF) programs with deadlines and eligible entities.
+- [East Bay Broadband Consortium homepage (web)](../sources/East%20Bay%20Broadband%20Consortium%20homepage%20%28web%29.md): EBBC works with community organizations and local governments in Alameda, Contra Costa and Solano counties to close the digital divide; five lines of work.
+- [East Bay Broadband Consortium team (web)](../sources/East%20Bay%20Broadband%20Consortium%20team%20%28web%29.md): EBBC Director and Deputy Director, and seven people from East Bay city and county governments, a library, the Kapor Center and Tech Exchange.
+- [ETH Zurich Alps inauguration release 2024-09 (web)](../sources/ETH%20Zurich%20Alps%20inauguration%20release%202024-09%20%28web%29.md): ETH Zurich inaugurates Alps at CSCS: HPE Cray EX with 10,752 NVIDIA Grace Hopper superchips, sixth on the June 2024 Top500; core of the Swiss AI initiative.
 - [F3 Innovate about (web)](../sources/F3%20Innovate%20about%20%28web%29.md): Fresno agriculture nonprofit F3 Innovate (F3i); works with UC Merced, UC ANR and CSU Fresno researchers; UC Merced Chancellor is board treasurer.
 - [F3I homepage (web)](../sources/F3I%20homepage%20%28web%29.md): F3i home page: infrastructure for food production and rural economies; talent development, commercialization engine and catalyst fund programs.
 - [F3i Supercomputing Center (web)](../sources/F3i%20Supercomputing%20Center%20%28web%29.md): F3 Innovate leads; SDSC at UC San Diego gives cyberinfrastructure; CSU Fresno hosts and operates. Priority for California agriculture and biotech users, Central Valley first.
+- [Gauss Centre for Supercomputing about (web)](../sources/Gauss%20Centre%20for%20Supercomputing%20about%20%28web%29.md): GCS: a German non-profit association of HLRS, JSC and LRZ, funded jointly by the federal research ministry and three state ministries.
+- [Giving Pledge pledger list (web)](../sources/Giving%20Pledge%20pledger%20list%20%28web%29.md): Giving Pledge list of about 260 pledgers, by name only, with no amounts or locations.
+- [Hewlett Foundation about us (web)](../sources/Hewlett%20Foundation%20about%20us%20%28web%29.md): Bay Area philanthropy since 1966; $631 million in grants in 2024, nearly three-fourths flexible; assets about $13.9 billion.
+- [Irvine Foundation about us (web)](../sources/Irvine%20Foundation%20about%20us%20%28web%29.md): Foundation for California's low-income workers; $160.2 million in grants in 2025; $3.6 billion endowment.
+- [ITU OSEE project page (web)](../sources/ITU%20OSEE%20project%20page%20%28web%29.md): ITU and UNDP's Open Source Ecosystem Enabler helps governments adopt open source for digital public services: training, technical facilities, a knowledge hub.
+- [Jupyter governance overview page (web)](../sources/Jupyter%20governance%20overview%20page%20%28web%29.md): Project Jupyter governance: Executive Council, Software Steering Council and the Jupyter Foundation, a directed fund of the Linux Foundation.
+- [Jupyter trademark guidelines (web)](../sources/Jupyter%20trademark%20guidelines%20%28web%29.md): Jupyter trademark policy: LF Charities owns the marks; free nominative use, approval for commercial names.
+- [Linux Foundation bylaws (web)](../sources/Linux%20Foundation%20bylaws%20%28web%29.md): Linux Foundation bylaws: 501(c)(6) nonprofit; Platinum, Gold and Silver members vote and choose directors; nonprofit and government entities are non-voting Associates.
+- [McGovern Foundation Our Grants (web)](../sources/McGovern%20Foundation%20Our%20Grants%20%28web%29.md): Patrick J. McGovern Foundation grants database: nearly $500 million awarded since inception, with grant purpose, amount, focus area and location.
+- [MGHPCC governance (web)](../sources/MGHPCC%20governance%20%28web%29.md): MGHPCC: nonprofit of six member universities operates the Holyoke facility; lists its board and working groups
+- [Moore Foundation about (web)](../sources/Moore%20Foundation%20about%20%28web%29.md): Palo Alto foundation of Gordon (Intel founder) and Betty Moore; programs in conservation, science and the Bay Area; no figures.
+- [NAIRR Pilot deep partnerships (web)](../sources/NAIRR%20Pilot%20deep%20partnerships%20%28web%29.md): NAIRR Pilot track for joint projects with one industry partner, up to 12 months, open results.
 - [NAIRR Pilot resource catalog feed (web)](../sources/NAIRR%20Pilot%20resource%20catalog%20feed%20%28web%29.md): 49 NAIRR Pilot resources (25 compute, 13 cloud, 10 programs); five company resources cannot accept new awards.
+- [NERSC Doudna announcement 2025-05-29 (web)](../sources/NERSC%20Doudna%20announcement%202025-05-29%20%28web%29.md): Doudna (NERSC-10) at Berkeley Lab: Dell and NVIDIA system due in 2026.
 - [NJIT NSF 26-508 round dates (web)](../sources/NJIT%20NSF%2026-508%20round%20dates%20%28web%29.md): University listing of NSF 26-508: up to 56 hubs at $1M a year in three rounds; its round 2 letter of intent date differs from NSF's.
+- [NRP about (web)](../sources/NRP%20about%20%28web%29.md): What the National Research Platform is, who runs it, its contribution model and its seven NSF awards.
 - [NRP Acceptable Use Policy (web)](../sources/NRP%20Acceptable%20Use%20Policy%20%28web%29.md): The NRP Acceptable Use Policy (AUP) is a one-page user agreement.
 - [NRP Getting started (web)](../sources/NRP%20Getting%20started%20%28web%29.md): NRP has no proposal review.
 - [NRP Policies (web)](../sources/NRP%20Policies%20%28web%29.md): NRP enforces efficient use with numbers.
 - [NSF AI-Ready America Workshop Report (web)](../sources/NSF%20AI-Ready%20America%20Workshop%20Report%20%28web%29.md): SeedAI workshop report for NSF: build regional "compute commons" in trusted public institutions with federal seed money; names Empire AI and the Massachusetts AI Hub as models.
+- [Oregon State CIC 72 million legislature release (web)](../sources/Oregon%20State%20CIC%2072%20million%20legislature%20release%20%28web%29.md): OSU release: $72M state bonds plus a $50M Huang gift for the $213M Collaborative Innovation Complex and its supercomputer
+- [Oregon State Huang Complex FAQ (web)](../sources/Oregon%20State%20Huang%20Complex%20FAQ%20%28web%29.md): OSU FAQ: Huang Complex purpose, resource use, responsible AI, cloud use, access for other Oregon universities, upgrade plan
 - [OSC 2025-2026 research report (web)](../sources/OSC%202025-2026%20research%20report%20%28web%29.md): More than 7,715 Ohio clients; an estimated $50 million a year in savings; Ohio State medical GPUs moved into the shared Ascend cluster.
+- [OSC Engage page (web)](../sources/OSC%20Engage%20page%20%28web%29.md): OSC asks users to help shape its future plans: contact leadership, attend the Community Briefing, give feedback on the Client Portal.
+- [Packard Foundation history (web)](../sources/Packard%20Foundation%20history%20%28web%29.md): Foundation since 1964; Packard Fellowships for Science and Engineering (1988); 15-25% minimum indirect cost rate on project grants (2024).
 - [Public AI Network 2024 white paper](../sources/Public%20AI%20Network%202024%20white%20paper.md): Public access, accountability and permanent public goods; names CalCompute as a local public compute effort
+- [Purdue RCAC 2025 annual report (web)](../sources/Purdue%20RCAC%202025%20annual%20report%20%28web%29.md): Purdue RCAC annual report: community clusters, Anvil on ACCESS and NAIRR, on-prem LLMs, Argonne Lighthouse, course and student use
+- [PyTorch Foundation welcomes vLLM (web)](../sources/PyTorch%20Foundation%20welcomes%20vLLM%20%28web%29.md): PyTorch Foundation welcomes vLLM: UC Berkeley's inference engine moves to foundation hosting and governance.
 - [RAISE at UCR homepage (web)](../sources/RAISE%20at%20UCR%20homepage%20%28web%29.md): UCR's campus AI institute: AI Foundations, Applications and Education; first AI Summit on Oct. 15, 2026.
+- [Santa Clara University Sobrato 100 million gift 2017 (web)](../sources/Santa%20Clara%20University%20Sobrato%20100%20million%20gift%202017%20%28web%29.md): Santa Clara University release: the Sobratos' $100 million gift for a 300,000-square-foot STEM building; lists earlier Sobrato gifts in Silicon Valley.
 - [SDSC data-driven agriculture 2026-01-13 (web)](../sources/SDSC%20data-driven%20agriculture%202026-01-13%20%28web%29.md): CENIC leads a precision agriculture testbed at Iron Horse Vineyards in Sonoma County; SDSC processes its data and builds a digital twin, with student interns.
 - [SDSC F3i Supercomputing Center release 2026-07-16 (web)](../sources/SDSC%20F3i%20Supercomputing%20Center%20release%202026-07-16%20%28web%29.md): F3 Innovate, Fresno State and SDSC launch the F3i Supercomputing Center at Fresno State: shared computing, applied AI services, workforce and talent development.
 - [SDSC NAIRR Operations Center launch](../sources/SDSC%20NAIRR%20Operations%20Center%20launch.md): NSF chose SDSC to lead the National AI Research Resource (NAIRR) Operations Center.
@@ -130,7 +207,9 @@ This list groups the library's sources for this element by tier. It does not say
 - [SDSC Sherlock FedRAMP release 2026-09-21 (web)](../sources/SDSC%20Sherlock%20FedRAMP%20release%202026-09-21%20%28web%29.md): Sherlock Secure Cloud has FedRAMP Moderate equivalency and CMMC Level 2; partner institutions inherit most CMMC controls through a shared-services model.
 - [SDSC Sherlock homepage (web)](../sources/SDSC%20Sherlock%20homepage%20%28web%29.md): SDSC regulated-data IT service; claims $1.5M saved over in-house builds, non-profit pricing; UCOP among named customers.
 - [SDSU AI-Ready California launch 2026-07 (web)](../sources/SDSU%20AI-Ready%20California%20launch%202026-07%20%28web%29.md): SDSU co-leads AI-Ready California, a statewide pilot AI literacy micro-credential; 500 first participants from San Diego; AWS, Community Colleges and Labor Agency partners.
+- [SDSU TIDE technology (web)](../sources/SDSU%20TIDE%20technology%20%28web%29.md): Hardware, scheduling and network design of CSU TIDE, the CSU GPU nodes on the National Research Platform.
 - [SLAC Genesis Mission phase II projects (web)](../sources/SLAC%20Genesis%20Mission%20phase%20II%20projects%20%28web%29.md): SLAC is a partner in seven Genesis Mission Phase II projects; other institutions lead all seven.
+- [Stanford HAI National Research Cloud blueprint 2021 (web)](../sources/Stanford%20HAI%20National%20Research%20Cloud%20blueprint%202021%20%28web%29.md): Stanford HAI blueprint for a National Research Cloud: dual compute strategy, PI eligibility, FFRDC then PPP.
 - [UC ANR Cooperative Extension](../sources/UC%20ANR%20Cooperative%20Extension.md)
 - [UC MRPI current awards (web)](../sources/UC%20MRPI%20current%20awards%20%28web%29.md): 2025 UC MRPI: 14 awards, more than $15 million over four years, from 153 eligible applications; three on AI or computing.
 - [UC Noyce Initiative homepage (web)](../sources/UC%20Noyce%20Initiative%20homepage%20%28web%29.md): Five-campus UC research initiative in computational health, cybersecurity and quantum science, launched by a 2020 Robert N. Noyce Trust gift.
@@ -141,23 +220,32 @@ This list groups the library's sources for this element by tier. It does not say
 - [UCI data infrastructure award 2026-08-27 (web)](../sources/UCI%20data%20infrastructure%20award%202026-08-27%20%28web%29.md): NSF BRIDGE: nearly $9 million from the NSF IDSS program to UC Irvine, UCLA and Michigan for Texera-based data platforms on cloud or lab clusters.
 - [UCLA ChatGPT Enterprise campus (web)](../sources/UCLA%20ChatGPT%20Enterprise%20campus%20%28web%29.md): UCLA is the first California university with ChatGPT Enterprise; the UC Office of the President supported the agreement for other UC campuses.
 - [UCR receives 8 million federal grants 2026-10-19 (web)](../sources/UCR%20receives%208%20million%20federal%20grants%202026-10-19%20%28web%29.md): $5M Department of Education grant for AI education with six community colleges under RAISE@UCR; $3M for industry-aligned engineering courses.
+- [UCSC CruzCon 2026 event page (web)](../sources/UCSC%20CruzCon%202026%20event%20page%20%28web%29.md): Program of CruzCon 2026, a UC Santa Cruz event on open source and campus research infrastructure.
+- [UCSF Childrens Hospital Benioff 100 million gift 2010 (web)](../sources/UCSF%20Childrens%20Hospital%20Benioff%20100%20million%20gift%202010%20%28web%29.md): UCSF article: the Benioffs' $100 million gift for a new children's hospital, which completes a $125 million Atlantic Philanthropies match.
 - [UF HiPerGator upgrade 2024 (web)](../sources/UF%20HiPerGator%20upgrade%202024%20%28web%29.md): UF trustees approve $24 million for a 63-node NVIDIA DGX B200 HiPerGator, shared with the State University System of Florida.
 - [UMass PIT 2026 AI for the Commonwealth interns and projects (web)](../sources/UMass%20PIT%202026%20AI%20for%20the%20Commonwealth%20interns%20and%20projects%20%28web%29.md): 14 UMass students took a spring course and paid summer internships building AI prototypes for Massachusetts agencies, with the state IT office and AWS mentoring.
+- [UN Open Source United initiatives (web)](../sources/UN%20Open%20Source%20United%20initiatives%20%28web%29.md): UN open source initiatives: OSEC, OSEE (EUR 3 million, Sept. 2023 to Feb. 2027), GenAI for Good, a Trinidad and Tobago OSPO.
 - [UN Open Source Week 2025](../sources/UN%20Open%20Source%20Week%202025.md): 2025 highlights: 1000+ attendees, 75 countries, 150+ speakers.
 - [UN Open Source Week 2025 Conference Report](../sources/UN%20Open%20Source%20Week%202025%20Conference%20Report.md): RISE report: the GDC recognizes open access to compute; OSPOs succeed by mandate and authority, not tools.
 - [UN Open Source Week 2026 agenda](../sources/UN%20Open%20Source%20Week%202026%20agenda.md): AI day sessions on public AI infrastructure and open source GenAI governance; UC Santa Cruz on a university OSPO panel.
 - [UN Open Source Week homepage](../sources/UN%20Open%20Source%20Week%20homepage.md): UN Open Source Week 2026, June 22-26, run by ODET and OICT; the Open Source x AI day. Lists the pages taken.
 - [UN OSET and UNDP 2024 DPI Safeguards](../sources/UN%20OSET%20and%20UNDP%202024%20DPI%20Safeguards.md): This is a United Nations framework for safe and inclusive digital public infrastructure (DPI).
 - [URI IACR NSF 26-512 and 26-513 summary (web)](../sources/URI%20IACR%20NSF%2026-512%20and%2026-513%20summary%20%28web%29.md): University post on NSF 26-513 ($4 million to $12 million over five years) and NSF 26-512 dataset awards; both due Nov. 4, 2026.
+- [USC Today Marc and Lynne Benioff (web)](../sources/USC%20Today%20Marc%20and%20Lynne%20Benioff%20%28web%29.md): USC Today: the Benioffs' $20 million gift toward a USC cancer institute building, with biographies of both donors.
 - [WEF AI Infrastructure in the Age of Sovereignty 2026 (web)](../sources/WEF%20AI%20Infrastructure%20in%20the%20Age%20of%20Sovereignty%202026%20%28web%29.md): AI infrastructure as compute, connectivity and storage; most economies use hybrid sovereignty strategies; a framework for digital embassies.
 - [WEF Next-Generation Computing Framework 2026 (web)](../sources/WEF%20Next-Generation%20Computing%20Framework%202026%20%28web%29.md): Seven-dimension scorecard for national compute readiness, with compute access, infrastructure, talent and partnerships.
 - [WEF Rethinking AI Sovereignty 2026 (web)](../sources/WEF%20Rethinking%20AI%20Sovereignty%202026%20%28web%29.md): AI sovereignty as strategic interdependence; governments co-invest in compute through public-private partnerships.
+- [WISE Baseline AUP v1 (web)](../sources/WISE%20Baseline%20AUP%20v1%20%28web%29.md): Two-page acceptable use policy template for research infrastructures: a preamble and ten fixed clauses (2019).
+- [World Bank Morocco digital transformation release 2026-06-12 (web)](../sources/World%20Bank%20Morocco%20digital%20transformation%20release%202026-06-12%20%28web%29.md): World Bank approves $650 million for Morocco: a $250 million digital program (cloud for government, AI centres of excellence, startups, skills) and $400 million for risk finance.
 
-### Trade (4)
+### Trade (7)
 
 - [Choose NJ NVIDIA supercomputer agreement (web)](../sources/Choose%20NJ%20NVIDIA%20supercomputer%20agreement%20%28web%29.md): Reprint of a business magazine story: New Jersey, its universities, NVIDIA and the NJ AI HUB sign an MOU; about $25 million from NJEDA.
+- [FedTech NAIRR pilot NVIDIA contribution breakdown 2024 (web)](../sources/FedTech%20NAIRR%20pilot%20NVIDIA%20contribution%20breakdown%202024%20%28web%29.md): Trade article splitting NVIDIA's $30M NAIRR pilot contribution into DGX Cloud, software and training.
 - [GovAI Coalition Summit event page (web)](../sources/GovAI%20Coalition%20Summit%20event%20page%20%28web%29.md): GovAI Coalition: members from over 900 agencies in seven countries. Summit Dec. 9-10, 2026, San Jose; sessions on AI budgets, cooperative procurement, upskilling, data centers.
 - [Granted AI on NSF 26-508](../sources/Granted%20AI%20on%20NSF%2026-508.md): This is a vendor blog post that sells a grant-writing product.
+- [Microsoft NAIRR pilot pledge 2024-01-24 (web)](../sources/Microsoft%20NAIRR%20pilot%20pledge%202024-01-24%20%28web%29.md): Microsoft's NAIRR pilot pledge: $20 million in Azure credits, model access and HIPAA-compliant resources
+- [NVIDIA NAIRR pilot contribution 2024-01-24 (web)](../sources/NVIDIA%20NAIRR%20pilot%20contribution%202024-01-24%20%28web%29.md): NVIDIA blog: $30 million in-kind commitment to the NAIRR pilot over two years.
 - [StateScoop California CTO Ayushi Roy](../sources/StateScoop%20California%20CTO%20Ayushi%20Roy.md): Roy replaces Jonathan Porat; CIO Chris Given's priorities include digital identity and AI.
 
 Know a source this list is missing? Use **Suggest reading** on the site, or write to team@californiacompute.org with the subject "Suggested reading".

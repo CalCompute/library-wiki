@@ -7,6 +7,7 @@ source_count: 1
 tags: [institution, publisher]
 kind: institution
 elements: [E]
+mirror: yes
 ---
 
 # Campus Explorer

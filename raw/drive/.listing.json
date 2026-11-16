@@ -6,10 +6,58 @@
   "folder": false,
   "id": "1TS7qPrs_0D_XHt93cevJvo-GeeTKB8AetZkV9ZTW0xk",
   "mime": "application/vnd.google-apps.document",
-  "modified": "2026-11-06T23:35:42.022Z",
+  "modified": "2026-11-12T19:46:16.422Z",
   "name": "0 - LIBRARY GUIDE",
   "path": "CalCompute Library",
   "url": "https://docs.google.com/document/d/1TS7qPrs_0D_XHt93cevJvo-GeeTKB8AetZkV9ZTW0xk/edit?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-11 Assembly Journal record of agency reports March 2026.md",
+  "folder": false,
+  "id": "1TKbTelfgkakaRCGAXremFXY8kudRxdOv",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:25.967Z",
+  "name": "Assembly Journal record of agency reports March 2026 (California State Assembly, Chief Clerk, 2026-03)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1TKbTelfgkakaRCGAXremFXY8kudRxdOv/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-11 C2C DTAB 5 research request and secure enclave update.md",
+  "folder": false,
+  "id": "1A_LMPgeP33EbMFZiAMRpDDas3vf1wXb0",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:27.570Z",
+  "name": "C2C DTAB 5 research request and secure enclave update (California Cradle-to-Career Data System, Data and Tools Advisory Board)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1A_LMPgeP33EbMFZiAMRpDDas3vf1wXb0/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-11 CCC 2027-28 Shared Advocacy Request Appendix E.md",
+  "folder": false,
+  "id": "1mR1qGsqDwYTaMSopDLI0CCnJx0DzsaVc",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:29.180Z",
+  "name": "CCC 2027-28 Shared Advocacy Request Appendix E (California Community Colleges Board of Governors and Chancellor's Office)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1mR1qGsqDwYTaMSopDLI0CCnJx0DzsaVc/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-11 CCC 2027-28 Shared Advocacy Request Executive Summary.md",
+  "folder": false,
+  "id": "1NBZFmQKB4uTgQ4TnyLZwun6OzjYYoeaC",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:31.092Z",
+  "name": "CCC 2027-28 Shared Advocacy Request Executive Summary (California Community Colleges Board of Governors and Chancellor's Office)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1NBZFmQKB4uTgQ4TnyLZwun6OzjYYoeaC/view?usp=drivesdk"
  },
  {
   "bot": "writes",
@@ -62,6 +110,54 @@
  {
   "bot": "writes",
   "by": "",
+  "copy": "raw/web/2026-11-09 CCC work experience regulations final text 2023.md",
+  "folder": false,
+  "id": "1QtYJMBkpWXZSdnSo4tt-Kfh18-XKQPWU",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:08.540Z",
+  "name": "CCC work experience regulations final text 2023 (California Community Colleges Board of Governors, 2023-07-26)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1QtYJMBkpWXZSdnSo4tt-Kfh18-XKQPWU/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-11 CCCCO Data Science ADT form.md",
+  "folder": false,
+  "id": "1iybXWz4BmiSJuaNfZ6arcFwfx163Yonu",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:32.968Z",
+  "name": "CCCCO Data Science ADT form (California Community Colleges Chancellor's Office)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1iybXWz4BmiSJuaNfZ6arcFwfx163Yonu/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-11 CCCCO ESS 26-71 Data Science TMC memo.md",
+  "folder": false,
+  "id": "1Yd8VUXjCfWU5pLJ_oHjplJ0jrUygzx-_",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:34.656Z",
+  "name": "CCCCO ESS 26-71 Data Science TMC memo (California Community Colleges Chancellor's Office, 2026-10-23)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1Yd8VUXjCfWU5pLJ_oHjplJ0jrUygzx-_/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-09 CDT GenAI Special Provisions January 2025.md",
+  "folder": false,
+  "id": "1WTjt-wZLmI0QS0K0Hg74X_vwoiHpe-uN",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:10.540Z",
+  "name": "CDT GenAI Special Provisions January 2025 (California Department of Technology, 2025-01)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1WTjt-wZLmI0QS0K0Hg74X_vwoiHpe-uN/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
   "copy": "raw/shared/2026-10-26 CDT IT Classification Mapping.md",
   "folder": false,
   "id": "1QjryrdP0ireiC-aFLD_Sh4pjfTY6lprB",
@@ -70,6 +166,54 @@
   "name": "CDT IT Classification Mapping (California Department of Technology, 2025-05-15)",
   "path": "CalCompute Library",
   "url": "https://drive.google.com/file/d/1QjryrdP0ireiC-aFLD_Sh4pjfTY6lprB/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-12 CIRM allowable costs and cofunding FAQ 2025-04.md",
+  "folder": false,
+  "id": "1b_P0qWJI3tqlHqBYSaLdwLZRKHEcAQwp",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:49.504Z",
+  "name": "CIRM allowable costs and cofunding FAQ 2025-04 (California Institute for Regenerative Medicine, 2025-04-01)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1b_P0qWJI3tqlHqBYSaLdwLZRKHEcAQwp/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-12 CIRM common requirements and definitions memo.md",
+  "folder": false,
+  "id": "1ZzJnOv-892M1bAk6IquGePXyjsibRcoH",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:51.185Z",
+  "name": "CIRM common requirements and definitions memo (California Institute for Regenerative Medicine)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1ZzJnOv-892M1bAk6IquGePXyjsibRcoH/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-10 CJF Investment Playbook 2025.md",
+  "folder": false,
+  "id": "10HhfaB2B1y2hwuCaA54ED6xo1U-RRM0i",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:22.306Z",
+  "name": "CJF Investment Playbook 2025 (California Jobs First (GO-Biz), 2025-01)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/10HhfaB2B1y2hwuCaA54ED6xo1U-RRM0i/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-09 CalHR 5102 Statewide Report 2026-06-30.md",
+  "folder": false,
+  "id": "1L9vIsTexUeg9G4oCbnoiLkFoGY3fifLD",
+  "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "modified": "2026-11-12T19:41:12.863Z",
+  "name": "CalHR 5102 Statewide Report 2026-06-30 (California Department of Human Resources, 2026-06-30)",
+  "path": "CalCompute Library",
+  "url": "https://docs.google.com/spreadsheets/d/1L9vIsTexUeg9G4oCbnoiLkFoGY3fifLD/edit?usp=drivesdk&ouid=107463650130268862173&rtpof=true&sd=true"
  },
  {
   "bot": "writes",
@@ -86,6 +230,54 @@
  {
   "bot": "writes",
   "by": "",
+  "copy": "raw/web/2026-11-11 Cradle-to-Career data provider bios 2025-07.md",
+  "folder": false,
+  "id": "1B0BCeAnozkuTHrpXnWcp9jxiUClHiWuH",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:36.889Z",
+  "name": "Cradle-to-Career data provider bios 2025-07 (California Cradle-to-Career Data System)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1B0BCeAnozkuTHrpXnWcp9jxiUClHiWuH/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-10 DOE Genesis Mission awards list 2026.md",
+  "folder": false,
+  "id": "1-eF97g4BCAL4sUiiGzS6j8S2yD9B9ftW",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:24.203Z",
+  "name": "DOE Genesis Mission awards list 2026 (U.S. Department of Energy, Office of Science, 2026)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1-eF97g4BCAL4sUiiGzS6j8S2yD9B9ftW/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-09 ETP eligibility checklist.md",
+  "folder": false,
+  "id": "1usDj4qj6CZ4QfhO528ycHZrnFbXrDPZ3",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:14.758Z",
+  "name": "ETP eligibility checklist (California Employment Training Panel)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1usDj4qj6CZ4QfhO528ycHZrnFbXrDPZ3/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-09 Executive Order N-5-26 trusted AI procurement.md",
+  "folder": false,
+  "id": "14qObHkXkdP6CelovyPfOYa1xiFHVi4GS",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:16.518Z",
+  "name": "Executive Order N-5-26 trusted AI procurement (Office of Governor Gavin Newsom, 2026-03-30)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/14qObHkXkdP6CelovyPfOYa1xiFHVi4GS/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
   "copy": "raw/shared/2026-10-14 Executive Order N-6-26 AI and the workforce.md",
   "folder": false,
   "id": "1wP6Au-3UW-VB-egTuvS-OxJscr6qrul9",
@@ -94,6 +286,18 @@
   "name": "Executive Order N-6-26 AI and the workforce (Office of the Governor of California, 2026-05-21)",
   "path": "CalCompute Library",
   "url": "https://drive.google.com/file/d/1wP6Au-3UW-VB-egTuvS-OxJscr6qrul9/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-11 Executive Order N-9-26 AI oversight.md",
+  "folder": false,
+  "id": "1JOldRLyc8tufzS5NvRzjUQ71IODlcox7",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:38.634Z",
+  "name": "Executive Order N-9-26 AI oversight (Office of the Governor of California, 2026-09-18)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1JOldRLyc8tufzS5NvRzjUQ71IODlcox7/view?usp=drivesdk"
  },
  {
   "bot": "writes",
@@ -110,6 +314,18 @@
  {
   "bot": "writes",
   "by": "",
+  "copy": "raw/web/2026-11-09 FSA Handbook 2026-27 Vol 6 Ch 2 Federal Work-Study.md",
+  "folder": false,
+  "id": "124xl8FejiBTbZaMjC0lMLrOAIN_YWPS8",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:18.455Z",
+  "name": "FSA Handbook 2026-27 Vol 6 Ch 2 Federal Work-Study (U.S. Department of Education, Federal Student Aid)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/124xl8FejiBTbZaMjC0lMLrOAIN_YWPS8/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
   "copy": "raw/web/2026-10-20 Fei-Fei Li Senate testimony on AI acquisition and procurement.md",
   "folder": false,
   "id": "1gG5tzhr0XRLDLv5NWMQnlfsKcIsDXpdR",
@@ -118,6 +334,30 @@
   "name": "Fei-Fei Li Senate testimony on AI acquisition and procurement (U.S. Senate Committee on Homeland Security and Governmental Affairs, 2023-09-14)",
   "path": "CalCompute Library",
   "url": "https://drive.google.com/file/d/1gG5tzhr0XRLDLv5NWMQnlfsKcIsDXpdR/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-11 IRS EO BMF field layout.md",
+  "folder": false,
+  "id": "1Mh92rHMFKtd4VBLDbiN4h4jqI-spEO4I",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:40.434Z",
+  "name": "IRS EO BMF field layout (Internal Revenue Service)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1Mh92rHMFKtd4VBLDbiN4h4jqI-spEO4I/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-11 IRS Form 990.md",
+  "folder": false,
+  "id": "1SUN1AsQ9xQhbm0O6uVw-1Rv6gmMJcVjm",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:42.172Z",
+  "name": "IRS Form 990 (Internal Revenue Service)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1SUN1AsQ9xQhbm0O6uVw-1Rv6gmMJcVjm/view?usp=drivesdk"
  },
  {
   "bot": "writes",
@@ -146,6 +386,30 @@
  {
   "bot": "writes",
   "by": "",
+  "copy": "raw/web/2026-11-09 Maryland Chapter 633 of 2026 SB 597.md",
+  "folder": false,
+  "id": "1G73Vn1IuKoFR8kvkgMUvDRh2dzYGB-dX",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:20.117Z",
+  "name": "Maryland Chapter 633 of 2026 SB 597 (Maryland General Assembly)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1G73Vn1IuKoFR8kvkgMUvDRh2dzYGB-dX/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-11 NAIRR Task Force final report 2023.md",
+  "folder": false,
+  "id": "1EmwQPa6l7qV5wp4CEBqvb_oSpdLHTt_x",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:44.314Z",
+  "name": "NAIRR Task Force final report 2023 (National Artificial Intelligence Research Resource Task Force (NSF and OSTP), 2023-01-24)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1EmwQPa6l7qV5wp4CEBqvb_oSpdLHTt_x/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
   "copy": "raw/web/2026-11-05 NSF AI-Ready America Workshop Report.md",
   "folder": false,
   "id": "14tLUuKn03M1sJZX-vyisHQlrGsR6Zb9x",
@@ -166,6 +430,18 @@
   "name": "Newsom SB 1047 veto message 2024-09-29 (web) (Office of Governor Gavin Newsom, 2024-09-29)",
   "path": "CalCompute Library",
   "url": "https://drive.google.com/file/d/1P_QtASHBF3lROeWa0o_HISv9e7jMf1xe/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-11 Oregon HB 5005 2023 A-Engrossed.md",
+  "folder": false,
+  "id": "1XoWehUy1b5L8bRhj9phF5BUw48O9VME7",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:45.929Z",
+  "name": "Oregon HB 5005 2023 A-Engrossed (Oregon Legislative Assembly)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1XoWehUy1b5L8bRhj9phF5BUw48O9VME7/view?usp=drivesdk"
  },
  {
   "bot": "writes",
@@ -266,6 +542,18 @@
  {
   "bot": "writes",
   "by": "",
+  "copy": "raw/web/2026-11-11 Washington OFM GenAI impact on state workforce.md",
+  "folder": false,
+  "id": "1tVwrllgj7qDHKuz4XlmjoNfuKK3rA-GV",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:47.729Z",
+  "name": "Washington OFM GenAI impact on state workforce (Washington State Office of Financial Management)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1tVwrllgj7qDHKuz4XlmjoNfuKK3rA-GV/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
   "copy": "raw/human/universal-dpi-safeguards-framework-v1.0-sept2024.md",
   "folder": false,
   "id": "1uhLw0KdiBUK-fDgUEZy84ilVGPxpXTMs",
@@ -282,10 +570,34 @@
   "folder": false,
   "id": "1OkhXriCZg9QwSQ6KU4IlMOvT7XZ5qXtfLrFfzchoNnQ",
   "mime": "application/vnd.google-apps.document",
-  "modified": "2026-11-06T23:34:33.244Z",
+  "modified": "2026-11-12T19:43:14.757Z",
   "name": "0 - LEGISLATIVE CONTENTS",
   "path": "CalCompute Library/Legislative Sources",
   "url": "https://docs.google.com/document/d/1OkhXriCZg9QwSQ6KU4IlMOvT7XZ5qXtfLrFfzchoNnQ/edit?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/legislative/2026-11-09 AB 2392 Assembly committee analysis.md",
+  "folder": false,
+  "id": "1NyXGyMv_hwwwY3lC-sb_ld-UJIv1A8Ch",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:52.670Z",
+  "name": "2026-11-09 AB 2392 Assembly committee analysis.pdf",
+  "path": "CalCompute Library/Legislative Sources",
+  "url": "https://drive.google.com/file/d/1NyXGyMv_hwwwY3lC-sb_ld-UJIv1A8Ch/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/legislative/2026-11-09 Senate Budget Committee hearing agenda 2026-06-29.md",
+  "folder": false,
+  "id": "1lwESsXBpHK0yWUkPY1UWuFgp94f0zd9o",
+  "mime": "application/pdf",
+  "modified": "2026-11-12T19:41:54.461Z",
+  "name": "2026-11-09 Senate Budget Committee hearing agenda 2026-06-29.pdf",
+  "path": "CalCompute Library/Legislative Sources",
+  "url": "https://drive.google.com/file/d/1lwESsXBpHK0yWUkPY1UWuFgp94f0zd9o/view?usp=drivesdk"
  },
  {
   "bot": "writes",

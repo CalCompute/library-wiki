@@ -2,8 +2,8 @@
 title: "Office of the Governor of California"
 type: entity
 created: 2026-11-01
-updated: 2026-11-09
-source_count: 16
+updated: 2026-11-14
+source_count: 21
 tags: [institution, publisher]
 kind: institution
 ---
@@ -12,11 +12,13 @@ kind: institution
 
 ## Sources
 
-Publisher of 16 sources in this library.
+Publisher of 21 sources in this library.
 
 - [California Executive Branch org chart 2025-11-04](../sources/California%20Executive%20Branch%20org%20chart%202025-11-04.md)
 - [Executive Order N-5-26 trusted AI procurement (web)](../sources/Executive%20Order%20N-5-26%20trusted%20AI%20procurement%20%28web%29.md)
 - [Executive Order N-6-26](../sources/Executive%20Order%20N-6-26.md)
+- [Executive Order N-9-26 AI oversight (web)](../sources/Executive%20Order%20N-9-26%20AI%20oversight%20%28web%29.md)
+- [Governor Engaged California AI report release 2026-10-13 (web)](../sources/Governor%20Engaged%20California%20AI%20report%20release%202026-10-13%20%28web%29.md)
 - [Governor AI bill signings including AB 2392 2026-09-30 (web)](../sources/Governor%20AI%20bill%20signings%20including%20AB%202392%202026-09-30%20%28web%29.md)
 - [Governor Anthropic partnership release 2026-06-29 (web)](../sources/Governor%20Anthropic%20partnership%20release%202026-06-29%20%28web%29.md)
 - [Governor appointments 2024-10-24 (web)](../sources/Governor%20appointments%202024-10-24%20%28web%29.md)
@@ -30,3 +32,6 @@ Publisher of 16 sources in this library.
 - [Governor signs SB 813 and AB 1405 (web)](../sources/Governor%20signs%20SB%20813%20and%20AB%201405%20%28web%29.md)
 - [Governor TIME Person of the Year made in California 2025-12-12 (web)](../sources/Governor%20TIME%20Person%20of%20the%20Year%20made%20in%20California%202025-12-12%20%28web%29.md)
 - [Governor California NVIDIA collaboration 2024-08-09 (web)](../sources/Governor%20California%20NVIDIA%20collaboration%202024-08-09%20%28web%29.md)
+- [Governor AI-Unemployment Tracker launch release 2026-06-25 (web)](../sources/Governor%20AI-Unemployment%20Tracker%20launch%20release%202026-06-25%20%28web%29.md)
+- [Governor appointments 2025-02-13 (web)](../sources/Governor%20appointments%202025-02-13%20%28web%29.md)
+- [Governor AI Cyber Defense Program release (web)](../sources/Governor%20AI%20Cyber%20Defense%20Program%20release%20%28web%29.md)

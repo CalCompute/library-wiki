@@ -2,7 +2,7 @@
 title: Chronicle of Philanthropy nonprofits embracing AI funding (web)
 type: source
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 source_count: 1
 tags: [B, D, E, nonprofit, ai-adoption, survey, philanthropy, news]
 elements: [B, D, E]
@@ -47,7 +47,7 @@ A news story about a survey report, with one case study. The story gives these f
 - Visilant's revenue grew from $100,000 in 2024 to $2 million, with a $1.5 million grant from Google.org.
 - 78 percent of the nonprofits in the study use AI in an "assisted" way.
 
-The story links to the report at Fast Forward. The library has no copy of the report itself.
+The story links to the report at Fast Forward. The library has the report: [Fast Forward 2025 AI for Humanity Report (web)](Fast%20Forward%202025%20AI%20for%20Humanity%20Report%20%28web%29.md).
 
 ## Limits
 

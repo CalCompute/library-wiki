@@ -2,7 +2,7 @@
 title: "Frank Würthwein"
 type: entity
 created: 2026-11-01
-updated: 2026-11-06
+updated: 2026-11-13
 source_count: 7
 tags: [team]
 member: yes

@@ -6,6 +6,7 @@ updated: 2026-11-09
 source_count: 1
 tags: [institution, publisher]
 kind: institution
+mirror: yes
 ---
 
 # UC Berkeley Department of Electrical Engineering and Computer Sciences

@@ -6,6 +6,7 @@ updated: 2026-11-09
 source_count: 2
 tags: [institution, publisher]
 kind: institution
+mirror: yes
 ---
 
 # California Department of Human Resources

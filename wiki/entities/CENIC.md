@@ -2,8 +2,8 @@
 title: "CENIC"
 type: entity
 created: 2026-11-01
-updated: 2026-11-10
-source_count: 6
+updated: 2026-11-11
+source_count: 7
 tags: [institution, publisher]
 kind: institution
 ---
@@ -12,7 +12,7 @@ kind: institution
 
 ## Sources
 
-Publisher of 6 sources in this library.
+Publisher of 7 sources in this library.
 
 - [CENIC About (web)](../sources/CENIC%20About%20%28web%29.md)
 - [CENIC AIR initiative (web)](../sources/CENIC%20AIR%20initiative%20%28web%29.md)
@@ -20,3 +20,4 @@ Publisher of 6 sources in this library.
 - [CENIC membership (web)](../sources/CENIC%20membership%20%28web%29.md)
 - [CENIC research education and cultural community (web)](../sources/CENIC%20research%20education%20and%20cultural%20community%20%28web%29.md)
 - [Würthwein CENIC board of directors](../sources/W%C3%BCrthwein%20CENIC%20board%20of%20directors.md)
+- [CENIC leadership page (web)](../sources/CENIC%20leadership%20page%20%28web%29.md)

@@ -2,8 +2,8 @@
 title: "Hybrid compute and open-weight models"
 type: concept
 created: 2026-10-15
-updated: 2026-11-09
-source_count: 8
+updated: 2026-11-11
+source_count: 9
 tags: [A, B, C, D, E]
 elements: [A, B, C, D, E]
 ---
@@ -18,6 +18,7 @@ _This page reports what the sources say. It is not a position of the consortium.
 - **State platform.** Poppy runs on state cloud and calls commercial models by API ([Poppy service page](../sources/Poppy%20service%20page.md)).
 - **State seat licences.** The state's agreement with Anthropic gives state agencies, cities and counties the commercial assistant Claude "at a 50% discounted price per seat" through CDT's SITeS portal ([Governor Anthropic partnership release 2026-06-29 (web)](../sources/Governor%20Anthropic%20partnership%20release%202026-06-29%20%28web%29.md)).
 - **National strategies.** "Most adopt hybrid strategies, combining trusted partnerships with foreign countries or commercial entities with selective domestic ownership to balance control, affordability, speed and security" ([WEF AI Infrastructure in the Age of Sovereignty 2026 (web), Section 2.3, p. 16](../sources/WEF%20AI%20Infrastructure%20in%20the%20Age%20of%20Sovereignty%202026%20%28web%29.md)).
+- **Open-weight gap.** The 2025 AI Index says "Open-weight models are closing the gap with closed models, reducing the performance difference from 8% to just 1.7% on some benchmarks in a single year". The inference cost at the level of GPT-3.5 "dropped over 280-fold between November 2022 and October 2024" ([Stanford HAI AI Index Report 2025 (web)](../sources/Stanford%20HAI%20AI%20Index%20Report%202025%20%28web%29.md), p. 4).
 - **Domestic and shared capacity.** "A balanced investment approach can build domestic capacity for priority workloads while using regional or shared facilities to scale" ([WEF Rethinking AI Sovereignty 2026 (web), Section 2.2, p. 12](../sources/WEF%20Rethinking%20AI%20Sovereignty%202026%20%28web%29.md)).
 - **Open training process.** The Marin project aims at "opening up the process knowledge that is missing from open-weight (and even open-source) model releases" ([Berkeley EECS colloquium Marin open lab (web)](../sources/Berkeley%20EECS%20colloquium%20Marin%20open%20lab%20%28web%29.md)).
 - **Cloud or lab clusters.** The NSF BRIDGE data platforms say "these platforms can run on public clouds such as Amazon Web Services (AWS) or on computing clusters operated by research laboratories" ([UCI data infrastructure award 2026-08-27 (web)](../sources/UCI%20data%20infrastructure%20award%202026-08-27%20%28web%29.md)).

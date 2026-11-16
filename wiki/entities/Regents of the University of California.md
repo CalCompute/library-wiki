@@ -7,6 +7,7 @@ source_count: 1
 tags: [institution, publisher]
 kind: institution
 elements: [B, C]
+mirror: yes
 ---
 
 # Regents of the University of California

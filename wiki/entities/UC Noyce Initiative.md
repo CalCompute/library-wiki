@@ -6,6 +6,7 @@ updated: 2026-11-09
 source_count: 3
 tags: [institution, publisher]
 kind: institution
+mirror: yes
 ---
 
 # UC Noyce Initiative

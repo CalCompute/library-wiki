@@ -2,7 +2,7 @@
 title: Chronicle of Philanthropy nonprofit AI gap (web)
 type: source
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 source_count: 1
 tags: [B, D, E, nonprofit, ai-adoption, survey, news]
 elements: [B, D, E]
@@ -40,7 +40,7 @@ The Chronicle of Philanthropy publishes news on the nonprofit world. A senior ed
 
 ## Evidence and method
 
-A news story about a survey report. The story gives percentages from the survey. About 60 percent of the more than 900 respondents were executives. The story links to the report at NTEN. The library has no copy of the report itself.
+A news story about a survey report. The story gives percentages from the survey. About 60 percent of the more than 900 respondents were executives. The story links to the report at NTEN. The library has the report: [NTEN Bridgespan State of Nonprofit AI 2026 (web)](NTEN%20Bridgespan%20State%20of%20Nonprofit%20AI%202026%20%28web%29.md).
 
 Uses of AI that the story gives:
 

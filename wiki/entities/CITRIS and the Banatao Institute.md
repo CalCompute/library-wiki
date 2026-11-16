@@ -7,6 +7,7 @@ source_count: 2
 tags: [institution, publisher]
 kind: institution
 elements: [A, C, F]
+mirror: yes
 ---
 
 # CITRIS and the Banatao Institute

@@ -2,12 +2,12 @@
 title: "Leilani H. Gilpin"
 type: entity
 created: 2026-11-01
-updated: 2026-11-06
+updated: 2026-11-13
 source_count: 3
 tags: [team]
 member: yes
 group: consortium
-order: 7
+order: 6
 institution: "UC Santa Cruz"
 position: "Assistant Professor of Computer Science and Engineering"
 role: "AI Safety Researcher & Developer"

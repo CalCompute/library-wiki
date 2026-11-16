@@ -1,0 +1,147 @@
+---
+url: https://web.archive.org/web/20260615001621id_/https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CONS&sectionNum=SEC.%206.&article=XVI
+fetched: 2026-11-14
+publisher: "California Legislative Information (Internet Archive capture 2026-06-15)"
+published: unknown
+original: 2026-11-14 California Constitution art XVI sec 6.html
+rehost: yes
+---
+
+_Markdown copy of 2026-11-14 California Constitution art XVI sec 6.html, made 2026-11-14. The original is the authority._
+* [skip to content](#content_anchor)
+* home
+* accessibility
+* FAQ
+* feedback
+* sitemap
+* login
+* x
+
+![Legislative Information header image: click to go to the home page](/resources/images/header_img.png)
+
+![Legislative Information header image](/resources/images/calegis_header_mobile.png)
+
+![home image: click to go to the home page](/resources/images/header_img_mobile_02.png)![Bill Search image: click to go to the bill search page](/resources/images/header_img_mobile_025.png)
+![back button image: click to go to previous page](/resources/images/header_img_mobile_03.png)
+
+![magnifying glass image](/resources/images/mag_glass.png) Quick Search:
+
+Bill Number
+Bill Keyword
+
+* Home
+* Bill Information
+* California Law
+* Publications
+* Other Resources
+* My Subscriptions
+* My Favorites
+
+* [California Law](/faces/codes.xhtml)
+  >>
+* >>
+* Code Section
+
+# Code Section
+
+Code: Select Code
+CONS
+BPC
+CIV
+CCP
+COM
+CORP
+EDC
+ELEC
+EVID
+FAM
+FIN
+FGC
+FAC
+GOV
+HNC
+HSC
+INS
+LAB
+MVC
+PEN
+PROB
+PCC
+PRC
+PUC
+RTC
+SHC
+UIC
+VEH
+WAT
+WIC
+Article:Section:
+![information](/resources/images/info_popup.gif)
+
+Code: Select Code
+All
+BPC
+CIV
+CCP
+COM
+CORP
+EDC
+ELEC
+EVID
+FAM
+FIN
+FGC
+FAC
+GOV
+HNC
+HSC
+INS
+LAB
+MVC
+PEN
+PROB
+PCC
+PRC
+PUC
+RTC
+SHC
+UIC
+VEH
+WAT
+WIC
+Section:
+Keyword(s):
+
+Code Search
+Text Search
+
+Up^<< Previous Next >>PDF | Add To My Favorites
+
+Search Phrase:
+
+## Code Text
+
+#### **\* California Constitution - CONS**
+
+##### **ARTICLE XVI PUBLIC FINANCE [SECTION 1 - SEC. 23]**
+
+*( Article 16 heading amended Nov. 5, 1974, by Prop. 8. Res.Ch. 70, 1974. )*
+
+###### **SEC. 6.**
+
+The Legislature shall have no power to give or to lend, or to authorize the giving or lending, of the credit of the State, or of any county, city and county, city, township or other political corporation or subdivision of the State now existing, or that may be hereafter established, in aid of or to any person, association, or corporation, whether municipal or otherwise, or to pledge the credit thereof, in any manner whatever, for the payment of the liabilities of any individual, association, municipal or other corporation whatever; nor shall it have power to make any gift or authorize the making of any
+gift, of any public money or thing of value to any individual, municipal or other corporation whatever; provided, that nothing in this section shall prevent the Legislature granting aid pursuant to Section 3 of Article XVI; and it shall not have power to authorize the State, or any political subdivision thereof, to subscribe for stock, or to become a stockholder in any corporation whatever; provided, further, that irrigation districts for the purpose of acquiring the control of any entire international water system necessary for its use and purposes, a part of which is situated in the United States, and a part thereof in a foreign country, may in the manner authorized by law, acquire the stock of any foreign corporation which is the owner of, or which holds the title to the part of such system situated in a foreign country; provided, further, that irrigation districts for the purpose of acquiring water and water rights and other property necessary for their uses and purposes, may acquire and hold the stock
+of corporations, domestic or foreign, owning waters, water rights, canals, waterworks, franchises or concessions subject to the same obligations and liabilities as are imposed by law upon all other stockholders in such corporation; and
+
+Provided, further, that this section shall not prohibit any county, city and county, city, township, or other political corporation or subdivision of the State from joining with other such agencies in providing for the payment of workers’ compensation, unemployment compensation, tort liability, or public liability losses incurred by such agencies, by entry into an insurance pooling arrangement under a joint exercise of powers agreement, or by membership in such publicly-owned nonprofit corporation or other public agency as may be authorized by the Legislature; and
+
+Provided, further, that nothing contained in this Constitution shall prohibit the use of state money or credit, in aiding veterans
+who served in the military or naval service of the United States during the time of war, in the acquisition of, or payments for, (1) farms or homes, or in projects of land settlement or in the development of such farms or homes or land settlement projects for the benefit of such veterans, or (2) any business, land or any interest therein, buildings, supplies, equipment, machinery, or tools, to be used by the veteran in pursuing a gainful occupation; and
+
+Provided, further, that nothing contained in this Constitution shall prohibit the State, or any county, city and county, city, township, or other political corporation or subdivision of the State from providing aid or assistance to persons, if found to be in the public interest, for the purpose of clearing debris, natural materials, and wreckage from privately owned lands and waters deposited thereon or therein during a period of a major disaster or emergency, in either case declared by the President. In such case,
+the public entity shall be indemnified by the recipient from the award of any claim against the public entity arising from the rendering of such aid or assistance. Such aid or assistance must be eligible for federal reimbursement for the cost thereof.
+
+And provided, still further, that notwithstanding the restrictions contained in this Constitution, the treasurer of any city, county, or city and county shall have power and the duty to make such temporary transfers from the funds in custody as may be necessary to provide funds for meeting the obligations incurred for maintenance purposes by any city, county, city and county, district, or other political subdivision whose funds are in custody and are paid out solely through the treasurer’s office. Such temporary transfer of funds to any political subdivision shall be made only upon resolution adopted by the governing body of the city, county, or city and county directing the treasurer of such city, county, or city and
+county to make such temporary transfer. Such temporary transfer of funds to any political subdivision shall not exceed 85 percent of the anticipated revenues accruing to such political subdivision, shall not be made prior to the first day of the fiscal year nor after the last Monday in April of the current fiscal year, and shall be replaced from the revenues accruing to such political subdivision before any other obligation of such political subdivision is met from such revenue.
+
+*(Sec. 6 amended Nov. 2, 1982, by Prop. 8. Res.Ch. 60, 1982.)*

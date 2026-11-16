@@ -25,7 +25,7 @@ Office of the Governor of California. "Governor Newsom issues executive order to
 
 ## Background
 
-The release announces Executive Order N-9-26 of Sept. 18, 2026, and links the signed order. It names "the Hugging Face attack" as one of the incidents behind the order. It asks Congress and the President to adopt California's framework. The library does not hold the order itself; [GovOps AI independent oversight and kill switch](GovOps%20AI%20independent%20oversight%20and%20kill%20switch.md) is the GovOps page about it.
+The release announces Executive Order N-9-26 of Sept. 18, 2026, and links the signed order. It names "the Hugging Face attack" as one of the incidents behind the order. It asks Congress and the President to adopt California's framework. The signed order is [Executive Order N-9-26 AI oversight (web)](Executive%20Order%20N-9-26%20AI%20oversight%20%28web%29.md); [GovOps AI independent oversight and kill switch](GovOps%20AI%20independent%20oversight%20and%20kill%20switch.md) is the GovOps page about it.
 
 ## Key claims
 

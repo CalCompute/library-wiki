@@ -2,12 +2,12 @@
 title: "Kevin Michael Esterling"
 type: entity
 created: 2026-11-01
-updated: 2026-11-06
+updated: 2026-11-13
 source_count: 5
 tags: [team]
 member: yes
 group: consortium
-order: 3
+order: 10
 institution: "UC Riverside"
 position: "Professor of Political Science and Public Policy; Chair, Department of Political Science"
 role: "Computational democracy researcher; founding director, TeCD-Lab"

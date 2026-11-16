@@ -2,12 +2,12 @@
 title: "Ruby Guillen"
 type: entity
 created: 2026-11-01
-updated: 2026-11-06
+updated: 2026-11-13
 source_count: 2
 tags: [team]
 member: yes
 group: consortium
-order: 8
+order: 7
 institution: "UNA-USA"
 position: "Co-Chair, UNA-USA Human Rights Affinity Group"
 role: "Child welfare technologist; United Nations civil society leader; ethical AI and public-interest technology advocate"

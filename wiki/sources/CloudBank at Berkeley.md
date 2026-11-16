@@ -2,7 +2,7 @@
 title: CloudBank at Berkeley
 type: source
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-11-13
 tags: [A, B, E]
 elements: [A, B, E]
 origin: shared
@@ -19,8 +19,6 @@ rehost: no
 Jon Bashor. "NSF-funded CloudBank will broaden access to Berkeley’s data science educational infrastructure." UC Berkeley College of Computing, Data Science, and Society (CDSS), news, September 8, 2020. https://cdss.berkeley.edu/news/nsf-funded-cloudbank-will-broaden-access-berkeleys-data-science-educational-infrastructure.
 
 Read 2026-10-26.
-
-It gives the thread as "CalCompute - Time Sensitive". Message 1a059df6ffa0997c is in the thread "Congratulations, and a short CalCompute ask", so this page cites that thread.
 
 ## Bottom line
 
