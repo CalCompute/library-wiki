@@ -2,14 +2,18 @@
 title: "California Department of Technology"
 type: entity
 created: 2026-10-15
-updated: 2026-11-14
-source_count: 24
+updated: 2026-11-19
+source_count: 25
 tags: [institution, publisher]
 kind: institution
 elements: [A, B, C, D, F, G]
 ---
 
 # California Department of Technology
+
+![California Department of Technology](../../raw/assets/logos/California%20Department%20of%20Technology.svg)
+
+_Logo: California Department of Technology, [home page](https://cdt.ca.gov/). Fetched 2026-10-29._
 
 ## Bottom line
 
@@ -65,3 +69,4 @@ Publisher of 14 sources in this library.
 - [CDT cloud services (web)](../sources/CDT%20cloud%20services%20%28web%29.md)
 - [CDT data center services (web)](../sources/CDT%20data%20center%20services%20%28web%29.md)
 - [Cal-Secure 2.0 (web)](../sources/Cal-Secure%202.0%20%28web%29.md)
+- [CDT privacy policy (web)](../sources/CDT%20privacy%20policy%20%28web%29.md)

@@ -2,7 +2,7 @@
 title: "Robert Rivas"
 type: entity
 created: 2026-11-01
-updated: 2026-11-06
+updated: 2026-11-19
 source_count: 2
 tags: [team]
 member: yes
@@ -15,6 +15,10 @@ photo: "/images/people/robert-rivas.jpg"
 ---
 
 # Robert Rivas
+
+![Robert Rivas](../../raw/assets/people/Robert%20Rivas.jpg)
+
+_Photo: California State Assembly, [member page](https://www.assembly.ca.gov/assemblymembers/29). Fetched 2026-11-14._
 
 ## Bottom line
 

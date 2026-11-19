@@ -2,7 +2,7 @@
 title: "Omar Aslai"
 type: entity
 created: 2026-11-01
-updated: 2026-11-06
+updated: 2026-11-19
 source_count: 1
 tags: [team]
 member: yes
@@ -15,6 +15,10 @@ photo: "/images/people/omar-aslai.jpeg"
 ---
 
 # Omar Aslai
+
+![Omar Aslai](../../raw/assets/people/Omar%20Aslai.jpg)
+
+_Photo: the CalCompute public website's people images, used with CalCompute's permission. Copied 2026-10-26._
 
 ## Bottom line
 

@@ -2,7 +2,7 @@
 title: "Carnegie Mellon University"
 type: entity
 created: 2026-11-11
-updated: 2026-11-11
+updated: 2026-11-19
 source_count: 1
 tags: [institution, publisher, pennsylvania]
 kind: institution
@@ -10,6 +10,10 @@ elements: [A, B, D, E, F]
 ---
 
 # Carnegie Mellon University
+
+![Carnegie Mellon University](../../raw/assets/logos/Carnegie%20Mellon%20University.svg)
+
+_Logo: Carnegie Mellon University, public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Carnegie_Mellon_University_wordmark.svg). Fetched 2026-10-29._
 
 ## Bottom line
 

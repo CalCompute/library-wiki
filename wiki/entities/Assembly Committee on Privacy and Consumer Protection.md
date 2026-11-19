@@ -2,13 +2,17 @@
 title: "Assembly Committee on Privacy and Consumer Protection"
 type: entity
 created: 2026-10-15
-updated: 2026-10-29
+updated: 2026-11-19
 source_count: 3
 tags: [institution]
 kind: institution
 ---
 
 # Assembly Committee on Privacy and Consumer Protection
+
+![Assembly Committee on Privacy and Consumer Protection](../../raw/assets/logos/Assembly%20Committee%20on%20Privacy%20and%20Consumer%20Protection.svg)
+
+_Logo: California State Assembly, [home page](https://www.assembly.ca.gov/). Fetched 2026-10-29._
 
 ## Bottom line
 

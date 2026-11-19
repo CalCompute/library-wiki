@@ -2,7 +2,7 @@
 title: "Gordon and Betty Moore Foundation"
 type: entity
 created: 2026-11-11
-updated: 2026-11-11
+updated: 2026-11-19
 source_count: 2
 tags: [institution, publisher, philanthropy]
 kind: institution
@@ -10,6 +10,10 @@ elements: [B, F]
 ---
 
 # Gordon and Betty Moore Foundation
+
+![Gordon and Betty Moore Foundation](../../raw/assets/logos/Gordon%20and%20Betty%20Moore%20Foundation.png)
+
+_Logo: Gordon and Betty Moore Foundation, [Our Story page](https://www.moore.org/about). Fetched 2026-11-11._
 
 ## Bottom line
 

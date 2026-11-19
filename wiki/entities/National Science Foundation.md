@@ -2,7 +2,7 @@
 title: "National Science Foundation"
 type: entity
 created: 2026-10-15
-updated: 2026-10-29
+updated: 2026-11-19
 source_count: 5
 tags: [institution, publisher]
 kind: institution
@@ -10,6 +10,10 @@ elements: [A, B, E, F, G]
 ---
 
 # National Science Foundation
+
+![National Science Foundation](../../raw/assets/logos/National%20Science%20Foundation.svg)
+
+_Logo: Adrian Apodaca for the National Science Foundation, public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:NSF_logo.svg). Fetched 2026-10-29._
 
 ## Bottom line
 

@@ -2,14 +2,18 @@
 title: "ACCESS"
 type: entity
 created: 2026-10-15
-updated: 2026-10-29
-source_count: 1
+updated: 2026-11-19
+source_count: 2
 tags: [institution]
 kind: institution
 elements: [A, B, D]
 ---
 
 # ACCESS
+
+![ACCESS](../../raw/assets/logos/ACCESS.svg)
+
+_Logo: ACCESS, [home page](https://access-ci.org/). Fetched 2026-10-29._
 
 ## Bottom line
 
@@ -22,3 +26,4 @@ elements: [A, B, D]
 ## Sources
 
 - [ACCESS homepage](../sources/ACCESS%20homepage.md)
+- [ACCESS Privacy Policy (web)](../sources/ACCESS%20Privacy%20Policy%20%28web%29.md)

@@ -2,7 +2,7 @@
 title: "Reid Hoffman"
 type: entity
 created: 2026-11-11
-updated: 2026-11-11
+updated: 2026-11-19
 source_count: 2
 tags: [person, people]
 kind: person
@@ -10,6 +10,10 @@ elements: [F]
 ---
 
 # Reid Hoffman
+
+![Reid Hoffman](../../raw/assets/people/Reid%20Hoffman.jpg)
+
+_Photo: U.S. Secretary of Defense, CC BY 2.0, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2022_Reid_Hoffman_%28cropped%29.jpg). Fetched 2026-10-26._
 
 ## Bottom line
 

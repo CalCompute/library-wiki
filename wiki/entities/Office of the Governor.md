@@ -2,7 +2,7 @@
 title: "Office of the Governor"
 type: entity
 created: 2026-10-15
-updated: 2026-10-29
+updated: 2026-11-19
 source_count: 1
 tags: [institution]
 kind: institution
@@ -10,6 +10,10 @@ elements: [A, B, C, D, E, F, G]
 ---
 
 # Office of the Governor
+
+![Office of the Governor](../../raw/assets/logos/Office%20of%20the%20Governor.png)
+
+_Logo: Office of the Governor, [home page](https://www.gov.ca.gov/). Fetched 2026-10-29._
 
 ## Why they matter
 

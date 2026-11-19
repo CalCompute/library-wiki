@@ -2,13 +2,17 @@
 title: "AI Singapore"
 type: entity
 created: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-19
 source_count: 1
 tags: [institution, publisher]
 kind: institution
 ---
 
 # AI Singapore
+
+![AI Singapore](../../raw/assets/logos/AI%20Singapore.png)
+
+_Logo: AI Singapore, [AIAP page](https://aisingapore.org/innovation/aiap/). Fetched 2026-10-29._
 
 ## Bottom line
 

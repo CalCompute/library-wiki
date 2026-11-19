@@ -2,7 +2,7 @@
 title: "William and Flora Hewlett Foundation"
 type: entity
 created: 2026-11-11
-updated: 2026-11-11
+updated: 2026-11-19
 source_count: 1
 tags: [institution, publisher, philanthropy]
 kind: institution
@@ -10,6 +10,10 @@ elements: [B, F]
 ---
 
 # William and Flora Hewlett Foundation
+
+![William and Flora Hewlett Foundation](../../raw/assets/logos/William%20and%20Flora%20Hewlett%20Foundation.svg)
+
+_Logo: The William and Flora Hewlett Foundation, [About Us page](https://hewlett.org/about-us/). Fetched 2026-11-11._
 
 ## Bottom line
 

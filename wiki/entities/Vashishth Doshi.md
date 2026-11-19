@@ -2,7 +2,7 @@
 title: "Vashishth Doshi"
 type: entity
 created: 2026-11-01
-updated: 2026-11-06
+updated: 2026-11-19
 source_count: 1
 tags: [team]
 member: yes
@@ -15,6 +15,10 @@ photo: "/images/people/vashishth-doshi.jpeg"
 ---
 
 # Vashishth Doshi
+
+![Vashishth Doshi](../../raw/assets/people/Vashishth%20Doshi.jpg)
+
+_Photo: the CalCompute public website's people images, used with CalCompute's permission. Copied 2026-10-26._
 
 ## Bottom line
 

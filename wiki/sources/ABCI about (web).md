@@ -2,7 +2,7 @@
 title: ABCI about (web)
 type: source
 created: 2026-11-11
-updated: 2026-11-11
+updated: 2026-11-18
 source_count: 1
 tags: [A, B, D, F, japan, aist, abci, national-compute, international]
 elements: [A, B, D, F]
@@ -47,6 +47,6 @@ This is an institutional web page about one national system. It gives the histor
 ## Limits
 
 - The page gives no amounts for the METI funding.
-- It does not give the fees. The site menu links to an "ABCI Usage Fees" page, which this library does not hold.
+- It does not give the fees. The site menu links to an "ABCI Usage Fees" page: [ABCI usage fees (web)](ABCI%20usage%20fees%20%28web%29.md).
 - It does not say how many users or projects ABCI serves.
 - For the hardware of ABCI 3.0, see [ABCI computing resource (web)](ABCI%20computing%20resource%20%28web%29.md).

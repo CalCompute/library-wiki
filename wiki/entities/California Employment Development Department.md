@@ -2,13 +2,17 @@
 title: "California Employment Development Department"
 type: entity
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-19
 source_count: 2
 tags: [institution, publisher]
 kind: institution
 ---
 
 # California Employment Development Department
+
+![California Employment Development Department](../../raw/assets/logos/California%20Employment%20Development%20Department.svg)
+
+_Logo: Employment Development Department, [AI and the Labor Market page](https://edd.ca.gov/aitracker). Fetched 2026-11-11._
 
 ## Sources
 

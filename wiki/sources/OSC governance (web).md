@@ -2,7 +2,7 @@
 title: OSC governance (web)
 type: source
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-18
 source_count: 1
 tags: [C, state-compute, ohio, governance]
 elements: [C]
@@ -42,4 +42,4 @@ An institutional description of the governance structure. It names the funder, t
 
 ## Limits
 
-The page does not give the size of the state appropriation or the members of the advisory board. It links to the board list on the Ohio Technology Consortium (OH-TECH) website, which this library has not read.
+The page does not give the size of the state appropriation or the members of the advisory board. It links to the board list on the Ohio Technology Consortium (OH-TECH) website: [OSC and OARnet Advisory Board (web)](OSC%20and%20OARnet%20Advisory%20Board%20%28web%29.md).

@@ -2,7 +2,7 @@
 title: "NVIDIA"
 type: entity
 created: 2026-10-15
-updated: 2026-11-11
+updated: 2026-11-19
 source_count: 9
 tags: [institution, publisher]
 kind: institution
@@ -10,6 +10,10 @@ elements: [A, B, E, F]
 ---
 
 # NVIDIA
+
+![NVIDIA](../../raw/assets/logos/NVIDIA.svg)
+
+_Logo: NVIDIA, [home page](https://www.nvidia.com/). Fetched 2026-10-29._
 
 ## Why they matter
 

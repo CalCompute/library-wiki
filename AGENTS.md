@@ -37,6 +37,7 @@ raw/                 original documents; read only
   shared/            documents the consortium's research used before the library started; nothing new goes here
   human/             documents that people wrote
   drive/             .listing.json and .folders.json: what is in the public Drive (bin/drive_push.py writes them)
+  assets/            logos/ and people/: the images of entity pages, and IMAGES.md, their list and credit lines (the consortium wiki's export writes them)
 .cache/              downloads that are not rehosted; git ignores this folder
 
 wiki/                pages you write
@@ -63,7 +64,7 @@ The `README.md` files in `raw/` folders explain the folder. They are not sources
 - **Pages with `mirror: yes` come from the consortium's wiki.** The directory pages, the publisher and listed institution pages, and the concept page "Federal and state AI compute programs" are written there and sent here whole (Nov. 14, 2026). Never edit one. A correction to one is a suggestion like any other: record it on the Suggestions page for a consortium member, and do not make it by hand.
 - **The Drive stands alone.** Its two Docs (`0 - LIBRARY GUIDE`, whose tabs are the table of contents, and `0 - LEGISLATIVE CONTENTS`) are rewritten from `wiki/sources/` and `raw/legislative/` on every `bin/drive_push.py` run. They never name the agent that writes them or the consortium's communications; the push refuses a Doc that does.
 - **Never ingest the consortium's own website.** https://californiacompute.org is not research. `bin/grab.py` refuses it.
-- **Do not edit, rename, move or delete a file in `raw/`.** Only `bin/grab.py` and `bin/drive_push.py` write there.
+- **Do not edit, rename, move or delete a file in `raw/`.** Only `bin/grab.py` and `bin/drive_push.py` write there, and the consortium wiki's export writes `raw/assets/`.
 - **Keep the original format.** If a source is `.docx`, `.pdf`, `.pptx`, `.xlsx` or `.html`, `bin/grab.py` makes a Markdown copy beside it with the same name. The copy starts with `_Markdown copy of <file>, made YYYY-MM-DD. The original is the authority._` Read the copy. Cite the original.
 - **Mark web material.** A source page for a file in `raw/web/` has a title that ends in ` (web)`.
 - **The statute is the base of every definition.** Quote `raw/legislative/SB-53 Gov Code 11546.8.md` for what CalCompute and the Report must be.
@@ -86,6 +87,8 @@ The `README.md` files in `raw/` folders explain the folder. They are not sources
 **Element reading list** (`wiki/elements/<L> - <Title>.md`): the statute text for the element, then `## Reading list` with every source tagged with that element, grouped by tier (primary, peer-reviewed, institutional, trade). One line per source: link and a one-line summary. No synthesis.
 
 **Entity page** (`wiki/entities/<name>.md`): one page for each publisher, each institution that a directory page lists, and each person on the team. A publisher's or listed institution's page with `mirror: yes` comes from the consortium's wiki; this library writes only the others. A publisher or a listed institution is a person or institution with `kind: person | institution`: `## Bottom line` (who it is, in one or two lines; every name, number and quotation in it is in a cited source page), `## Why they matter` (what the sources say it did or does on the elements, each line cited), Affiliations and Background facts, each cited, and a Sources list; or a person on the team, with `member: yes`, `group: consortium | supporting | operations | advocates | legislative`, `institution`, `position` and `role` as californiacompute.org states them, `order` and `photo`: `## Bottom line`, then `## Affiliations` and `## Background` from the person's public profile pages, each line cited, then `## Sources` and `## Links` (the person's public links). This page is the person's public profile; californiacompute.org links to it. No contact details, and no `profile` field.
+
+An entity page that `raw/assets/IMAGES.md` lists shows the image of its row, with its credit (Nov. 19, 2026). Put it under the page title: `![<Page>](../../<File>)` with the path URL-encoded, a blank line, then the credit line in italics, `_<Credit>_`. An entity page with no row shows no image. The consortium's wiki writes the images and `IMAGES.md`. Do not fetch, add, change or remove an image or a credit line yourself.
 
 **Concept page** (`wiki/concepts/<topic>.md`): the notice line, then what each source says about the topic, side by side, each claim cited. Where sources disagree, show both.
 
@@ -113,6 +116,18 @@ The `README.md` files in `raw/` folders explain the folder. They are not sources
   - Latitude and Longitude: decimal degrees as a cited source prints them, rounded to four decimals or not. Leave them blank when no cited source gives them. Never estimate, geocode or take them from memory.
   - City and Link: only when a cited source states them. Link is the institution's own public address, as a bare `https://` address that a cited source page or its raw or cached copy carries. Never guess or build an address.
   - Each institution in this directory has an entity page.
+- The AI laws directory ([California AI laws](wiki/directories/California%20AI%20laws.md)) uses these columns, in this order: `Name | Kind | Status | Topics | Concerns | Summary | Requires | Key dates | Enforcement | Related | Link | Sources | Checked`. One row for each enacted California law, executive order, adopted regulation or state policy on artificial intelligence. Never a pending bill. CaliforniaCompute.org's California AI Law Directory reads its rows.
+  - Name: the number and the official title, as a cited source gives them, for example `SB 813, Independent verification organizations`. An order or policy has its own name.
+  - Kind: `Statute`, `Executive order`, `Regulation`, `State policy` or `Directive`.
+  - Status: the latest step that a cited source states: `Signed`, `Enrolled`, `In effect`, `Published` or `Announced`.
+  - Topics: zero or more of this fixed list: `Frontier models; Audits and verification; Chatbots; Transparency and provenance; Synthetic media; Employment; Privacy and automated decisions; Health care; Education; Courts and legal practice; Civil liability; Government use and procurement; Security and incidents`. Give a topic only when the title or a cited source states it.
+  - Concerns: who has a duty under it. Zero or more of this fixed list: `Frontier developers; Generative AI providers; Online platforms; Model hosting platforms; Device manufacturers; Chatbot operators; AI auditors; Employers; Businesses under the California Consumer Privacy Act; Health AI developers; Health care providers; Health plans and insurers; Attorneys and arbitrators; State contractors and vendors; State agencies; Law enforcement agencies; Public colleges and universities; Any person`. Give only the groups that a cited source names.
+  - Summary: one sentence in plain words that says what the law does. Never a quotation.
+  - Requires: the duties, in plain words, separated by semicolons. Each is a fact that a cited source states. Leave it blank when the sources give only the title.
+  - Key dates: each date as `YYYY-MM-DD: what happens`, separated by semicolons: when it was signed or took effect, and each deadline that a cited source states. Never work a date out, for example from "within 120 days".
+  - Enforcement: who enforces it and the penalty, only when a cited source states them.
+  - Related: the Name of each other row that it amends, carries out or depends on.
+  - Link: the public address of the law's own text, by the Link rule of the compute programs directory.
 - A cell with several values separates them with `; ` (a semicolon and a space).
 - Do not rate, rank or judge the quality of a record. Do not write what CalCompute or the Report should do.
 - Do not write who suggested, shared or said something about a record.
@@ -149,7 +164,7 @@ Start every page with one `#` heading that matches `title`.
 ## Links and syntax
 
 - Use standard relative Markdown links with the `.md` path. Encode spaces as `%20`: `[ACCESS homepage](../sources/ACCESS%20homepage.md)`.
-- Never use `[[wikilinks]]`, embeds, callouts, HTML or Dataview blocks.
+- Never use `[[wikilinks]]`, embeds, callouts, HTML or Dataview blocks. The image line of an entity page is a standard Markdown image, not an embed.
 - Flags are plain blockquotes: `> ⚠️ Contradiction: ...` and `> 🔍 Gap: ...`.
 - Search with `wiki/index.md` first, then `grep -ril "<term>" wiki/`.
 

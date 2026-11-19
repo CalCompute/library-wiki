@@ -2,19 +2,24 @@
 title: "Office of the Governor of California"
 type: entity
 created: 2026-11-01
-updated: 2026-11-14
-source_count: 21
+updated: 2026-11-19
+source_count: 22
 tags: [institution, publisher]
 kind: institution
 ---
 
 # Office of the Governor of California
 
+![Office of the Governor of California](../../raw/assets/logos/Office%20of%20the%20Governor%20of%20California.png)
+
+_Logo: Office of the Governor, [home page](https://www.gov.ca.gov/). Fetched 2026-10-29._
+
 ## Sources
 
-Publisher of 21 sources in this library.
+Publisher of 22 sources in this library.
 
 - [California Executive Branch org chart 2025-11-04](../sources/California%20Executive%20Branch%20org%20chart%202025-11-04.md)
+- [Executive Order N-10-26 (web)](../sources/Executive%20Order%20N-10-26%20%28web%29.md)
 - [Executive Order N-5-26 trusted AI procurement (web)](../sources/Executive%20Order%20N-5-26%20trusted%20AI%20procurement%20%28web%29.md)
 - [Executive Order N-6-26](../sources/Executive%20Order%20N-6-26.md)
 - [Executive Order N-9-26 AI oversight (web)](../sources/Executive%20Order%20N-9-26%20AI%20oversight%20%28web%29.md)

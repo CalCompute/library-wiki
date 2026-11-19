@@ -2,7 +2,7 @@
 title: "Chan Zuckerberg Initiative"
 type: entity
 created: 2026-11-11
-updated: 2026-11-11
+updated: 2026-11-19
 source_count: 1
 tags: [institution, publisher, philanthropy]
 kind: institution
@@ -10,6 +10,10 @@ elements: [B, F]
 ---
 
 # Chan Zuckerberg Initiative
+
+![Chan Zuckerberg Initiative](../../raw/assets/logos/Chan%20Zuckerberg%20Initiative.svg)
+
+_Logo: Chan Zuckerberg Initiative, [home page](https://chanzuckerberg.com/). Fetched 2026-11-11._
 
 ## Bottom line
 

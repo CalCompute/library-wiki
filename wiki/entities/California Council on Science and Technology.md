@@ -2,13 +2,17 @@
 title: "California Council on Science and Technology"
 type: entity
 created: 2026-11-01
-updated: 2026-11-11
+updated: 2026-11-19
 source_count: 5
 tags: [institution, publisher]
 kind: institution
 ---
 
 # California Council on Science and Technology
+
+![California Council on Science and Technology](../../raw/assets/logos/California%20Council%20on%20Science%20and%20Technology.png)
+
+_Logo: CCST, [About page](https://ccst.us/about/). Fetched 2026-11-09._
 
 ## Bottom line
 

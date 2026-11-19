@@ -2,7 +2,7 @@
 title: "Jesse Gabriel"
 type: entity
 created: 2026-11-11
-updated: 2026-11-11
+updated: 2026-11-19
 source_count: 1
 tags: [person, people, assembly]
 kind: person
@@ -10,6 +10,10 @@ elements: [B]
 ---
 
 # Jesse Gabriel
+
+![Jesse Gabriel](../../raw/assets/people/Jesse%20Gabriel.jpg)
+
+_Photo: Office of Assemblymember Jesse Gabriel, [biography page](https://gabriel.asmdc.org/biography). Fetched 2026-11-11._
 
 ## Bottom line
 

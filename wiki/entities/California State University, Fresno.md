@@ -2,8 +2,8 @@
 title: "California State University, Fresno"
 type: entity
 created: 2026-11-10
-updated: 2026-11-10
-source_count: 1
+updated: 2026-11-18
+source_count: 2
 tags: [institution]
 kind: institution
 ---
@@ -18,5 +18,4 @@ kind: institution
 ## Sources
 
 - [Carnegie 2025 Public Data File (web)](../sources/Carnegie%202025%20Public%20Data%20File%20%28web%29.md)
-
-> 🔍 Gap: no source in this library yet describes this institution's research computing or its work on the elements.
+- [Fresno State F3i Supercomputing Center launch (web)](../sources/Fresno%20State%20F3i%20Supercomputing%20Center%20launch%20%28web%29.md)

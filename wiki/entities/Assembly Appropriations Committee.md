@@ -2,13 +2,17 @@
 title: "Assembly Appropriations Committee"
 type: entity
 created: 2026-10-15
-updated: 2026-10-29
+updated: 2026-11-19
 source_count: 2
 tags: [institution]
 kind: institution
 ---
 
 # Assembly Appropriations Committee
+
+![Assembly Appropriations Committee](../../raw/assets/logos/Assembly%20Appropriations%20Committee.svg)
+
+_Logo: California State Assembly, [home page](https://www.assembly.ca.gov/). Fetched 2026-10-29._
 
 ## Bottom line
 

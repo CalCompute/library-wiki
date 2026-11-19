@@ -2,13 +2,17 @@
 title: "Government Operations Agency"
 type: entity
 created: 2026-10-15
-updated: 2026-11-14
+updated: 2026-11-19
 source_count: 18
 tags: [institution]
 kind: institution
 ---
 
 # Government Operations Agency
+
+![Government Operations Agency](../../raw/assets/logos/Government%20Operations%20Agency.png)
+
+_Logo: Government Operations Agency, [home page](https://www.govops.ca.gov/). Fetched 2026-10-29._
 
 ## Bottom line
 

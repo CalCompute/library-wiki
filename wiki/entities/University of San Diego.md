@@ -2,13 +2,17 @@
 title: "University of San Diego"
 type: entity
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-19
 source_count: 1
 tags: [institution]
 kind: institution
 ---
 
 # University of San Diego
+
+![University of San Diego](../../raw/assets/logos/University%20of%20San%20Diego.png)
+
+_Logo: University of San Diego, [home page](https://www.sandiego.edu/). Fetched 2026-10-29._
 
 ## Bottom line
 

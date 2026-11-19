@@ -2,8 +2,8 @@
 title: "Stanford University"
 type: entity
 created: 2026-11-01
-updated: 2026-11-11
-source_count: 5
+updated: 2026-11-19
+source_count: 7
 tags: [institution, publisher]
 kind: institution
 ---
@@ -32,3 +32,5 @@ Publisher of 4 sources in this library.
 Other sources that describe it:
 
 - [Carnegie 2025 Public Data File (web)](../sources/Carnegie%202025%20Public%20Data%20File%20%28web%29.md)
+- [Chandler Stanford Profiles (web)](../sources/Chandler%20Stanford%20Profiles%20%28web%29.md)
+- [OpenSource at Stanford people (web)](../sources/OpenSource%20at%20Stanford%20people%20%28web%29.md)

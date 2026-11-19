@@ -2,7 +2,7 @@
 title: "Gov. Gavin Newsom"
 type: entity
 created: 2026-11-01
-updated: 2026-11-06
+updated: 2026-11-19
 source_count: 8
 tags: [team]
 member: yes
@@ -15,6 +15,10 @@ photo: "/images/people/gavin-newsom.jpeg"
 ---
 
 # Gov. Gavin Newsom
+
+![Gov. Gavin Newsom](../../raw/assets/people/Gov.%20Gavin%20Newsom.jpg)
+
+_Photo: Charles Ommanney, Office of the Governor of California, Public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Governor_of_California_Gavin_Newsom_%28cropped_3x4%29.jpg). Fetched 2026-10-26._
 
 ## Bottom line
 

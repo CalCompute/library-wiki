@@ -2,13 +2,17 @@
 title: "National Compute Labs PBC"
 type: entity
 created: 2026-11-11
-updated: 2026-11-11
+updated: 2026-11-19
 source_count: 5
 tags: [institution, publisher, A, B, C, D]
 kind: institution
 ---
 
 # National Compute Labs PBC
+
+![National Compute Labs PBC](../../raw/assets/logos/National%20Compute%20Labs%20PBC.svg)
+
+_Logo: National Compute, [home page](https://nationalcompute.com/). Fetched 2026-10-29._
 
 ## Bottom line
 

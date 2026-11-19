@@ -2,7 +2,7 @@
 title: "California Governor's Office of Emergency Services"
 type: entity
 created: 2026-10-19
-updated: 2026-11-14
+updated: 2026-11-19
 source_count: 5
 tags: [institution]
 kind: institution
@@ -10,6 +10,10 @@ elements: [C, D, F, G]
 ---
 
 # California Governor's Office of Emergency Services
+
+![California Governor's Office of Emergency Services](../../raw/assets/logos/California%20Governor%27s%20Office%20of%20Emergency%20Services.png)
+
+_Logo: California Governor's Office of Emergency Services, [home page](https://www.caloes.ca.gov/). Fetched 2026-10-29._
 
 ## Bottom line
 

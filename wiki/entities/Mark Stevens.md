@@ -2,7 +2,7 @@
 title: "Mark Stevens"
 type: entity
 created: 2026-11-11
-updated: 2026-11-11
+updated: 2026-11-19
 source_count: 2
 tags: [person, people, philanthropy]
 kind: person
@@ -10,6 +10,10 @@ elements: [B, F]
 ---
 
 # Mark Stevens
+
+![Mark Stevens](../../raw/assets/people/Mark%20Stevens.jpg)
+
+_Photo: Cody Pickens, CC BY-SA 4.0, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mark_Stevens,_2017.jpg). Fetched 2026-10-26._
 
 ## Bottom line
 

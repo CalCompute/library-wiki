@@ -2,7 +2,7 @@
 title: "Daniel Romo"
 type: entity
 created: 2026-11-01
-updated: 2026-11-06
+updated: 2026-11-19
 source_count: 1
 tags: [team]
 member: yes
@@ -15,6 +15,10 @@ photo: "/images/people/daniel-romo.jpeg"
 ---
 
 # Daniel Romo
+
+![Daniel Romo](../../raw/assets/people/Daniel%20Romo.jpg)
+
+_Photo: the CalCompute public website's people images, used with CalCompute's permission. Copied 2026-10-26._
 
 ## Bottom line
 

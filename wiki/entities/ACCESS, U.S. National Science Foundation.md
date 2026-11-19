@@ -2,13 +2,17 @@
 title: "ACCESS, U.S. National Science Foundation"
 type: entity
 created: 2026-11-01
-updated: 2026-11-12
-source_count: 10
+updated: 2026-11-19
+source_count: 12
 tags: [institution, publisher]
 kind: institution
 ---
 
 # ACCESS, U.S. National Science Foundation
+
+![ACCESS, U.S. National Science Foundation](../../raw/assets/logos/ACCESS%2C%20U.S.%20National%20Science%20Foundation.svg)
+
+_Logo: ACCESS, [home page](https://access-ci.org/). Fetched 2026-10-29._
 
 ## Why they matter
 
@@ -19,7 +23,7 @@ kind: institution
 
 ## Sources
 
-Publisher of 10 sources in this library.
+Publisher of 12 sources in this library.
 
 - [ACCESS acceptable use policy (web)](../sources/ACCESS%20acceptable%20use%20policy%20%28web%29.md)
 - [ACCESS Allocations policy](../sources/ACCESS%20Allocations%20policy.md)
@@ -31,3 +35,5 @@ Publisher of 10 sources in this library.
 - [ACCESS Project types](../sources/ACCESS%20Project%20types.md)
 - [ACCESS Resource Advisor announcement (web)](../sources/ACCESS%20Resource%20Advisor%20announcement%20%28web%29.md)
 - [ACCESS resource catalog feed (web)](../sources/ACCESS%20resource%20catalog%20feed%20%28web%29.md)
+- [ACCESS Executive Council charter (web)](../sources/ACCESS%20Executive%20Council%20charter%20%28web%29.md)
+- [ACCESS External Advisory Board page (web)](../sources/ACCESS%20External%20Advisory%20Board%20page%20%28web%29.md)

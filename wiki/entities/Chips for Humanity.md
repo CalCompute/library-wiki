@@ -2,13 +2,17 @@
 title: "Chips for Humanity"
 type: entity
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-19
 source_count: 2
 tags: [institution, publisher]
 kind: institution
 ---
 
 # Chips for Humanity
+
+![Chips for Humanity](../../raw/assets/logos/Chips%20for%20Humanity.svg)
+
+_Logo: Chips for Humanity, [home page](https://chipsforhumanity.org/). Fetched 2026-11-09._
 
 ## Sources
 

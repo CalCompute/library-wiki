@@ -2,7 +2,7 @@
 title: "GO-Biz"
 type: entity
 created: 2026-10-15
-updated: 2026-10-30
+updated: 2026-11-19
 source_count: 3
 tags: [institution, publisher]
 kind: institution
@@ -10,6 +10,10 @@ elements: [F, G]
 ---
 
 # GO-Biz
+
+![GO-Biz](../../raw/assets/logos/GO-Biz.png)
+
+_Logo: GO-Biz, [home page](https://business.ca.gov/). Fetched 2026-10-29._
 
 ## Bottom line
 

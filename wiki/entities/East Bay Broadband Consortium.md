@@ -2,13 +2,17 @@
 title: "East Bay Broadband Consortium"
 type: entity
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-19
 source_count: 3
 tags: [institution, publisher, broadband, bay-area]
 kind: institution
 ---
 
 # East Bay Broadband Consortium
+
+![East Bay Broadband Consortium](../../raw/assets/logos/East%20Bay%20Broadband%20Consortium.png)
+
+_Logo: East Bay Broadband Consortium, [homepage](https://www.eastbaybroadband.org/). Fetched 2026-11-13._
 
 ## Bottom line
 

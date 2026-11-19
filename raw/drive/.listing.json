@@ -6,7 +6,7 @@
   "folder": false,
   "id": "1TS7qPrs_0D_XHt93cevJvo-GeeTKB8AetZkV9ZTW0xk",
   "mime": "application/vnd.google-apps.document",
-  "modified": "2026-11-12T19:46:16.422Z",
+  "modified": "2026-11-19T06:34:26.007Z",
   "name": "0 - LIBRARY GUIDE",
   "path": "CalCompute Library",
   "url": "https://docs.google.com/document/d/1TS7qPrs_0D_XHt93cevJvo-GeeTKB8AetZkV9ZTW0xk/edit?usp=drivesdk"
@@ -206,6 +206,18 @@
  {
   "bot": "writes",
   "by": "",
+  "copy": "raw/web/2026-11-14 Cal-Secure 2.0.md",
+  "folder": false,
+  "id": "1RP-rk1HQjUFw5EgslVmzJYUhXQxIaeUu",
+  "mime": "application/pdf",
+  "modified": "2026-11-17T17:37:25.759Z",
+  "name": "Cal-Secure 2.0 (California Department of Technology, Office of Information Security)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1RP-rk1HQjUFw5EgslVmzJYUhXQxIaeUu/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
   "copy": "raw/web/2026-11-09 CalHR 5102 Statewide Report 2026-06-30.md",
   "folder": false,
   "id": "1L9vIsTexUeg9G4oCbnoiLkFoGY3fifLD",
@@ -238,6 +250,18 @@
   "name": "Cradle-to-Career data provider bios 2025-07 (California Cradle-to-Career Data System)",
   "path": "CalCompute Library",
   "url": "https://drive.google.com/file/d/1B0BCeAnozkuTHrpXnWcp9jxiUClHiWuH/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-18 DOE Genesis Mission P3 team fact sheet.md",
+  "folder": false,
+  "id": "1i_ji28wNvRcwNXRJrkgV91Zbl9eT-cjt",
+  "mime": "application/pdf",
+  "modified": "2026-11-19T05:24:52.071Z",
+  "name": "DOE Genesis Mission P3 team fact sheet (U.S. Department of Energy, 2026-04)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1i_ji28wNvRcwNXRJrkgV91Zbl9eT-cjt/view?usp=drivesdk"
  },
  {
   "bot": "writes",
@@ -338,6 +362,30 @@
  {
   "bot": "writes",
   "by": "",
+  "copy": "raw/web/2026-11-18 GovOps AI Safety in 2026 and Beyond.md",
+  "folder": false,
+  "id": "1jKWuARzJXxGl9XlLA2SJ1UBuFymsWOTV",
+  "mime": "application/pdf",
+  "modified": "2026-11-19T06:28:11.220Z",
+  "name": "GovOps AI Safety in 2026 and Beyond (California Government Operations Agency, 2026-11-16)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1jKWuARzJXxGl9XlLA2SJ1UBuFymsWOTV/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-18 Heim et al 2024 Governing Through the Cloud.md",
+  "folder": false,
+  "id": "1aIM688M8ccM7oRY0iyudeaqiugDvlSc-",
+  "mime": "application/pdf",
+  "modified": "2026-11-19T06:28:14.910Z",
+  "name": "Heim et al 2024 Governing Through the Cloud (arXiv (Centre for the Governance of AI), 2024-03-13)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1aIM688M8ccM7oRY0iyudeaqiugDvlSc-/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
   "copy": "raw/web/2026-11-11 IRS EO BMF field layout.md",
   "folder": false,
   "id": "1Mh92rHMFKtd4VBLDbiN4h4jqI-spEO4I",
@@ -358,6 +406,18 @@
   "name": "IRS Form 990 (Internal Revenue Service)",
   "path": "CalCompute Library",
   "url": "https://drive.google.com/file/d/1SUN1AsQ9xQhbm0O6uVw-1Rv6gmMJcVjm/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-18 LAO 2021-22 Cal Institutes for Science and Innovation.md",
+  "folder": false,
+  "id": "1BjnoZMSNOwUWDO-VqgeNzRDmuf7kvmP-",
+  "mime": "application/pdf",
+  "modified": "2026-11-19T05:24:54.153Z",
+  "name": "LAO 2021-22 Cal Institutes for Science and Innovation (Legislative Analyst's Office, 2021-03-02)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1BjnoZMSNOwUWDO-VqgeNzRDmuf7kvmP-/view?usp=drivesdk"
  },
  {
   "bot": "writes",
@@ -422,6 +482,30 @@
  {
   "bot": "writes",
   "by": "",
+  "copy": "raw/web/2026-11-18 NSF FY2026 budget request LCCF chapter.md",
+  "folder": false,
+  "id": "1_PVC9qAb88oLRp4XXHJxe5LmDJdhXwZJ",
+  "mime": "application/pdf",
+  "modified": "2026-11-19T05:24:56.181Z",
+  "name": "NSF FY2026 budget request LCCF chapter (U.S. National Science Foundation)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1_PVC9qAb88oLRp4XXHJxe5LmDJdhXwZJ/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-18 NSF cooperative agreement terms CA-FATC 2024-10.md",
+  "folder": false,
+  "id": "18sqMKWAb62daCanVrfhYiUGWX3N1nMqD",
+  "mime": "application/pdf",
+  "modified": "2026-11-19T05:24:58.286Z",
+  "name": "NSF cooperative agreement terms CA-FATC 2024-10 (U.S. National Science Foundation, 2024-10-01)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/18sqMKWAb62daCanVrfhYiUGWX3N1nMqD/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
   "copy": "raw/web/2026-11-06 Newsom SB 1047 veto message 2024-09-29 (web).md",
   "folder": false,
   "id": "1P_QtASHBF3lROeWa0o_HISv9e7jMf1xe",
@@ -430,6 +514,18 @@
   "name": "Newsom SB 1047 veto message 2024-09-29 (web) (Office of Governor Gavin Newsom, 2024-09-29)",
   "path": "CalCompute Library",
   "url": "https://drive.google.com/file/d/1P_QtASHBF3lROeWa0o_HISv9e7jMf1xe/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-18 Ohio LSC 2025 catalog of budget line items, Higher Education.md",
+  "folder": false,
+  "id": "12qQ63GkPXJIYk6QIHkjllTAHXDYhDtZy",
+  "mime": "application/pdf",
+  "modified": "2026-11-19T05:25:00.211Z",
+  "name": "Ohio LSC 2025 catalog of budget line items, Higher Education (Ohio Legislative Service Commission)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/12qQ63GkPXJIYk6QIHkjllTAHXDYhDtZy/view?usp=drivesdk"
  },
  {
   "bot": "writes",
@@ -570,7 +666,7 @@
   "folder": false,
   "id": "1OkhXriCZg9QwSQ6KU4IlMOvT7XZ5qXtfLrFfzchoNnQ",
   "mime": "application/vnd.google-apps.document",
-  "modified": "2026-11-12T19:43:14.757Z",
+  "modified": "2026-11-19T06:30:38.453Z",
   "name": "0 - LEGISLATIVE CONTENTS",
   "path": "CalCompute Library/Legislative Sources",
   "url": "https://docs.google.com/document/d/1OkhXriCZg9QwSQ6KU4IlMOvT7XZ5qXtfLrFfzchoNnQ/edit?usp=drivesdk"

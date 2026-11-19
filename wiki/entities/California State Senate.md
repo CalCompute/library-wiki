@@ -2,13 +2,17 @@
 title: "California State Senate"
 type: entity
 created: 2026-10-29
-updated: 2026-11-11
+updated: 2026-11-19
 source_count: 3
 tags: [institution]
 kind: institution
 ---
 
 # California State Senate
+
+![California State Senate](../../raw/assets/logos/California%20State%20Senate.svg)
+
+_Logo: California State Senate, [home page](https://www.senate.ca.gov/). Fetched 2026-10-29._
 
 ## Bottom line
 

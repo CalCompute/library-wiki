@@ -2,7 +2,7 @@
 title: "Sen. Scott Wiener"
 type: entity
 created: 2026-11-01
-updated: 2026-11-06
+updated: 2026-11-19
 source_count: 8
 tags: [team]
 member: yes
@@ -15,6 +15,10 @@ photo: "/images/people/scott-wiener.jpeg"
 ---
 
 # Sen. Scott Wiener
+
+![Sen. Scott Wiener](../../raw/assets/people/Sen.%20Scott%20Wiener.jpg)
+
+_Photo: California State Senate, Public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Scott_Wiener_Official_Biography_Portrait.jpg). Fetched 2026-10-26._
 
 ## Bottom line
 

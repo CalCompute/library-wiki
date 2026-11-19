@@ -2,7 +2,7 @@
 title: "Encode AI"
 type: entity
 created: 2026-10-15
-updated: 2026-10-29
+updated: 2026-11-19
 source_count: 2
 tags: [institution]
 kind: institution
@@ -10,6 +10,10 @@ elements: [D]
 ---
 
 # Encode AI
+
+![Encode AI](../../raw/assets/logos/Encode%20AI.svg)
+
+_Logo: Encode AI, [home page](https://encodeai.org/). Fetched 2026-10-29._
 
 ## Bottom line
 

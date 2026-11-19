@@ -2,13 +2,17 @@
 title: "Office of Senator Scott Wiener"
 type: entity
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-19
 source_count: 3
 tags: [institution, publisher]
 kind: institution
 ---
 
 # Office of Senator Scott Wiener
+
+![Office of Senator Scott Wiener](../../raw/assets/people/Office%20of%20Senator%20Scott%20Wiener.jpg)
+
+_Photo: California State Senate, Public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Scott_Wiener_Official_Biography_Portrait.jpg). Fetched 2026-10-26._
 
 ## Sources
 

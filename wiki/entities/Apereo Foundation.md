@@ -2,7 +2,7 @@
 title: "Apereo Foundation"
 type: entity
 created: 2026-10-15
-updated: 2026-11-11
+updated: 2026-11-19
 source_count: 8
 tags: [institution, publisher]
 kind: institution
@@ -10,6 +10,10 @@ elements: [B, C, F]
 ---
 
 # Apereo Foundation
+
+![Apereo Foundation](../../raw/assets/logos/Apereo%20Foundation.png)
+
+_Logo: Apereo Foundation, [home page](https://www.apereo.org/). Fetched 2026-10-29._
 
 ## Bottom line
 

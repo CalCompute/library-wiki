@@ -2,7 +2,7 @@
 title: "Christopher Cabaldon"
 type: entity
 created: 2026-11-11
-updated: 2026-11-11
+updated: 2026-11-19
 source_count: 1
 tags: [person, people, senate]
 kind: person
@@ -10,6 +10,10 @@ elements: [E]
 ---
 
 # Christopher Cabaldon
+
+![Christopher Cabaldon](../../raw/assets/people/Christopher%20Cabaldon.jpg)
+
+_Photo: California State Senate, [biography page](https://sd03.senate.ca.gov/biography). Fetched 2026-11-11._
 
 ## Bottom line
 

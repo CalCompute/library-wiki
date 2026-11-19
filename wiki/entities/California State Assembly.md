@@ -2,13 +2,17 @@
 title: "California State Assembly"
 type: entity
 created: 2026-11-01
-updated: 2026-11-11
+updated: 2026-11-19
 source_count: 3
 tags: [institution, publisher]
 kind: institution
 ---
 
 # California State Assembly
+
+![California State Assembly](../../raw/assets/logos/California%20State%20Assembly.svg)
+
+_Logo: California State Assembly, [home page](https://www.assembly.ca.gov/). The same file as the logo of the Assembly Committee on Privacy and Consumer Protection, fetched 2026-10-29._
 
 ## Bottom line
 

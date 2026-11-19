@@ -2,14 +2,18 @@
 title: "Anthropic"
 type: entity
 created: 2026-10-15
-updated: 2026-11-12
-source_count: 7
+updated: 2026-11-19
+source_count: 9
 tags: [institution, publisher]
 kind: institution
 elements: [B, C, D, F]
 ---
 
 # Anthropic
+
+![Anthropic](../../raw/assets/logos/Anthropic.svg)
+
+_Logo: Anthropic, public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Anthropic_logo.svg). Fetched 2026-10-29._
 
 ## Why they matter
 
@@ -26,3 +30,5 @@ Publisher of 5 sources in this library.
 - [CCC ISTI 25-300-02 AI Safety and Security](../sources/CCC%20ISTI%2025-300-02%20AI%20Safety%20and%20Security.md)
 - [CDT Anthropic partnership expansion 2026-07 (web)](../sources/CDT%20Anthropic%20partnership%20expansion%202026-07%20%28web%29.md)
 - [Anthropic Commercial Terms of Service (web)](../sources/Anthropic%20Commercial%20Terms%20of%20Service%20%28web%29.md)
+- [Anthropic Privacy Policy (web)](../sources/Anthropic%20Privacy%20Policy%20%28web%29.md)
+- [Anthropic Long-Term Benefit Trust (web)](../sources/Anthropic%20Long-Term%20Benefit%20Trust%20%28web%29.md)

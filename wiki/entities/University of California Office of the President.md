@@ -2,14 +2,18 @@
 title: "University of California Office of the President"
 type: entity
 created: 2026-10-15
-updated: 2026-11-12
-source_count: 18
+updated: 2026-11-19
+source_count: 19
 tags: [institution, publisher]
 kind: institution
 elements: [A, B, C, D, E]
 ---
 
 # University of California Office of the President
+
+![University of California Office of the President](../../raw/assets/logos/University%20of%20California%20Office%20of%20the%20President.png)
+
+_Logo: University of California Office of the President, [home page](https://www.ucop.edu/). Fetched 2026-10-29._
 
 ## Bottom line
 
@@ -49,3 +53,4 @@ Publisher of 18 sources in this library.
 - [UC Regents B4 Update on AI 2026-09-16](../sources/UC%20Regents%20B4%20Update%20on%20AI%202026-09-16.md)
 - [UCOP 2023-24 state general fund allocations (web)](../sources/UCOP%202023-24%20state%20general%20fund%20allocations%20%28web%29.md)
 - [UCOP Research and Innovation VP (web)](../sources/UCOP%20Research%20and%20Innovation%20VP%20%28web%29.md)
+- [UCOP Privacy Statement (web)](../sources/UCOP%20Privacy%20Statement%20%28web%29.md)

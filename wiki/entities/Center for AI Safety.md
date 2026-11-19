@@ -2,7 +2,7 @@
 title: "Center for AI Safety"
 type: entity
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-19
 source_count: 2
 tags: [institution, publisher]
 kind: institution
@@ -10,6 +10,10 @@ elements: [A, B, D, E]
 ---
 
 # Center for AI Safety
+
+![Center for AI Safety](../../raw/assets/logos/Center%20for%20AI%20Safety.svg)
+
+_Logo: Center for AI Safety, [website](https://safe.ai/about). Fetched 2026-11-04._
 
 ## Bottom line
 

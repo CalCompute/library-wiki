@@ -2,7 +2,7 @@
 title: "Ruby Guillen"
 type: entity
 created: 2026-11-01
-updated: 2026-11-13
+updated: 2026-11-19
 source_count: 2
 tags: [team]
 member: yes
@@ -15,6 +15,10 @@ photo: "/images/people/ruby-guillen.jpeg"
 ---
 
 # Ruby Guillen
+
+![Ruby Guillen](../../raw/assets/people/Ruby%20Guillen.jpg)
+
+_Photo: the CalCompute public website's people images, used with CalCompute's permission. Copied 2026-10-26._
 
 ## Bottom line
 

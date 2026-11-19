@@ -2,7 +2,7 @@
 title: "California Community Colleges Chancellor's Office"
 type: entity
 created: 2026-10-15
-updated: 2026-11-11
+updated: 2026-11-19
 source_count: 10
 tags: [institution, publisher]
 kind: institution
@@ -10,6 +10,10 @@ elements: [A, B, D, E, F]
 ---
 
 # California Community Colleges Chancellor's Office
+
+![California Community Colleges Chancellor's Office](../../raw/assets/logos/California%20Community%20Colleges%20Chancellor%27s%20Office.png)
+
+_Logo: California Community Colleges Chancellor's Office, [home page](https://www.cccco.edu/). Fetched 2026-10-29._
 
 ## Bottom line
 

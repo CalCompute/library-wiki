@@ -2,7 +2,7 @@
 title: "The James Irvine Foundation"
 type: entity
 created: 2026-11-11
-updated: 2026-11-11
+updated: 2026-11-19
 source_count: 2
 tags: [institution, publisher, philanthropy]
 kind: institution
@@ -10,6 +10,10 @@ elements: [B, E, F]
 ---
 
 # The James Irvine Foundation
+
+![The James Irvine Foundation](../../raw/assets/logos/The%20James%20Irvine%20Foundation.svg)
+
+_Logo: The James Irvine Foundation, [About Us page](https://www.irvine.org/about-us/). The wordmark only, without the white flower mark that the site shows beside it. Fetched 2026-11-11._
 
 ## Bottom line
 

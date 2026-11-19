@@ -2,7 +2,7 @@
 title: "Project Jupyter"
 type: entity
 created: 2026-11-11
-updated: 2026-11-11
+updated: 2026-11-19
 source_count: 6
 tags: [institution, publisher]
 kind: institution
@@ -10,6 +10,10 @@ elements: [B, C, F]
 ---
 
 # Project Jupyter
+
+![Project Jupyter](../../raw/assets/logos/Project%20Jupyter.svg)
+
+_Logo: Project Jupyter, [home page](https://jupyter.org/). Fetched 2026-10-29._
 
 ## Bottom line
 

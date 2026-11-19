@@ -2,13 +2,17 @@
 title: "California Policy Lab"
 type: entity
 created: 2026-11-09
-updated: 2026-11-11
+updated: 2026-11-19
 source_count: 7
 tags: [institution, publisher]
 kind: institution
 ---
 
 # California Policy Lab
+
+![California Policy Lab](../../raw/assets/logos/California%20Policy%20Lab.png)
+
+_Logo: California Policy Lab, [tracker page](https://capolicylab.org/california-ai-unemployment-tracker/). Fetched 2026-11-11._
 
 ## Sources
 

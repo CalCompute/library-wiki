@@ -2,8 +2,8 @@
 title: "San Diego Supercomputer Center"
 type: entity
 created: 2026-10-15
-updated: 2026-11-12
-source_count: 13
+updated: 2026-11-19
+source_count: 14
 tags: [institution, publisher]
 kind: institution
 elements: [A, B, C, D, F]
@@ -44,3 +44,4 @@ Publisher of 13 sources in this library.
 - [SDSC National Data Platform release 2026-08-10 (web)](../sources/SDSC%20National%20Data%20Platform%20release%202026-08-10%20%28web%29.md)
 - [SDSC Sherlock FedRAMP release 2026-09-21 (web)](../sources/SDSC%20Sherlock%20FedRAMP%20release%202026-09-21%20%28web%29.md)
 - [SDSC data-driven agriculture 2026-01-13 (web)](../sources/SDSC%20data-driven%20agriculture%202026-01-13%20%28web%29.md)
+- [SDSC privacy policy (web)](../sources/SDSC%20privacy%20policy%20%28web%29.md)

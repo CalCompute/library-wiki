@@ -2,7 +2,7 @@
 title: "Labor and Workforce Development Agency"
 type: entity
 created: 2026-10-15
-updated: 2026-10-29
+updated: 2026-11-19
 source_count: 2
 tags: [institution]
 kind: institution
@@ -10,6 +10,10 @@ elements: [E, G]
 ---
 
 # Labor and Workforce Development Agency
+
+![Labor and Workforce Development Agency](../../raw/assets/logos/Labor%20and%20Workforce%20Development%20Agency.png)
+
+_Logo: Labor and Workforce Development Agency, [home page](https://www.labor.ca.gov/). Fetched 2026-10-29._
 
 ## Bottom line
 

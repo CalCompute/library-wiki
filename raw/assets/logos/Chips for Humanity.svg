@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <g fill="#2e2a45">
+    <rect x="19.5" y="2.5" width="5" height="10" rx="2.5"/><rect x="29.5" y="2.5" width="5" height="10" rx="2.5"/><rect x="39.5" y="2.5" width="5" height="10" rx="2.5"/>
+    <rect x="19.5" y="51.5" width="5" height="10" rx="2.5"/><rect x="29.5" y="51.5" width="5" height="10" rx="2.5"/><rect x="39.5" y="51.5" width="5" height="10" rx="2.5"/>
+    <rect x="2.5" y="19.5" width="10" height="5" rx="2.5"/><rect x="2.5" y="29.5" width="10" height="5" rx="2.5"/><rect x="2.5" y="39.5" width="10" height="5" rx="2.5"/>
+    <rect x="51.5" y="19.5" width="10" height="5" rx="2.5"/><rect x="51.5" y="29.5" width="10" height="5" rx="2.5"/><rect x="51.5" y="39.5" width="10" height="5" rx="2.5"/>
+  </g>
+  <rect x="10" y="10" width="44" height="44" rx="10" fill="#e6defc" stroke="#2e2a45" stroke-width="3.5"/>
+  <path d="M32 43.5C32 43.5 20.5 36.5 20.5 28.8C20.5 25.2 23.2 22.5 26.6 22.5C28.9 22.5 30.9 23.8 32 25.8C33.1 23.8 35.1 22.5 37.4 22.5C40.8 22.5 43.5 25.2 43.5 28.8C43.5 36.5 32 43.5 32 43.5Z" fill="#ff9fbe" stroke="#2e2a45" stroke-width="3" stroke-linejoin="round"/>
+</svg>

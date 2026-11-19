@@ -2,8 +2,8 @@
 title: "Stanford HAI"
 type: entity
 created: 2026-10-15
-updated: 2026-11-11
-source_count: 10
+updated: 2026-11-19
+source_count: 11
 tags: [institution, publisher]
 kind: institution
 elements: [A, B, C, F]
@@ -43,3 +43,4 @@ Publisher of 4 sources in this library.
 - [Governor AI working group release 2025-03-18](../sources/Governor%20AI%20working%20group%20release%202025-03-18.md)
 - [SB-53 Senate Judiciary analysis 2025-04-08](../sources/SB-53%20Senate%20Judiciary%20analysis%202025-04-08.md)
 - [Wiener SB 294 announcement 2023-09-13](../sources/Wiener%20SB%20294%20announcement%202023-09-13.md)
+- [Reich Stanford HAI profile (web)](../sources/Reich%20Stanford%20HAI%20profile%20%28web%29.md)

@@ -2,7 +2,7 @@
 title: "Nelson"
 type: entity
 created: 2026-11-01
-updated: 2026-11-13
+updated: 2026-11-19
 source_count: 4
 tags: [team]
 member: yes
@@ -15,6 +15,10 @@ photo: "/images/people/jt-nelson.jpg"
 ---
 
 # Nelson
+
+![Nelson](../../raw/assets/people/Nelson.jpg)
+
+_Photo: the CalCompute public website's people images, used with CalCompute's permission. Copied 2026-10-26._
 
 ## Sources
 
