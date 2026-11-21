@@ -2,7 +2,7 @@
 title: "U.S. Department of Education, National Center for Education Statistics"
 type: entity
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-19
 source_count: 1
 tags: [institution, publisher]
 kind: institution
@@ -20,3 +20,4 @@ mirror: yes
 Publisher of 1 source in this library.
 
 - [IPEDS HD2025 Directory information (web)](../sources/IPEDS%20HD2025%20Directory%20information%20%28web%29.md)
+- [IPEDS C2024 completions California computing (web)](../sources/IPEDS%20C2024_A%20completions%20dictionary%20%28web%29.md)

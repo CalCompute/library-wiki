@@ -3,7 +3,7 @@ title: "Hybrid compute and open-weight models"
 type: concept
 created: 2026-10-15
 updated: 2026-11-19
-source_count: 10
+source_count: 11
 tags: [A, B, C, D, E]
 elements: [A, B, C, D, E]
 ---
@@ -23,4 +23,5 @@ _This page reports what the sources say. It is not a position of the consortium.
 - **Domestic and shared capacity.** "A balanced investment approach can build domestic capacity for priority workloads while using regional or shared facilities to scale" ([WEF Rethinking AI Sovereignty 2026 (web), Section 2.2, p. 12](../sources/WEF%20Rethinking%20AI%20Sovereignty%202026%20%28web%29.md)).
 - **Open training process.** The Marin project aims at "opening up the process knowledge that is missing from open-weight (and even open-source) model releases" ([Berkeley EECS colloquium Marin open lab (web)](../sources/Berkeley%20EECS%20colloquium%20Marin%20open%20lab%20%28web%29.md)).
 - **Cloud or lab clusters.** The NSF BRIDGE data platforms say "these platforms can run on public clouds such as Amazon Web Services (AWS) or on computing clusters operated by research laboratories" ([UCI data infrastructure award 2026-08-27 (web)](../sources/UCI%20data%20infrastructure%20award%202026-08-27%20%28web%29.md)).
+- **Campus cluster and cloud.** The 2019 NSF award for Triton Stratus at UC San Diego, $399,514, says it "permits exploration of the emerging hybrid model of on-premise cluster computing resources coupled with commercial cloud computing services" ([NSF computing awards to California campuses 2019-2026 API record (web), award 1925558](../sources/NSF%20computing%20awards%20to%20California%20campuses%202019-2026%20API%20record%20%28web%29.md)).
 - **More than one vendor.** The UC AI Steering Committee "is seeking coordinated, systemwide approaches with AI developers and cloud providers to ensure UC is not reliant on a single vendor" ([UC press release systemwide AI expertise (web)](../sources/UC%20press%20release%20systemwide%20AI%20expertise%20%28web%29.md)).

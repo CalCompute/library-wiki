@@ -2,11 +2,11 @@
 title: "Stanford HAI"
 type: entity
 created: 2026-10-15
-updated: 2026-11-19
-source_count: 11
+updated: 2026-11-20
+source_count: 13
 tags: [institution, publisher]
 kind: institution
-elements: [A, B, C, F]
+elements: [A, B, C, D, F]
 ---
 
 # Stanford HAI
@@ -24,6 +24,7 @@ elements: [A, B, C, F]
 - Its 2021 white paper recommends commercial cloud first and a pilot of public infrastructure for the National Research Cloud ([Stanford HAI National Research Cloud blueprint 2021 (web)](../sources/Stanford%20HAI%20National%20Research%20Cloud%20blueprint%202021%20%28web%29.md)).
 - Its AI Index counts 32 significant machine learning models from industry in 2022, and three from academia ([Stanford HAI AI Index Report 2023 (web)](../sources/Stanford%20HAI%20AI%20Index%20Report%202023%20%28web%29.md)).
 - The 2025 AI Index says "Nearly 90% of notable AI models in 2024 came from industry" ([Stanford HAI AI Index Report 2025 (web)](../sources/Stanford%20HAI%20AI%20Index%20Report%202025%20%28web%29.md)).
+- It manages Marlowe, which has "248 NVIDIA H100 GPUs", with the Vice Provost and Dean of Research and University IT ([Stanford Marlowe about (web)](../sources/Stanford%20Marlowe%20about%20%28web%29.md)). New faculty PIs get 5,000 free GPU-hours. Beyond that, Stanford bills use at a subsidized recharge rate ([Stanford Marlowe access and rates (web)](../sources/Stanford%20Marlowe%20access%20and%20rates%20%28web%29.md)).
 
 ## Affiliations
 
@@ -31,16 +32,18 @@ elements: [A, B, C, F]
 
 ## Sources
 
-Publisher of 4 sources in this library.
+Publisher of 7 sources in this library.
 
 - [California Report on Frontier AI Policy 2025-06-17](../sources/California%20Report%20on%20Frontier%20AI%20Policy%202025-06-17.md)
+- [Reich Stanford HAI profile (web)](../sources/Reich%20Stanford%20HAI%20profile%20%28web%29.md)
 - [Stanford HAI AI Index Report 2023 (web)](../sources/Stanford%20HAI%20AI%20Index%20Report%202023%20%28web%29.md)
 - [Stanford HAI AI Index Report 2025 (web)](../sources/Stanford%20HAI%20AI%20Index%20Report%202025%20%28web%29.md)
 - [Stanford HAI National Research Cloud blueprint 2021 (web)](../sources/Stanford%20HAI%20National%20Research%20Cloud%20blueprint%202021%20%28web%29.md)
+- [Stanford Marlowe about (web)](../sources/Stanford%20Marlowe%20about%20%28web%29.md)
+- [Stanford Marlowe access and rates (web)](../sources/Stanford%20Marlowe%20access%20and%20rates%20%28web%29.md)
 - [Cryst Stanford HAI profile](../sources/Cryst%20Stanford%20HAI%20profile.md)
 - [Executive Order N-6-26](../sources/Executive%20Order%20N-6-26.md)
 - [Fei-Fei Li Senate testimony 2023-09-14 (web)](../sources/Fei-Fei%20Li%20Senate%20testimony%202023-09-14%20%28web%29.md)
 - [Governor AI working group release 2025-03-18](../sources/Governor%20AI%20working%20group%20release%202025-03-18.md)
 - [SB-53 Senate Judiciary analysis 2025-04-08](../sources/SB-53%20Senate%20Judiciary%20analysis%202025-04-08.md)
 - [Wiener SB 294 announcement 2023-09-13](../sources/Wiener%20SB%20294%20announcement%202023-09-13.md)
-- [Reich Stanford HAI profile (web)](../sources/Reich%20Stanford%20HAI%20profile%20%28web%29.md)

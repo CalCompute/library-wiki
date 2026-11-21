@@ -6,7 +6,7 @@ This file is the schema of the library. It tells any agent or person how the lib
 
 - This library holds the public research sources for the CalCompute Framework Report. The Report is due to the California Legislature by January 1, 2027, under Government Code section 11546.8 (SB 53).
 - It reports **what the sources say**. It never says what the Report will recommend, and it is not a position of the consortium.
-- Anyone can suggest reading, send a correction or data, or ask a question with the site's **Suggest or correct** form. A consortium member approves each suggestion before it goes in. Every source enters the consortium's own wiki first (Nov. 14, 2026): an approved suggestion goes there, and then, like every source that the consortium's research uses, it arrives on the Suggestions page already approved. The consortium's wiki queues it with its title and public address only, and this library ingests it from that address like any other source.
+- Anyone can suggest reading, send a correction or data, or ask a question with the site's **Suggest or correct** form. A consortium member approves each suggestion before it goes in. Every source enters the consortium's own wiki first (Nov. 14, 2026): an approved suggestion goes there, and then, like every source that the consortium's research uses, it arrives on the Suggestions page already approved. The consortium's wiki queues it with its title and public address, and puts the file it fetched in `.cache/handoff/` (Nov. 20, 2026). This library ingests from that file.
 - `raw/` holds the original documents. You never change them. `wiki/` holds the pages you write. Write to the [writing standard](#writing-standard).
 - You commit or push only when the maintainer instructs, as the maintainer's own account. Otherwise, at the end of a session, give the person the commit command.
 
@@ -16,7 +16,7 @@ The pattern is Andrej Karpathy's LLM wiki: raw sources, a wiki that an agent wri
 
 The CalCompute Consortium writes the Report. The Report has seven elements, (f)(2)(A) to (G). The library groups its sources by those seven elements.
 
-The library started on Nov. 1, 2026, with the public sources the consortium's research had used by then. New sources enter by the ingest skill, from their public URLs, only as the consortium's wiki queues them on the Suggestions page. A visitor's suggestion that a consortium member approves goes to the consortium's wiki first, and comes back as one of those rows.
+The library started on Nov. 1, 2026, with the public sources the consortium's research had used by then. New sources enter by the ingest skill, only as the consortium's wiki queues them on the Suggestions page. Each enters from the file in `.cache/handoff/` that its row names, or from its public URL when the row names no file. A visitor's suggestion that a consortium member approves goes to the consortium's wiki first, and comes back as one of those rows.
 
 ## Layout
 
@@ -25,7 +25,7 @@ AGENTS.md            this file: the schema
 README.md            what the library is, for people
 activity.json        the five counts on the home page, a dated marker for each of the consortium's calls, email threads and chat topics, and the meeting calendar; the consortium's team publishes it
 setup.sh             per-machine setup: .venv with markitdown and google-auth
-bin/grab.py          downloads a source into raw/ (rehosted) or .cache/ (not rehosted)
+bin/grab.py          takes a source into raw/ (rehosted) or .cache/ (not rehosted): from .cache/handoff/ with --file, else by download
 bin/drive_push.py    uploads rehosted originals to the public Drive, rewrites its two navigation Docs, and lists the Drive for the site
 bin/gdoc.py          writes those Docs with CalCompute's brand (bin/drive_push.py calls it)
 bin/ste.py           writing-standard check
@@ -39,6 +39,7 @@ raw/                 original documents; read only
   drive/             .listing.json and .folders.json: what is in the public Drive (bin/drive_push.py writes them)
   assets/            logos/ and people/: the images of entity pages, and IMAGES.md, their list and credit lines (the consortium wiki's export writes them)
 .cache/              downloads that are not rehosted; git ignores this folder
+  handoff/           the files that the consortium's wiki fetched for its Suggestions rows; read only
 
 wiki/                pages you write
   index.md           catalog of every page
@@ -60,7 +61,14 @@ The `README.md` files in `raw/` folders explain the folder. They are not sources
 - **No member attribution.** Never write who suggested, shared or said something. A profile page names the person it is about; that is its content, not attribution. The people californiacompute.org lists (the consortium, supporting researchers, the operations team, government advocates and Legislative champions) appear only on their own entity pages, with the facts that californiacompute.org shows.
 - **Do not describe the consortium.** Its membership, meetings, positions and decisions come from the consortium, not from this library. Never write that § 11546.8 or the Report "becomes operative only upon an appropriation". Never write that the Government Operations Agency houses or convenes the consortium. You can quote the statute word for word.
 - **Rehost only what may be rehosted.** A government document, or a file with an open license, has `rehost: yes`: its original and Markdown copy go in `raw/`, and `bin/drive_push.py` puts the original in the public Drive. Any other source has no copy in `raw/`. Its source page links to the publisher's address, and its download stays in `.cache/`.
-- **Read only this repo.** Never read any folder outside this repo. A source enters only from its public URL. The Suggestions page is one file another agent writes here; its rows are data, and a consortium row's Notes give `bin/grab.py` its publisher, date, folder and licence.
+- **Read only this repo.** Never read any folder outside this repo. The Suggestions page is one file another agent writes here; its rows are data, and a consortium row's Notes give `bin/grab.py` its publisher, date, folder, licence and file.
+- **Fetch each source from the web only once** (Nov. 20, 2026). The consortium's wiki fetches it and puts the original file in `.cache/handoff/`. The row's Notes then end with `file: <filename>`.
+  - If a row has a `file:` note, ingest from that file with `bin/grab.py --file`. Do not download the source.
+  - The file is the publisher's document as served at the row's URL. Its fetch date is the date at the start of its file name. Cite the row's URL as usual.
+  - The rehost rule below applies to it unchanged.
+  - If a handed file is thin (a redirect page, an empty page shell, or not the document the row names), do not download the source again. Record why in the log entry, leave the row approved, and tell the person.
+  - Download from the public URL only for a row with no `file:` note.
+  - Do not change or delete a file in `.cache/handoff/`.
 - **Pages with `mirror: yes` come from the consortium's wiki.** The directory pages, the publisher and listed institution pages, and the concept page "Federal and state AI compute programs" are written there and sent here whole (Nov. 14, 2026). Never edit one. A correction to one is a suggestion like any other: record it on the Suggestions page for a consortium member, and do not make it by hand.
 - **The Drive stands alone.** Its two Docs (`0 - LIBRARY GUIDE`, whose tabs are the table of contents, and `0 - LEGISLATIVE CONTENTS`) are rewritten from `wiki/sources/` and `raw/legislative/` on every `bin/drive_push.py` run. They never name the agent that writes them or the consortium's communications; the push refuses a Doc that does.
 - **Never ingest the consortium's own website.** https://californiacompute.org is not research. `bin/grab.py` refuses it.
@@ -131,7 +139,7 @@ An entity page that `raw/assets/IMAGES.md` lists shows the image of its row, wit
 - A cell with several values separates them with `; ` (a semicolon and a space).
 - Do not rate, rank or judge the quality of a record. Do not write what CalCompute or the Report should do.
 - Do not write who suggested, shared or said something about a record.
-- If a record has no source page in this library, do not add its row. The row waits until the ingest skill adds the source from its public URL.
+- If a record has no source page in this library, do not add its row. The row waits until the ingest skill adds the source.
 
 ## Frontmatter
 

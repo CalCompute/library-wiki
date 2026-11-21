@@ -2,7 +2,7 @@
 title: FDP data use agreement template (web)
 type: source
 created: 2026-11-19
-updated: 2026-11-19
+updated: 2026-11-20
 source_count: 1
 tags: [C, D, fdp, data-use-agreement, data-sharing, research-data]
 elements: [C, D]
@@ -45,4 +45,4 @@ A blank contract template of about 1,400 words. It states terms. It gives no evi
 
 ## Limits
 
-The template has blank fields, so it names no data set, project or party. Attachment 2, for data-specific security terms, is empty in the template. It does not name a law, such as HIPAA or FERPA, and it sets no technical security standard. The copy is from Auburn University's site, not from FDP itself.
+The template has blank fields, so it names no data set, project or party. Attachment 2, for data-specific security terms, is empty in the template. It does not name a law, such as HIPAA or FERPA, and it sets no technical security standard. The copy is from Auburn University's site. The file at FDP's own address, https://thefdp.org/wp-content/uploads/dtua_March-2024-v05.03.2024-final.pdf, is the same file, byte for byte (fetched 2026-11-20). The reciprocal version, for two parties that give data to each other, is [FDP Reciprocal DTUA template 2020-09 (web)](FDP%20Reciprocal%20DTUA%20template%202020-09%20%28web%29.md).

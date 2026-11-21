@@ -1,6 +1,6 @@
 ---
 name: drive-push
-description: 'Upload new rehosted originals to the public "CalCompute Library" Drive, rewrite its contents Docs, and refresh the site''s Drive listing. Use after every ingest.'
+description: 'Upload new rehosted originals to the public "CalCompute Library" Drive, rewrite its contents Docs, and refresh the site''s Drive listing. Use only when the maintainer pushes to GitHub, never at ingest.'
 ---
 
 # Drive push

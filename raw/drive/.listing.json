@@ -6,7 +6,7 @@
   "folder": false,
   "id": "1TS7qPrs_0D_XHt93cevJvo-GeeTKB8AetZkV9ZTW0xk",
   "mime": "application/vnd.google-apps.document",
-  "modified": "2026-11-19T06:34:26.007Z",
+  "modified": "2026-11-21T08:27:18.971Z",
   "name": "0 - LIBRARY GUIDE",
   "path": "CalCompute Library",
   "url": "https://docs.google.com/document/d/1TS7qPrs_0D_XHt93cevJvo-GeeTKB8AetZkV9ZTW0xk/edit?usp=drivesdk"
@@ -170,6 +170,18 @@
  {
   "bot": "writes",
   "by": "",
+  "copy": "raw/web/2026-11-19 CDT State IT class career path salary ranges 2023-07-01.md",
+  "folder": false,
+  "id": "19RaXwlvXNw_kqzA22H4gz3PTupVqtFW6",
+  "mime": "application/pdf",
+  "modified": "2026-11-20T17:28:25.232Z",
+  "name": "CDT State IT class career path salary ranges 2023-07-01 (California Department of Technology, 2023-11)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/19RaXwlvXNw_kqzA22H4gz3PTupVqtFW6/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
   "copy": "raw/web/2026-11-12 CIRM allowable costs and cofunding FAQ 2025-04.md",
   "folder": false,
   "id": "1b_P0qWJI3tqlHqBYSaLdwLZRKHEcAQwp",
@@ -206,6 +218,30 @@
  {
   "bot": "writes",
   "by": "",
+  "copy": "raw/web/2026-11-19 CPPA approved regulations text cybersecurity audits risk assessments ADMT.md",
+  "folder": false,
+  "id": "1iTExyfQlqcTXWW4Z5DdfCqJe7JNQdE0E",
+  "mime": "application/pdf",
+  "modified": "2026-11-20T17:28:26.956Z",
+  "name": "CPPA approved regulations text cybersecurity audits risk assessments ADMT (California Privacy Protection Agency)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1iTExyfQlqcTXWW4Z5DdfCqJe7JNQdE0E/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-19 CPUC Decision 25-07-039 interim Electric Rule 30.md",
+  "folder": false,
+  "id": "1kbqeiKDbbSjQCTi7LQqRLjmATwCiR_Rf",
+  "mime": "application/pdf",
+  "modified": "2026-11-20T17:28:29.185Z",
+  "name": "CPUC Decision 25-07-039 interim Electric Rule 30 (California Public Utilities Commission, 2025-07-28)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1kbqeiKDbbSjQCTi7LQqRLjmATwCiR_Rf/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
   "copy": "raw/web/2026-11-14 Cal-Secure 2.0.md",
   "folder": false,
   "id": "1RP-rk1HQjUFw5EgslVmzJYUhXQxIaeUu",
@@ -214,6 +250,18 @@
   "name": "Cal-Secure 2.0 (California Department of Technology, Office of Information Security)",
   "path": "CalCompute Library",
   "url": "https://drive.google.com/file/d/1RP-rk1HQjUFw5EgslVmzJYUhXQxIaeUu/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-19 CalHHS Data Exchange Framework data sharing agreement draft 2022-04-21.md",
+  "folder": false,
+  "id": "1-MWoJ8lR3VmzkBVvPUA84nNR5UU-Q290",
+  "mime": "application/pdf",
+  "modified": "2026-11-20T17:28:31.040Z",
+  "name": "CalHHS Data Exchange Framework data sharing agreement draft 2022-04-21 (California Health and Human Services Agency)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1-MWoJ8lR3VmzkBVvPUA84nNR5UU-Q290/view?usp=drivesdk"
  },
  {
   "bot": "writes",
@@ -238,6 +286,30 @@
   "name": "California Executive Branch org chart 2025-11-04 (Office of the Governor, 2025-11-04)",
   "path": "CalCompute Library",
   "url": "https://drive.google.com/file/d/1D7IjYNo-vN53qkYA6fw4yG4YqTvC9JBZ/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-19 California GenAI guidelines for public sector procurement uses and training 2024-03.md",
+  "folder": false,
+  "id": "1kt4HbpWnEJyjTaoScr6wdQn57UKiPdUt",
+  "mime": "application/pdf",
+  "modified": "2026-11-20T17:28:32.698Z",
+  "name": "California GenAI guidelines for public sector procurement uses and training 2024-03 (California Government Operations Agency)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1kt4HbpWnEJyjTaoScr6wdQn57UKiPdUt/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-19 Colorado SB 24-205 consumer protections for artificial intelligence.md",
+  "folder": false,
+  "id": "1C461fJ6S95aFsJ8xthqR9SW-LHRtrC46",
+  "mime": "application/pdf",
+  "modified": "2026-11-20T17:28:34.858Z",
+  "name": "Colorado SB 24-205 consumer protections for artificial intelligence (Colorado General Assembly)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1C461fJ6S95aFsJ8xthqR9SW-LHRtrC46/view?usp=drivesdk"
  },
  {
   "bot": "writes",
@@ -278,6 +350,42 @@
  {
   "bot": "writes",
   "by": "",
+  "copy": "raw/web/2026-11-19 DOE Large Power Transformer Resilience Report 2024-07.md",
+  "folder": false,
+  "id": "1UXgJtLnQSztuteN17sd3G0tL9SCC_rOv",
+  "mime": "application/pdf",
+  "modified": "2026-11-20T17:28:36.746Z",
+  "name": "DOE Large Power Transformer Resilience Report 2024-07 (U.S. Department of Energy, 2024-07-10)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1UXgJtLnQSztuteN17sd3G0tL9SCC_rOv/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-19 DOL TEN 07-25 AI Literacy Framework.md",
+  "folder": false,
+  "id": "10e2pn4GjaV9yrZoApSy3KnSmstucKh2b",
+  "mime": "application/pdf",
+  "modified": "2026-11-20T17:28:38.966Z",
+  "name": "DOL TEN 07-25 AI Literacy Framework (U.S. Department of Labor, Employment and Training Administration, 2026-02-13)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/10e2pn4GjaV9yrZoApSy3KnSmstucKh2b/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-19 ED PTAC written agreement checklist PDF.md",
+  "folder": false,
+  "id": "1hw-lRHWv_SDdfncfdY2tG_c5C54XcWvm",
+  "mime": "application/pdf",
+  "modified": "2026-11-20T17:28:40.813Z",
+  "name": "ED PTAC written agreement checklist PDF (U.S. Department of Education, Privacy Technical Assistance Center)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1hw-lRHWv_SDdfncfdY2tG_c5C54XcWvm/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
   "copy": "raw/web/2026-11-09 ETP eligibility checklist.md",
   "folder": false,
   "id": "1usDj4qj6CZ4QfhO528ycHZrnFbXrDPZ3",
@@ -286,6 +394,18 @@
   "name": "ETP eligibility checklist (California Employment Training Panel)",
   "path": "CalCompute Library",
   "url": "https://drive.google.com/file/d/1usDj4qj6CZ4QfhO528ycHZrnFbXrDPZ3/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-19 Executive Order N-10-26.md",
+  "folder": false,
+  "id": "14H6bzGTpX0R6IR9yFZ3dI9eFHa9RKNPZ",
+  "mime": "application/pdf",
+  "modified": "2026-11-20T17:28:42.675Z",
+  "name": "Executive Order N-10-26 (Office of the Governor of California, 2026-09-30)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/14H6bzGTpX0R6IR9yFZ3dI9eFHa9RKNPZ/view?usp=drivesdk"
  },
  {
   "bot": "writes",
@@ -470,6 +590,30 @@
  {
   "bot": "writes",
   "by": "",
+  "copy": "raw/web/2026-11-19 NIH Data Use Certification agreement.md",
+  "folder": false,
+  "id": "1hqaQORVubWlJPY7KdpEagpUUS6aMPUoe",
+  "mime": "application/pdf",
+  "modified": "2026-11-20T17:28:44.515Z",
+  "name": "NIH Data Use Certification agreement (National Institutes of Health)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1hqaQORVubWlJPY7KdpEagpUUS6aMPUoe/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-19 NIST AI 600-1 Generative AI Profile.md",
+  "folder": false,
+  "id": "1VAzgBB43H9abVMzkw9vsKrIw8Pm3M4OX",
+  "mime": "application/pdf",
+  "modified": "2026-11-20T17:28:46.365Z",
+  "name": "NIST AI 600-1 Generative AI Profile (National Institute of Standards and Technology)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1VAzgBB43H9abVMzkw9vsKrIw8Pm3M4OX/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
   "copy": "raw/web/2026-11-05 NSF AI-Ready America Workshop Report.md",
   "folder": false,
   "id": "14tLUuKn03M1sJZX-vyisHQlrGsR6Zb9x",
@@ -514,6 +658,18 @@
   "name": "Newsom SB 1047 veto message 2024-09-29 (web) (Office of Governor Gavin Newsom, 2024-09-29)",
   "path": "CalCompute Library",
   "url": "https://drive.google.com/file/d/1P_QtASHBF3lROeWa0o_HISv9e7jMf1xe/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-19 OMB M-25-21 Accelerating federal use of AI.md",
+  "folder": false,
+  "id": "1onn_dC4zVl4ZwDxUZuao-KsdQp_szEHU",
+  "mime": "application/pdf",
+  "modified": "2026-11-20T17:28:48.354Z",
+  "name": "OMB M-25-21 Accelerating federal use of AI (Office of Management and Budget)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1onn_dC4zVl4ZwDxUZuao-KsdQp_szEHU/view?usp=drivesdk"
  },
  {
   "bot": "writes",
@@ -614,6 +770,42 @@
  {
   "bot": "writes",
   "by": "",
+  "copy": "raw/web/2026-11-20 UC AFSCME EX contract.md",
+  "folder": false,
+  "id": "1u7vSj7py14iR0ELSxrKIOT-_okZNzu2Y",
+  "mime": "application/pdf",
+  "modified": "2026-11-21T08:14:10.121Z",
+  "name": "UC AFSCME EX contract (University of California)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1u7vSj7py14iR0ELSxrKIOT-_okZNzu2Y/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-20 UC AFSCME SX contract.md",
+  "folder": false,
+  "id": "1wop5VWWyOO_duIhBLqh-BxRZcRsuzq_C",
+  "mime": "application/pdf",
+  "modified": "2026-11-21T08:14:12.195Z",
+  "name": "UC AFSCME SX contract (University of California)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1wop5VWWyOO_duIhBLqh-BxRZcRsuzq_C/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-20 UC CNA NX nurse contract 2025-2030.md",
+  "folder": false,
+  "id": "1Bc_bUHvAXuWX9YG2jC_rEGscmbZ0DlB7",
+  "mime": "application/pdf",
+  "modified": "2026-11-21T08:14:14.985Z",
+  "name": "UC CNA NX nurse contract 2025-2030 (University of California)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1Bc_bUHvAXuWX9YG2jC_rEGscmbZ0DlB7/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
   "copy": "raw/shared/2026-10-13 UC Regents B4 Update on Artificial Intelligence.md",
   "folder": false,
   "id": "1bEgvsnJ87GEOsFA5aTjkXwQfYVRr73YK",
@@ -626,6 +818,126 @@
  {
   "bot": "writes",
   "by": "",
+  "copy": "raw/web/2026-11-20 UC Teamsters CX contract 2022-2026.md",
+  "folder": false,
+  "id": "1WagZZLBDp28QsVuj9jzYKO5u3IAr9gKw",
+  "mime": "application/pdf",
+  "modified": "2026-11-21T08:14:20.191Z",
+  "name": "UC Teamsters CX contract 2022-2026 (University of California)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1WagZZLBDp28QsVuj9jzYKO5u3IAr9gKw/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-20 UC UAW BX BR contract 2026-2029.md",
+  "folder": false,
+  "id": "1YYhr62slqFe-xVEI2obQyWtPVYol6Zx0",
+  "mime": "application/pdf",
+  "modified": "2026-11-21T08:14:23.961Z",
+  "name": "UC UAW BX BR contract 2026-2029 (University of California)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1YYhr62slqFe-xVEI2obQyWtPVYol6Zx0/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-20 UC UAW PX postdoc contract 2022-2027.md",
+  "folder": false,
+  "id": "1inJn_N6Pa999C5FZo-6wyXWsq5eYa06M",
+  "mime": "application/pdf",
+  "modified": "2026-11-21T08:14:27.102Z",
+  "name": "UC UAW PX postdoc contract 2022-2027 (University of California)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1inJn_N6Pa999C5FZo-6wyXWsq5eYa06M/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-20 UC UC-AFT IX lecturer contract 2021-2026.md",
+  "folder": false,
+  "id": "17COliRcf12EO6iaaZBBXhio5aUrEIV-w",
+  "mime": "application/pdf",
+  "modified": "2026-11-21T08:14:30.211Z",
+  "name": "UC UC-AFT IX lecturer contract 2021-2026 (University of California)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/17COliRcf12EO6iaaZBBXhio5aUrEIV-w/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-20 UC UPTE HX contract Article 16 Management Rights.md",
+  "folder": false,
+  "id": "1TX4YH21Yq3po-NeFsr82Z00CkZUfAJfW",
+  "mime": "application/pdf",
+  "modified": "2026-11-21T08:14:32.159Z",
+  "name": "UC UPTE HX contract Article 16 Management Rights (University of California)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1TX4YH21Yq3po-NeFsr82Z00CkZUfAJfW/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-20 UC UPTE HX contract Article 37 Subcontracting.md",
+  "folder": false,
+  "id": "1J9BvONw4yo2PKQfDWuZeG-9op58VlFTA",
+  "mime": "application/pdf",
+  "modified": "2026-11-21T08:14:33.972Z",
+  "name": "UC UPTE HX contract Article 37 Subcontracting (University of California)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1J9BvONw4yo2PKQfDWuZeG-9op58VlFTA/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-20 UC UPTE RX contract Article 19 Management Rights.md",
+  "folder": false,
+  "id": "1Fzs4jCgnn1ojzp8NXdz4FZzdZKv_BJ9g",
+  "mime": "application/pdf",
+  "modified": "2026-11-21T08:14:35.664Z",
+  "name": "UC UPTE RX contract Article 19 Management Rights (University of California)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1Fzs4jCgnn1ojzp8NXdz4FZzdZKv_BJ9g/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-20 UC UPTE RX contract Article 40 Subcontracting.md",
+  "folder": false,
+  "id": "1OQfI37aZKxxz1f8Oe3YnG7dF8Do2PZHC",
+  "mime": "application/pdf",
+  "modified": "2026-11-21T08:14:37.433Z",
+  "name": "UC UPTE RX contract Article 40 Subcontracting (University of California)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1OQfI37aZKxxz1f8Oe3YnG7dF8Do2PZHC/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-20 UC UPTE TX contract Article 19 Management Rights.md",
+  "folder": false,
+  "id": "1cWHGkbDeMF7G5y28QFkmCO1k8wK77A4U",
+  "mime": "application/pdf",
+  "modified": "2026-11-21T08:14:39.304Z",
+  "name": "UC UPTE TX contract Article 19 Management Rights (University of California)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1cWHGkbDeMF7G5y28QFkmCO1k8wK77A4U/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-20 UC UPTE TX contract Article 40 Subcontracting.md",
+  "folder": false,
+  "id": "1FbPznX_yIg-w-CMYRNTQL85zkGcfz4pk",
+  "mime": "application/pdf",
+  "modified": "2026-11-21T08:14:41.023Z",
+  "name": "UC UPTE TX contract Article 40 Subcontracting (University of California)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1FbPznX_yIg-w-CMYRNTQL85zkGcfz4pk/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
   "copy": "raw/shared/2026-10-26 UN Open Source Week 2025 Conference Report.md",
   "folder": false,
   "id": "1wX3Mf7kOpIZJm8-EgMFl8rTirgDMcwMt",
@@ -634,6 +946,30 @@
   "name": "UN Open Source Week 2025 Conference Report (United Nations Office for Digital and Emerging Technologies)",
   "path": "CalCompute Library",
   "url": "https://drive.google.com/file/d/1wX3Mf7kOpIZJm8-EgMFl8rTirgDMcwMt/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-19 USG policy for oversight of DURC and PEPP 2024-05.md",
+  "folder": false,
+  "id": "1cGhnD6d_PgOg3q5T_Awe6Z3ha4gafwvt",
+  "mime": "application/pdf",
+  "modified": "2026-11-20T17:28:49.925Z",
+  "name": "USG policy for oversight of DURC and PEPP 2024-05 (White House Office of Science and Technology Policy)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1cGhnD6d_PgOg3q5T_Awe6Z3ha4gafwvt/view?usp=drivesdk"
+ },
+ {
+  "bot": "writes",
+  "by": "",
+  "copy": "raw/web/2026-11-20 USITC publication 5531 large power transformers from South Korea 2024-08.md",
+  "folder": false,
+  "id": "1pHbjQ_jGV6mk5Z85boZxog5PsjfUm1of",
+  "mime": "application/pdf",
+  "modified": "2026-11-20T17:28:52.044Z",
+  "name": "USITC publication 5531 large power transformers from South Korea 2024-08 (U.S. International Trade Commission, 2024-08)",
+  "path": "CalCompute Library",
+  "url": "https://drive.google.com/file/d/1pHbjQ_jGV6mk5Z85boZxog5PsjfUm1of/view?usp=drivesdk"
  },
  {
   "bot": "writes",
@@ -666,7 +1002,7 @@
   "folder": false,
   "id": "1OkhXriCZg9QwSQ6KU4IlMOvT7XZ5qXtfLrFfzchoNnQ",
   "mime": "application/vnd.google-apps.document",
-  "modified": "2026-11-19T06:30:38.453Z",
+  "modified": "2026-11-21T08:20:49.611Z",
   "name": "0 - LEGISLATIVE CONTENTS",
   "path": "CalCompute Library/Legislative Sources",
   "url": "https://docs.google.com/document/d/1OkhXriCZg9QwSQ6KU4IlMOvT7XZ5qXtfLrFfzchoNnQ/edit?usp=drivesdk"

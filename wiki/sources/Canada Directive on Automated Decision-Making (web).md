@@ -2,7 +2,7 @@
 title: Canada Directive on Automated Decision-Making (web)
 type: source
 created: 2026-11-19
-updated: 2026-11-19
+updated: 2026-11-20
 source_count: 1
 tags: [C, D, canada, international, automated-decisions, algorithmic-impact-assessment, public-sector-ai]
 elements: [C, D]
@@ -45,4 +45,4 @@ A government policy instrument. It states duties for federal departments, by imp
 
 ## Limits
 
-The directive covers only federal institutions under Canada's Policy on Service and Digital. It does not cover provinces, universities or private companies. It does not name generative AI. The page does not show the Algorithmic Impact Assessment questions or how they score a level. It excludes research use, so it does not set rules for a research computing service.
+The directive covers only federal institutions under Canada's Policy on Service and Digital. It does not cover provinces, universities or private companies. It does not name generative AI. The page does not show the Algorithmic Impact Assessment questions or how they score a level. The scoring method and the four score ranges are in [Canada Algorithmic Impact Assessment tool (web)](Canada%20Algorithmic%20Impact%20Assessment%20tool%20%28web%29.md). It excludes research use, so it does not set rules for a research computing service.

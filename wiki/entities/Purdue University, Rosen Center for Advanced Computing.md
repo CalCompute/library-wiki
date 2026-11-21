@@ -2,8 +2,8 @@
 title: "Purdue University, Rosen Center for Advanced Computing"
 type: entity
 created: 2026-11-11
-updated: 2026-11-18
-source_count: 7
+updated: 2026-11-20
+source_count: 9
 tags: [institution, publisher, indiana, campus-compute]
 kind: institution
 elements: [A, B, D, E, F]
@@ -18,6 +18,7 @@ mirror: yes
 
 ## Why they matter
 
+- Element B: it sells time on Anvil to companies at $1.76 a GPU hour, with overhead included ([Purdue RCAC industry partners Anvil external rates (web)](../sources/Purdue%20RCAC%20industry%20partners%20Anvil%20external%20rates%20%28web%29.md)). Anvil has A100 and H100 nodes ([Purdue RCAC Anvil (web)](../sources/Purdue%20RCAC%20Anvil%20%28web%29.md)).
 - Its community cluster program is "20+ years" old ([Purdue RCAC 2025 annual report (web)](../sources/Purdue%20RCAC%202025%20annual%20report%20%28web%29.md)). Researchers buy Gautschi access in units of CPU cores or "5 GPU-year" packages ([Purdue RCAC Gautschi overview (web)](../sources/Purdue%20RCAC%20Gautschi%20overview%20%28web%29.md)).
 - Anvil became a National Artificial Intelligence Research Resource (NAIRR) Pilot resource provider in May 2024. It added 84 NVIDIA H100 GPUs ([Purdue RCAC 2025 annual report (web)](../sources/Purdue%20RCAC%202025%20annual%20report%20%28web%29.md)).
 - RCAC hosts AnvilGPT and Purdue GenAI Studio "entirely on-premises" ([Purdue RCAC 2025 annual report (web)](../sources/Purdue%20RCAC%202025%20annual%20report%20%28web%29.md)).
@@ -31,7 +32,7 @@ mirror: yes
 
 ## Sources
 
-Publisher of 6 sources in this library, and the subject of 1 more.
+Publisher of 8 sources in this library, and the subject of 1 more.
 
 - [Purdue RCAC 2025 annual report (web)](../sources/Purdue%20RCAC%202025%20annual%20report%20%28web%29.md)
 - [Purdue RCAC Gautschi overview (web)](../sources/Purdue%20RCAC%20Gautschi%20overview%20%28web%29.md)
@@ -39,3 +40,5 @@ Publisher of 6 sources in this library, and the subject of 1 more.
 - [Purdue RCAC Community Clusters (web)](../sources/Purdue%20RCAC%20Community%20Clusters%20%28web%29.md)
 - [Purdue RCAC Community Cluster Queues policy (web)](../sources/Purdue%20RCAC%20Community%20Cluster%20Queues%20policy%20%28web%29.md)
 - [Purdue RCAC Anvil Advisory Board (web)](../sources/Purdue%20RCAC%20Anvil%20Advisory%20Board%20%28web%29.md)
+- [Purdue RCAC industry partners Anvil external rates (web)](../sources/Purdue%20RCAC%20industry%20partners%20Anvil%20external%20rates%20%28web%29.md)
+- [Purdue RCAC Anvil (web)](../sources/Purdue%20RCAC%20Anvil%20%28web%29.md)

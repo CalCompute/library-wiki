@@ -2,8 +2,8 @@
 title: "NAIRR and the National Research Platform"
 type: concept
 created: 2026-10-15
-updated: 2026-11-18
-source_count: 26
+updated: 2026-11-20
+source_count: 30
 tags: [A, B, C, D, F]
 elements: [A, B, C, D, F]
 ---
@@ -32,6 +32,9 @@ _This page reports what the sources say. It is not a position of the consortium.
 - **Scale against industry.** A 2023 Brookings article calls the NAIRR commitment of $2.6 billion over six years "modest in comparison to overall spending by industry" ([Ahmed Thompson Brookings industry influence in AI research 2023-12-05 (web)](../sources/Ahmed%20Thompson%20Brookings%20industry%20influence%20in%20AI%20research%202023-12-05%20%28web%29.md)).
 - **Contributed nodes.** NRP pools hardware "across more than 70 institutions". "Institutions contribute nodes and keep priority on their own hardware; when they are not using it, everyone else gets opportunistic access" ([NRP about (web)](../sources/NRP%20about%20%28web%29.md)).
 - **CSU nodes on Nautilus.** The TIDE project adds 72 GPUs to Nautilus. CSU users get preferential scheduling on them, and "up to 20% of resources are available to other Nautilus users" ([SDSU TIDE technology (web)](../sources/SDSU%20TIDE%20technology%20%28web%29.md)).
+- **CSU campus nodes.** Chico State has "a dedicated Nautilus node" through CENIC AIR. Its first server is a loan from UC San Diego of June 2024. The server went on the NRP on April 1, 2025. Chico State also offers "rack space and network infrastructure (Science DMZ) for future expansion of the CENIC AIR network" ([Chico State HPC initiative (web)](../sources/Chico%20State%20HPC%20initiative%20%28web%29.md)).
+- **More CSU campuses on Nautilus.** CSU Bakersfield is adding a node, "contributing resources for community use while providing CSUB research priority access" ([CSU Bakersfield research computing (web)](../sources/CSU%20Bakersfield%20research%20computing%20%28web%29.md)). Sacramento State lists TIDE, "Part of the National Research Platform Nautilus hyper-cluster", with "18 GPU nodes and 6 CPU nodes" ([Sacramento State academic research technologies (web)](../sources/Sacramento%20State%20academic%20research%20technologies%20%28web%29.md)).
+- **Campus request route to Nautilus (CSUF).** At California State University, Fullerton, faculty request Nautilus through a campus form. The requester must agree to "comply with the Acceptable Use Policy" of Nautilus. The article asks users to "acknowledge their support" in publications ([CSUF request for Titan Supercomputing resources (web)](../sources/CSUF%20request%20for%20Titan%20Supercomputing%20resources%20%28web%29.md)).
 - **Operations Center.** NSF says the NAIRR Operations Center will "coordinate participating resource providers" and "operate the national NAIRR portal". It is to take pilot functions "into the long-term national infrastructure". SDSC at UC San Diego leads it, with the Texas Advanced Computing Center. NSF says the pilot "has supported over 800 research projects" ([NSF NAIRR Operations Center update (web)](../sources/NSF%20NAIRR%20Operations%20Center%20update%20%28web%29.md)).
 - **Deep Partnerships.** A NAIRR Pilot track pairs a research team with one industry partner for up to 12 months. "All project results must be open and publishable" ([NAIRR Pilot deep partnerships (web)](../sources/NAIRR%20Pilot%20deep%20partnerships%20%28web%29.md)).
 - **Leadership computer in the pilot.** Horizon is "one of the resources available through the NAIRR Deep Partnership Opportunity". A PI can hold only one Horizon allocation, "either through this solicitation or through the NAIRR solicitation" ([TACC LCCF Horizon allocations (web)](../sources/TACC%20LCCF%20Horizon%20allocations%20%28web%29.md)).

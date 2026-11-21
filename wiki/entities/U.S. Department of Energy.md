@@ -2,7 +2,7 @@
 title: "U.S. Department of Energy"
 type: entity
 created: 2026-11-11
-updated: 2026-11-18
+updated: 2026-11-19
 source_count: 7
 tags: [institution, publisher]
 kind: institution
@@ -25,7 +25,7 @@ mirror: yes
 
 ## Sources
 
-Publisher of 6 sources in this library.
+Publisher of 7 sources in this library.
 
 - [DOE COVID-19 HPC Consortium Q&A 2020-03-30 (web)](../sources/DOE%20COVID-19%20HPC%20Consortium%20Q%26A%202020-03-30%20%28web%29.md)
 - [DOE Genesis Mission 800 million partner commitments (web)](../sources/DOE%20Genesis%20Mission%20800%20million%20partner%20commitments%20%28web%29.md) (Office of the Under Secretary for Science)
@@ -33,3 +33,4 @@ Publisher of 6 sources in this library.
 - [DOE Genesis Mission Collaboration page (web)](../sources/DOE%20Genesis%20Mission%20Collaboration%20page%20%28web%29.md)
 - [DOE Genesis Mission Consortium launch release 2026-02-09 (web)](../sources/DOE%20Genesis%20Mission%20Consortium%20launch%20release%202026-02-09%20%28web%29.md)
 - [DOE Genesis Mission P3 team fact sheet (web)](../sources/DOE%20Genesis%20Mission%20P3%20team%20fact%20sheet%20%28web%29.md)
+- [DOE Large Power Transformer Resilience Report 2024-07 (web)](../sources/DOE%20Large%20Power%20Transformer%20Resilience%20Report%202024-07%20%28web%29.md)

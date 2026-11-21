@@ -2,8 +2,8 @@
 title: F - Partnerships
 type: element
 created: 2026-11-01
-updated: 2026-11-19
-source_count: 259
+updated: 2026-11-20
+source_count: 262
 tags: [F]
 element: F
 elements: [F]
@@ -23,7 +23,7 @@ Source: [SB-53 Gov Code 11546.8](../sources/SB-53%20Gov%20Code%2011546.8.md).
 
 This list groups the library's sources for this element by tier. It does not say what the Report will recommend.
 
-### Primary (100)
+### Primary (101)
 
 - [Anthropic Commercial Terms of Service (web)](../sources/Anthropic%20Commercial%20Terms%20of%20Service%20%28web%29.md): Business terms for the Anthropic API and services: customer owns Outputs; no model training on Customer Content; Usage Policy applies.
 - [Anthropic Usage Policy 2026-11-12](../sources/Anthropic%20Usage%20Policy%202026-11-12.md): The Anthropic Usage Policy has three tiers: Universal Usage Standards, High-risk Use Case Requirements and Additional Use Case Guidelines.
@@ -83,6 +83,7 @@ This list groups the library's sources for this element by tier. It does not say
 - [GovOps departments](../sources/GovOps%20departments.md): 15 entities; CalHR sets job classifications and training; Learning Lab is a state grantmaker.
 - [GovOps homepage](../sources/GovOps%20homepage.md): GovOps oversees 16 departments, including CDT, CalHR and Learning Lab; leads AI oversight. Lists the pages taken.
 - [GovOps more efficient California](../sources/GovOps%20more%20efficient%20California.md)
+- [HHS sample business associate agreement provisions (web)](../sources/HHS%20sample%20business%20associate%20agreement%20provisions%20%28web%29.md): HHS sample HIPAA business associate agreement provisions (2013): the ten required terms, permitted uses, breach reports, subcontractors, return or destruction of data; not required, may not suffice under State law
 - [Hochul Empire AI Beta fully online (web)](../sources/Hochul%20Empire%20AI%20Beta%20fully%20online%20%28web%29.md): NY Governor: Empire AI Beta online at the University at Buffalo, 300+ projects queued, Gamma facility due end of 2027
 - [Hochul Empire AI Beta launch 2025-06-26 (web)](../sources/Hochul%20Empire%20AI%20Beta%20launch%202025-06-26%20%28web%29.md): NY Governor: ESD Board approves $40M for Empire AI Beta; gives the state, SUNY, institutional and philanthropic funding mix
 - [IndiaAI notice INDAI-122-2026 General Manager Compute (web)](../sources/IndiaAI%20notice%20INDAI-122-2026%20General%20Manager%20Compute%20%28web%29.md): IndiaAI job notice for a contract General Manager, Compute: runs the compute pillar, finalises the PPP model, drafts the RFP, manages bids and SLAs.
@@ -131,7 +132,7 @@ This list groups the library's sources for this element by tier. It does not say
 - [PEARC 2025 Empire AI model for provisioning AI and HPC](../sources/PEARC%202025%20Empire%20AI%20model%20for%20provisioning%20AI%20and%20HPC.md): Empire AI: $250M state capital, $150M from members, nonprofit governance, member-ranked proposals
 - [SciPy Majora-4af1f417-002 JupyterHub paper (web)](../sources/SciPy%20Majora-4af1f417-002%20JupyterHub%20paper%20%28web%29.md): Suen et al. 2018: equity, scale and sustainability of JupyterHub teaching infrastructure; cloud credits, staffing, regional hubs.
 
-### Institutional (150)
+### Institutional (152)
 
 - [AARC-I044 Implementers Guide to the WISE Baseline AUP (web)](../sources/AARC-I044%20Implementers%20Guide%20to%20the%20WISE%20Baseline%20AUP%20%28web%29.md): How to show one acceptable use policy to a user once, across many research services; community-first and user-first examples (2019).
 - [ABCI about (web)](../sources/ABCI%20about%20%28web%29.md): Japan's ABCI: open AI compute built by AIST, run by AISol; ABCI 3.0 since January 2025; from FY2024 mainly for domestic industry, academia and government.
@@ -162,6 +163,7 @@ This list groups the library's sources for this element by tier. It does not say
 - [CENIC membership (web)](../sources/CENIC%20membership%20%28web%29.md): Five membership classes; Charter Associates form the board and set policy; the others get a direct or indirect connection.
 - [CENIC research education and cultural community (web)](../sources/CENIC%20research%20education%20and%20cultural%20community%20%28web%29.md): 34 research, private education and cultural institutions on CalREN behind a Charter Associate; no per-bit charge; nearly 100 peers.
 - [CFPIC who we are (web)](../sources/CFPIC%20who%20we%20are%20%28web%29.md): Nonprofit founded in 2004 that partners with county human services agencies; its board is ten county agency directors.
+- [Chico State HPC initiative (web)](../sources/Chico%20State%20HPC%20initiative%20%28web%29.md): Chico State's Nautilus node on the NRP through CENIC AIR: UC San Diego server loan (2024), online April 2025, four NVIDIA-donated servers; rack space for more CSU nodes.
 - [Chips for Humanity homepage (web)](../sources/Chips%20for%20Humanity%20homepage%20%28web%29.md): Nonprofit buys compute and passes it at cost to AI safety researchers outside frontier labs: about $1 for every $500 of lab research compute.
 - [CITRIS About (web)](../sources/CITRIS%20About%20%28web%29.md): Four-campus UC institute that the Legislature created in 2001; each campus's role; Sutardja Dai Hall labs and the CITRIS Foundry.
 - [CITRIS advisory board (web)](../sources/CITRIS%20advisory%20board%20%28web%29.md): CITRIS Advisory Board: 16 current members, mostly from industry and investment firms, with a former Governor and the State CIO.
@@ -178,6 +180,7 @@ This list groups the library's sources for this element by tier. It does not say
 - [CROSS homepage](../sources/CROSS%20homepage.md): Thin homepage; CROSS funds student open source projects and works with the six-campus UC OSPO Network. Lists the pages taken.
 - [CSCS annual report 2022 (web)](../sources/CSCS%20annual%20report%202022%20%28web%29.md): CSCS in 2022: 139 projects, 2,430 users, 119 staff; income CHF 57.9 million, mostly from ETH Zurich and the ETH Board.
 - [CSIS If Compute Is the New Oil](../sources/CSIS%20If%20Compute%20Is%20the%20New%20Oil.md): Commentary on compute as a strategic resource in the Gulf; links a UC record on data center energy use
+- [CSU Bakersfield research computing (web)](../sources/CSU%20Bakersfield%20research%20computing%20%28web%29.md): CSU Bakersfield's Research Hub: NRP, Cal-ICOR and a beta campus HPC cluster for CS and Math only; CSUB adds a Nautilus node with priority access for its research.
 - [CSUSB high performance computing article (web)](../sources/CSUSB%20high%20performance%20computing%20article%20%28web%29.md): CSU San Bernardino's High Performance Computing Initiative, its NSF sub-award for cyberinfrastructure staff and its CENIC and PRP links.
 - [CZI homepage (web)](../sources/CZI%20homepage%20%28web%29.md): CZI, founded 2015 by Priscilla Chan and Mark Zuckerberg: about $7.22 billion in grants since 2015; AI-powered biology at the Biohub.
 - [DPI Safeguards resources page (web)](../sources/DPI%20Safeguards%20resources%20page%20%28web%29.md): DPI Safeguards Initiative of UN ODET and UNDP: resource hub, knowledge library, Framework guide, adoption pathways, assessment, and outside DPI resources.

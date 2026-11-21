@@ -2,7 +2,7 @@
 title: OLCF INCITE 2027 call for proposals (web)
 type: source
 created: 2026-11-19
-updated: 2026-11-19
+updated: 2026-11-20
 source_count: 1
 tags: [A, D, doe, incite, leadership-computing, national-laboratory, allocations, peer-review, early-career]
 elements: [A, D]
@@ -41,7 +41,7 @@ The OLCF at Oak Ridge National Laboratory and the Argonne Leadership Computing F
 
 ## Evidence and method
 
-A facility news article of about 1,400 words, with the related article list. It states the call terms and quotes two laboratory directors. The full call text is on doeleadershipcomputing.org, which this library does not hold.
+A facility news article of about 1,400 words, with the related article list. It states the call terms and quotes two laboratory directors. The full call text is on doeleadershipcomputing.org: [INCITE call for proposals (web)](INCITE%20call%20for%20proposals%20%28web%29.md).
 
 ## Limits
 

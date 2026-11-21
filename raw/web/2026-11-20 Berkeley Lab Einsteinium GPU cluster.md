@@ -1,0 +1,499 @@
+---
+url: https://scienceit-docs.lbl.gov/hpc/systems/einsteinium/
+fetched: 2026-11-20
+publisher: "Lawrence Berkeley National Laboratory, Science IT"
+published: unknown
+original: 2026-11-20 Berkeley Lab Einsteinium GPU cluster.html
+rehost: yes
+---
+
+_Markdown copy of 2026-11-20 Berkeley Lab Einsteinium GPU cluster.html, made 2026-11-20. The original is the authority._
+[ ]
+[ ]
+
+[Skip to content](#einsteinium-gpu-cluster)
+
+[![logo](../../../assets/scienceitlogo.png)](../../.. "ScienceIT Technical Documentation")
+
+ScienceIT Technical Documentation
+
+GPU Cluster
+
+Initializing search
+
+* [Home](../../..)
+* [High Performance Computing](../../)
+* [Kubernetes](../../../kubernetes/)
+* [Globus Transfer System](../../../data/globus/)
+* [Cloud Services](../../../cloud/)
+* [ComputeView](https://computeview.lbl.gov/)
+* [Support & Training](../../../help/)
+
+[![logo](../../../assets/scienceitlogo.png)](../../.. "ScienceIT Technical Documentation")
+ScienceIT Technical Documentation
+
+* [Home](../../..)
+* [x]
+
+  [High Performance Computing](../../)
+
+  High Performance Computing
+  + [Getting Started](../../getting-started/)
+  + [Frequently Asked Questions](../../faqs/)
+  + [Jobscript Generator](https://lbnl-science-it.github.io/lrc-jobscript/)
+  + [ ]
+
+    Account Management
+
+    Account Management
+    - [Project Accounts](../../accounts/project-accounts/)
+    - [User Accounts](../../accounts/user-accounts/)
+    - [Using the MyLRC Portal](../../accounts/mylrc/)
+    - [Charges and Billing](../../accounts/charges/)
+    - [Logging in](../../accounts/loggingin/)
+    - [Multi-Factor Authentication](../../accounts/mfa/)
+  + [x]
+
+    Computing Systems
+
+    Computing Systems
+    - [CPU Cluster](../lawrencium/)
+    - [ ]
+
+      GPU Cluster
+
+      [GPU Cluster](./)
+
+      Table of contents
+      * [es3 Partition](#es3-partition)
+
+        + [How to specify desired GPU card(s)](#how-to-specify-desired-gpu-cards)
+      * [es2 Partition](#es2-partition)
+
+        + [How to specify desired GPU card(s)](#how-to-specify-desired-gpu-cards_1)
+      * [es1 Partition](#es1-partition)
+
+        + [How to specify desired GPU card(s)](#how-to-specify-desired-gpu-cards_2)
+      * [es0 Partition](#es0-partition)
+    - [ ]
+
+      Supported Research Clusters
+
+      Supported Research Clusters
+      * [ALSACC](../supported/alsacc/)
+      * [CATAMOUNT](../supported/catamount/)
+      * [CATSCAN](../supported/catscan/)
+      * [DIRAC1](../supported/dirac1/)
+      * [ETNA](../supported/etna/)
+      * [MHG](../supported/mhg/)
+  + [ ]
+
+    Data Transfer
+
+    Data Transfer
+    - [Using the lrc-xfer DTN](../../data-transfer-node/)
+    - [Globus for Lawrencium](../../../data/globus-instructions/)
+  + [ ]
+
+    Software
+
+    Software
+    - [Software Module Farm](../../software/software-module-farm/)
+    - [Module Management](../../software/module-management/)
+    - [ ]
+
+      Compilers
+
+      Compilers
+      * [GCC](../../software/compilers/gcc/)
+      * [Intel](../../software/compilers/intel/)
+      * [NVHPC](../../software/compilers/nvhpc/)
+    - [ ]
+
+      Languages
+
+      Languages
+      * [Python](../../software/languages/python/)
+      * [Julia](../../software/languages/julia/)
+      * [R](../../software/languages/R/)
+    - [ ]
+
+      Machine Learning
+
+      Machine Learning
+      * [PyTorch](../../software/ml/pytorch/)
+      * [Ray](../../software/ml/ray/)
+      * [TensorFlow](../../software/ml/tensorflow/)
+      * [Alphafold3](../../software/ml/alphafold3/)
+    - [ ]
+
+      Applications
+
+      Applications
+      * [VASP](../../software/applications/vasp/)
+    - [ ]
+
+      MPI
+
+      MPI
+      * [Open MPI](../../software/mpi/openmpi/)
+      * [Intel MPI](../../software/mpi/intelmpi/)
+    - [ ]
+
+      Libraries
+
+      Libraries
+      * [FFTW](../../software/libraries/fftw/)
+      * [HDF5](../../software/libraries/hdf5/)
+      * [NetCDF](../../software/libraries/netcdf/)
+      * [MKL](../../software/libraries/mkl/)
+      * [CUDA](../../software/libraries/cuda/)
+    - [ ]
+
+      Profiling Tools
+
+      Profiling Tools
+      * [GNU Gprof](../../software/performance/gnu-gprof/)
+      * [Intel VTune](../../software/performance/intel-vtune/)
+    - [ ]
+
+      LLMs
+
+      LLMs
+      * [Ollama](../../software/llms/ollama/)
+      * [vLLM](../../software/llms/vllm/)
+    - [ ]
+
+      Containers
+
+      Containers
+      * [Apptainer](../../software/containers/apptainer/)
+  + [ ]
+
+    Running Jobs
+
+    Running Jobs
+    - [Slurm Overview](../../running/slurm-overview/)
+    - [Example Scripts](../../running/script-examples/)
+    - [Monitor Jobs](../../running/monitor-jobs/)
+    - [GNU Parallel](../../running/gnu-parallel/)
+  + [ ]
+
+    Using Open OnDemand
+
+    Using Open OnDemand
+    - [Open OnDemand Overview](../../openondemand/overview/)
+    - [Jupyter Server](../../openondemand/jupyter-server/)
+    - [Ollama with Jupyter and VS Code](../../openondemand/ollama-jupyter-vscode/)
+    - [Adding Packages and Kernels](../../openondemand/packages-kernels/)
+  + [ ]
+
+    AI Tools
+
+    AI Tools
+    - [Using AI Agents on Lawrencium](../../ai-tools/ai-agents/)
+    - [Running AI Agents on Compute Nodes](../../ai-tools/tmux-slurm/)
+    - [Lawrencium Skill](../../ai-tools/lawrencium-skill/)
+    - [Using Claude Science with Lawrencium](../../ai-tools/claude-science/)
+  + [Acknowledgement](../../acknowledgement/)
+* [ ]
+
+  [Kubernetes](../../../kubernetes/)
+
+  Kubernetes
+  + [Berkelium Portal](https://berkelium.scs.lbl.gov)
+  + [National Research Platform](../../../nrp/)
+* [ ]
+
+  Globus Transfer System
+
+  Globus Transfer System
+  + [Globus](../../../data/globus/)
+  + [Globus for Lawrencium](../../../data/globus-instructions/)
+  + [Globus for Google Drive](../../../data/globus-google-drive/)
+  + [Using the Globus AWS S3 Connector](../../../data/globus-aws-s3-connector/)
+  + [Using the Globus Google Cloud Storage Connector](../../../data/globus-google-cloud-storage-connector/)
+* [ ]
+
+  [Cloud Services](../../../cloud/)
+
+  Cloud Services
+  + [ ]
+
+    Cloud Service Providers
+
+    Cloud Service Providers
+    - [Amazon Web Services](../../../cloud/aws/)
+    - [Google Cloud Platform](../../../cloud/gcp/)
+  + [Google Cloud Skills Boost](../../../cloud/gcp-skills-boost/)
+* [ComputeView](https://computeview.lbl.gov/)
+* [ ]
+
+  [Support & Training](../../../help/)
+
+  Support & Training
+  + [Training](../../../help/training/)
+  + [Asking LLMs](../../../help/llms/)
+
+Table of contents
+
+* [es3 Partition](#es3-partition)
+
+  + [How to specify desired GPU card(s)](#how-to-specify-desired-gpu-cards)
+* [es2 Partition](#es2-partition)
+
+  + [How to specify desired GPU card(s)](#how-to-specify-desired-gpu-cards_1)
+* [es1 Partition](#es1-partition)
+
+  + [How to specify desired GPU card(s)](#how-to-specify-desired-gpu-cards_2)
+* [es0 Partition](#es0-partition)
+
+# Einsteinium GPU Cluster[¶](#einsteinium-gpu-cluster "Permanent link")
+
+Einsteinium is an institutional GPU cluster that was deployed to meet the growing computational demand for researchers doing machine learning and deep learning. The system is named after the chemical element with symbol `Es` and atomic number 99 which was discovered at Lawrence Berkeley National Laboratory in 1952 and in honor of Albert Einstein who developed the theory of relativity.
+
+## `es3` Partition[¶](#es3-partition "Permanent link")
+
+`es3` is a partition consisting of `RTX PRO 6000 Blackwell` GPU nodes built on AMD EPYC processors, providing a high core count per node alongside four GPU cards. `es3` partition nodes were introduced in 2026 to support growing AI/ML workflow needs. Five of the `es3` nodes are condo nodes.
+
+| Accelerator | Nodes | GPUs per Node/GPU Memory | CPU Processor | CPU Cores per Node | CPU RAM per Node | Infiniband |
+| --- | --- | --- | --- | --- | --- | --- |
+| NVIDIA RTX PRO 6000 Blackwell | 12 | 4x 96 GB | AMD EPYC 9754 | 128 | 384 GB or 768 GB | HDR |
+
+### How to specify desired GPU card(s)[¶](#how-to-specify-desired-gpu-cards "Permanent link")
+
+Two `qos` values are available on the `es3` partition:
+
+| QoS | Limits | Notes |
+| --- | --- | --- |
+| `es3_normal` | 3-day max wall time, up to 5 nodes per user | Standard priority |
+| `es3_lowprio` | Low priority (available to condo and `ac_` accounts) | Free of charge; jobs can be preempted and requeued when condo owners need their nodes. Not available `pc_` accounts |
+
+Checkpoint your `es3_lowprio` jobs
+
+Jobs under `es3_lowprio` can be preempted at any time. Save checkpoint files regularly so that a preempted job can resume from its last checkpoint after it is requeued.
+
+Due to hardware configuation, special attention is needed to ensure the ratio of CPU-core# to GPU#. You must request 32 CPU cores for each GPU card on the `es3` partition. Together with the [charging factor](../../#gpu-partitions-recharge-rates) of 1.0 for the `es3` partition, this means that each `GPU-hour` under `es3_normal` incurs at least 32 Service Units (SUs).
+
+Examples:
+
+* Request one RTX PRO 6000 card: `--partition=es3 --gres=gpu:RTX6000:1 --cpus-per-task=32 --ntasks=1`
+* Request four RTX PRO 6000 cards: `--partition=es3 --gres=gpu:RTX6000:4 --cpus-per-task=32 --ntasks=4`
+
+Example slurm script on `es3`
+
+Single GPUFour GPUs on a node
+
+```
+#!/bin/bash
+#SBATCH --job-name=test
+#SBATCH --account=account_name
+#SBATCH --partition=es3
+#SBATCH --qos=es3_normal
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:RTX6000:1
+#SBATCH --time=1:00:00
+
+module load ml/pytorch
+python train.py
+```
+
+```
+#!/bin/bash
+#SBATCH --job-name=test
+#SBATCH --account=account_name
+#SBATCH --partition=es3
+#SBATCH --qos=es3_normal
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:RTX6000:4
+#SBATCH --time=1:00:00
+
+module load ml/pytorch
+python train.py
+```
+
+## `es2` Partition[¶](#es2-partition "Permanent link")
+
+`es2` is a partition consisting of `H100` and `H200` GPU nodes. These nodes have been added in 2024 and 2025 to meet AI/LLM related research needs in addition to the growing use of GPUs in scientific computing.
+
+| Accelerator | Nodes | GPUs per Node/GPU Memory | CPU Processor | CPU Cores per Node | CPU RAM per Node | Infiniband |
+| --- | --- | --- | --- | --- | --- | --- |
+| NVIDIA H200 | 3 | 8x 141 GB | Intel Xeon Platinum 8570 | 112 | 2 TB | NDR |
+| NVIDIA H100 | 4 | 8x 80 GB | Intel Xeon Platinum 8480+ | 112 | 1 TB | NDR |
+
+### How to specify desired GPU card(s)[¶](#how-to-specify-desired-gpu-cards_1 "Permanent link")
+
+The normal `qos` for the `es2` partition is called `es2_normal`. The other `qos` values are `es_debug` and `es_lowprio`. Note that `es_lowprio` is not available to PI Computing Allowance (PCA) accounts (`pc_*`).
+
+Due to hardware configuation, special attention is needed to ensure the ratio of CPU-core# to GPU#. You must request 14 CPU cores for each GPU card on the `es2` partitions. Together with the [charging factor](../../#gpu-partitions-recharge-rates) of 4.0 for the `es2` partition, this means that each `GPU-hour` on the `es2` partition incurs at least 56 Service Units (SUs).
+
+Examples:
+
+* Request three H100 cards: `--partition=es2 --gres=gpu:H100:3 --cpus-per-task=14 --ntasks=3`
+* Request one H200 cards: `--partition=es2 --gres=gpu:H200:1 --cpus-per-task=14 --ntasks=1 --mem-per-cpu=18400M`
+
+As seen in the examples, use `--mem-per-cpu=18400M` for H200 nodes since they have more memory than the default on the `es2` partition.
+
+Example slurm script on `es2`
+
+Here is an example slurm script that requests three NVIDIA H100 GPU cards.
+
+Three GPUs on a H100 nodeSingle GPU on a H200 node
+
+```
+#!/bin/bash
+#SBATCH --job-name=test
+#SBATCH --account=account_name
+#SBATCH --partition=es2
+#SBATCH --qos=es2_normal
+#SBATCH --nodes=1
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=14
+#SBATCH --gres=gpu:H100:3
+#SBATCH --time=1:00:00
+
+module load ml/pytorch
+python train.py
+```
+
+```
+#!/bin/bash
+#SBATCH --job-name=test
+#SBATCH --account=account_name
+#SBATCH --partition=es2
+#SBATCH --qos=es2_normal
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=14
+#SBATCH --gres=gpu:H200:1
+#SBATCH --mem-per-cpu=18400M
+#SBATCH --time=1:00:00
+
+module load ml/pytorch
+python train.py
+```
+
+## `es1` Partition[¶](#es1-partition "Permanent link")
+
+`es1` is a partition consisting of multiple GPU node types to address the different research needs. These include:
+
+| Accelerator | Nodes | GPUs per Node/GPU Memory | CPU Processor | CPU Cores per Node | CPU RAM per Node | Infiniband |
+| --- | --- | --- | --- | --- | --- | --- |
+| NVIDIA A100 | 1 | 4x 80 GB | AMD EPYC 7713 | 64 | 512 GB | HDR |
+| NVIDIA A40 | 30 | 4x 48 GB | AMD EPYC 7742 | 64 | 512 GB | FDR |
+| NVIDIA GRTX8000 | 1 | 4x 48 GB | AMD EPYC 7713 | 64 | 512 GB | HDR |
+| NVIDIA V100 | 15 | 2x 32 GB | Intel Xeon E5-2623 | 8 | 64GB or 192GB | FDR |
+
+### How to specify desired GPU card(s)[¶](#how-to-specify-desired-gpu-cards_2 "Permanent link")
+
+The normal `qos` for the `es1` partition is called `es_normal`.
+
+Due to hardware configuation, special attention is needed to ensure the ratio of CPU-core# to GPU#.
+
+Examples:
+
+* Request one V100 card: `--cpus-per-task=4 --gres=gpu:V100:1 --ntasks=1`
+* Request two A40 cards: `--cpus-per-task=16 --gres=gpu:A40:2 --ntasks=2`
+* Request one A100 cards: `--cpus-per-task=16 --gres=gpu:A100:1 --ntasks=1`
+* Request four GRTX8000 cards: `--cpus-per-task=16 --gres==gpu:GRTX8000:4 --ntasks=4`
+
+Example slurm script on `es1`
+
+Here is an example slurm script that requests one NVIDIA A40 GPU card.
+
+Single GPU on a A40 node2 GPUs on a V100 node
+
+```
+#!/bin/bash
+#SBATCH --job-name=test
+#SBATCH --account=account_name
+#SBATCH --partition=es1
+#SBATCH --qos=es_normal
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:A40:1
+#SBATCH --time=1:00:00
+
+module load ml/pytorch
+python train.py
+```
+
+```
+#!/bin/bash
+#SBATCH --job-name=test
+#SBATCH --account=account_name
+#SBATCH --partition=es1
+#SBATCH --qos=es_normal
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:V100:2
+#SBATCH --time=1:00:00
+
+module load ml/pytorch
+python train.py
+```
+
+## `es0` Partition[¶](#es0-partition "Permanent link")
+
+`es0` is a partition with NVIDIA 2080 TI GPUs that do not incur [Service Unit (SU) charges](../../#gpu-partitions-recharge-rates).
+
+| Accelerator | Nodes | GPUs per Node/GPU Memory | CPU Processor | CPU Cores | CPU RAM | Infiniband |
+| --- | --- | --- | --- | --- | --- | --- |
+| NVIDIA 2080TI | 12 | 4x 11 GB | Intel Xeon Silver 4212 | 8 | 96GB | FDR |
+
+Example slurm script on `es0`
+
+Single GPUFour GPUs on a node
+
+```
+#!/bin/bash
+#SBATCH --job-name=testes0
+#SBATCH --account=account_name
+#SBATCH --partition=es0
+#SBATCH --qos=es_normal
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --time=1:00:00
+
+module load ml/pytorch
+python train.py
+```
+
+```
+#!/bin/bash
+#SBATCH --job-name=testes0
+#SBATCH --account=account_name
+#SBATCH --partition=es0
+#SBATCH --qos=es_normal
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:4
+#SBATCH --time=1:00:00
+
+module load ml/pytorch
+python train.py
+```
+
+October 13, 2026
+
+Back to top
+
+[Previous
+
+CPU Cluster](../lawrencium/)
+[Next
+
+ALSACC](../supported/alsacc/)
+
+[![logo](/assets/11_BL_IT_logo_white.png)](https://scienceit.lbl.gov "Lawrence Berkeley National Laboratory")
+
+[Science IT](https://scienceit.lbl.gov) - [IT Division](https://it.lbl.gov) - [Lawrence Berkeley National Laboratory](https://lbl.gov) | [Privacy & Security Notice](https://www.lbl.gov/terms-and-conditions/)

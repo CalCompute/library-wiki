@@ -3,7 +3,7 @@ title: "California Department of Technology"
 type: entity
 created: 2026-10-15
 updated: 2026-11-19
-source_count: 25
+source_count: 26
 tags: [institution, publisher]
 kind: institution
 elements: [A, B, C, D, F, G]
@@ -30,6 +30,7 @@ _Logo: California Department of Technology, [home page](https://cdt.ca.gov/). Fe
 - CDT oversees "statewide IT strategic planning, project delivery, procurement, policy and standards, and enterprise architecture". It is "Home to the State Data Center", and its Director is the State CIO ([CDT About the Department](../sources/CDT%20About%20the%20Department.md)).
 - Its Training & Education Center runs IT leadership academies and a "GenAI Boot Camp" for public sector staff ([CDT workforce development](../sources/CDT%20workforce%20development.md)). Its AI community of practice meets about every two months, with UC speakers ([CDT AI community of practice](../sources/CDT%20AI%20community%20of%20practice.md)).
 - State IT jobs map to a few classifications, Information Technology Technician to Manager II. "Machine Learning Engineer" and "Cloud Architect" are state titles ([CDT IT Classification Mapping](../sources/CDT%20IT%20Classification%20Mapping.md); [CDT career opportunities](../sources/CDT%20career%20opportunities.md)).
+- Its chart of July 1, 2023 gives the monthly pay of each state IT class. The range is $3,896 at the lowest (IT Technician) and $13,048 at the highest (IT Manager II) ([CDT State IT class career path salary ranges 2023-07-01 (web)](../sources/CDT%20State%20IT%20class%20career%20path%20salary%20ranges%202023-07-01%20%28web%29.md)).
 - Its Technology Letter 25-01 set the state's GenAI policies, State Administrative Manual (SAM) 4986.1 to 4986.13, effective Feb. 20, 2025. They apply "to all GenAI procured or developed by a state entity" ([CDT Technology Letter 25-01 (web)](../sources/CDT%20Technology%20Letter%2025-01%20%28web%29.md)). Its model GenAI contract terms make State prompts and their output State Data ([CDT GenAI Special Provisions January 2025 (web)](../sources/CDT%20GenAI%20Special%20Provisions%20January%202025%20%28web%29.md)).
 - CDT's new SITeS portal offers Anthropic's Claude to state agencies ([GovOps more efficient California](../sources/GovOps%20more%20efficient%20California.md)).
 - California Managed Cloud (CAMC) gives government organizations Infrastructure as a Service "through trusted providers like Azure and AWS". Its rate is "Vendor Cost +17% Fee" ([CDT California Managed Cloud CAMC (web)](../sources/CDT%20California%20Managed%20Cloud%20CAMC%20%28web%29.md)). CDT's three California Cloud Services skip the California Cloud Services Assessment ([CDT cloud services (web)](../sources/CDT%20cloud%20services%20%28web%29.md)).
@@ -43,7 +44,7 @@ _Logo: California Department of Technology, [home page](https://cdt.ca.gov/). Fe
 
 ## Sources
 
-Publisher of 14 sources in this library.
+Publisher of 26 sources in this library.
 
 - [CDT About the Department](../sources/CDT%20About%20the%20Department.md)
 - [CDT AI community of practice](../sources/CDT%20AI%20community%20of%20practice.md)
@@ -70,3 +71,4 @@ Publisher of 14 sources in this library.
 - [CDT data center services (web)](../sources/CDT%20data%20center%20services%20%28web%29.md)
 - [Cal-Secure 2.0 (web)](../sources/Cal-Secure%202.0%20%28web%29.md)
 - [CDT privacy policy (web)](../sources/CDT%20privacy%20policy%20%28web%29.md)
+- [CDT State IT class career path salary ranges 2023-07-01 (web)](../sources/CDT%20State%20IT%20class%20career%20path%20salary%20ranges%202023-07-01%20%28web%29.md)

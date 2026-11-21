@@ -2,8 +2,8 @@
 title: E - Workforce
 type: element
 created: 2026-11-01
-updated: 2026-11-19
-source_count: 179
+updated: 2026-11-20
+source_count: 195
 tags: [E]
 element: E
 elements: [E]
@@ -23,12 +23,13 @@ Source: [SB-53 Gov Code 11546.8](../sources/SB-53%20Gov%20Code%2011546.8.md).
 
 This list groups the library's sources for this element by tier. It does not say what the Report will recommend.
 
-### Primary (67)
+### Primary (79)
 
 - [AB 1331 chaptered text Chapter 851 of 2026](../sources/AB%201331%20chaptered%20text%20Chapter%20851%20of%202026.md): AB 1331 (Ch. 851, 2026): adds Labor Code Part 5.8 from § 1560; no workplace surveillance tools in workplace bathrooms; public employers included; penalty up to $500 a violation.
 - [AB 1883 chaptered text Chapter 853 of 2026](../sources/AB%201883%20chaptered%20text%20Chapter%20853%20of%202026.md): AB 1883 (Ch. 853, 2026): adds Labor Code Part 5.8 from § 1580; no AI workplace surveillance tool for emotion recognition or neural data; UC and CSU are employers; penalty up to $500 a violation.
 - [AB 2392 Assembly committee analysis](../sources/AB%202392%20Assembly%20committee%20analysis.md): Floor analysis of AB 2392: CCC and CSU working group on GenAI training and procurement standards; cites CSU's $16.9 million ChatGPT Edu contract.
 - [AB 2392 chaptered text Chapter 855 of 2026](../sources/AB%202392%20chaptered%20text%20Chapter%20855%20of%202026.md): AB 2392 (Ch. 855, 2026): adds Ed. Code §§ 66098 to 66098.3; CCC and CSU, and UC by request, convene a working group on GenAI procurement standards and training; recommendations by Jan. 1, 2028.
+- [AB 2504 chaptered text Chapter 305 of 2026](../sources/AB%202504%20chaptered%20text%20Chapter%20305%20of%202026.md): AB 2504 (Ch. 305, 2026): community college pilot, with unions and industry, to reskill creative workers displaced by generative AI; up to 10 colleges; report by Jan. 1, 2032.
 - [California Jobs First Economic Blueprint](../sources/California%20Jobs%20First%20Economic%20Blueprint.md): State strategic sectors (Strengthen, Accelerate, Bet, Anchor) and GO-Biz sector strategies
 - [California Jobs First homepage](../sources/California%20Jobs%20First%20homepage.md): State regional economic program, 13 regions, council of nine agencies co-chaired by GO-Biz and LWDA
 - [California Jobs First regions](../sources/California%20Jobs%20First%20regions.md): The 13 economic regions, their plans and the Regional Data Tool
@@ -46,6 +47,9 @@ This list groups the library's sources for this element by tier. It does not say
 - [CDT IT Classification Mapping](../sources/CDT%20IT%20Classification%20Mapping.md): State IT jobs in six domains map to IT Technician to Manager II; Machine Learning Engineer and Cloud Architect are state titles.
 - [CDT workforce development](../sources/CDT%20workforce%20development.md): Training center for public sector IT staff: academies, a GenAI Boot Camp, no research computing course.
 - [CJF Investment Playbook 2025 (web)](../sources/CJF%20Investment%20Playbook%202025%20%28web%29.md): Jobs First investor guide: $286 million to 13 regions to date, "capital stacking" of federal, state, private and philanthropic funds; counties of each region.
+- [CSU APC Unit 4 contract 2024-2027 (web)](../sources/CSU%20APC%20Unit%204%20contract%202024-2027%20%28web%29.md): CSU contract with Academic Professionals of California for Unit 4, Academic Support, Nov. 20, 2024 to June 30, 2027: a President can contract out work; notice and meet and confer on contracting out of six months or more; fee waiver and training.
+- [CSU CFA Unit 3 contract 2022-2026 (web)](../sources/CSU%20CFA%20Unit%203%20contract%202022-2026%20%28web%29.md): CSU contract with the California Faculty Association for the faculty, Feb. 3, 2022 to June 30, 2025, as modified on March 4, 2024: new instructional technologies count in workload; online teaching and evaluation; faculty rights to course materials and software.
+- [CSU UAW Unit 11 contract 2023-2025 (web)](../sources/CSU%20UAW%20Unit%2011%20contract%202023-2025%20%28web%29.md): CSU contract with UAW Local 4123 for Teaching Associates, Graduate Assistants and Instructional Student Assistants to Oct. 31, 2025: management rights over equipment and staffing; required training counts as workload.
 - [DAS Apprenticeship Innovation Funding (web)](../sources/DAS%20Apprenticeship%20Innovation%20Funding%20%28web%29.md): State formula fund for non-construction apprenticeships, IT included: $95 million allocated; $3,500 per apprentice a year plus $10.32 per training hour.
 - [DAS e-News 2024 zSystems apprenticeship (web)](../sources/DAS%20e-News%202024%20zSystems%20apprenticeship%20%28web%29.md): State mainframe apprenticeship for state staff, started 2019 with a $500,000 grant; three cohorts; 2024 Best Workforce Initiative award.
 - [DOL TEN 07-25 AI Literacy Framework (web)](../sources/DOL%20TEN%2007-25%20AI%20Literacy%20Framework%20%28web%29.md): U.S. Department of Labor notice of Feb. 13, 2026: a voluntary AI Literacy Framework for workforce and education systems; five content areas and seven delivery principles; primary focus on generative AI.
@@ -64,8 +68,10 @@ This list groups the library's sources for this element by tier. It does not say
 - [Governor TIME Person of the Year made in California 2025-12-12 (web)](../sources/Governor%20TIME%20Person%20of%20the%20Year%20made%20in%20California%202025-12-12%20%28web%29.md): "33 of the 50 top AI companies", 15.7% of U.S. AI job postings, and over half of global AI venture capital in the Bay Area. No CalCompute.
 - [GovOps apprenticeships (web)](../sources/GovOps%20apprenticeships%20%28web%29.md): State employee apprenticeship pilots in IT, financial services and mainframe: up to 25 college credits and two years of on-the-job training.
 - [Hochul Empire AI expansion 2025-05-09 (web)](../sources/Hochul%20Empire%20AI%20expansion%202025-05-09%20%28web%29.md): $90 million in FY 2026 capital funding for Empire AI: more computing power, SUNY access, three new members; AI Prep and state workforce training.
+- [IPEDS C2024_A completions dictionary (web)](../sources/IPEDS%20C2024_A%20completions%20dictionary%20%28web%29.md): NCES data dictionary of the 2023-24 IPEDS completions file: awards by CIP program code, award level, race and ethnicity, and gender; codes include Artificial Intelligence and Data Science.
 - [Jobs First 2025 results release](../sources/Jobs%20First%202025%20results%20release.md): $1.6 billion in 2025; 142,000 trained, 61,000 jobs; ETP, apprenticeship and HRTP channels
 - [LAO 2021-22 Cal Institutes for Science and Innovation (web)](../sources/LAO%202021-22%20Cal%20Institutes%20for%20Science%20and%20Innovation%20%28web%29.md): LAO review of a $20 million one-time proposal for the four UC institutes; reports $16.6 million core funding and recommends rejection without stronger justification.
+- [LAO EdBudget Future of Creative Industries Pilot Program (web)](../sources/LAO%20EdBudget%20Future%20of%20Creative%20Industries%20Pilot%20Program%20%28web%29.md): LAO table of community college Proposition 98 spending:  million in 2026-27 for the Future of Creative Industries Pilot Project, a new line.
 - [Maryland Chapter 633 of 2026 SB 597 (web)](../sources/Maryland%20Chapter%20633%20of%202026%20SB%20597%20%28web%29.md): Maryland law: AI Partnership in the University System of Maryland, regional technology hubs, an AI Public Service Fellowship and an AI Incubation Lab for agencies.
 - [Mississippi ITS AI Innovation Student Teams (web)](../sources/Mississippi%20ITS%20AI%20Innovation%20Student%20Teams%20%28web%29.md): Mississippi's IT agency pairs supervised student teams from three universities with agencies for 6 to 8 week AI proofs of concept; AWS is a Hub partner.
 - [Newsom SB-53 signing release 2025-09-29](../sources/Newsom%20SB-53%20signing%20release%202025-09-29.md): The release describes CalCompute in one line, under "Innovation".
@@ -88,7 +94,13 @@ This list groups the library's sources for this element by tier. It does not say
 - [SB-53 Senate GO analysis 2025-03-25](../sources/SB-53%20Senate%20GO%20analysis%202025-03-25.md): Excerpt of the CalCompute passages of the Senate Governmental Organization analysis. The full copy is the (web) page.
 - [SB-53 Senate GO analysis 2025-03-25 (web)](../sources/SB-53%20Senate%20GO%20analysis%202025-03-25%20%28web%29.md): The first committee analysis of SB 53. It has the enacted mission, UC placement and seven elements, with the March appointment scheme. It says "This bill does not establish CalCompute" and records no opposition.
 - [SB-53 Senate Judiciary analysis 2025-04-08](../sources/SB-53%20Senate%20Judiciary%20analysis%202025-04-08.md)
+- [SEIU Local 1000 State MOU 2023-2026 (web)](../sources/SEIU%20Local%201000%20State%20MOU%202023-2026%20%28web%29.md): State contract with SEIU Local 1000 for nine units, July 1, 2023 to June 30, 2026: notice and impact bargaining on automation and technological change; every effort to use unit employees before private contractors; IT Joint Apprenticeship Committee.
+- [UC CNA NX nurse contract 2025-2030 (web)](../sources/UC%20CNA%20NX%20nurse%20contract%202025-2030%20%28web%29.md): UC contract with the California Nurses Association for registered nurses, Nov. 22, 2025 to Jan. 2, 2030: Article 42 says clinical technology, AI included, is not to replace the nurse's role; nurse input on new technology; 90 days notice of subcontracts of $1,000,000 or more.
 - [UC Regents B4 Update on AI 2026-09-16](../sources/UC%20Regents%20B4%20Update%20on%20AI%202026-09-16.md): UC is scoping its own "Sovereign AI Cloud", UC-owned and UC-governed. It does not name CalCompute.
+- [UC UAW BX BR contract 2026-2029 (web)](../sources/UC%20UAW%20BX%20BR%20contract%202026-2029%20%28web%29.md): UC contract with UAW Local 4811 for Academic Student Employees and Graduate Student Researchers to Dec. 31, 2029: UC keeps the right to subcontract and to set research topics and who teaches.
+- [UC UAW PX postdoc contract 2022-2027 (web)](../sources/UC%20UAW%20PX%20postdoc%20contract%202022-2027%20%28web%29.md): UC contract with UAW Local 5810 for Postdoctoral Scholars, LBNL included, to Sept. 30, 2027: UC keeps the right to subcontract; access to required facilities and equipment.
+- [UC UC-AFT IX lecturer contract 2021-2026 (web)](../sources/UC%20UC-AFT%20IX%20lecturer%20contract%202021-2026%20%28web%29.md): UC contract with UC-AFT for lecturers, Dec. 3, 2021 to June 30, 2026: no layoff only for a need of online teaching training; online courses valued as in-person; no subcontracting article.
+- [USAspending NIH award S10GM164901 CSU Dominguez Hills HPC engine (web)](../sources/USAspending%20NIH%20award%20S10GM164901%20CSU%20Dominguez%20Hills%20HPC%20engine%20%28web%29.md): USAspending record of an NIH grant of $224,992 (2026) to the CSU Dominguez Hills Foundation for a shared HPC system for nine major users and five courses.
 - [Washington OFM GenAI impact on state workforce (web)](../sources/Washington%20OFM%20GenAI%20impact%20on%20state%20workforce%20%28web%29.md): Washington State report on GenAI effects on state employees, mitigation strategies, skill programs and the views of labor and management.
 - [White House science initiatives fact sheet 2026-10 (web)](../sources/White%20House%20science%20initiatives%20fact%20sheet%202026-10%20%28web%29.md): Over $6 billion in science initiatives, including $2.4B in industry compute and tools for the Genesis Mission and regional compute hubs.
 - [Wiener SB 294 announcement 2023-09-13](../sources/Wiener%20SB%20294%20announcement%202023-09-13.md)
@@ -101,7 +113,7 @@ This list groups the library's sources for this element by tier. It does not say
 - [SciPy Majora-4af1f417-002 JupyterHub paper (web)](../sources/SciPy%20Majora-4af1f417-002%20JupyterHub%20paper%20%28web%29.md): Suen et al. 2018: equity, scale and sustainability of JupyterHub teaching infrastructure; cloud credits, staffing, regional hubs.
 - [Sommerhoff 2018 What Do We Teach When We Teach the Learning Sciences](../sources/Sommerhoff%202018%20What%20Do%20We%20Teach%20When%20We%20Teach%20the%20Learning%20Sciences.md): 75 learning sciences graduate programs: technology for learning is the most common concept
 
-### Institutional (97)
+### Institutional (101)
 
 - [ACCESS MATCH services (web)](../sources/ACCESS%20MATCH%20services%20%28web%29.md): Free ACCESS mentoring: researchers attend office hours, then get an expert for "typically 1-5 sessions".
 - [ACCESS Resource Advisor announcement (web)](../sources/ACCESS%20Resource%20Advisor%20announcement%20%28web%29.md): ACCESS Resource Catalog, Resource Advisor questionnaire (with wait times) and Software Documentation Service help new users pick a resource; "hundreds of recommendations".
@@ -138,6 +150,9 @@ This list groups the library's sources for this element by tier. It does not say
 - [CPL Tracking AI-Related Job Loss Using UI Claims Data (web)](../sources/CPL%20Tracking%20AI-Related%20Job%20Loss%20Using%20UI%20Claims%20Data%20%28web%29.md): CPL report: no statewide surge in AI-exposed UI claims through May 2026; rises for college-educated, Bay Area and tech-sector workers; descriptive only.
 - [CSET State of AI-Related Apprenticeships (web)](../sources/CSET%20State%20of%20AI-Related%20Apprenticeships%20%28web%29.md): Over 19,000 new AI-related apprentices 2013 to 2023, 68 percent completion; California third with 1,823.
 - [CSU GenAI Advisory Committee 2026 report (web)](../sources/CSU%20GenAI%20Advisory%20Committee%202026%20report%20%28web%29.md): Seven recommendations: renew ChatGPT EDU now, move to a multi-LLM or gateway model, one systemwide AI governance and procurement framework.
+- [CSU statement on student assistants vote to join union (web)](../sources/CSU%20statement%20on%20student%20assistants%20vote%20to%20join%20union%20%28web%29.md): CSU statement: nearly 20,000 student assistants voted to join CSUEU; CSU will begin bargaining; current standards stay until an agreement.
+- [CSUCI students promote HPC 2024 (web)](../sources/CSUCI%20students%20promote%20HPC%202024%20%28web%29.md): CSU Channel Islands HPC club after a 2023 cluster competition win; six students at SC24; TACC-donated cluster of more than 3,000 CPU cores that students run.
+- [CSUF Titan Supercomputing Center (web)](../sources/CSUF%20Titan%20Supercomputing%20Center%20%28web%29.md): CSU Fullerton's Titan Supercomputing Center home page: vision, mission and four pillars (Community, Research, Education, Workforce); links to an Access Request Form; no hardware or rates.
 - [CSUSB high performance computing article (web)](../sources/CSUSB%20high%20performance%20computing%20article%20%28web%29.md): CSU San Bernardino's High Performance Computing Initiative, its NSF sub-award for cyberinfrastructure staff and its CENIC and PRP links.
 - [F3 Innovate about (web)](../sources/F3%20Innovate%20about%20%28web%29.md): Fresno agriculture nonprofit F3 Innovate (F3i); works with UC Merced, UC ANR and CSU Fresno researchers; UC Merced Chancellor is board treasurer.
 - [F3I homepage (web)](../sources/F3I%20homepage%20%28web%29.md): F3i home page: infrastructure for food production and rural economies; talent development, commercialization engine and catalyst fund programs.
@@ -163,6 +178,7 @@ This list groups the library's sources for this element by tier. It does not say
 - [PSC state funding release 2021-07-12 (web)](../sources/PSC%20state%20funding%20release%202021-07-12%20%28web%29.md): PSC: $500K in the 2021-22 Pennsylvania budget for training and outreach; PSC credits it with $200M+ in federal funding
 - [Purdue RCAC 2025 annual report (web)](../sources/Purdue%20RCAC%202025%20annual%20report%20%28web%29.md): Purdue RCAC annual report: community clusters, Anvil on ACCESS and NAIRR, on-prem LLMs, Argonne Lighthouse, course and student use
 - [Purdue RCAC About Us (web)](../sources/Purdue%20RCAC%20About%20Us%20%28web%29.md): RCAC, a division of Purdue IT, operates all central research computing at Purdue and helps faculty with training and grant proposals.
+- [Purdue RCAC Anvil (web)](../sources/Purdue%20RCAC%20Anvil%20%28web%29.md): Purdue's Anvil supercomputer for NSF ACCESS: $10 million NSF award, 1,000 CPU nodes, 16 A100 and 21 H100 nodes of 4 GPUs, five years from 2021.
 - [RAISE at UCR homepage (web)](../sources/RAISE%20at%20UCR%20homepage%20%28web%29.md): UCR's campus AI institute: AI Foundations, Applications and Education; first AI Summit on Oct. 15, 2026.
 - [RAISE at UCR people (web)](../sources/RAISE%20at%20UCR%20people%20%28web%29.md): Eleven thrusts with faculty leads; Kevin Esterling leads Social Sciences, Mariam Salloum leads Education and Outreach.
 - [RMACC About us (web)](../sources/RMACC%20About%20us%20%28web%29.md): RMACC is a consortium of 44 academic and research institutions in the intermountain states, housed at CU Boulder, with a board of directors.

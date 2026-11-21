@@ -2,7 +2,7 @@
 title: ICPSR Virtual Data Enclave restricted data use agreement (web)
 type: source
 created: 2026-11-19
-updated: 2026-11-19
+updated: 2026-11-20
 source_count: 1
 tags: [C, D, icpsr, data-use-agreement, data-enclave, restricted-data, disclosure-review]
 elements: [C, D]
@@ -45,4 +45,4 @@ A legal agreement form of about 5,100 words, with definitions, duties of each pa
 
 ## Limits
 
-The form is for one data provider, MCC. Its OMB control number is a placeholder ("XXXXXXXXXXX"), and it prints no date or version. It does not give the VDE's technical design, its cost or how long ICPSR takes to approve an application. The library does not yet have ICPSR's 2018 restricted data use agreement.
+The form is for one data provider, MCC. Its OMB control number is a placeholder ("XXXXXXXXXXX"), and it prints no date or version. It does not give the VDE's technical design, its cost or how long ICPSR takes to approve an application. ICPSR's general agreement for restricted data that the investigator downloads is a separate form ([ICPSR Restricted Data Use Agreement 2018 (web)](ICPSR%20Restricted%20Data%20Use%20Agreement%202018%20%28web%29.md)).

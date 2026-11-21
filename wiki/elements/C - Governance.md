@@ -2,8 +2,8 @@
 title: C - Governance
 type: element
 created: 2026-11-01
-updated: 2026-11-19
-source_count: 293
+updated: 2026-11-20
+source_count: 301
 tags: [C]
 element: C
 elements: [C]
@@ -23,7 +23,7 @@ Source: [SB-53 Gov Code 11546.8](../sources/SB-53%20Gov%20Code%2011546.8.md).
 
 This list groups the library's sources for this element by tier. It does not say what the Report will recommend.
 
-### Primary (165)
+### Primary (171)
 
 - [15 USC 9415 National AI Research Resource Task Force (web)](../sources/15%20USC%209415%20National%20AI%20Research%20Resource%20Task%20Force%20%28web%29.md): 15 U.S.C. 9415: the NAIRR Task Force, its 12 members, the roadmap contents (ownership, governance, compute, data, funding) and the statutory definition of NAIRR.
 - [2026-10-14 SB-53 Assembly Floor analysis](../sources/2026-10-14%20SB-53%20Assembly%20Floor%20analysis.md): The analysis gives a cost figure for the consortium's own work.
@@ -61,6 +61,7 @@ This list groups the library's sources for this element by tier. It does not say
 - [California GenAI guidelines for public sector procurement uses and training 2024-03 (web)](../sources/California%20GenAI%20guidelines%20for%20public%20sector%20procurement%20uses%20and%20training%202024-03%20%28web%29.md): Interim state guidance under EO N-12-23 on how state entities buy, use and train staff for GenAI: inventory, CIO risk evaluation, CDT consultation, three training phases.
 - [California Jobs First regions](../sources/California%20Jobs%20First%20regions.md): The 13 economic regions, their plans and the Regional Data Tool
 - [California Report on Frontier AI Policy 2025-06-17](../sources/California%20Report%20on%20Frontier%20AI%20Policy%202025-06-17.md): The working group report does not mention CalCompute.
+- [Canada Algorithmic Impact Assessment tool (web)](../sources/Canada%20Algorithmic%20Impact%20Assessment%20tool%20%28web%29.md): Canada's mandatory AIA questionnaire for automated decision systems: 65 risk and 41 mitigation questions, a score that sets one of four impact levels, results published
 - [Canada Directive on Automated Decision-Making (web)](../sources/Canada%20Directive%20on%20Automated%20Decision-Making%20%28web%29.md): Canada's federal rule for automated decision systems: a published algorithmic impact assessment and four impact levels with rules for notice, review, human involvement and approval; research use excluded.
 - [CCC ISTI 25-300-01 AI Literacy](../sources/CCC%20ISTI%2025-300-01%20AI%20Literacy.md): The CCC system has a written AI literacy standard: the PEOPLE framework, six competencies for all students, faculty and staff.
 - [CCC ISTI 25-300-02 AI Safety and Security](../sources/CCC%20ISTI%2025-300-02%20AI%20Safety%20and%20Security.md): The California Community Colleges (CCC) Chancellor's Office tells colleges to test agentic AI in isolated sandboxes.
@@ -125,6 +126,7 @@ This list groups the library's sources for this element by tier. It does not say
 - [GovOps generative AI executive order page (web)](../sources/GovOps%20generative%20AI%20executive%20order%20page%20%28web%29.md): GovOps says it leads the state's GenAI work under Executive Order N-12-23; lists ten linked documents and milestones, November 2023 to February 2025.
 - [GovOps homepage](../sources/GovOps%20homepage.md): GovOps oversees 16 departments, including CDT, CalHR and Learning Lab; leads AI oversight. Lists the pages taken.
 - [GovOps vision mission and goals](../sources/GovOps%20vision%20mission%20and%20goals.md): Goal 1: "Develop the State Workforce".
+- [HHS sample business associate agreement provisions (web)](../sources/HHS%20sample%20business%20associate%20agreement%20provisions%20%28web%29.md): HHS sample HIPAA business associate agreement provisions (2013): the ten required terms, permitted uses, breach reports, subcontractors, return or destruction of data; not required, may not suffice under State law
 - [Hochul Empire AI Beta fully online (web)](../sources/Hochul%20Empire%20AI%20Beta%20fully%20online%20%28web%29.md): NY Governor: Empire AI Beta online at the University at Buffalo, 300+ projects queued, Gamma facility due end of 2027
 - [Hochul Empire AI Beta launch 2025-06-26 (web)](../sources/Hochul%20Empire%20AI%20Beta%20launch%202025-06-26%20%28web%29.md): NY Governor: ESD Board approves $40M for Empire AI Beta; gives the state, SUNY, institutional and philanthropic funding mix
 - [Hochul Empire AI expansion 2025-05-09 (web)](../sources/Hochul%20Empire%20AI%20expansion%202025-05-09%20%28web%29.md): $90 million in FY 2026 capital funding for Empire AI: more computing power, SUNY access, three new members; AI Prep and state workforce training.
@@ -156,6 +158,7 @@ This list groups the library's sources for this element by tier. It does not say
 - [Ohio LSC 2025 catalog of budget line items, Higher Education (web)](../sources/Ohio%20LSC%202025%20catalog%20of%20budget%20line%20items%2C%20Higher%20Education%20%28web%29.md): Ohio LSC budget catalog: state GRF line items give OSC $5,086,000 and OARnet $3,568,000 in each of FY 2025 to FY 2027.
 - [Ohio Revised Code 3333.04 (web)](../sources/Ohio%20Revised%20Code%203333.04%20%28web%29.md): Ohio statute on the chancellor's duties; division (T) has the chancellor appoint consortia for OSC and OARnet, each with a university fiscal agent.
 - [OMB M-25-21 Accelerating federal use of AI (web)](../sources/OMB%20M-25-21%20Accelerating%20federal%20use%20of%20AI%20%28web%29.md): OMB memo replacing M-24-10: agencies name a Chief AI Officer in 60 days, publish AI strategies, and apply minimum practices to high-impact AI within 365 days.
+- [OpenAI privacy policy outside the EEA (web)](../sources/OpenAI%20privacy%20policy%20outside%20the%20EEA%20%28web%29.md): OpenAI consumer privacy policy outside the EEA, UK, Switzerland and U.S. (Feb. 6, 2026): excludes API and business content; trains on Content unless the user opts out; deletes in 30 days with exceptions
 - [OpenAI Services Agreement (web)](../sources/OpenAI%20Services%20Agreement%20%28web%29.md): OpenAI business terms from Jan. 1, 2026: customer owns Output; no use of Customer Content to improve services without consent; deletion within thirty days of termination.
 - [OpenAI Usage Policies 2025-10-29](../sources/OpenAI%20Usage%20Policies%202025-10-29.md): OpenAI has one set of usage policies for all of its products.
 - [PIB Cabinet approves IndiaAI Mission 2024-03-07 (web)](../sources/PIB%20Cabinet%20approves%20IndiaAI%20Mission%202024-03-07%20%28web%29.md): Cabinet approval of the IndiaAI Mission, Rs. 10,371.92 crore, seven components, including 10,000 or more GPUs built through public-private partnership.
@@ -166,9 +169,12 @@ This list groups the library's sources for this element by tier. It does not say
 - [San Diego County artificial intelligence (web)](../sources/San%20Diego%20County%20artificial%20intelligence%20%28web%29.md): County Board Policy A-140 on AI use and a public inventory of 16 AI systems in use, each marked no significant impact.
 - [SB 1000 chaptered text Chapter 861 of 2026](../sources/SB%201000%20chaptered%20text%20Chapter%20861%20of%202026.md): Chapter 861 of 2026, urgency statute: amends the California AI Transparency Act; a covered provider gives a free disclosure verification tool and latent disclosures; $5,000 civil penalty.
 - [SB 1047 CalCompute section 2024-08-29](../sources/SB%201047%20CalCompute%20section%202024-08-29.md): SB 1047's CalCompute section: the same elements as SB-53, report due Jan. 1, 2026; vetoed
+- [SB 1111 chaptered text Chapter 862 of 2026](../sources/SB%201111%20chaptered%20text%20Chapter%20862%20of%202026.md): SB 1111 (Ch. 862, 2026): a voice or likeness in Civ. Code § 3344 includes a digital replica; new Pen. Code § 540 counts a digital replica as false impersonation.
 - [SB 1119 companion chatbot child safety bill text](../sources/SB%201119%20companion%20chatbot%20child%20safety%20bill%20text.md): Chapter 190 of 2026: companion chatbot operators do child safety risk assessments from July 1, 2027 and independent audits; Attorney General enforcement.
 - [SB 1120 chaptered text Chapter 879 of 2024](../sources/SB%201120%20chaptered%20text%20Chapter%20879%20of%202024.md): SB 1120 (Ch. 879, 2024): conditions for AI in health plan and insurer utilization review; the tool must not deny, delay or modify care on medical necessity; open to state inspection.
+- [SB 1159 chaptered text Chapter 863 of 2026](../sources/SB%201159%20chaptered%20text%20Chapter%20863%20of%202026.md): SB 1159 (Ch. 863, 2026): "person" and "member of the public" in seven transparency and governance laws do not include AI systems, agents or robots; agencies can use a disclosure verification tool; new Gov. Code § 8319.
 - [SB 243 chaptered text Chapter 677 of 2025](../sources/SB%20243%20chaptered%20text%20Chapter%20677%20of%202025.md): SB 243 (Ch. 677, 2025): adds Bus. & Prof. Code §§ 22601 to 22606 on companion chatbots; not-human notice, suicide and self-harm protocol, rules for known minors, yearly report from July 1, 2027.
+- [SB 503 chaptered text Chapter 857 of 2026](../sources/SB%20503%20chaptered%20text%20Chapter%20857%20of%202026.md): SB 503 (Ch. 857, 2026): adds Bus. & Prof. Code § 22758 on clinical decision support systems; developers and deployers find and reduce the risk of biased impacts; developers give documentation on training data and evaluation.
 - [SB 524 chaptered text Chapter 587 of 2025](../sources/SB%20524%20chaptered%20text%20Chapter%20587%20of%202025.md): SB 524 (Ch. 587, 2025): adds Pen. Code § 13663; a police report written with AI carries a disclosure and the officer's signature; the agency keeps the first draft and an audit trail.
 - [SB 574 chaptered text Chapter 858 of 2026](../sources/SB%20574%20chaptered%20text%20Chapter%20858%20of%202026.md): SB 574 (Ch. 858, 2026): an attorney must not delegate the practice of law to GenAI and must verify its output; no unverified citations in court papers; an arbitrator must not delegate a decision to GenAI.
 - [SB 813 bill text](../sources/SB%20813%20bill%20text.md): Chapter 179 of 2026: GovOps sets criteria for independent verification organizations that assess AI risks by Jan. 1, 2028; use of an IVO is voluntary.
@@ -196,7 +202,7 @@ This list groups the library's sources for this element by tier. It does not say
 - [LeMahieu 2017 Networked improvement communities](../sources/LeMahieu%202017%20Networked%20improvement%20communities.md): Abstract only: six principles of networked improvement communities (Carnegie Foundation)
 - [PEARC 2025 Empire AI model for provisioning AI and HPC](../sources/PEARC%202025%20Empire%20AI%20model%20for%20provisioning%20AI%20and%20HPC.md): Empire AI: $250M state capital, $150M from members, nonprofit governance, member-ranked proposals
 
-### Institutional (117)
+### Institutional (119)
 
 - [ACCESS acceptable use policy (web)](../sources/ACCESS%20acceptable%20use%20policy%20%28web%29.md): ACCESS AUP v1.4 (Dec. 9, 2025): yearly re-acceptance; no "financial gain" or unlawful use; allocations for "open research intended for publication"; PIs vet project members.
 - [ACCESS Executive Council charter (web)](../sources/ACCESS%20Executive%20Council%20charter%20%28web%29.md): ACCESS Executive Council charter: award PIs and the Resource Provider Forum Chair vote; simple majority; monthly meetings; NSF program officer arbitrates disputes.
@@ -249,6 +255,7 @@ This list groups the library's sources for this element by tier. It does not say
 - [ETH Zurich Alps inauguration release 2024-09 (web)](../sources/ETH%20Zurich%20Alps%20inauguration%20release%202024-09%20%28web%29.md): ETH Zurich inaugurates Alps at CSCS: HPE Cray EX with 10,752 NVIDIA Grace Hopper superchips, sixth on the June 2024 Top500; core of the Swiss AI initiative.
 - [F3i Supercomputing Center (web)](../sources/F3i%20Supercomputing%20Center%20%28web%29.md): F3 Innovate leads; SDSC at UC San Diego gives cyberinfrastructure; CSU Fresno hosts and operates. Priority for California agriculture and biotech users, Central Valley first.
 - [FDP data use agreement template (web)](../sources/FDP%20data%20use%20agreement%20template%20%28web%29.md): FDP one-way data transfer and use agreement template (March 2024): use only for the named project by Authorized Persons; Provider keeps its rights; 30-day manuscript review; one archival copy allowed.
+- [FDP Reciprocal DTUA template 2020-09 (web)](../sources/FDP%20Reciprocal%20DTUA%20template%202020-09%20%28web%29.md): FDP reciprocal data transfer and use agreement template (September 2020): two parties give data to each other for one project; each Receiving Party liable for its own use, no indemnity
 - [Gauss Centre for Supercomputing about (web)](../sources/Gauss%20Centre%20for%20Supercomputing%20about%20%28web%29.md): GCS: a German non-profit association of HLRS, JSC and LRZ, funded jointly by the federal research ministry and three state ministries.
 - [GCS Council (web)](../sources/GCS%20Council%20%28web%29.md): Gauss Centre for Supercomputing (GCS) Council: the body that decides all association matters; nine members from three institutions and the three centres.
 - [GCS funding bodies (web)](../sources/GCS%20funding%20bodies%20%28web%29.md): GCS funding bodies: one federal research ministry and three state ministries fund GCS jointly; the page gives no amounts.
@@ -258,6 +265,7 @@ This list groups the library's sources for this element by tier. It does not say
 - [Genesis Mission Consortium FAQ (web)](../sources/Genesis%20Mission%20Consortium%20FAQ%20%28web%29.md): Genesis Mission Consortium FAQ: no annual dues 'at this time', in-kind member contributions, universities eligible, free Partnership Exchange open to non-members.
 - [Genesis Mission Consortium University Membership (web)](../sources/Genesis%20Mission%20Consortium%20University%20Membership%20%28web%29.md): Genesis Mission Consortium plan for university members: federate a computing, data or lab resource, or commit to AI-for-science workforce development, or both.
 - [Heim et al 2024 Governing Through the Cloud (web)](../sources/Heim%20et%20al%202024%20Governing%20Through%20the%20Cloud%20%28web%29.md): GovAI whitepaper: compute providers as securers, record keepers, verifiers and enforcers in frontier AI regulation; know-your-customer rules under EO 14110.
+- [ICPSR Restricted Data Use Agreement 2018 (web)](../sources/ICPSR%20Restricted%20Data%20Use%20Agreement%202018%20%28web%29.md): ICPSR general agreement for restricted data sent by download or media: PhD and PI-eligible investigators, four kinds of institution, disclosure rules, data destroyed at the end, 24-month term.
 - [ICPSR Virtual Data Enclave restricted data use agreement (web)](../sources/ICPSR%20Virtual%20Data%20Enclave%20restricted%20data%20use%20agreement%20%28web%29.md): ICPSR agreement for restricted MCC data in its Virtual Data Enclave: no download, secure office, disclosure review of all outputs, 24-month term; for-profit and foreign institutions can sign.
 - [Jetstream2 policies (web)](../sources/Jetstream2%20policies%20%28web%29.md): Indiana University research cloud rules: ACCESS AUP applies; an active ACCESS allocation is needed; resources destroyed 30 days after expiry; no protected data without approval.
 - [Jetstream2 privacy policy (web)](../sources/Jetstream2%20privacy%20policy%20%28web%29.md): Jetstream2 website privacy notice (eff. 2021-10-15): covers the website only, not the cloud; Google Analytics; personal data shared only for legal or compliance reasons.

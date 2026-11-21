@@ -2,11 +2,11 @@
 title: "Christopher Cabaldon"
 type: entity
 created: 2026-11-11
-updated: 2026-11-19
-source_count: 1
+updated: 2026-11-20
+source_count: 2
 tags: [person, people, senate]
 kind: person
-elements: [E]
+elements: [C, E]
 ---
 
 # Christopher Cabaldon
@@ -23,6 +23,7 @@ Christopher Cabaldon represents the Third Senate District in the California Stat
 
 - He led the work of the nation's mayors on "college and career pathways" and on "rebooting workforce development" (E) ([Cabaldon Senate biography (web)](../sources/Cabaldon%20Senate%20biography%20%28web%29.md)).
 - He was vice chancellor of the California Community Colleges (E) ([Cabaldon Senate biography (web)](../sources/Cabaldon%20Senate%20biography%20%28web%29.md)).
+- He wrote SB 1159, Chapter 863 of 2026. It keeps AI systems, autonomous agents and robots out of "person" in seven California transparency laws (C) ([SB 1159 chaptered text Chapter 863 of 2026](../sources/SB%201159%20chaptered%20text%20Chapter%20863%20of%202026.md)).
 
 ## Affiliations
 
@@ -38,3 +39,4 @@ Christopher Cabaldon represents the Third Senate District in the California Stat
 ## Sources
 
 - [Cabaldon Senate biography (web)](../sources/Cabaldon%20Senate%20biography%20%28web%29.md)
+- [SB 1159 chaptered text Chapter 863 of 2026](../sources/SB%201159%20chaptered%20text%20Chapter%20863%20of%202026.md)

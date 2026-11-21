@@ -463,6 +463,8 @@ def md5(p):
 
 
 def main():
+    if any(a not in ("--check", "--scaffold") for a in sys.argv[1:]):
+        sys.exit(__doc__)  # an unknown flag (--help) must not fall through to a real push
     if "--scaffold" in sys.argv:
         print("scaffold: listed %d planned items in raw/drive/.listing.json" % write_scaffold())
         return
