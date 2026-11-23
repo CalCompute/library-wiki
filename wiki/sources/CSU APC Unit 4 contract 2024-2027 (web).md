@@ -2,7 +2,7 @@
 title: CSU APC Unit 4 contract 2024-2027 (web)
 type: source
 created: 2026-11-20
-updated: 2026-11-20
+updated: 2026-11-22
 source_count: 1
 tags: [G, E, csu, labor, bargaining, contracting-out, staff, training]
 elements: [G, E]
@@ -47,3 +47,4 @@ A collective bargaining agreement between a public university system and a union
 
 - The agreement has no article on technological change or artificial intelligence. A search of its text finds no use of "technology" or "technological".
 - Its contracting out article has no limit on displacement. The agreement for Units 2, 5, 7 and 9 has one ([CSU CSUEU contract Units 2 5 7 9 2023-2026 (web)](CSU%20CSUEU%20contract%20Units%202%205%207%209%202023-2026%20%28web%29.md)).
+- [CSU APC Unit 4 tentative agreement 2026-10-07 (web)](CSU%20APC%20Unit%204%20tentative%20agreement%202026-10-07%20%28web%29.md) changes Articles 23, 24, 32 and 34. It extends the term to June 30, 2028.

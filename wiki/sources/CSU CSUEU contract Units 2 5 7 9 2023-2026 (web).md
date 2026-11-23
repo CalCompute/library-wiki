@@ -2,7 +2,7 @@
 title: CSU CSUEU contract Units 2 5 7 9 2023-2026 (web)
 type: source
 created: 2026-11-20
-updated: 2026-11-20
+updated: 2026-11-22
 source_count: 1
 tags: [G, csu, labor, bargaining, contracting-out, staff, training]
 elements: [G]
@@ -48,6 +48,6 @@ The full text of a collective bargaining agreement, with its salary schedules an
 ## Limits
 
 - The agreement's own term is July 31, 2022 to June 30, 2026. The file address names "2023-2026".
-- The term ended on June 30, 2026. The library holds no successor agreement or extension for these units.
+- The term ended on June 30, 2026. [CSU CSUEU tentative agreement 2026-10-31 (web)](CSU%20CSUEU%20tentative%20agreement%202026-10-31%20%28web%29.md) is the signed tentative agreement on a successor contract, to June 30, 2029. The library holds no extension for the months between.
 - The text does not name artificial intelligence. Its technology rule is Article 22.9 only.
 - Article 29.3 says that a term with an economic cost waits until the money is appropriated, under Government Code 3572(b).

@@ -3,7 +3,7 @@ title: "University Professional and Technical Employees"
 type: entity
 created: 2026-11-20
 updated: 2026-11-20
-source_count: 8
+source_count: 9
 tags: [institution, G, C]
 kind: institution
 mirror: yes
@@ -16,6 +16,7 @@ elements: [G, C]
 
 - University Professional and Technical Employees (UPTE) represents UC's TX (technical) and RX (research support) units ([UC UPTE TX contract Article 40 Subcontracting (web)](../sources/UC%20UPTE%20TX%20contract%20Article%2040%20Subcontracting%20%28web%29.md)).
 - Its TX contract with UC runs from Nov. 1, 2025 to Sept. 30, 2028 ([UC UPTE TX contract page (web)](../sources/UC%20UPTE%20TX%20contract%20page%20%28web%29.md)).
+- Its successor memorandum with UC, signed Nov. 8, 2025, covers HX, RX and TX from Nov. 7, 2025 to Sept. 30, 2028 ([UPTE UC successor tentative agreement 2025-11-08 (web)](../sources/UPTE%20UC%20successor%20tentative%20agreement%202025-11-08%20%28web%29.md)).
 
 ## Why they matter
 
@@ -32,6 +33,7 @@ elements: [G, C]
 - [UC UPTE RX contract Article 40 Subcontracting (web)](../sources/UC%20UPTE%20RX%20contract%20Article%2040%20Subcontracting%20%28web%29.md)
 - [UC UPTE RX contract Article 19 Management Rights (web)](../sources/UC%20UPTE%20RX%20contract%20Article%2019%20Management%20Rights%20%28web%29.md)
 - [UC UPTE TX contract page (web)](../sources/UC%20UPTE%20TX%20contract%20page%20%28web%29.md)
+- [UPTE UC successor tentative agreement 2025-11-08 (web)](../sources/UPTE%20UC%20successor%20tentative%20agreement%202025-11-08%20%28web%29.md)
 - [UC UPTE HX contract Article 37 Subcontracting (web)](../sources/UC%20UPTE%20HX%20contract%20Article%2037%20Subcontracting%20%28web%29.md)
 - [UC UPTE HX contract Article 16 Management Rights (web)](../sources/UC%20UPTE%20HX%20contract%20Article%2016%20Management%20Rights%20%28web%29.md)
 - [UC HX contract page (web)](../sources/UC%20HX%20contract%20page%20%28web%29.md)

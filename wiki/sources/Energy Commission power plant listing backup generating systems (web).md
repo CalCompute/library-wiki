@@ -2,7 +2,7 @@
 title: Energy Commission power plant listing backup generating systems (web)
 type: source
 created: 2026-11-20
-updated: 2026-11-20
+updated: 2026-11-22
 source_count: 1
 tags: [A, data-centers, energy, backup-generation, california, permitting]
 elements: [A]
@@ -37,7 +37,7 @@ The CEC is a California state agency. Its Power Plant Listing is part of its Pro
 
 ## Evidence and method
 
-A filtered list from a state agency's website. It is a count and a set of names on the fetch date. Each name links to a project page on energy.ca.gov. This library does not hold those project pages.
+A filtered list from a state agency's website. It is a count and a set of names on the fetch date. Each name links to a project page on energy.ca.gov. This library holds the 12 project pages, fetched on 2026-11-22, as the source pages "Energy Commission backup generating project <name> (web)". For example, [Energy Commission backup generating project AVAIO Pittsburg (web)](Energy%20Commission%20backup%20generating%20project%20AVAIO%20Pittsburg%20%28web%29.md).
 
 ## Limits
 
@@ -50,3 +50,16 @@ A filtered list from a state agency's website. It is a count and a set of names 
 
 - [CPUC Decision 25-07-039 interim Electric Rule 30 (web)](CPUC%20Decision%2025-07-039%20interim%20Electric%20Rule%2030%20%28web%29.md): the PG&E rule for transmission-level loads such as data centers.
 - [Digital Realty Form 10-K 2025 (web)](Digital%20Realty%20Form%2010-K%202025%20%28web%29.md) and [Equinix Form 10-K 2025 (web)](Equinix%20Form%2010-K%202025%20%28web%29.md): two data center companies with sites in Silicon Valley and Los Angeles.
+- The 12 project pages. Each gives the docket and status of its facility. Most give the owner, capacity and location.
+  - [AVAIO Pittsburg](Energy%20Commission%20backup%20generating%20project%20AVAIO%20Pittsburg%20%28web%29.md)
+  - [Bowers](Energy%20Commission%20backup%20generating%20project%20Bowers%20%28web%29.md)
+  - [Charcot Avenue](Energy%20Commission%20backup%20generating%20project%20Charcot%20Avenue%20%28web%29.md)
+  - [Lafayette](Energy%20Commission%20backup%20generating%20project%20Lafayette%20%28web%29.md)
+  - [Martin](Energy%20Commission%20backup%20generating%20project%20Martin%20%28web%29.md)
+  - [NorthTown](Energy%20Commission%20backup%20generating%20project%20NorthTown%20%28web%29.md)
+  - [RB Inyokern Data Center](Energy%20Commission%20backup%20generating%20project%20RB%20Inyokern%20Data%20Center%20%28web%29.md)
+  - [San Jose Data Center 04](Energy%20Commission%20backup%20generating%20project%20San%20Jose%20Data%20Center%2004%20%28web%29.md)
+  - [San Jose Data Center](Energy%20Commission%20backup%20generating%20project%20San%20Jose%20Data%20Center%20%28web%29.md)
+  - [Silver Creek](Energy%20Commission%20backup%20generating%20project%20Silver%20Creek%20%28web%29.md)
+  - [STACK SVY03A Data Center Campus](Energy%20Commission%20backup%20generating%20project%20STACK%20SVY03A%20Data%20Center%20Campus%20%28web%29.md)
+  - [Vernon](Energy%20Commission%20backup%20generating%20project%20Vernon%20%28web%29.md)

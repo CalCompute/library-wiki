@@ -2,7 +2,7 @@
 title: CSU UAW Unit 11 contract extension 2026-03-02 (web)
 type: source
 created: 2026-11-20
-updated: 2026-11-20
+updated: 2026-11-22
 source_count: 1
 tags: [G, csu, labor, bargaining, student-employees]
 elements: [G]
@@ -40,6 +40,6 @@ A short signed agreement between a public employer and a union. It changes only 
 
 ## Limits
 
-- It does not say why the parties extended the agreement, or what happens after Sept. 30, 2026.
+- It does not say why the parties extended the agreement, or what happens after Sept. 30, 2026. [CSU UAW Unit 11 tentative agreement 2026-10-16 (web)](CSU%20UAW%20Unit%2011%20tentative%20agreement%202026-10-16%20%28web%29.md) is the tentative agreement on a successor contract, to Oct. 31, 2028.
 - The agreement's own text ends on Oct. 31, 2025, and this memorandum gives Feb. 27, 2026.
   > 🔍 Gap: the library holds no document that extends the agreement from Oct. 31, 2025 to Feb. 27, 2026.

@@ -2,7 +2,7 @@
 title: UC UPTE TX contract page (web)
 type: source
 created: 2026-11-20
-updated: 2026-11-20
+updated: 2026-11-22
 source_count: 1
 tags: [G, uc, labor, bargaining, upte]
 elements: [G]
@@ -45,4 +45,6 @@ An index page of an employer's website. It gives the contract term and links. It
 
 - The page is the TX contract page, but its notice names "the HX collective bargaining agreement articles". It does not say if the notice is for TX too.
 - The page gives no date of its last update.
-- The library holds only Articles 19 and 40 of the posted files. It does not hold the draft agreement for 2025 to 2028.
+- The library holds only Articles 19 and 40 of the posted files. It does not hold the draft agreement for 2025 to 2028. It holds the signed memorandum of the successor agreement: [UPTE UC successor tentative agreement 2025-11-08 (web)](UPTE%20UC%20successor%20tentative%20agreement%202025-11-08%20%28web%29.md).
+
+> ⚠️ Contradiction: this page gives "Effective November 1, 2025 – September 30, 2028". The [UPTE UC successor tentative agreement 2025-11-08 (web)](UPTE%20UC%20successor%20tentative%20agreement%202025-11-08%20%28web%29.md) gives "November 7, 2025 - September 30, 2028".

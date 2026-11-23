@@ -2,8 +2,8 @@
 title: B - Cost & Funding
 type: element
 created: 2026-11-01
-updated: 2026-11-20
-source_count: 294
+updated: 2026-11-22
+source_count: 308
 tags: [B]
 element: B
 elements: [B]
@@ -23,12 +23,24 @@ Source: [SB-53 Gov Code 11546.8](../sources/SB-53%20Gov%20Code%2011546.8.md).
 
 This list groups the library's sources for this element by tier. It does not say what the Report will recommend.
 
-### Primary (115)
+### Primary (129)
 
 - [15 USC 9415 National AI Research Resource Task Force (web)](../sources/15%20USC%209415%20National%20AI%20Research%20Resource%20Task%20Force%20%28web%29.md): 15 U.S.C. 9415: the NAIRR Task Force, its 12 members, the roadmap contents (ownership, governance, compute, data, funding) and the statutory definition of NAIRR.
 - [2026-10-14 SB-53 Assembly Floor analysis](../sources/2026-10-14%20SB-53%20Assembly%20Floor%20analysis.md): The analysis gives a cost figure for the consortium's own work.
 - [ABCI Agreement of Use 2026 Japanese (web)](../sources/ABCI%20Agreement%20of%20Use%202026%20Japanese%20%28web%29.md): Japanese terms of use for ABCI: AIST owns it, AISol sells it; Japan-located bodies and residents only; prepaid points expire each fiscal year.
 - [ABCI usage fees (web)](../sources/ABCI%20usage%20fees%20%28web%29.md): ABCI FY2026 price list: one point costs 220 yen; an eight-GPU node costs 16 points an hour, or 7.5 in Development Acceleration Use.
+- [Assembly Budget floor report 2025-26 budget 2025-10 (web)](../sources/Assembly%20Budget%20floor%20report%202025-26%20budget%202025-10%20%28web%29.md): Assembly Budget Committee summary of the enacted 2025-26 budget: about $228 billion General Fund; money for 2024 AI laws at state departments; first guardrails for state generative AI projects.
+- [Assembly Budget floor report 2026-27 budget 2026-06-27 (web)](../sources/Assembly%20Budget%20floor%20report%202026-27%20budget%202026-06-27%20%28web%29.md): Assembly Budget Committee summary of the 2026-27 budget agreement: $351.7 billion; SB 53 funds at Cal OES ($618,000), DOJ ($2.2 million) and CDT (one position, $360,000); does not name CalCompute.
+- [BCP 2025-26 May Revision Public Health generative AI (web)](../sources/BCP%202025-26%20May%20Revision%20Public%20Health%20generative%20AI%20%28web%29.md): CDPH budget request: $8 million one time in 2025-26 for a GenAI tool that drafts inspection deficiency reports; spending waits on CDT and Finance approval of an MVP.
+- [BCP 2025-26 Public Health AI in health care services AB 3030 (web)](../sources/BCP%202025-26%20Public%20Health%20AI%20in%20health%20care%20services%20AB%203030%20%28web%29.md): CDPH budget request: 3 nurse evaluator positions and $672,000 a year from 2025-26 to check AB 3030 GenAI disclaimers in patient communications.
+- [BCP 2026-27 Cal OES Cybersecurity Integration Center AI AB 979 (web)](../sources/BCP%202026-27%20Cal%20OES%20Cybersecurity%20Integration%20Center%20AI%20AB%20979%20%28web%29.md): Cal OES budget request: 2 positions, $717,000 in 2026-27 and $463,000 in 2027-28, for the AI Cybersecurity Collaboration Playbook due before January 1, 2027.
+- [BCP 2026-27 Cal OES SB 53 large developers (web)](../sources/BCP%202026-27%20Cal%20OES%20SB%2053%20large%20developers%20%28web%29.md): Cal OES budget request: 2 positions and $618,000 General Fund a year from 2026-27 for SB 53 critical safety incident reporting, confidential risk summaries and the annual report.
+- [BCP 2026-27 Department of Justice AI Transparency Act AB 853 (web)](../sources/BCP%202026-27%20Department%20of%20Justice%20AI%20Transparency%20Act%20AB%20853%20%28web%29.md): DOJ budget request: 4 positions, $1,210,000 in 2026-27 and $1,176,000 a year from the Unfair Competition Law Fund, to enforce AB 853 provenance duties.
+- [BCP 2026-27 Department of Justice SB 53 frontier AI act (web)](../sources/BCP%202026-27%20Department%20of%20Justice%20SB%2053%20frontier%20AI%20act%20%28web%29.md): DOJ budget request: 8 positions, $2,204,000 in 2026-27 and $2,137,000 a year, to enforce SB 53 and review whistleblower reports; civil penalties up to $1,000,000 a violation.
+- [BCP 2026-27 Department of Technology Cybersecurity Integration Center AI AB 979 (web)](../sources/BCP%202026-27%20Department%20of%20Technology%20Cybersecurity%20Integration%20Center%20AI%20AB%20979%20%28web%29.md): CDT Office of Information Security budget request: $408,000 in 2026-27 and $286,000 in 2027-28 of temporary help for AB 979 AI security standards and the playbook.
+- [BCP 2026-27 Department of Technology SB 53 large developers (web)](../sources/BCP%202026-27%20Department%20of%20Technology%20SB%2053%20large%20developers%20%28web%29.md): CDT budget request: 1 IT Manager II and $360,000 one time for consultants for SB 53 definition reviews, risk assessments and reports; names a contingent support role in CalCompute.
+- [BCP 2026-27 FPPC AI disclaimer campaign ads AB 2355 (web)](../sources/BCP%202026-27%20FPPC%20AI%20disclaimer%20campaign%20ads%20AB%202355%20%28web%29.md): FPPC budget request: $360,000 in 2026-27 and $350,000 a year, with 1.5 positions and a $100,000 AI-detection software license, to enforce AB 2355 AI disclaimers on campaign ads.
+- [BCP 2026-27 May Revision Caltrans generative AI roadways (web)](../sources/BCP%202026-27%20May%20Revision%20Caltrans%20generative%20AI%20roadways%20%28web%29.md): Caltrans budget request: $16,428,000 one time in 2026-27 for two GenAI tools on CDT-maintained Azure and Google Cloud, 7 positions and a Data and AI Office.
 - [CalHR 2026 employer health contributions by bargaining unit (web)](../sources/CalHR%202026%20employer%20health%20contributions%20by%20bargaining%20unit%20%28web%29.md): State employer health contribution by bargaining unit: 2026 single $867 to $1,032 a month, family $2,249 to $2,414; 2027 rates and CoBen allowances.
 - [CalHR HR Manual 2113 Personal Leave Program (web)](../sources/CalHR%20HR%20Manual%202113%20Personal%20Leave%20Program%20%28web%29.md): CalHR rules of the Personal Leave Program 2025: from July 1, 2025, pay cuts of 2 to 4.62 percent for leave hours, by bargaining unit, most to June 30, 2027
 - [California Constitution art XVI sec 6](../sources/California%20Constitution%20art%20XVI%20sec%206.md): State Constitution: no gift or loan of public credit or money to any person or corporation; no state or local stock ownership; listed exceptions.
@@ -89,6 +101,8 @@ This list groups the library's sources for this element by tier. It does not say
 - [NAIRR Pilot allocation management policy](../sources/NAIRR%20Pilot%20allocation%20management%20policy.md): The NAIRR Pilot takes back compute that a project does not use.
 - [NAIRR Pilot proposal instructions](../sources/NAIRR%20Pilot%20proposal%20instructions.md): A NAIRR Pilot request is a three-page PDF, a short CV for the lead, and an online form.
 - [NAIRR Task Force final report 2023 (web)](../sources/NAIRR%20Task%20Force%20final%20report%202023%20%28web%29.md): Federal task force plan for NAIRR: cooperative stewardship, an Operating Entity, $2.6 billion over six years.
+- [NAIRR Task Force RFI 2021 responses (web)](../sources/NAIRR%20Task%20Force%20RFI%202021%20responses%20%28web%29.md): Federal compilation of 84 public responses to the 2021 NAIRR Task Force request for information: build or buy, eligibility, networks, partnerships.
+- [NAIRR Task Force RFI 2022 responses (web)](../sources/NAIRR%20Task%20Force%20RFI%202022%20responses%20%28web%29.md): Federal compilation of 23 public responses on the NAIRR Task Force interim report: first users, build or buy, proposal review, operating entity.
 - [NIH STRIDES benefits (web)](../sources/NIH%20STRIDES%20benefits%20%28web%29.md): NIH STRIDES gives NIH units and NIH-funded institutions discounted partner cloud services, training and technical support.
 - [NJ Governor release 2026-10-20 (web)](../sources/NJ%20Governor%20release%202026-10-20%20%28web%29.md): NJ Supercomputer Initiative: over $125 million public-private, run from 2027 by an independent nonprofit, hosted by SHI, eight research universities.
 - [NJ PL 2025 c404 supplemental appropriation (web)](../sources/NJ%20PL%202025%20c404%20supplemental%20appropriation%20%28web%29.md): New Jersey FY 2026 supplemental appropriation: $25,000,000 for an NJEDA grant to a higher education institution that hosts a new supercomputer.

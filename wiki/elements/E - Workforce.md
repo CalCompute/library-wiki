@@ -2,8 +2,8 @@
 title: E - Workforce
 type: element
 created: 2026-11-01
-updated: 2026-11-20
-source_count: 195
+updated: 2026-11-22
+source_count: 203
 tags: [E]
 element: E
 elements: [E]
@@ -23,13 +23,20 @@ Source: [SB-53 Gov Code 11546.8](../sources/SB-53%20Gov%20Code%2011546.8.md).
 
 This list groups the library's sources for this element by tier. It does not say what the Report will recommend.
 
-### Primary (79)
+### Primary (87)
 
 - [AB 1331 chaptered text Chapter 851 of 2026](../sources/AB%201331%20chaptered%20text%20Chapter%20851%20of%202026.md): AB 1331 (Ch. 851, 2026): adds Labor Code Part 5.8 from § 1560; no workplace surveillance tools in workplace bathrooms; public employers included; penalty up to $500 a violation.
 - [AB 1883 chaptered text Chapter 853 of 2026](../sources/AB%201883%20chaptered%20text%20Chapter%20853%20of%202026.md): AB 1883 (Ch. 853, 2026): adds Labor Code Part 5.8 from § 1580; no AI workplace surveillance tool for emotion recognition or neural data; UC and CSU are employers; penalty up to $500 a violation.
 - [AB 2392 Assembly committee analysis](../sources/AB%202392%20Assembly%20committee%20analysis.md): Floor analysis of AB 2392: CCC and CSU working group on GenAI training and procurement standards; cites CSU's $16.9 million ChatGPT Edu contract.
 - [AB 2392 chaptered text Chapter 855 of 2026](../sources/AB%202392%20chaptered%20text%20Chapter%20855%20of%202026.md): AB 2392 (Ch. 855, 2026): adds Ed. Code §§ 66098 to 66098.3; CCC and CSU, and UC by request, convene a working group on GenAI procurement standards and training; recommendations by Jan. 1, 2028.
 - [AB 2504 chaptered text Chapter 305 of 2026](../sources/AB%202504%20chaptered%20text%20Chapter%20305%20of%202026.md): AB 2504 (Ch. 305, 2026): community college pilot, with unions and industry, to reskill creative workers displaced by generative AI; up to 10 colleges; report by Jan. 1, 2032.
+- [CalHR MOU Unit 10 CAPS-UAW 2024-2027 (web)](../sources/CalHR%20MOU%20Unit%2010%20CAPS-UAW%202024-2027%20%28web%29.md): State contract with CAPS-UAW for Unit 10 scientists, July 1, 2024 to July 1, 2027: every effort to use unit employees before private contractors; log-on and online status not sole basis of discipline.
+- [CalHR MOU Unit 12 IUOE 2023-2026 (web)](../sources/CalHR%20MOU%20Unit%2012%20IUOE%202023-2026%20%28web%29.md): State contract with IUOE for Unit 12 craft and maintenance, July 1, 2023 to June 30, 2026: 60 days notice with CalHR delegation; personal services contract notices; joint apprenticeship programs.
+- [CalHR MOU Unit 13 IUOE 2025-2027 (web)](../sources/CalHR%20MOU%20Unit%2013%20IUOE%202025-2027%20%28web%29.md): State contract with IUOE for Unit 13 stationary engineers, July 1, 2025 to June 30, 2027: State controls the technology of its work; 60 days notice; $100 a year per employee to a training fund.
+- [CalHR MOU Unit 18 CAPT 2025-2028 (web)](../sources/CalHR%20MOU%20Unit%2018%20CAPT%202025-2028%20%28web%29.md): State contract with CAPT for Unit 18 psychiatric technicians, to July 1, 2028: meet and confer before changes; yearly review of personal services contracts; psychiatric technician apprenticeship.
+- [CalHR MOU Unit 19 AFSCME 2025-2028 (web)](../sources/CalHR%20MOU%20Unit%2019%20AFSCME%202025-2028%20%28web%29.md): State contract with AFSCME for Unit 19 health and social services professionals, to June 30, 2028: every effort before private contractors; in-house registry explored; telework programs; RTO suspended to July 1, 2026.
+- [CalHR MOU Unit 6 CCPOA 2025-2028 (web)](../sources/CalHR%20MOU%20Unit%206%20CCPOA%202025-2028%20%28web%29.md): State contract with CCPOA for Unit 6 corrections, July 3, 2025 to July 2, 2028: right to contract and subcontract work; 30, 45 or 60 days notice; video and body cameras not for routine supervision.
+- [CalHR MOU Unit 8 CAL FIRE Local 2881 2024-2027 (web)](../sources/CalHR%20MOU%20Unit%208%20CAL%20FIRE%20Local%202881%202024-2027%20%28web%29.md): State contract with CAL FIRE Local 2881 for Unit 8 firefighters, to June 30, 2027: right to contract and subcontract work; 30 days notice; firefighter apprenticeship; title and Duration start dates differ.
 - [California Jobs First Economic Blueprint](../sources/California%20Jobs%20First%20Economic%20Blueprint.md): State strategic sectors (Strengthen, Accelerate, Bet, Anchor) and GO-Biz sector strategies
 - [California Jobs First homepage](../sources/California%20Jobs%20First%20homepage.md): State regional economic program, 13 regions, council of nine agencies co-chaired by GO-Biz and LWDA
 - [California Jobs First regions](../sources/California%20Jobs%20First%20regions.md): The 13 economic regions, their plans and the Regional Data Tool
@@ -74,6 +81,7 @@ This list groups the library's sources for this element by tier. It does not say
 - [LAO EdBudget Future of Creative Industries Pilot Program (web)](../sources/LAO%20EdBudget%20Future%20of%20Creative%20Industries%20Pilot%20Program%20%28web%29.md): LAO table of community college Proposition 98 spending:  million in 2026-27 for the Future of Creative Industries Pilot Project, a new line.
 - [Maryland Chapter 633 of 2026 SB 597 (web)](../sources/Maryland%20Chapter%20633%20of%202026%20SB%20597%20%28web%29.md): Maryland law: AI Partnership in the University System of Maryland, regional technology hubs, an AI Public Service Fellowship and an AI Incubation Lab for agencies.
 - [Mississippi ITS AI Innovation Student Teams (web)](../sources/Mississippi%20ITS%20AI%20Innovation%20Student%20Teams%20%28web%29.md): Mississippi's IT agency pairs supervised student teams from three universities with agencies for 6 to 8 week AI proofs of concept; AWS is a Hub partner.
+- [NAIRR Task Force RFI 2021 responses (web)](../sources/NAIRR%20Task%20Force%20RFI%202021%20responses%20%28web%29.md): Federal compilation of 84 public responses to the 2021 NAIRR Task Force request for information: build or buy, eligibility, networks, partnerships.
 - [Newsom SB-53 signing release 2025-09-29](../sources/Newsom%20SB-53%20signing%20release%202025-09-29.md): The release describes CalCompute in one line, under "Innovation".
 - [NJ Governor release 2026-10-20 (web)](../sources/NJ%20Governor%20release%202026-10-20%20%28web%29.md): NJ Supercomputer Initiative: over $125 million public-private, run from 2027 by an independent nonprofit, hosted by SHI, eight research universities.
 - [NSF 26-503 CyberAICorps Scholarship for Service (web)](../sources/NSF%2026-503%20CyberAICorps%20Scholarship%20for%20Service%20%28web%29.md): NSF program page: AI and cybersecurity scholarships; recipients serve in a government organization; awards up to $2,500,000.

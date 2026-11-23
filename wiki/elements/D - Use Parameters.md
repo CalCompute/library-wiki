@@ -2,8 +2,8 @@
 title: D - Use Parameters
 type: element
 created: 2026-11-01
-updated: 2026-11-20
-source_count: 326
+updated: 2026-11-22
+source_count: 330
 tags: [D]
 element: D
 elements: [D]
@@ -23,7 +23,7 @@ Source: [SB-53 Gov Code 11546.8](../sources/SB-53%20Gov%20Code%2011546.8.md).
 
 This list groups the library's sources for this element by tier. It does not say what the Report will recommend.
 
-### Primary (131)
+### Primary (135)
 
 - [15 USC 9415 National AI Research Resource Task Force (web)](../sources/15%20USC%209415%20National%20AI%20Research%20Resource%20Task%20Force%20%28web%29.md): 15 U.S.C. 9415: the NAIRR Task Force, its 12 members, the roadmap contents (ownership, governance, compute, data, funding) and the statutory definition of NAIRR.
 - [45 CFR 46 subpart A Common Rule (web)](../sources/45%20CFR%2046%20subpart%20A%20Common%20Rule%20%28web%29.md): The federal Common Rule for research with human subjects: IRB review and approval, informed consent, exemptions, and one IRB for U.S. cooperative research.
@@ -39,6 +39,8 @@ This list groups the library's sources for this element by tier. It does not say
 - [AWS Customer Agreement (web)](../sources/AWS%20Customer%20Agreement%20%28web%29.md): Standard AWS contract: customer picks regions; 12 months' notice before AWS ends a material function; liability cap of 12 months' fees.
 - [AWS Privacy Notice (web)](../sources/AWS%20Privacy%20Notice%20%28web%29.md): AWS privacy notice: covers customer and visitor personal data, not the content customers host; AWS does not sell customer data.
 - [AWS Responsible AI Policy 2025-01-13](../sources/AWS%20Responsible%20AI%20Policy%202025-01-13.md): This is the AI-specific hard-limits document of Amazon Web Services (AWS).
+- [BCP 2025-26 May Revision Public Health generative AI (web)](../sources/BCP%202025-26%20May%20Revision%20Public%20Health%20generative%20AI%20%28web%29.md): CDPH budget request: $8 million one time in 2025-26 for a GenAI tool that drafts inspection deficiency reports; spending waits on CDT and Finance approval of an MVP.
+- [BCP 2026-27 May Revision Caltrans generative AI roadways (web)](../sources/BCP%202026-27%20May%20Revision%20Caltrans%20generative%20AI%20roadways%20%28web%29.md): Caltrans budget request: $16,428,000 one time in 2026-27 for two GenAI tools on CDT-maintained Azure and Google Cloud, 7 positions and a Data and AI Office.
 - [C2C DTAB 5 research request and secure enclave update (web)](../sources/C2C%20DTAB%205%20research%20request%20and%20secure%20enclave%20update%20%28web%29.md): C2C staff report: three-tier research request process and a planned secure compute enclave for deidentified individual-level data.
 - [C2C Request Access to Data (web)](../sources/C2C%20Request%20Access%20to%20Data%20%28web%29.md): C2C data request page: three review levels with target times, and a public list of all requests.
 - [CA.gov privacy policy (web)](../sources/CA.gov%20privacy%20policy%20%28web%29.md): CA.gov collects only statistical data unless a user gives more; follows the Information Practices Act and Gov. Code 11015.5; users can ask for deletion.
@@ -107,6 +109,8 @@ This list groups the library's sources for this element by tier. It does not say
 - [NAIRR Pilot allocation management policy](../sources/NAIRR%20Pilot%20allocation%20management%20policy.md): The NAIRR Pilot takes back compute that a project does not use.
 - [NAIRR Pilot proposal instructions](../sources/NAIRR%20Pilot%20proposal%20instructions.md): A NAIRR Pilot request is a three-page PDF, a short CV for the lead, and an online form.
 - [NAIRR Task Force final report 2023 (web)](../sources/NAIRR%20Task%20Force%20final%20report%202023%20%28web%29.md): Federal task force plan for NAIRR: cooperative stewardship, an Operating Entity, $2.6 billion over six years.
+- [NAIRR Task Force RFI 2021 responses (web)](../sources/NAIRR%20Task%20Force%20RFI%202021%20responses%20%28web%29.md): Federal compilation of 84 public responses to the 2021 NAIRR Task Force request for information: build or buy, eligibility, networks, partnerships.
+- [NAIRR Task Force RFI 2022 responses (web)](../sources/NAIRR%20Task%20Force%20RFI%202022%20responses%20%28web%29.md): Federal compilation of 23 public responses on the NAIRR Task Force interim report: first users, build or buy, proposal review, operating entity.
 - [NIH Data Use Certification agreement (web)](../sources/NIH%20Data%20Use%20Certification%20agreement%20%28web%29.md): NIH Data Use Certification Agreement (Dec. 20, 2023) for controlled-access genomic data: one-year access per project, cloud use only if named in the request, no student or postdoc PIs, breach notice within 24 hours.
 - [NIST AI 600-1 Generative AI Profile (web)](../sources/NIST%20AI%20600-1%20Generative%20AI%20Profile%20%28web%29.md): NIST's voluntary generative AI profile of the AI RMF: 12 risks that GAI creates or makes worse, and suggested actions to govern, map, measure and manage them.
 - [NIST SP 800-171 Rev 3 landing page (web)](../sources/NIST%20SP%20800-171%20Rev%203%20landing%20page%20%28web%29.md): NIST SP 800-171 Rev. 3 (May 2024): recommended security requirements for CUI in nonfederal systems, 17 control families.

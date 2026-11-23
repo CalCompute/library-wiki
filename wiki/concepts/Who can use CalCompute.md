@@ -2,8 +2,8 @@
 title: "Who can use CalCompute"
 type: concept
 created: 2026-10-15
-updated: 2026-11-20
-source_count: 71
+updated: 2026-11-22
+source_count: 72
 tags: [B, C, D, E]
 elements: [B, C, D, E]
 ---
@@ -44,6 +44,7 @@ _This page reports what the sources say. It is not a position of the consortium.
 - **Postdoctoral rank or above (CSCS).** A production project proposer "must hold at least the position of postdoctoral position at an academic institution". "Only professors can apply for multi-year projects", and PhD students apply through their supervisor ([CSCS production projects (web)](../sources/CSCS%20production%20projects%20%28web%29.md)).
 - **Open calls across a region (Europe).** "European scientists and users from the public sector and industry can benefit from EuroHPC supercomputers via the EuroHPC Access Calls no matter where in Europe they are located" ([EuroHPC JUPITER launch release 2025-09-05 (web)](../sources/EuroHPC%20JUPITER%20launch%20release%202025-09-05%20%28web%29.md)). The AI Factories give "free, customised support" to SMEs and startups ([EuroHPC JU AI Factories (web)](../sources/EuroHPC%20JU%20AI%20Factories%20%28web%29.md)).
 - **Principal investigators first (Stanford blueprint).** A 2021 Stanford HAI white paper recommends that eligibility "start with academics who hold "Principal Investigator" (PI) status (i.e., most faculty) at U.S. colleges and universities", plus agencies that contribute datasets. "Students working with PIs should presumptively gain access" ([Stanford HAI National Research Cloud blueprint 2021 (web)](../sources/Stanford%20HAI%20National%20Research%20Cloud%20blueprint%202021%20%28web%29.md), p. 12).
+- **Higher education only at first (Stanford HAI, 2022).** In its 2022 comment to the NAIRR Task Force, Stanford HAI recommends that the task force "limit access to NAIRR to researchers at U.S. higher education institutions during the first three years of a pilot run" ([NAIRR Task Force RFI 2022 responses (web)](../sources/NAIRR%20Task%20Force%20RFI%202022%20responses%20%28web%29.md), p. 114).
 - **U.S. researchers, nonprofits and startups (NAIRR plan).** The task force for the National Artificial Intelligence Research Resource (NAIRR) wrote a federal plan. It says users "should be U.S.-based or affiliated with U.S. organizations, to include academic institutions, non-profit organizations, and startups or small businesses" ([NAIRR Task Force final report 2023 (web)](../sources/NAIRR%20Task%20Force%20final%20report%202023%20%28web%29.md), p. v).
 - **Institutional email for industry projects (NAIRR Pilot).** The Deep Partnerships call is open to U.S. researchers in academia, nonprofits, government and "startups and small businesses with federal grants". It does not accept a personal email address ([NAIRR Pilot deep partnerships (web)](../sources/NAIRR%20Pilot%20deep%20partnerships%20%28web%29.md)).
 - **Domestic users first (Japan).** From fiscal year 2024, ABCI gives compute "primarily for public use by domestic industry, academia, and government, particularly national research institutes and universities, startups, etc." ([ABCI about (web)](../sources/ABCI%20about%20%28web%29.md)).

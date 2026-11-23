@@ -2,8 +2,8 @@
 title: C - Governance
 type: element
 created: 2026-11-01
-updated: 2026-11-20
-source_count: 301
+updated: 2026-11-22
+source_count: 313
 tags: [C]
 element: C
 elements: [C]
@@ -23,7 +23,7 @@ Source: [SB-53 Gov Code 11546.8](../sources/SB-53%20Gov%20Code%2011546.8.md).
 
 This list groups the library's sources for this element by tier. It does not say what the Report will recommend.
 
-### Primary (171)
+### Primary (183)
 
 - [15 USC 9415 National AI Research Resource Task Force (web)](../sources/15%20USC%209415%20National%20AI%20Research%20Resource%20Task%20Force%20%28web%29.md): 15 U.S.C. 9415: the NAIRR Task Force, its 12 members, the roadmap contents (ownership, governance, compute, data, funding) and the statutory definition of NAIRR.
 - [2026-10-14 SB-53 Assembly Floor analysis](../sources/2026-10-14%20SB-53%20Assembly%20Floor%20analysis.md): The analysis gives a cost figure for the consortium's own work.
@@ -45,11 +45,21 @@ This list groups the library's sources for this element by tier. It does not say
 - [Anthropic Long-Term Benefit Trust (web)](../sources/Anthropic%20Long-Term%20Benefit%20Trust%20%28web%29.md): Anthropic's Long-Term Benefit Trust holds Class T stock and elects part of the board, a majority within four years; Anthropic calls it an experiment.
 - [Anthropic Privacy Policy (web)](../sources/Anthropic%20Privacy%20Policy%20%28web%29.md): Anthropic privacy policy: excludes Enterprise customer content; trains on Inputs and Outputs unless the user opts out; deleted chats leave the back-end in 30 days.
 - [Anthropic Usage Policy 2026-11-12](../sources/Anthropic%20Usage%20Policy%202026-11-12.md): The Anthropic Usage Policy has three tiers: Universal Usage Standards, High-risk Use Case Requirements and Additional Use Case Guidelines.
+- [Assembly Budget floor report 2025-26 budget 2025-10 (web)](../sources/Assembly%20Budget%20floor%20report%202025-26%20budget%202025-10%20%28web%29.md): Assembly Budget Committee summary of the enacted 2025-26 budget: about $228 billion General Fund; money for 2024 AI laws at state departments; first guardrails for state generative AI projects.
+- [Assembly Budget floor report 2026-27 budget 2026-06-27 (web)](../sources/Assembly%20Budget%20floor%20report%202026-27%20budget%202026-06-27%20%28web%29.md): Assembly Budget Committee summary of the 2026-27 budget agreement: $351.7 billion; SB 53 funds at Cal OES ($618,000), DOJ ($2.2 million) and CDT (one position, $360,000); does not name CalCompute.
 - [Assembly Journal record of agency reports March 2026 (web)](../sources/Assembly%20Journal%20record%20of%20agency%20reports%20March%202026%20%28web%29.md): Assembly Journal record of agency reports received in March 2026 under Gov. Code 9795: title, authority, sender and committee for each report.
 - [AWS Acceptable Use Policy 2021-07-01](../sources/AWS%20Acceptable%20Use%20Policy%202021-07-01.md): The AWS Acceptable Use Policy is short and general.
 - [AWS Customer Agreement (web)](../sources/AWS%20Customer%20Agreement%20%28web%29.md): Standard AWS contract: customer picks regions; 12 months' notice before AWS ends a material function; liability cap of 12 months' fees.
 - [AWS Privacy Notice (web)](../sources/AWS%20Privacy%20Notice%20%28web%29.md): AWS privacy notice: covers customer and visitor personal data, not the content customers host; AWS does not sell customer data.
 - [AWS Responsible AI Policy 2025-01-13](../sources/AWS%20Responsible%20AI%20Policy%202025-01-13.md): This is the AI-specific hard-limits document of Amazon Web Services (AWS).
+- [BCP 2025-26 Public Health AI in health care services AB 3030 (web)](../sources/BCP%202025-26%20Public%20Health%20AI%20in%20health%20care%20services%20AB%203030%20%28web%29.md): CDPH budget request: 3 nurse evaluator positions and $672,000 a year from 2025-26 to check AB 3030 GenAI disclaimers in patient communications.
+- [BCP 2026-27 Cal OES Cybersecurity Integration Center AI AB 979 (web)](../sources/BCP%202026-27%20Cal%20OES%20Cybersecurity%20Integration%20Center%20AI%20AB%20979%20%28web%29.md): Cal OES budget request: 2 positions, $717,000 in 2026-27 and $463,000 in 2027-28, for the AI Cybersecurity Collaboration Playbook due before January 1, 2027.
+- [BCP 2026-27 Cal OES SB 53 large developers (web)](../sources/BCP%202026-27%20Cal%20OES%20SB%2053%20large%20developers%20%28web%29.md): Cal OES budget request: 2 positions and $618,000 General Fund a year from 2026-27 for SB 53 critical safety incident reporting, confidential risk summaries and the annual report.
+- [BCP 2026-27 Department of Justice AI Transparency Act AB 853 (web)](../sources/BCP%202026-27%20Department%20of%20Justice%20AI%20Transparency%20Act%20AB%20853%20%28web%29.md): DOJ budget request: 4 positions, $1,210,000 in 2026-27 and $1,176,000 a year from the Unfair Competition Law Fund, to enforce AB 853 provenance duties.
+- [BCP 2026-27 Department of Justice SB 53 frontier AI act (web)](../sources/BCP%202026-27%20Department%20of%20Justice%20SB%2053%20frontier%20AI%20act%20%28web%29.md): DOJ budget request: 8 positions, $2,204,000 in 2026-27 and $2,137,000 a year, to enforce SB 53 and review whistleblower reports; civil penalties up to $1,000,000 a violation.
+- [BCP 2026-27 Department of Technology Cybersecurity Integration Center AI AB 979 (web)](../sources/BCP%202026-27%20Department%20of%20Technology%20Cybersecurity%20Integration%20Center%20AI%20AB%20979%20%28web%29.md): CDT Office of Information Security budget request: $408,000 in 2026-27 and $286,000 in 2027-28 of temporary help for AB 979 AI security standards and the playbook.
+- [BCP 2026-27 Department of Technology SB 53 large developers (web)](../sources/BCP%202026-27%20Department%20of%20Technology%20SB%2053%20large%20developers%20%28web%29.md): CDT budget request: 1 IT Manager II and $360,000 one time for consultants for SB 53 definition reviews, risk assessments and reports; names a contingent support role in CalCompute.
+- [BCP 2026-27 FPPC AI disclaimer campaign ads AB 2355 (web)](../sources/BCP%202026-27%20FPPC%20AI%20disclaimer%20campaign%20ads%20AB%202355%20%28web%29.md): FPPC budget request: $360,000 in 2026-27 and $350,000 a year, with 1.5 positions and a $100,000 AI-detection software license, to enforce AB 2355 AI disclaimers on campaign ads.
 - [CA.gov privacy policy (web)](../sources/CA.gov%20privacy%20policy%20%28web%29.md): CA.gov collects only statistical data unless a user gives more; follows the Information Practices Act and Gov. Code 11015.5; users can ask for deletion.
 - [Cal-Secure 2.0 (web)](../sources/Cal-Secure%202.0%20%28web%29.md): CDT's five-year Executive Branch cybersecurity roadmap: People, Process, Technology; AI-driven security operations, shared services, workforce pathways.
 - [CalHHS Data Exchange Framework data sharing agreement draft 2022-04-21 (web)](../sources/CalHHS%20Data%20Exchange%20Framework%20data%20sharing%20agreement%20draft%202022-04-21%20%28web%29.md): Draft (2022) single data sharing agreement of California's Data Exchange Framework: HIPAA safeguards, minimum necessary use, no use for own financial benefit, no single repository.
@@ -139,6 +149,8 @@ This list groups the library's sources for this element by tier. It does not say
 - [Microsoft Product Terms For Online Services (web)](../sources/Microsoft%20Product%20Terms%20For%20Online%20Services%20%28web%29.md): Microsoft Online Services terms: a 12-item Acceptable Use Policy; AI services follow the Code of Conduct; no foundation model training on Customer Data.
 - [NAIRR Pilot proposal instructions](../sources/NAIRR%20Pilot%20proposal%20instructions.md): A NAIRR Pilot request is a three-page PDF, a short CV for the lead, and an online form.
 - [NAIRR Task Force final report 2023 (web)](../sources/NAIRR%20Task%20Force%20final%20report%202023%20%28web%29.md): Federal task force plan for NAIRR: cooperative stewardship, an Operating Entity, $2.6 billion over six years.
+- [NAIRR Task Force RFI 2021 responses (web)](../sources/NAIRR%20Task%20Force%20RFI%202021%20responses%20%28web%29.md): Federal compilation of 84 public responses to the 2021 NAIRR Task Force request for information: build or buy, eligibility, networks, partnerships.
+- [NAIRR Task Force RFI 2022 responses (web)](../sources/NAIRR%20Task%20Force%20RFI%202022%20responses%20%28web%29.md): Federal compilation of 23 public responses on the NAIRR Task Force interim report: first users, build or buy, proposal review, operating entity.
 - [Newsom SB-53 signing release 2025-09-29](../sources/Newsom%20SB-53%20signing%20release%202025-09-29.md): The release describes CalCompute in one line, under "Innovation".
 - [NIH Data Use Certification agreement (web)](../sources/NIH%20Data%20Use%20Certification%20agreement%20%28web%29.md): NIH Data Use Certification Agreement (Dec. 20, 2023) for controlled-access genomic data: one-year access per project, cloud use only if named in the request, no student or postdoc PIs, breach notice within 24 hours.
 - [NIST AI 600-1 Generative AI Profile (web)](../sources/NIST%20AI%20600-1%20Generative%20AI%20Profile%20%28web%29.md): NIST's voluntary generative AI profile of the AI RMF: 12 risks that GAI creates or makes worse, and suggested actions to govern, map, measure and manage them.

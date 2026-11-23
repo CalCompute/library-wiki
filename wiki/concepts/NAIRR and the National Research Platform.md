@@ -2,8 +2,8 @@
 title: "NAIRR and the National Research Platform"
 type: concept
 created: 2026-10-15
-updated: 2026-11-20
-source_count: 30
+updated: 2026-11-22
+source_count: 32
 tags: [A, B, C, D, F]
 elements: [A, B, C, D, F]
 ---
@@ -18,6 +18,9 @@ _This page reports what the sources say. It is not a position of the consortium.
 - **Federal statute.** 15 U.S.C. 9415 set up a 12-member NAIRR Task Force. Its plan must name "an appropriate agency or organization responsible for the implementation, deployment, and administration of the Resource" and a plan to sustain it "through Federal funding and partnerships with the private sector". In the statute, NAIRR gives researchers and students "access to compute resources, co-located with publicly-available, artificial intelligence-ready government and non-government data sets" ([15 USC 9415 National AI Research Resource Task Force (web)](../sources/15%20USC%209415%20National%20AI%20Research%20Resource%20Task%20Force%20%28web%29.md), §9415(b)(2) and (g)(1)).
 - **Stanford blueprint.** A 2021 Stanford HAI white paper recommends a "dual investment strategy" for compute: negotiated commercial cloud first, and "a pilot for public infrastructure". For structure, it recommends a Federally Funded Research and Development Center (FFRDC) first, and later a public-private partnership ([Stanford HAI National Research Cloud blueprint 2021 (web)](../sources/Stanford%20HAI%20National%20Research%20Cloud%20blueprint%202021%20%28web%29.md), pp. 11 and 13).
 - **Task Force plan.** The task force's 2023 plan has "a cooperative stewardship model": one administrative home agency, a Steering Committee of agencies, and "an independent Operating Entity". It estimates "$2.6 billion over an initial six-year period" ([NAIRR Task Force final report 2023 (web)](../sources/NAIRR%20Task%20Force%20final%20report%202023%20%28web%29.md), pp. v and vii).
+- **Public comment to the task force.** The White House Office of Science and Technology Policy and NSF published the responses to the task force's requests for information: 84 in 2021 and 23 in 2022 ([NAIRR Task Force RFI 2021 responses (web)](../sources/NAIRR%20Task%20Force%20RFI%202021%20responses%20%28web%29.md), p. 1; [NAIRR Task Force RFI 2022 responses (web)](../sources/NAIRR%20Task%20Force%20RFI%202022%20responses%20%28web%29.md), p. 1).
+- **Existing resources first (Berkeley Lab, 2021).** Lawrence Berkeley National Laboratory says a national resource "could be composed as an array of compute and data resources" ([NAIRR Task Force RFI 2021 responses (web)](../sources/NAIRR%20Task%20Force%20RFI%202021%20responses%20%28web%29.md), p. 363).
+- **Egress fees (Internet2, 2021).** Internet2 says that "data egress fees have been seen as a barrier by the research community" ([NAIRR Task Force RFI 2021 responses (web)](../sources/NAIRR%20Task%20Force%20RFI%202021%20responses%20%28web%29.md), p. 347).
 - **Free allocations.** ACCESS, another NSF program, gives compute "at no cost" ([ACCESS homepage](../sources/ACCESS%20homepage.md)).
 - **CENIC AIR.** CENIC says CENIC AIR is the California part of the National Research Platform, built from compute and storage that CENIC members give voluntarily, and that "Any faculty member with a CILogin can get access" ([CENIC AIR initiative (web)](../sources/CENIC%20AIR%20initiative%20%28web%29.md)).
 - **Network service for new nodes.** CENIC's 2024-2026 report says it "Successfully deployed Science DMZ as a Service at SDCCD and LACCD, enabling both institutions to quickly install CENIC AIR nodes and contribute to shared AI resources used by the community". A 2026 conference session says "CENIC AIR is now close to 2 years old" ([CENIC 2024-2026 Community Report PDF (web)](../sources/CENIC%202024-2026%20Community%20Report%20PDF%20%28web%29.md), pp. 31 and 37).

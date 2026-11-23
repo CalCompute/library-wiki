@@ -2,8 +2,8 @@
 title: A - Landscape Analysis
 type: element
 created: 2026-11-01
-updated: 2026-11-20
-source_count: 356
+updated: 2026-11-22
+source_count: 372
 tags: [A]
 element: A
 elements: [A]
@@ -23,10 +23,12 @@ Source: [SB-53 Gov Code 11546.8](../sources/SB-53%20Gov%20Code%2011546.8.md).
 
 This list groups the library's sources for this element by tier. It does not say what the Report will recommend.
 
-### Primary (111)
+### Primary (127)
 
 - [15 USC 9415 National AI Research Resource Task Force (web)](../sources/15%20USC%209415%20National%20AI%20Research%20Resource%20Task%20Force%20%28web%29.md): 15 U.S.C. 9415: the NAIRR Task Force, its 12 members, the roadmap contents (ownership, governance, compute, data, funding) and the statutory definition of NAIRR.
 - [2026-10-14 SB-53 Assembly Floor analysis](../sources/2026-10-14%20SB-53%20Assembly%20Floor%20analysis.md): The analysis gives a cost figure for the consortium's own work.
+- [Assembly Budget floor report 2026-27 budget 2026-06-27 (web)](../sources/Assembly%20Budget%20floor%20report%202026-27%20budget%202026-06-27%20%28web%29.md): Assembly Budget Committee summary of the 2026-27 budget agreement: $351.7 billion; SB 53 funds at Cal OES ($618,000), DOJ ($2.2 million) and CDT (one position, $360,000); does not name CalCompute.
+- [BCP 2026-27 May Revision Caltrans generative AI roadways (web)](../sources/BCP%202026-27%20May%20Revision%20Caltrans%20generative%20AI%20roadways%20%28web%29.md): Caltrans budget request: $16,428,000 one time in 2026-27 for two GenAI tools on CDT-maintained Azure and Google Cloud, 7 positions and a Data and AI Office.
 - [C2C DTAB 5 research request and secure enclave update (web)](../sources/C2C%20DTAB%205%20research%20request%20and%20secure%20enclave%20update%20%28web%29.md): C2C staff report: three-tier research request process and a planned secure compute enclave for deidentified individual-level data.
 - [California Report on Frontier AI Policy 2025-06-17](../sources/California%20Report%20on%20Frontier%20AI%20Policy%202025-06-17.md): The working group report does not mention CalCompute.
 - [Canadian Sovereign AI Compute Strategy (web)](../sources/Canadian%20Sovereign%20AI%20Compute%20Strategy%20%28web%29.md): Canada's $2 billion AI compute strategy: up to $700 million for commercial data centres, $1 billion for public supercomputing, $300 million for an Access Fund.
@@ -47,6 +49,18 @@ This list groups the library's sources for this element by tier. It does not say
 - [DOE Large Power Transformer Resilience Report 2024-07 (web)](../sources/DOE%20Large%20Power%20Transformer%20Resilience%20Report%202024-07%20%28web%29.md): DOE report to Congress on large power transformers: lead times of 36 to 60 months, 82 percent imported in 2019, industry spare programs.
 - [DOE Office of Science user facilities at a glance (web)](../sources/DOE%20Office%20of%20Science%20user%20facilities%20at%20a%20glance%20%28web%29.md): Each DOE user facility has a program "owner" that funds it through congressional appropriations; first 12 facilities only.
 - [Ed Code 92900-92901 Cal ISI](../sources/Ed%20Code%2092900-92901%20Cal%20ISI.md): Education Code chapter that lets the UC Regents set up four Institutes for Science and Innovation, with a two-to-one nonstate match.
+- [Energy Commission backup generating project AVAIO Pittsburg (web)](../sources/Energy%20Commission%20backup%20generating%20project%20AVAIO%20Pittsburg%20%28web%29.md): CEC project page: AVAIO Pittsburg Backup Generating Facility, 37 diesel generators, up to 92 MW for a 347,740 sq ft data center in Pittsburg; Exempted (24-SPPE-01).
+- [Energy Commission backup generating project Bowers (web)](../sources/Energy%20Commission%20backup%20generating%20project%20Bowers%20%28web%29.md): CEC project page: Bowers Backup Generating Facility, GI Partners, up to 72 MW from 32 Tier 4 diesel generators for the Bowers Data Center in Santa Clara; Exempted (22-SPPE-01).
+- [Energy Commission backup generating project Charcot Avenue (web)](../sources/Energy%20Commission%20backup%20generating%20project%20Charcot%20Avenue%20%28web%29.md): CEC project page: Charcot Avenue Backup Generating Facility, Prologis, 44 diesel generators, up to 99 MW for a proposed San Jose data center served from PG&E's Trimble Substation; Under Review (26-SPPE-03).
+- [Energy Commission backup generating project Lafayette (web)](../sources/Energy%20Commission%20backup%20generating%20project%20Lafayette%20%28web%29.md): CEC project page: Lafayette Backup Generating Facility, up to 99.8 MW from 44 diesel generators for a 576,120 sq ft data center with 66 MW of IT power; Silicon Valley Power; exemption granted Nov. 9, 2023 (20-SPPE-02).
+- [Energy Commission backup generating project Martin (web)](../sources/Energy%20Commission%20backup%20generating%20project%20Martin%20%28web%29.md): CEC project page: Martin Backup Generating Facility, 44 diesel generators of 2.75 MW, up to 96 MW for the Martin Data Center in Santa Clara; Exempted (22-SPPE-03).
+- [Energy Commission backup generating project NorthTown (web)](../sources/Energy%20Commission%20backup%20generating%20project%20NorthTown%20%28web%29.md): CEC project page: NorthTown Backup Generating Facility, GIC San Jose, 42 diesel generators, up to 97.3 MW for a data center on 28.5 acres in San José; Under Review (25-SPPE-02).
+- [Energy Commission backup generating project RB Inyokern Data Center (web)](../sources/Energy%20Commission%20backup%20generating%20project%20RB%20Inyokern%20Data%20Center%20%28web%29.md): CEC project page: RB Inyokern Data Center, Kern County, 238,000 sq ft, 40 diesel generators up to 99 MW, no grid-support use, SCE service, 72 hours of fuel; Under Review (26-SPPE-01).
+- [Energy Commission backup generating project San Jose Data Center (web)](../sources/Energy%20Commission%20backup%20generating%20project%20San%20Jose%20Data%20Center%20%28web%29.md): CEC project page: Microsoft San Jose Data Center, up to 99 MW (77 MW estimated), 224 renewable natural gas generators that also serve demand response; decision adopted July 14, 2022 (19-SPPE-04).
+- [Energy Commission backup generating project San Jose Data Center 04 (web)](../sources/Energy%20Commission%20backup%20generating%20project%20San%20Jose%20Data%20Center%2004%20%28web%29.md): CEC project page: Microsoft San José Data Center 04, two four-story buildings, maximum demand 97.8 MW, Tier 4 diesel backup, PG&E; Under Review (22-SPPE-02).
+- [Energy Commission backup generating project Silver Creek (web)](../sources/Energy%20Commission%20backup%20generating%20project%20Silver%20Creek%20%28web%29.md): CEC project page: Silver Creek Backup Generating Facility, Prologis, 44 diesel generators, up to 99 MW for a proposed San Jose data center with a new PG&E switching station; Under Review (26-SPPE-02).
+- [Energy Commission backup generating project STACK SVY03A Data Center Campus (web)](../sources/Energy%20Commission%20backup%20generating%20project%20STACK%20SVY03A%20Data%20Center%20Campus%20%28web%29.md): CEC project page: STACK Infrastructure SVY03A Data Center Campus in Hayward, two buildings, 28 emergency generators up to 76.6 MW; Exempted (23-SPPE-01).
+- [Energy Commission backup generating project Vernon (web)](../sources/Energy%20Commission%20backup%20generating%20project%20Vernon%20%28web%29.md): CEC project page: Vernon Backup Generating Facility, GIC Vernon, 40 diesel generators up to 99 MW for the Goodman Energy Park Data Center, served by Vernon Public Utility; Under Review (25-SPPE-01).
 - [Energy Commission power plant listing backup generating systems (web)](../sources/Energy%20Commission%20power%20plant%20listing%20backup%20generating%20systems%20%28web%29.md): CEC Power Plant Listing filtered to "Backup Generating System": 12 facilities, four with "Data Center" in the name; names only.
 - [EPA FRS facility record LBNL (web)](../sources/EPA%20FRS%20facility%20record%20LBNL%20%28web%29.md): EPA registry record: 1 Cyclotron Rd, Berkeley, Alameda County; latitude 37.877117, longitude -122.249379.
 - [EPA FRS facility record LLNL (web)](../sources/EPA%20FRS%20facility%20record%20LLNL%20%28web%29.md): EPA registry record: 7000 East Avenue, Livermore, Alameda County; latitude 37.6798, longitude -121.71734.
@@ -85,6 +99,8 @@ This list groups the library's sources for this element by tier. It does not say
 - [Massachusetts AI Hub release](../sources/Massachusetts%20AI%20Hub%20release.md): $31M state grant to MGHPCC for AI Compute Resources; about $120M over five years
 - [MassTech AICR builder selection (web)](../sources/MassTech%20AICR%20builder%20selection%20%28web%29.md): Cambridge Computer, with Dell and VAST Data, to build AICR at MGHPCC in Holyoke: hundreds of NVIDIA B200 and RTX GPUs; $31 million state grant matched by six universities.
 - [NAIRR Task Force final report 2023 (web)](../sources/NAIRR%20Task%20Force%20final%20report%202023%20%28web%29.md): Federal task force plan for NAIRR: cooperative stewardship, an Operating Entity, $2.6 billion over six years.
+- [NAIRR Task Force RFI 2021 responses (web)](../sources/NAIRR%20Task%20Force%20RFI%202021%20responses%20%28web%29.md): Federal compilation of 84 public responses to the 2021 NAIRR Task Force request for information: build or buy, eligibility, networks, partnerships.
+- [NAIRR Task Force RFI 2022 responses (web)](../sources/NAIRR%20Task%20Force%20RFI%202022%20responses%20%28web%29.md): Federal compilation of 23 public responses on the NAIRR Task Force interim report: first users, build or buy, proposal review, operating entity.
 - [Newsom SB-53 signing release 2025-09-29](../sources/Newsom%20SB-53%20signing%20release%202025-09-29.md): The release describes CalCompute in one line, under "Innovation".
 - [NIH STRIDES benefits (web)](../sources/NIH%20STRIDES%20benefits%20%28web%29.md): NIH STRIDES gives NIH units and NIH-funded institutions discounted partner cloud services, training and technical support.
 - [NJ Governor release 2026-10-20 (web)](../sources/NJ%20Governor%20release%202026-10-20%20%28web%29.md): NJ Supercomputer Initiative: over $125 million public-private, run from 2027 by an independent nonprofit, hosted by SHI, eight research universities.

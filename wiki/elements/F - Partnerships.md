@@ -2,8 +2,8 @@
 title: F - Partnerships
 type: element
 created: 2026-11-01
-updated: 2026-11-20
-source_count: 262
+updated: 2026-11-22
+source_count: 264
 tags: [F]
 element: F
 elements: [F]
@@ -23,7 +23,7 @@ Source: [SB-53 Gov Code 11546.8](../sources/SB-53%20Gov%20Code%2011546.8.md).
 
 This list groups the library's sources for this element by tier. It does not say what the Report will recommend.
 
-### Primary (101)
+### Primary (103)
 
 - [Anthropic Commercial Terms of Service (web)](../sources/Anthropic%20Commercial%20Terms%20of%20Service%20%28web%29.md): Business terms for the Anthropic API and services: customer owns Outputs; no model training on Customer Content; Usage Policy applies.
 - [Anthropic Usage Policy 2026-11-12](../sources/Anthropic%20Usage%20Policy%202026-11-12.md): The Anthropic Usage Policy has three tiers: Universal Usage Standards, High-risk Use Case Requirements and Additional Use Case Guidelines.
@@ -95,6 +95,8 @@ This list groups the library's sources for this element by tier. It does not say
 - [Microsoft Product Terms For Online Services (web)](../sources/Microsoft%20Product%20Terms%20For%20Online%20Services%20%28web%29.md): Microsoft Online Services terms: a 12-item Acceptable Use Policy; AI services follow the Code of Conduct; no foundation model training on Customer Data.
 - [Mississippi ITS AI Innovation Student Teams (web)](../sources/Mississippi%20ITS%20AI%20Innovation%20Student%20Teams%20%28web%29.md): Mississippi's IT agency pairs supervised student teams from three universities with agencies for 6 to 8 week AI proofs of concept; AWS is a Hub partner.
 - [NAIRR Task Force final report 2023 (web)](../sources/NAIRR%20Task%20Force%20final%20report%202023%20%28web%29.md): Federal task force plan for NAIRR: cooperative stewardship, an Operating Entity, $2.6 billion over six years.
+- [NAIRR Task Force RFI 2021 responses (web)](../sources/NAIRR%20Task%20Force%20RFI%202021%20responses%20%28web%29.md): Federal compilation of 84 public responses to the 2021 NAIRR Task Force request for information: build or buy, eligibility, networks, partnerships.
+- [NAIRR Task Force RFI 2022 responses (web)](../sources/NAIRR%20Task%20Force%20RFI%202022%20responses%20%28web%29.md): Federal compilation of 23 public responses on the NAIRR Task Force interim report: first users, build or buy, proposal review, operating entity.
 - [NIH STRIDES benefits (web)](../sources/NIH%20STRIDES%20benefits%20%28web%29.md): NIH STRIDES gives NIH units and NIH-funded institutions discounted partner cloud services, training and technical support.
 - [NJ Governor release 2026-10-20 (web)](../sources/NJ%20Governor%20release%202026-10-20%20%28web%29.md): NJ Supercomputer Initiative: over $125 million public-private, run from 2027 by an independent nonprofit, hosted by SHI, eight research universities.
 - [NSF 26-508 TechAccess solicitation (web)](../sources/NSF%2026-508%20TechAccess%20solicitation%20%28web%29.md)
